@@ -1,0 +1,85 @@
+@prefix : <http://base.uri#> .
+@prefix geosp: <http://www.opengis.net/ont/geosparql#> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix usage-g: <http://usage-project.eu/ld/graph/> .
+
+: a owl:Ontology ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+<http://base.uri#Geometry> a owl:NamedIndividual,
+        rr:TriplesMap ;
+    rml:logicalSource <http://base.uri#_b1> ;
+    rr:predicateObjectMap <http://base.uri#_b3> ;
+    rr:subjectMap <http://base.uri#_b2> .
+
+rml:logicalSource a owl:ObjectProperty ;
+    rdfs:label "logical source" .
+
+rml:reference a owl:DatatypeProperty ;
+    rdfs:label "reference" .
+
+rml:referenceFormulation a owl:ObjectProperty ;
+    rdfs:label "reference formulation" .
+
+rml:source a owl:DatatypeProperty ;
+    rdfs:label "source" .
+
+rr:class a owl:ObjectProperty ;
+    rdfs:label "class" .
+
+rr:datatype a owl:ObjectProperty ;
+    rdfs:label "datatype" .
+
+rr:graph a owl:ObjectProperty ;
+    rdfs:label "graph" .
+
+rr:objectMap a owl:ObjectProperty ;
+    rdfs:label "object map" .
+
+rr:predicate a owl:ObjectProperty ;
+    rdfs:label "predicate" .
+
+rr:predicateObjectMap a owl:ObjectProperty ;
+    rdfs:label "predicate object map" .
+
+rr:subjectMap a owl:ObjectProperty ;
+    rdfs:label "subject map" .
+
+rr:template a owl:DatatypeProperty ;
+    rdfs:label "template" .
+
+<http://base.uri#_b1> a owl:NamedIndividual ;
+    rml:referenceFormulation ql:CSV ;
+    rml:source "./data/ZGZ/Residencial/refined/01-BBDD-EnerEst-EResidenciales-2021-v001-refined.csv" .
+
+<http://base.uri#_b2> a owl:NamedIndividual ;
+    rr:class geosp:Geometry ;
+    rr:graph usage-g:ZGZ ;
+    rr:template "http://usage-project.eu/ld/resource/Geometry/ZGZ-id-{ID_CELDA}" .
+
+<http://base.uri#_b3> a owl:NamedIndividual ;
+    rr:objectMap <http://base.uri#_b4> ;
+    rr:predicate geosp:asWKT .
+
+<http://base.uri#_b4> a owl:NamedIndividual ;
+    rml:reference "asWkt" ;
+    rr:datatype geosp:wktLiteral .
+
+ql:CSV a owl:NamedIndividual .
+
+usage-g:ZGZ a owl:NamedIndividual .
+
+geosp:Geometry a owl:NamedIndividual .
+
+geosp:asWKT a owl:NamedIndividual .
+
+geosp:wktLiteral a owl:NamedIndividual .
+
+rr:TriplesMap a owl:Class ;
+    rdfs:label "Triples Map" .
+

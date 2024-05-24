@@ -1,0 +1,1 @@
+python tools\Chowlk\converter.py ontology\instantiation_example\usage_instantiation_example.drawio ontology\instantiation_example\usage_instantiation_example.ttl --type data --format ttl

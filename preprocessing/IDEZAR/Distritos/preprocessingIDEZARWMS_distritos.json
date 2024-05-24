@@ -1,0 +1,41 @@
+[
+  {
+    "op": "core/column-addition",
+    "description": "Create column asWKT at index 9 based on column feed - entry - georss:where - georss:polygon using expression grel:\"POLYGON((\"+value.split(\" \").reverse().join(\" \").replace(\" -\",\", -\")+\"))\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "asWKT",
+    "columnInsertIndex": 9,
+    "baseColumnName": "feed - entry - georss:where - georss:polygon",
+    "expression": "grel:\"POLYGON((\"+value.split(\" \").reverse().join(\" \").replace(\" -\",\", -\")+\"))\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column DISTRITO at index 7 based on column feed - entry - content using expression grel:parseJson(\"{\"+forEach(value.parseHtml().select(\"li\"),x , x.htmlText()).join(\", \")+\"}\")[\"DISTRITO\"]",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "DISTRITO",
+    "columnInsertIndex": 7,
+    "baseColumnName": "feed - entry - content",
+    "expression": "grel:parseJson(\"{\"+forEach(value.parseHtml().select(\"li\"),x , x.htmlText()).join(\", \")+\"}\")[\"DISTRITO\"]",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column OBJECTID at index 7 based on column feed - entry - content using expression grel:parseJson(\"{\"+forEach(value.parseHtml().select(\"li\"),x , x.htmlText()).join(\", \")+\"}\")[\"OBJECTID\"]",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "OBJECTID",
+    "columnInsertIndex": 7,
+    "baseColumnName": "feed - entry - content",
+    "expression": "grel:parseJson(\"{\"+forEach(value.parseHtml().select(\"li\"),x , x.htmlText()).join(\", \")+\"}\")[\"OBJECTID\"]",
+    "onError": "set-to-blank"
+  }
+]

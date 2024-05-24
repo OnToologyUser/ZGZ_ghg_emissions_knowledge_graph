@@ -1,0 +1,55 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix s4city: <http://www.owl-ontologies.com/s4city#> .
+@prefix saref: <http://www.owl-ontologies.com/saref#> .
+@prefix usage-o: <http://usage-project.eu/ld/ontology#> .
+
+usage-o: a owl:Ontology ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+usage-o:CH4Scope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual .
+
+usage-o:CO2Scope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual .
+
+usage-o:N2OScope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual .
+
+geo:Feature a owl:Class ;
+    rdfs:label "Feature" .
+
+geo:asWKT a owl:DatatypeProperty ;
+    rdfs:label "as w k t" ;
+    rdfs:domain geo:Geometry ;
+    rdfs:range geo:wktLiteral .
+
+geo:hasGeometry a owl:ObjectProperty ;
+    rdfs:label "has geometry" .
+
+s4city:KeyPerformanceIndicatorAssessment a owl:Class ;
+    rdfs:label "Key Performance Indicator Assessment" .
+
+s4city:quantifiesKPI a owl:ObjectProperty ;
+    rdfs:label "quantifies k p i" .
+
+s4city:refersToFeature a owl:ObjectProperty ;
+    rdfs:label "refers to feature" .
+
+saref:UnitOfMeasure a owl:Class ;
+    rdfs:label "Unit Of Measure" .
+
+saref:hasValue a owl:DatatypeProperty ;
+    rdfs:label "has value" .
+
+saref:isMeasuredIn a owl:ObjectProperty ;
+    rdfs:label "is measured in" .
+
+geo:Geometry a owl:Class ;
+    rdfs:label "Geometry" .
+
+s4city:KeyPerformanceIndicator a owl:Class ;
+    rdfs:label "Key Performance Indicator" .
+

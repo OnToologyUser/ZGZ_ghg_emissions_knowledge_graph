@@ -1,0 +1,1 @@
+python tools\Chowlk\converter.py ontology\usage_ontology.drawio ontology\usage_ontology.ttl --type ontology --format ttl

@@ -1,0 +1,33 @@
+PREFIX s4city: <https://saref.etsi.org/saref4city/>
+PREFIX saref: <https://saref.etsi.org/core/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX bigg: <http://bigg-project.eu/ld/ontology#>
+PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX usage-o: <http://usage-project.eu/ld/ontology#>
+
+
+SELECT ?wkt ?name (SUM(?kpiaValue) as ?sum)
+		# (CONCAT("portland, ", str(?sum/62476)) as ?wktColor)
+		# (CONCAT(str(?name),": ", str(?sum)) as ?wktLabel)
+WHERE{
+  ?kpia a s4city:KeyPerformanceIndicatorAssessment;
+       saref:hasValue ?kpiaValue;
+       saref:isMeasuredIn ?kpiaValueUnit;
+       s4city:quantifiesKPI usage-o:CO2Scope1Emissions; #?kpi;
+       s4city:refersToFeature ?feature.
+  ?feature a geo:Feature;
+           geo:hasGeometry ?geometry.
+  ?geometry a geo:Geometry;
+            geo:asWKT ?cell.
+  FILTER (geof:sfWithin(?cell,?wkt))
+   {
+   select * where { 
+       ?neighbourhood a s4city:Neighbourhood;
+                      rdfs:label ?name;
+                      geo:hasGeometry/geo:asWKT ?wkt.
+#      VALUES (?name) {("CASCO HISTÓRICO") ("CENTRO")}
+   }
+   }
+} GROUP BY ?wkt ?name

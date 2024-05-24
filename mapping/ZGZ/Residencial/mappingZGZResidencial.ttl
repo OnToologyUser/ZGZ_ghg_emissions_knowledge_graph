@@ -1,0 +1,324 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix map: <http://mapping.example.com/> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gr: <http://purl.org/goodrelations/v1#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix schema: <https://schema.org/> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix gn: <https://www.geonames.org/ontology#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix bigg: <http://bigg-project.eu/ld/ontology#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix geosp: <http://www.opengis.net/ont/geosparql#> .
+@prefix saref: <https://saref.etsi.org/core/> .
+@prefix s4agri: <https://saref.etsi.org/saref4agri/> .
+@prefix s4city: <https://saref.etsi.org/saref4city/> .
+@prefix s4syst: <https://saref.etsi.org/saref4syst/> .
+@prefix s4watr: <https://saref.etsi.org/saref4watr/> .
+@prefix qudt-u: <http://qudt.org/vocab/unit/>.
+@prefix om: <http://www.ontology-of-units-of-measure.org/resource/om-2/>.
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix graph: <http://bigg-project.eu/ld/graph/> .
+@prefix usage-o: <http://usage-project.eu/ld/ontology#>.
+
+
+<#CO2_ALC1>
+	a rr:TriplesMap ;
+
+	rml:logicalSource [
+		rml:source "./Data/DGC/Buildings/Refined/gp.A.ES.SDGC.BU.08900.csv";
+		rml:referenceFormulation ql:CSV
+	] ;
+
+	rr:subjectMap [
+		rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CO2Scope1Emissions/ZGZ-id-{ID_CELDA}" ;
+		rr:class s4city:KeyPerformanceIndicatorAssessment  ;
+		rr:graph graph:ZGZ ;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate saref:hasValue  ;
+			rr:objectMap [
+			rml:reference "CO2_ALC1" ;
+			rr:datatype xsd:float ;
+		] ;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate s4city:quantifiesKPI ;
+			rr:object usage-o:CO2Scope1Emissions ;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate saref:isMeasuredIn ;
+			rr:object om:tonneOfCarbonDioxideEquivalent ;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate s4city:refersToFeature  ;
+		rr:objectMap [
+			rr:parentTriplesMap <#Cell>;
+			rr:joinCondition[
+				rr:child "ID_CELDA";
+				rr:parent "ID_CELDA";
+			];
+		] ;
+	] ;	
+.
+
+<#CH4_ALC1>
+	a rr:TriplesMap ;
+
+	rml:logicalSource [
+		rml:source "./Data/DGC/Buildings/Refined/gp.A.ES.SDGC.BU.08900.csv";
+		rml:referenceFormulation ql:CSV
+	] ;
+
+	rr:subjectMap [
+		rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CH4Scope1Emissions/ZGZ-id-{ID_CELDA}" ;
+		rr:class s4city:KeyPerformanceIndicatorAssessment  ;
+		rr:graph graph:ZGZ ;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate saref:hasValue  ;
+			rr:objectMap [
+			rml:reference "CH4_ALC1" ;
+			rr:datatype xsd:float ;
+		] ;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate s4city:quantifiesKPI ;
+			rr:object usage-o:CH4Scope1Emissions ;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate saref:isMeasuredIn ;
+			rr:object om:tonneOfCarbonDioxideEquivalent ;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate s4city:refersToFeature  ;
+		rr:objectMap [
+			rr:parentTriplesMap <#Cell>;
+			rr:joinCondition[
+				rr:child "ID_CELDA";
+				rr:parent "ID_CELDA";
+			];
+		] ;
+	] ;	
+.
+
+<#N2O_ALC1>
+	a rr:TriplesMap ;
+
+	rml:logicalSource [
+		rml:source "./Data/DGC/Buildings/Refined/gp.A.ES.SDGC.BU.08900.csv";
+		rml:referenceFormulation ql:CSV
+	] ;
+
+	rr:subjectMap [
+		rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/N2OScope1Emissions/ZGZ-id-{ID_CELDA}" ;
+		rr:class s4city:KeyPerformanceIndicatorAssessment  ;
+		rr:graph graph:ZGZ ;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate saref:hasValue  ;
+			rr:objectMap [
+			rml:reference "N2O_ALC1" ;
+			rr:datatype xsd:float ;
+		] ;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate s4city:quantifiesKPI ;
+			rr:object usage-o:N2OScope1Emissions ;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate saref:isMeasuredIn ;
+			rr:object om:tonneOfCarbonDioxideEquivalent ;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate s4city:refersToFeature  ;
+		rr:objectMap [
+			rr:parentTriplesMap <#Cell>;
+			rr:joinCondition[
+				rr:child "ID_CELDA";
+				rr:parent "ID_CELDA";
+			];
+		] ;
+	] ;	
+.
+
+<#Cell>
+	a rr:TriplesMap ;
+
+	rml:logicalSource [
+		rml:source "./data/ZGZ/Residencial/refined/01-BBDD-EnerEst-EResidenciales-2021-v001-refined.csv";
+		rml:referenceFormulation ql:CSV
+	] ;
+
+	rr:subjectMap [
+		rr:template "http://usage-project.eu/ld/resource/Feature/ZGZ-id-{ID_CELDA}" ;
+		rr:class geosp:Feature ;
+		rr:graph graph:ZGZ ;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate geosp:hasGeometry  ;
+		rr:objectMap [
+			rr:parentTriplesMap <#Geometry>;
+			rr:joinCondition[
+				rr:child "ID_CELDA";
+				rr:parent "ID_CELDA";
+			];
+		] ;
+	] ;
+.
+
+<#Geometry>
+	a rr:TriplesMap ;
+
+	rml:logicalSource [
+		rml:source "./data/ZGZ/Residencial/refined/01-BBDD-EnerEst-EResidenciales-2021-v001-refined.csv";
+		rml:referenceFormulation ql:CSV
+	] ;
+
+	rr:subjectMap [
+		rr:template "http://usage-project.eu/ld/resource/Geometry/ZGZ-id-{ID_CELDA}" ;
+		rr:class geosp:Geometry ;
+		rr:graph graph:ZGZ ;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate geosp:asWKT  ;
+			rr:objectMap [
+			rml:reference "asWKT" ;
+			rr:datatype geosp:wktLiteral ;
+		] ;
+	] ;
+.
+
+# <#Parcel>
+
+# 	a rr:TriplesMap ;
+
+# 	rml:logicalSource [
+# 		rml:source "./Data/DGC/Buildings/Refined/gp.A.ES.SDGC.BU.08900.csv";
+# 		rml:referenceFormulation ql:CSV ;
+# 	] ;
+
+# 	rr:subjectMap [
+# 		rr:template "http://bigg-project.eu/ld/resource/CadastralParcel/DGC-id-ES.SDGC.CP.{localId}" ;
+# 		rr:class bigg:CadastralParcel ;
+# 		rr:graph graph:DGC ;
+# 	] ;
+
+# 	rr:predicateObjectMap [
+# 		rr:predicate geosp:sfContains ;
+# 		rr:objectMap [
+# 			rr:parentTriplesMap <#Building>;
+# 			rr:joinCondition[
+# 				rr:child "localId";
+# 				rr:parent "localId";
+# 			];
+# 		] ;
+# 	] ;
+# .
+
+
+# <#Building>
+
+# 	a rr:TriplesMap ;
+
+# 	rml:logicalSource [
+# 		rml:source "./Data/DGC/Buildings/Refined/gp.A.ES.SDGC.BU.08900.csv";
+# 		rml:referenceFormulation ql:CSV
+# 	] ;
+
+# 	rr:subjectMap [
+# 		rr:template "http://bigg-project.eu/ld/resource/Building/DGC-id-{gml_id}" ;
+# 		rr:class s4agri:Building ;
+# 		rr:graph graph:DGC ;
+# 	] ;
+
+# 	rr:predicateObjectMap [
+# 		rr:predicate rdfs:label ;
+# 		rr:objectMap [
+# 			rml:reference "localId";
+# 			rr:datatype xsd:string ;
+# 		] ;
+# 	] ;
+
+# 	rr:predicateObjectMap [
+# 		rr:predicate geosp:hasArea  ;
+# 		rr:objectMap [
+# 			rr:parentTriplesMap <#Area>;
+# 			rr:joinCondition[
+# 				rr:child "gml_id";
+# 				rr:parent "gml_id";
+# 			];
+# 		] ;
+# 	] ;
+
+# 	rr:predicateObjectMap [
+# 		rr:predicate geosp:hasGeometry  ;
+# 		rr:objectMap [
+# 			rr:parentTriplesMap <#Geometry>;
+# 			rr:joinCondition[
+# 				rr:child "gml_id";
+# 				rr:parent "gml_id";
+# 			];
+# 		] ;
+# 	] ;
+# .
+
+# <#Area>
+# 	a rr:TriplesMap ;
+
+# 	rml:logicalSource [
+# 		rml:source "./Data/DGC/Buildings/Refined/gp.A.ES.SDGC.BU.08900.csv";
+# 		rml:referenceFormulation ql:CSV
+# 	] ;
+
+# 	rr:subjectMap [
+# 		rr:template "http://bigg-project.eu/ld/resource/Measurement/GFA-DGC-id-{gml_id}" ;
+# 		rr:class saref:Measurement  ;
+# 		rr:graph graph:DGC ;
+# 	] ;
+
+# 	rr:predicateObjectMap [
+# 		rr:predicate saref:hasValue  ;
+# 			rr:objectMap [
+# 			rml:reference "value" ;
+# 			rr:datatype xsd:float ;
+# 		] ;
+# 	] ;
+
+# 	rr:predicateObjectMap [
+# 		rr:predicate saref:relatesToProperty ;
+# 			rr:object bigg:GrossFloorArea ;
+# 	] ;
+
+# 	rr:predicateObjectMap [
+# 		rr:predicate saref:isMeasuredIn ;
+# 			rr:object qudt-u:M2 ;
+# 	] ;
+# .
+
