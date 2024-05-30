@@ -9,8 +9,7 @@ cd tools
 -e csv \
 -f xlsx \
 -i sheets=0 \
--i guessCellValueTypes=false \
 -m 4096M \
 -R \
--X \
+-X \    
 cd ..
