@@ -9,7 +9,10 @@ cd tools
 -e csv \
 -f xlsx \
 -i sheets=0 \
+-i trimStrings=true \
+-i guessCellValueTypes=false \
+-i storeBlankCellsAsNulls=false \
+-i encoding=UTF-8 \
 -m 4096M \
--R \
--X \    
+-RX \
 cd ..

@@ -11,5 +11,18 @@
     "baseColumnName": "COORD_INF",
     "expression": "grel:\"POLYGON((\"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_SUP\"].value+ \", \"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_INF\"].value+ \", \"\n+cells[\"COORD_DER\"].value+\" \"+cells[\"COORD_INF\"].value+ \", \"\n+cells[\"COORD_DER\"].value+\" \"+cells[\"COORD_SUP\"].value+ \", \"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_SUP\"].value+\"))\"",
     "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column ID_CELDA using expression grel:value.floor()",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "ID_CELDA",
+    "expression": "grel:value.floor()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   }
 ]

@@ -13,10 +13,10 @@ with DAG(
   default_args={
     'owner': 'edgar',
     'retries': 5,
-    'retry_delay': timedelta(seconds=30)
+    'retry_delay': timedelta(seconds=10)
   }
 ) as dag2:
-    grant_permissions = BashOperator(task_id = 'permissions', cwd = "/home/edgar/GitHub/USAGE-LD", bash_command="chmod +x preprocessing/ZGZ/Residencial/preprocessingZGZResidencial.sh ")
+    grant_permissions = BashOperator(task_id = 'permissions', cwd = "/home/edgar/GitHub/USAGE-LD", bash_command="chmod +x preprocessing/ZGZ/Residencial/preprocessingZGZResidencial.sh tools/openrefine-batch-master/openrefine-batch.sh  ")
     # BashOperator(cwd = "/home/edgar/GitHub/USAGE-LD", bash_command="chmod +x tools/openrefine-batch-master/openrefine-batch.sh ")
     # BashOperator(cwd = "/home/edgar/GitHub/USAGE-LD", bash_command="chmod +x tools/openrefine/refine")
     # BashOperator(cwd = "/home/edgar/GitHub/USAGE-LD", bash_command="chmod +x tools/openrefine-client/openrefine-client_0-3-10_linux ")
