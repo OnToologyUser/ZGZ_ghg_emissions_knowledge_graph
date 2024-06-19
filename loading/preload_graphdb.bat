@@ -1,0 +1,2 @@
+cd C:\Users\edgar\AppData\Local\GraphDB Free\app\bin
+preload.cmd -c \\wsl.localhost\Ubuntu-22.04\home\edgar\GitHub\USAGE-LD\loading\config.ttl \\wsl.localhost\Ubuntu-22.04\home\edgar\GitHub\USAGE-LD\data\ZGZ\Residencial\rdf\01_BBDD_EnerEst_EResidenciales_2021_v001.nt -f

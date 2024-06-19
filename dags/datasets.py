@@ -13,3 +13,5 @@ zgz_residencial_refined = Dataset("data/ZGZ/Residencial/refined/01_BBDD_EnerEst_
 zgz_residencial_rdf = Dataset("data/ZGZ/Residencial/rdf/01_BBDD_EnerEst_EResidenciales_2021_v001.csv")
 
 rdf_combined = Dataset("data/rdf-file.nt")
+
+usage_ontology = Dataset("ontology/usage_ontology.ttl")

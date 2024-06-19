@@ -19,7 +19,7 @@ for file in $data_directory'refined/*.csv' ; do
     echo mappings=$mapping_file>>$config_file
     echo file_path=$data_file>>$config_file
 
-    python -m morph_kgc $config_file
+    python3 -m morph_kgc $config_file
     rm -r $config_file
     rm -r $data_file
 done

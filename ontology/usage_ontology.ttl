@@ -4,22 +4,275 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix s4city: <http://www.owl-ontologies.com/s4city#> .
 @prefix saref: <http://www.owl-ontologies.com/saref#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix usage-o: <http://usage-project.eu/ld/ontology#> .
 
 usage-o: a owl:Ontology ;
     mod:createdWith <https://chowlk.linkeddata.es/> .
 
+usage-o:AsScope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "As"@es ;
+    rdfs:comment "Emisiones de arsénico (As) dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:AutomotiveDieselConsumption a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "C_GASOLEO_A"@es ;
+    rdfs:comment "Consumo final de gasóleo para automoción"@es .
+
+usage-o:BCScope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "BC"@es ;
+    rdfs:comment "Emisiones de Carbón Negro (BC) dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:BaPScope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "BENZO_A"@es ;
+    rdfs:comment "Emisiones de Benzo(a)pireno dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:BbFScope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "BENZO_B"@es ;
+    rdfs:comment "Emisiones de BENZO(b)FLUORANTENO dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:C6H6Scope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "C6H6"@es ;
+    rdfs:comment "Emisiones de benceno (C6H6) dentro del Alcance 1. Emisiones directas."@es .
+
 usage-o:CH4Scope1Emissions a s4city:KeyPerformanceIndicator,
-        owl:NamedIndividual .
+        owl:NamedIndividual ;
+    rdfs:label "CH4_ALC1"@es ;
+    rdfs:comment "Emisiones de metano (CH4) dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:CH4Scope2Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "CH4_ALC2"@es ;
+    rdfs:comment "Emisiones de metano (CH4) dentro del Alcance 2. Emisiones indirectas por consumo de electricidad."@es .
+
+usage-o:CH4Scope3Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "CH4_ALC3"@es ;
+    rdfs:comment "Emisiones de metano (CH4) dentro del Alcance 3. Otras emisiones indirectas."@es .
 
 usage-o:CO2Scope1Emissions a s4city:KeyPerformanceIndicator,
-        owl:NamedIndividual .
+        owl:NamedIndividual ;
+    rdfs:label "CO2_ALC1"@es ;
+    rdfs:comment "Emisiones de dióxido de carbono (CO2) dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:CO2Scope2Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "CO2_ALC2"@es ;
+    rdfs:comment "Emisiones de dióxido de carbono (CO2) dentro del Alcance 2. Emisiones indirectas por consumo de electricidad."@es .
+
+usage-o:CO2Scope3Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "CO2_ALC3"@es ;
+    rdfs:comment "Emisiones de dióxido de carbono (CO2) dentro del Alcance 3. Otras emisiones indirectas."@es .
+
+usage-o:COScope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "CO"@es ;
+    rdfs:comment "Emisiones de monóxido de carbono (CO) dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:CdScope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "Cd"@es ;
+    rdfs:comment "Emisiones de Cadmio (Cd) dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:Cell a owl:Class ;
+    rdfs:label "Cell" ;
+    rdfs:subClassOf geo:Feature .
+
+usage-o:CrScope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "Cr"@es ;
+    rdfs:comment "Emisiones de Cromo (Cr) dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:CuScope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "Cu"@es ;
+    rdfs:comment "Emisiones de Cobre (Cu) dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:ElectricGridEnergyConsumption a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "C_ELECTRICIDAD_MIXNAC"@es ;
+    rdfs:comment "Consumo final de electricidad (mix eléctrico nacional)."@es .
+
+usage-o:ElectricRenewableEnergyConsumption a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "C_ELECTRICIDAD_GDO"@es ;
+    rdfs:comment "Consumo final de electricidad con Garantía de Origen (GdO) Renovable."@es .
+
+usage-o:GasolineConsumption a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "C_GASOLINA"@es ;
+    rdfs:comment "Consumo final de gasolina"@es .
+
+usage-o:HCBScope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "HCB "@es ;
+    rdfs:comment "Emisiones de Hexaclorobenceno dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:HFCScope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "HFC_ALC1"@es ;
+    rdfs:comment "Emisiones de hidrofluorocarbonos (HFC) dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:HeatingOilConsumption a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "C_GASOLEO_C"@es ;
+    rdfs:comment "Consumo final de gasóleo para calefacción"@es .
+
+usage-o:HgScope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "Hg"@es ;
+    rdfs:comment "Emisiones de Mercurio (Hg) dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:IPScope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "INDENO_123"@es ;
+    rdfs:comment "Emisiones de Indeno[1,2,3-cd]pyrene dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:LPGConsumption a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "C_GLP"@es ;
+    rdfs:comment "Consumo final de GLP"@es .
 
 usage-o:N2OScope1Emissions a s4city:KeyPerformanceIndicator,
-        owl:NamedIndividual .
+        owl:NamedIndividual ;
+    rdfs:label "N2O_ALC1"@es ;
+    rdfs:comment "Emisiones de óxido nitroso (N2O) dentro del Alcance 1. Emisiones directas."@es .
 
-geo:Feature a owl:Class ;
-    rdfs:label "Feature" .
+usage-o:N2OScope2Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "N2O_ALC2"@es ;
+    rdfs:comment "Emisiones de óxido nitroso (N2O) dentro del Alcance 2. Emisiones indirectas por consumo de electricidad."@es .
+
+usage-o:N2OScope3Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "N2O_ALC3"@es ;
+    rdfs:comment "Emisiones de óxido nitroso (N2O) dentro del Alcance 3. Otras emisiones indirectas."@es .
+
+usage-o:NH3Scope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "NH3"@es ;
+    rdfs:comment "Emisiones de amoníaco (NH3) dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:NMVOCScope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "COVNM"@es ;
+    rdfs:comment "Emisiones de Compuestos Orgánicos Volátiles Sin Metano (COVNM) dentro del Alcance 1. Emisiones directas"@es .
+
+usage-o:NOxScope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "NOx "@es ;
+    rdfs:comment "Emisiones de óxidos de nitrógeno (NOx) dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:NaturalGasConsumption a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "C_GASNATURAL"@es ;
+    rdfs:comment "Consumo final de Gas Natural"@es .
+
+usage-o:NiScope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "Ni"@es ;
+    rdfs:comment "Emisiones de Níquel (Ni) dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:NonRenewableBiomassConsumption a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "C_BIOMASA"@es ;
+    rdfs:comment "Consumo final de biomasa de origen no renovable"@es .
+
+usage-o:OnSiteElectricRenewableEnergyConsumption a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "C_ELECTRICIDAD_RES_LOCAL"@es ;
+    rdfs:comment "Consumo final de electricidad a partir de fuentes renovables generada localmente."@es .
+
+usage-o:OtherFossilFuelsConsumption a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "C_OTROS_FOSILES"@es ;
+    rdfs:comment "Consumo final de otros combustibles fósiles. Por ejemplo, queroseno para el subsector del transporte aéreo."@es .
+
+usage-o:OtherRenewableEnergyConsumption a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "C_OTROS_RES"@es ;
+    rdfs:comment "Consumo final de otra energía de origen renovable."@es .
+
+usage-o:PAHScope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "PAH"@es ;
+    rdfs:comment "Emisiones totales de Hidrocarburos Aromáticos Policíclicos dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:PCBsScope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "PCBs"@es ;
+    rdfs:comment "Emisiones de óxidos de Bifenilos policlorados dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:PCDDandPCDFScope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "DIOX"@es ;
+    rdfs:comment "Emisiones de Dioxinas y Furanos (PCDD+PCDF) dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:PFCScope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "PFC_ALC1"@es ;
+    rdfs:comment "Emisiones de perfluorocarbonos (PFC) dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:PM10Scope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "PM10"@es ;
+    rdfs:comment "Emisiones de materia particulada de 10 micrómetros o menos (PM 10) dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:PM2.5Scope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "PM2.5"@es ;
+    rdfs:comment "Emisiones de materia particulada de 2,5 micrómetros o menos (PM2.5) dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:PbScope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "Pb "@es ;
+    rdfs:comment "Emisiones de Plomo (Pb) dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:SF6Scope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "SF6_ALC1"@es ;
+    rdfs:comment "Emisiones de hexafluoruro de azufre (SF6) dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:SO2Scope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "SO2"@es ;
+    rdfs:comment "Emisiones de dióxidos de azufre (SO2) dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:SeScope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "Se"@es ;
+    rdfs:comment "Emisiones de Selenio (Se) dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:TSPScope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "TSP"@es ;
+    rdfs:comment "Emisiones de materia particulada total (PTSP) dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:TotalHeavyMetalsScope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "TOTAL_MPESADOS"@es ;
+    rdfs:comment "Sumatoria de la emisión de metales pesados dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:TotalPOPsScope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "TOTAL_POPs"@es ;
+    rdfs:comment "Emisiones totales de Compuestos Orgánicos Persistentes (POPs) dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:VOCScope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "COV"@es ;
+    rdfs:comment "Emisiones de Compuestos Orgánicos Volátiles (COV) dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:ZnScope1Emissions a s4city:KeyPerformanceIndicator,
+        owl:NamedIndividual ;
+    rdfs:label "Zn"@es ;
+    rdfs:comment "Emisiones de Zinc (Zn) dentro del Alcance 1. Emisiones directas."@es .
 
 geo:asWKT a owl:DatatypeProperty ;
     rdfs:label "as w k t" ;
@@ -29,8 +282,26 @@ geo:asWKT a owl:DatatypeProperty ;
 geo:hasGeometry a owl:ObjectProperty ;
     rdfs:label "has geometry" .
 
+geo:sfContains a owl:ObjectProperty ;
+    rdfs:label "sf contains" ;
+    rdfs:domain geo:SpatialObject ;
+    rdfs:range geo:SpatialObject .
+
+geo:sfWithin a owl:ObjectProperty ;
+    rdfs:label "sf within" ;
+    rdfs:domain geo:SpatialObject ;
+    rdfs:range geo:SpatialObject .
+
+s4city:District a owl:Class ;
+    rdfs:label "District" ;
+    rdfs:subClassOf s4city:AdministrativeArea .
+
 s4city:KeyPerformanceIndicatorAssessment a owl:Class ;
     rdfs:label "Key Performance Indicator Assessment" .
+
+s4city:Neighbourhood a owl:Class ;
+    rdfs:label "Neighbourhood" ;
+    rdfs:subClassOf s4city:AdministrativeArea .
 
 s4city:quantifiesKPI a owl:ObjectProperty ;
     rdfs:label "quantifies k p i" .
@@ -47,9 +318,32 @@ saref:hasValue a owl:DatatypeProperty ;
 saref:isMeasuredIn a owl:ObjectProperty ;
     rdfs:label "is measured in" .
 
+rdfs:comment a owl:AnnotationProperty ;
+    rdfs:label "comment" .
+
+rdfs:label a owl:AnnotationProperty ;
+    rdfs:label "label" .
+
 geo:Geometry a owl:Class ;
-    rdfs:label "Geometry" .
+    rdfs:label "Geometry" ;
+    rdfs:subClassOf geo:SpatialObject .
+
+skos:Concept a owl:Class ;
+    rdfs:label "Concept" .
+
+geo:Feature a owl:Class ;
+    rdfs:label "Feature" ;
+    rdfs:subClassOf geo:SpatialObject .
+
+s4city:AdministrativeArea a owl:Class ;
+    rdfs:label "Administrative Area" ;
+    rdfs:subClassOf geo:Feature .
+
+geo:SpatialObject a owl:Class ;
+    rdfs:label "Spatial Object" .
 
 s4city:KeyPerformanceIndicator a owl:Class ;
-    rdfs:label "Key Performance Indicator" .
+    rdfs:label "Key Performance Indicator" ;
+    rdfs:subClassOf skos:Concept .
+
 
