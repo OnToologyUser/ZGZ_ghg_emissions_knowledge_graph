@@ -9,8 +9,8 @@ SELECT * WHERE {
        saref:hasValue ?kpiaValue;
        saref:isMeasuredIn ?kpiaValueUnit;
        s4city:quantifiesKPI usage-o:CH4Scope1Emissions; #?kpi;
-       s4city:refersToFeature ?feature.
-  ?feature a geo:Feature;
+       s4city:refersToFeature ?cell.
+  ?cell a usage-o:Cell;
            geo:hasGeometry ?geometry.
   ?geometry a geo:Geometry;
             geo:asWKT ?wkt.

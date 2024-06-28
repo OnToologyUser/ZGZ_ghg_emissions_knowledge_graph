@@ -111,7 +111,7 @@ usage-o:GasolineConsumption a s4city:KeyPerformanceIndicator,
 
 usage-o:HCBScope1Emissions a s4city:KeyPerformanceIndicator,
         owl:NamedIndividual ;
-    rdfs:label "HCB "@es ;
+    rdfs:label "HCB"@es ;
     rdfs:comment "Emisiones de Hexaclorobenceno dentro del Alcance 1. Emisiones directas."@es .
 
 usage-o:HFCScope1Emissions a s4city:KeyPerformanceIndicator,
@@ -166,7 +166,7 @@ usage-o:NMVOCScope1Emissions a s4city:KeyPerformanceIndicator,
 
 usage-o:NOxScope1Emissions a s4city:KeyPerformanceIndicator,
         owl:NamedIndividual ;
-    rdfs:label "NOx "@es ;
+    rdfs:label "NOx"@es ;
     rdfs:comment "Emisiones de óxidos de nitrógeno (NOx) dentro del Alcance 1. Emisiones directas."@es .
 
 usage-o:NaturalGasConsumption a s4city:KeyPerformanceIndicator,
@@ -231,7 +231,7 @@ usage-o:PM2.5Scope1Emissions a s4city:KeyPerformanceIndicator,
 
 usage-o:PbScope1Emissions a s4city:KeyPerformanceIndicator,
         owl:NamedIndividual ;
-    rdfs:label "Pb "@es ;
+    rdfs:label "Pb"@es ;
     rdfs:comment "Emisiones de Plomo (Pb) dentro del Alcance 1. Emisiones directas."@es .
 
 usage-o:SF6Scope1Emissions a s4city:KeyPerformanceIndicator,

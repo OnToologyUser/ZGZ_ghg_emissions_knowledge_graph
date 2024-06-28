@@ -1,0 +1,27 @@
+PREFIX s4city: <https://saref.etsi.org/saref4city/>
+PREFIX saref: <https://saref.etsi.org/core/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX bigg: <http://bigg-project.eu/ld/ontology#>
+PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX usage-o: <http://usage-project.eu/ld/ontology#>
+
+SELECT ?wkt ?districtName (SUM(?kpiaValue) as ?sumKpiaValue)
+ (CONCAT("portland, ", str(?sumKpiaValue/27)) as ?wktColor)
+ (CONCAT(str(?districtName),": ", str(?sumKpiaValue)) as ?wktLabel)
+WHERE{
+  ?kpia a s4city:KeyPerformanceIndicatorAssessment;
+        saref:hasValue ?kpiaValue;
+        saref:isMeasuredIn ?kpiaValueUnit;
+        s4city:quantifiesKPI ?kpi;
+        s4city:refersToFeature ?cell.
+  ?cell a usage-o:Cell;
+        geo:hasGeometry/geo:asWKT ?cellWkt;
+        geo:sfWithin ?district.
+  ?district a s4city:District;
+            rdfs:label ?districtName;
+            geo:hasGeometry/geo:asWKT ?wkt.
+  VALUES (?kpi) {(usage-o:CH4Scope1Emissions)}
+#  VALUES (?district) {(<http://usage-project.eu/ld/resource/District/ZGZ-id-1>)}
+} GROUP BY ?wkt ?districtName 

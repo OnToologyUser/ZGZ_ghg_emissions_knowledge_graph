@@ -1,0 +1,5 @@
+echo "" > "data/rdf-file.ttl"
+cat "ontology/usage_ontology.ttl" >> "data/rdf-file.ttl"
+cat "data/ZGZ/Residencial/rdf/"*.nt >> "data/rdf-file.ttl"
+cat "data/IDEZAR/Barrios/rdf/"*.nt >> "data/rdf-file.ttl"
+cat "data/IDEZAR/Distritos/rdf/"*.nt >> "data/rdf-file.ttl"

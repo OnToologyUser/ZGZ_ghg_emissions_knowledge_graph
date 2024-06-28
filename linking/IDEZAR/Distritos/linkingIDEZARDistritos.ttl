@@ -1,0 +1,79 @@
+@prefix : <http://base.uri#> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix usage-g: <http://usage-project.eu/ld/graph/> .
+
+: a owl:Ontology ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+<http://base.uri#District> a owl:NamedIndividual,
+        rr:TriplesMap ;
+    rml:logicalSource <http://base.uri#_b5> ;
+    rr:predicateObjectMap <http://base.uri#_b7> ;
+    rr:subjectMap <http://base.uri#_b6> .
+
+rml:logicalSource a owl:ObjectProperty ;
+    rdfs:label "logical source" .
+
+rml:reference a owl:DatatypeProperty ;
+    rdfs:label "reference" .
+
+rml:referenceFormulation a owl:ObjectProperty ;
+    rdfs:label "reference formulation" .
+
+rml:source a owl:DatatypeProperty ;
+    rdfs:label "source" .
+
+rr:graph a owl:ObjectProperty ;
+    rdfs:label "graph" .
+
+rr:objectMap a owl:ObjectProperty ;
+    rdfs:label "object map" .
+
+rr:predicate a owl:ObjectProperty ;
+    rdfs:label "predicate" .
+
+rr:predicateObjectMap a owl:ObjectProperty ;
+    rdfs:label "predicate object map" .
+
+rr:subjectMap a owl:ObjectProperty ;
+    rdfs:label "subject map" .
+
+rr:template a owl:DatatypeProperty ;
+    rdfs:label "template" .
+
+rr:termType a owl:ObjectProperty ;
+    rdfs:label "term type" .
+
+<http://base.uri#_b11> a owl:NamedIndividual ;
+    rml:reference "wikidata" ;
+    rr:termType rr:IRI .
+
+<http://base.uri#_b5> a owl:NamedIndividual ;
+    rml:referenceFormulation ql:CSV ;
+    rml:source "./data/IDEZAR/Distritos/linked/distritos.csv" .
+
+<http://base.uri#_b6> a owl:NamedIndividual ;
+    rr:graph usage-g:IDEZAR ;
+    rr:template "http://usage-project.eu/ld/resource/District/IDEZAR-id-{OBJECTID}" .
+
+<http://base.uri#_b7> a owl:NamedIndividual ;
+    rr:objectMap <http://base.uri#_b11> ;
+    rr:predicate owl:sameAs .
+
+ql:CSV a owl:NamedIndividual .
+
+usage-g:IDEZAR a owl:NamedIndividual .
+
+owl:sameAs a owl:NamedIndividual .
+
+rr:IRI a owl:NamedIndividual .
+
+rr:TriplesMap a owl:Class ;
+    rdfs:label "Triples Map" .
+
+
