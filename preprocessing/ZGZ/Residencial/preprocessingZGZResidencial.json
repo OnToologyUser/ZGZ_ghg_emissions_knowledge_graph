@@ -726,5 +726,31 @@
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Sector at index 20 based on column SECTOR_CDP using expression grel:\"http://usage-project.eu/ld/ontology#ResidentialBuildings\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Sector",
+    "columnInsertIndex": 20,
+    "baseColumnName": "SECTOR_CDP",
+    "expression": "grel:\"http://usage-project.eu/ld/ontology#ResidentialBuildings\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column AÑO using expression grel:value.floor()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "AÑO",
+    "expression": "grel:value.floor()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   }
 ]
