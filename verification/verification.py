@@ -6,8 +6,8 @@ import rdflib
 
 # %%
 # Getting data from sparql endpoint
-endpoint = SPARQLWrapper2("http://127.0.0.1:8890/sparql")
-query = open('./geo-aggregation.rq', 'r').read()
+endpoint = SPARQLWrapper2("http://127.0.0.1:7200/repositories/USAGE-LD")
+query = open('./aggregated_kpiaValue_per_district.rq', 'r').read()
 endpoint.setQuery(query)
 qres = endpoint.query()
 

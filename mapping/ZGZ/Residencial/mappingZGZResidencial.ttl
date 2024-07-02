@@ -9,7 +9,7 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix s4city: <https://saref.etsi.org/saref4city/> .
 @prefix saref: <https://saref.etsi.org/core/> .
-@prefix time: <http://www.owl-ontologies.com/time#> .
+@prefix time: <http://www.w3.org/2006/time#> .
 @prefix usage-g: <http://usage-project.eu/ld/graph/> .
 @prefix usage-o: <http://usage-project.eu/ld/ontology#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -1765,6 +1765,12 @@ geo:sfWithin a owl:NamedIndividual .
 
 geo:wktLiteral a owl:NamedIndividual .
 
+rdfs:label a owl:NamedIndividual .
+
+xsd:gYear a owl:NamedIndividual .
+
+xsd:string a owl:NamedIndividual .
+
 time:DateTimeDescription a owl:NamedIndividual .
 
 time:DateTimeInterval a owl:NamedIndividual .
@@ -1772,12 +1778,6 @@ time:DateTimeInterval a owl:NamedIndividual .
 time:hasDateTimeDescription a owl:NamedIndividual .
 
 time:year a owl:NamedIndividual .
-
-rdfs:label a owl:NamedIndividual .
-
-xsd:gYear a owl:NamedIndividual .
-
-xsd:string a owl:NamedIndividual .
 
 rr:IRI a owl:NamedIndividual .
 
