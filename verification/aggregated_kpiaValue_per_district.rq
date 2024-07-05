@@ -10,7 +10,7 @@ PREFIX usage-o: <http://usage-project.eu/ld/ontology#>
 
 SELECT ?wkt ?district (SUM(?kpiaValue) as ?sumKpiaValue)
  (CONCAT("portland, ", str(?sumKpiaValue/9)) as ?wktColor)
- (CONCAT(str(?districtName),": ", str(?sumKpiaValue)) as ?wktLabel)
+ (CONCAT(str(?sumKpiaValue)) as ?wktLabel)
 WHERE{
   ?kpia a s4city:KeyPerformanceIndicatorAssessment;
         saref:hasValue ?kpiaValue;
@@ -20,10 +20,11 @@ WHERE{
         s4city:refersToTime/time:hasDateTimeDescription/time:year ?year;
         usage-o:refersToSector ?sector.
   ?cell a usage-o:Cell;
-        geo:hasGeometry/geo:asWKT ?cellWkt;
+#        geo:hasGeometry/geo:asWKT ?cellWkt; # Warning: multiple WKT for the same cell
         geo:sfWithin ?district.
   ?district a s4city:District;
-            rdfs:label ?districtName. # Warning: multiple names for the same district
+#            rdfs:label ?districtName. # Warning: multiple names for the same district
   OPTIONAL{ ?district geo:hasGeometry/geo:asWKT ?wkt}. # ZGZ 29 districts IDEZAR has 25 districts' geometries 
   VALUES (?kpi ?year ?sector) {(usage-o:CH4Scope1Emissions "2021"^^xsd:gYear usage-o:ResidentialBuildings)}
-} GROUP BY ?wkt ?district ?districtName 
+#  VALUES (?district) {(<http://usage-project.eu/ld/resource/District/ZGZ-id-1>)}
+} GROUP BY ?wkt ?district 

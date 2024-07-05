@@ -685,7 +685,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b102> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CH4Scope3Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CH4Scope3Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b103> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b104> ;
@@ -702,7 +702,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b106> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/N2OScope3Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/N2OScope3Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b107> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b108> ;
@@ -719,12 +719,12 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b11> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CO2Scope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CO2Scope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b110> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NOxScope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NOxScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b111> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b112> ;
@@ -741,7 +741,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b114> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/COScope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/COScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b115> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b116> ;
@@ -758,7 +758,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b118> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/SO2Scope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/SO2Scope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b119> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b120> ;
@@ -779,7 +779,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b122> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/VOCScope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/VOCScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b123> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b124> ;
@@ -796,7 +796,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b126> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NMVOCScope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NMVOCScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b127> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b128> ;
@@ -817,7 +817,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b130> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NH3Scope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NH3Scope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b131> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b132> ;
@@ -834,7 +834,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b134> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PM2.5Scope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PM2.5Scope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b135> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b136> ;
@@ -851,7 +851,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b138> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PM10Scope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PM10Scope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b139> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b140> ;
@@ -872,7 +872,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b142> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/TSPScope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/TSPScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b143> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b144> ;
@@ -889,7 +889,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b146> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/BCScope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/BCScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b147> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b148> ;
@@ -906,7 +906,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b150> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/C6H6Scope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/C6H6Scope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b151> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b152> ;
@@ -923,7 +923,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b154> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PbScope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PbScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b155> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b156> ;
@@ -940,7 +940,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b158> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CdScope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CdScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b159> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b160> ;
@@ -957,7 +957,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b162> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/HgScope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/HgScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b163> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b164> ;
@@ -974,7 +974,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b166> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/AsScope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/AsScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b167> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b168> ;
@@ -995,7 +995,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b170> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CrScope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CrScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b171> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b172> ;
@@ -1012,7 +1012,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b174> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CuScope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CuScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b175> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b176> ;
@@ -1029,7 +1029,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b178> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NiScope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NiScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b179> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b180> ;
@@ -1038,7 +1038,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b18> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/ElectricGridEnergyConsumption/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/ElectricGridEnergyConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b180> a owl:NamedIndividual ;
     rml:reference "Ni" ;
@@ -1051,7 +1051,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b182> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/SeScope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/SeScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b183> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b184> ;
@@ -1068,7 +1068,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b186> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/ZnScope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/ZnScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b187> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b188> ;
@@ -1089,7 +1089,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b190> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PCDDandPCDFScope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PCDDandPCDFScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b191> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b192> ;
@@ -1106,7 +1106,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b194> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/BaPScope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/BaPScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b195> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b196> ;
@@ -1123,7 +1123,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b198> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/BbFScope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/BbFScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b199> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b200> ;
@@ -1153,7 +1153,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b202> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/IPScope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/IPScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b203> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b204> ;
@@ -1170,7 +1170,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b206> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PAHScope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PAHScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b207> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b208> ;
@@ -1191,7 +1191,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b210> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/HCBScope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/HCBScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b211> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b212> ;
@@ -1208,7 +1208,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b214> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PCBsScope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PCBsScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b215> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b216> ;
@@ -1225,7 +1225,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b218> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/TotalPOPsScope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/TotalPOPsScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b219> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b220> ;
@@ -1238,7 +1238,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b22> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/ElectricRenewableEnergyConsumption/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/ElectricRenewableEnergyConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b220> a owl:NamedIndividual ;
     rml:reference "TOTAL_POPs" ;
@@ -1251,7 +1251,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b222> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/TotalHeavyMetalsScope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/TotalHeavyMetalsScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b223> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b224> ;
@@ -1280,7 +1280,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b26> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/OnSiteElectricRenewableEnergyConsumption/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/OnSiteElectricRenewableEnergyConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b27> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b28> ;
@@ -1301,7 +1301,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b30> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NaturalGasConsumption/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NaturalGasConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b31> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b32> ;
@@ -1318,7 +1318,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b34> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/LPGConsumption/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/LPGConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b35> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b36> ;
@@ -1335,7 +1335,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b38> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/HeatingOilConsumption/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/HeatingOilConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b39> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b40> ;
@@ -1356,7 +1356,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b42> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/AutomotiveDieselConsumption/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/AutomotiveDieselConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b43> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b44> ;
@@ -1373,7 +1373,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b46> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/GasolineConsumption/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/GasolineConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b47> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b48> ;
@@ -1390,7 +1390,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b50> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/OtherFossilFuelsConsumption/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/OtherFossilFuelsConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b51> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b52> ;
@@ -1407,7 +1407,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b54> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NonRenewableBiomassConsumption/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NonRenewableBiomassConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b55> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b56> ;
@@ -1424,7 +1424,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b58> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/OtherRenewableEnergyConsumption/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/OtherRenewableEnergyConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b59> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b60> ;
@@ -1446,7 +1446,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b66> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CH4Scope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CH4Scope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b67> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b68> ;
@@ -1482,7 +1482,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b70> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/N2OScope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/N2OScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b71> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b72> ;
@@ -1499,7 +1499,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b74> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/HFCScope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/HFCScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b75> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b76> ;
@@ -1516,7 +1516,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b78> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PFCScope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PFCScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b79> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b80> ;
@@ -1549,7 +1549,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b82> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/SF6Scope1Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/SF6Scope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b83> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b84> ;
@@ -1566,7 +1566,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b86> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CO2Scope2Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CO2Scope2Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b87> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b88> ;
@@ -1599,7 +1599,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b90> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CH4Scope2Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CH4Scope2Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b91> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b92> ;
@@ -1616,7 +1616,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b94> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/N2OScope2Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/N2OScope2Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b95> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b96> ;
@@ -1633,7 +1633,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b98> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CO2Scope3Emissions/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CO2Scope3Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b99> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b100> ;

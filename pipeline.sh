@@ -16,7 +16,7 @@
     # using the Chowlk repo:
     # python3 converter.py ../USAGE-LD/mapping/ZGZ/Residencial/mapping_temp.xml ../USAGE-LD/mapping/ZGZ/Residencial/mapping.ttl
 
-# ./mapping/ZGZ/Residencial/materialisationZGZResidencial.sh 
+./mapping/ZGZ/Residencial/materialisationZGZResidencial.sh 
 # ./mapping/IDEZAR/Barrios/materialisationIDEZARBarrios.sh 
 # ./mapping/IDEZAR/Distritos/materialisationIDEZARDistritos.sh 
 
@@ -25,10 +25,10 @@
 # python validation/ZGZ/Residencial/validationZGZResidencial.py
 
 ## loading
-# ./loading/join.sh
-# ./loading/load_graphdb.sh
-./loading/run_graphdb.sh
-# ./loading/preload_graphdb.bat # for now running in windows with the db shutdown
+./loading/join.sh
+./loading/load_graphdb.sh
+# ./loading/run_graphdb.sh
+# ./loading/preload_graphdb.bat # for local db running in windows with the db shutdown
 
 ## verification
 

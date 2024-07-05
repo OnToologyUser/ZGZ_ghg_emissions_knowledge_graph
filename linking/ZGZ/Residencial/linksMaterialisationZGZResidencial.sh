@@ -6,7 +6,7 @@ data_file=$data_directory'linkingDataInProcess.csv'
 config_file=$linking_directory'linkingConfigInProcess.ini'
 
 
-for file in $data_directory'linked/*.csv' ; do
+for file in data/ZGZ/Residencial/linked/*.csv ; do
     cp $file $data_file
     output_name="$(basename -s .csv $file)_links.nt"
     

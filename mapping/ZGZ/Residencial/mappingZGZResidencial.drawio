@@ -181,7 +181,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="59" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CO2Scope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="59" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CO2Scope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="450" y="140" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="60" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="57" target="56" edge="1">
@@ -661,7 +661,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="335" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/ElectricGridEnergyConsumption/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="335" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/ElectricGridEnergyConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="500" y="1430" width="690" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="336" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="333" target="332" edge="1">
@@ -854,7 +854,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="373" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/ElectricRenewableEnergyConsumption/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="373" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/ElectricRenewableEnergyConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="500" y="2130" width="740" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="374" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="371" target="370" edge="1">
@@ -1047,7 +1047,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="411" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/OnSiteElectricRenewableEnergyConsumption/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="411" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/OnSiteElectricRenewableEnergyConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="500" y="2830" width="780" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="412" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="409" target="408" edge="1">
@@ -1240,7 +1240,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="449" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NaturalGasConsumption/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="449" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NaturalGasConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="500" y="3530" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="450" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="447" target="446" edge="1">
@@ -1433,7 +1433,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="487" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/LPGConsumption/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="487" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/LPGConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="500" y="4230" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="488" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="485" target="484" edge="1">
@@ -1626,7 +1626,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="525" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/HeatingOilConsumption/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="525" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/HeatingOilConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="500" y="4930" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="526" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="523" target="522" edge="1">
@@ -1819,7 +1819,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="563" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/AutomotiveDieselConsumption/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="563" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/AutomotiveDieselConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="500" y="5630" width="690" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="564" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="561" target="560" edge="1">
@@ -2012,7 +2012,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="601" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/GasolineConsumption/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="601" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/GasolineConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="500" y="6330" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="602" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="599" target="598" edge="1">
@@ -2205,7 +2205,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="639" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/OtherFossilFuelsConsumption/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="639" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/OtherFossilFuelsConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="500" y="7030" width="690" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="640" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="637" target="636" edge="1">
@@ -2398,7 +2398,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="677" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NonRenewableBiomassConsumption/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="677" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NonRenewableBiomassConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="500" y="7730" width="730" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="678" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="675" target="674" edge="1">
@@ -2591,7 +2591,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="715" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/OtherRenewableEnergyConsumption/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="715" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/OtherRenewableEnergyConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="500" y="8430" width="720" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="716" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="713" target="712" edge="1">
@@ -2784,7 +2784,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="791" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CH4Scope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="791" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CH4Scope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="9140" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="792" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="789" target="788" edge="1">
@@ -2977,7 +2977,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="829" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/N2OScope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="829" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/N2OScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="9840" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="830" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="827" target="826" edge="1">
@@ -3170,7 +3170,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="867" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/HFCScope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="867" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/HFCScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="10540" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="868" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="865" target="864" edge="1">
@@ -3363,7 +3363,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="905" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PFCScope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="905" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PFCScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="11240" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="906" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="903" target="902" edge="1">
@@ -3556,7 +3556,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="943" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/SF6Scope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="943" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/SF6Scope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="11940" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="944" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="941" target="940" edge="1">
@@ -3749,7 +3749,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="981" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CO2Scope2Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="981" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CO2Scope2Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="12640" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="982" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="979" target="978" edge="1">
@@ -3942,7 +3942,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="1019" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CH4Scope2Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="1019" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CH4Scope2Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="13340" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="1020" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="1017" target="1016" edge="1">
@@ -4135,7 +4135,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="1057" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/N2OScope2Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="1057" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/N2OScope2Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="14040" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="1058" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="1055" target="1054" edge="1">
@@ -4328,7 +4328,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="1095" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CO2Scope3Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="1095" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CO2Scope3Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="14740" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="1096" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="1093" target="1092" edge="1">
@@ -4521,7 +4521,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="1133" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CH4Scope3Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="1133" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CH4Scope3Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="15440" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="1134" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="1131" target="1130" edge="1">
@@ -4714,7 +4714,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="1171" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/N2OScope3Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="1171" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/N2OScope3Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="16140" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="1172" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="1169" target="1168" edge="1">
@@ -4907,7 +4907,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="1209" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NOxScope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="1209" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NOxScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="16840" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="1210" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="1207" target="1206" edge="1">
@@ -5100,7 +5100,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="1247" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/COScope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="1247" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/COScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="17540" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="1248" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="1245" target="1244" edge="1">
@@ -5293,7 +5293,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="1285" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/SO2Scope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="1285" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/SO2Scope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="18240" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="1286" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="1283" target="1282" edge="1">
@@ -5486,7 +5486,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="1323" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/VOCScope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="1323" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/VOCScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="18940" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="1324" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="1321" target="1320" edge="1">
@@ -5679,7 +5679,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="1361" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NMVOCScope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="1361" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NMVOCScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="19640" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="1362" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="1359" target="1358" edge="1">
@@ -5872,7 +5872,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="1399" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NH3Scope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="1399" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NH3Scope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="20340" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="1400" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="1397" target="1396" edge="1">
@@ -6065,7 +6065,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="1437" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PM2.5Scope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="1437" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PM2.5Scope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="21040" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="1438" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="1435" target="1434" edge="1">
@@ -6258,7 +6258,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="1475" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PM10Scope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="1475" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PM10Scope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="21740" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="1476" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="1473" target="1472" edge="1">
@@ -6451,7 +6451,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="1513" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/TSPScope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="1513" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/TSPScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="22440" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="1514" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="1511" target="1510" edge="1">
@@ -6644,7 +6644,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="1551" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/BCScope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="1551" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/BCScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="23140" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="1552" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="1549" target="1548" edge="1">
@@ -6837,7 +6837,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="1589" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/C6H6Scope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="1589" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/C6H6Scope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="23840" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="1590" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="1587" target="1586" edge="1">
@@ -7030,7 +7030,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="1627" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PbScope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="1627" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PbScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="24540" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="1628" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="1625" target="1624" edge="1">
@@ -7223,7 +7223,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="1665" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CdScope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="1665" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CdScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="25240" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="1666" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="1663" target="1662" edge="1">
@@ -7416,7 +7416,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="1703" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/HgScope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="1703" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/HgScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="25940" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="1704" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="1701" target="1700" edge="1">
@@ -7609,7 +7609,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="1741" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/AsScope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="1741" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/AsScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="26640" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="1742" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="1739" target="1738" edge="1">
@@ -7802,7 +7802,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="1779" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CrScope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="1779" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CrScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="27340" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="1780" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="1777" target="1776" edge="1">
@@ -7995,7 +7995,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="1817" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CuScope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="1817" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CuScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="28040" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="1818" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="1815" target="1814" edge="1">
@@ -8188,7 +8188,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="1855" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NiScope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="1855" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NiScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="28740" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="1856" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="1853" target="1852" edge="1">
@@ -8381,7 +8381,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="1893" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/SeScope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="1893" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/SeScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="29440" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="1894" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="1891" target="1890" edge="1">
@@ -8574,7 +8574,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="1931" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/ZnScope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="1931" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/ZnScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="30140" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="1932" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="1929" target="1928" edge="1">
@@ -8767,7 +8767,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="1969" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PCDDandPCDFScope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="1969" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PCDDandPCDFScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="30840" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="1970" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="1967" target="1966" edge="1">
@@ -8960,7 +8960,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="2007" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/BaPScope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="2007" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/BaPScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="31540" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="2008" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="2005" target="2004" edge="1">
@@ -9153,7 +9153,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="2045" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/BbFScope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="2045" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/BbFScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="32240" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="2046" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="2043" target="2042" edge="1">
@@ -9346,7 +9346,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="2083" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/IPScope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="2083" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/IPScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="32940" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="2084" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="2081" target="2080" edge="1">
@@ -9539,7 +9539,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="2121" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PAHScope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="2121" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PAHScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="33640" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="2122" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="2119" target="2118" edge="1">
@@ -9732,7 +9732,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="2159" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/HCBScope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="2159" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/HCBScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="34340" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="2160" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="2157" target="2156" edge="1">
@@ -9925,7 +9925,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="2197" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PCBsScope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="2197" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PCBsScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="35040" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="2198" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="2195" target="2194" edge="1">
@@ -10118,7 +10118,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="2235" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/TotalPOPsScope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="2235" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/TotalPOPsScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="35740" width="670" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="2236" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="2233" target="2232" edge="1">
@@ -10311,7 +10311,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="2273" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/TotalHeavyMetalsScope1Emissions/ZGZ-id-{ID_CELDA}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="2273" value="&quot;http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/TotalHeavyMetalsScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}&quot;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="495" y="36440" width="745" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="2274" value="rr:class" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="2271" target="2270" edge="1">

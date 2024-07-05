@@ -6,7 +6,7 @@ data_file=$data_directory'dataInProcess.csv'
 config_file=$mapping_directory'configInProcess.ini'
 
 
-for file in $data_directory'refined/*.csv' ; do
+for file in data/ZGZ/Residencial/refined/*.csv ; do
     cp $file $data_file
     output_name="$(basename -s .csv $file).nt"
     
