@@ -9,7 +9,7 @@ PREFIX time: <http://www.w3.org/2006/time#>
 PREFIX usage-o: <http://usage-project.eu/ld/ontology#>
 CONSTRUCT{
     ?uri a s4city:KeyPerformanceIndicatorAssessment;
-         saref:hasValue ?sumkpiaValue;
+         saref:hasValue ?sumKpiaValue;
          saref:isMeasuredIn ?kpiaValueUnit;
          s4city:quantifiesKPI ?kpi;
          s4city:refersToFeature ?district;
@@ -30,7 +30,8 @@ WHERE {
       ?cell a usage-o:Cell;
             geo:sfWithin ?district.
       ?district a s4city:District.
-      VALUES (?district) {(<http://usage-project.eu/ld/resource/District/ZGZ-id-1>)}
+        FILTER (STRSTARTS(STR(?district),"http://usage-project.eu/ld/resource/District/ZGZ-id-"))
+#      VALUES (?district) {(<http://usage-project.eu/ld/resource/District/ZGZ-id-10>)}
       BIND (IRI(CONCAT("http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/",
                 STRAFTER(STR(?kpi),"http://usage-project.eu/ld/ontology#"),"/",
                 STRAFTER(STR(?sector),"http://usage-project.eu/ld/ontology#"),

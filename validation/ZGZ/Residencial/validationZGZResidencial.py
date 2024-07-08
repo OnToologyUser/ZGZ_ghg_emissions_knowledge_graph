@@ -7,7 +7,7 @@ m = Mapping()
 shape_graph = "urn:eu:shacl"
 m.read_triples("validation/ZGZ/Residencial/shapesZGZResidencial.ttl", graph=shape_graph)
 load_tic = time.time()
-m.read_triples("data/rdf-file.nt")
+m.read_triples("data/rdf-file.ttl")
 load_tictoc = time.time() - load_tic
 
 tic = time.time()
