@@ -11,6 +11,7 @@
 # ./preprocessing/IDEZAR/Distritos/preprocessingIDEZARDistritos.sh
 # ./preprocessing/ZGZ/Residencial/preprocessingZGZResidencial.sh
 # ./preprocessing/ZGZ/Industrial/preprocessingZGZIndustrial.sh
+# ./preprocessing/ZGZ/Institucional_y_servicios/preprocessing.sh
 
 ## mapping
 # ./mapping/ZGZ/Residencial/mapping_diagram_to_code.sh  # chowlk api doesn't support big files
@@ -23,6 +24,7 @@
 
 # ./mapping/ZGZ/Residencial/materialisationZGZResidencial.sh 
 # ./mapping/ZGZ/Industrial/materialisationZGZIndustrial.sh 
+# ./mapping/ZGZ/Institucional_y_servicios/materialisation.sh 
 
 
 ## validation (data)
@@ -30,9 +32,9 @@
 # python validation/ZGZ/Residencial/validationZGZResidencial.py
 
 ## loading
-# ./loading/join.sh
+#  ./loading/join.sh
 # ./loading/load_graphdb.sh
-# ./loading/run_graphdb.sh
+./loading/run_graphdb.sh
 # ./loading/preload_graphdb.bat # for local db running in windows with the db shutdown
 
 ## verification
@@ -49,7 +51,7 @@
 # ./linking/ZGZ/Residencial/linking_diagram_to_code.sh
 # ./linking/ZGZ/Residencial/linksMaterialisationZGZResidencial.sh
 
-# python linking/district_level_kpiaValues_update.py # Aggregates enrichment
+# python linking/ZGZ/district_level_kpiaValues_construct.py # Aggregates enrichment
 
 ## publication
 # ./publish/publish.bat

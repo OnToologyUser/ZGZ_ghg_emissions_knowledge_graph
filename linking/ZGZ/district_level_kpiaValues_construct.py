@@ -7,7 +7,7 @@ import rdflib
 # %%
 # Getting data from sparql endpoint
 endpoint = SPARQLWrapper2("http://127.0.0.1:7200/repositories/USAGE-LD")
-query = open('./district_level_kpiaValues_update.rq', 'r').read() # SameAs inference should be OFF
+query = open('linking/ZGZ/district_level_kpiaValues_construct.rq', 'r').read() # SameAs inference should be OFF
 endpoint.setQuery(query)
 qres = endpoint.queryAndConvert()
 # Convert results to pandas dataframe
@@ -19,6 +19,6 @@ qres = endpoint.queryAndConvert()
 # %%
 res_graph=rdflib.Graph()
 res_graph.parse(qres)
-res_graph.serialize(destination="../data/ZGZ/district_level_kpiaValues_update.nt", format="nt")
+res_graph.serialize(destination="data/ZGZ/district_level_kpiaValues_construct.nt", format="nt")
 
 # %%
