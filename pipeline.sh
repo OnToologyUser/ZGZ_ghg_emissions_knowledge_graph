@@ -29,12 +29,12 @@
 
 ## validation (data)
 # ./validation/ZGZ/Residencial/shapes_diagram_to_code.sh
-# python validation/ZGZ/Residencial/validationZGZResidencial.py
+python validation/ZGZ/Residencial/validationZGZResidencial.py
 
 ## loading
-#  ./loading/join.sh
+# ./loading/join.sh
 # ./loading/load_graphdb.sh
-./loading/run_graphdb.sh
+# ./loading/run_graphdb.sh
 # ./loading/preload_graphdb.bat # for local db running in windows with the db shutdown
 
 ## verification

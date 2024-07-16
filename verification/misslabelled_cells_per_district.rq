@@ -1,0 +1,29 @@
+PREFIX s4city: <https://saref.etsi.org/saref4city/>
+PREFIX saref: <https://saref.etsi.org/core/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX usage-o: <http://usage-project.eu/ld/ontology#>
+
+SELECT DISTINCT ?cell ?wkt
+WHERE{
+  {
+  ?cell a usage-o:Cell;
+        geo:sfWithin ?district;
+        geo:hasGeometry/geo:asWKT ?wkt.
+  ?district geo:hasGeometry/geo:asWKT ?wktDistrict
+  BIND (geof:buffer(?wktDistrict,xsd:double(0.0008)) AS ?wktBuffer)
+  FILTER (!geof:sfContains(?wktBuffer,?wkt))
+  }
+  UNION
+  {
+    ?district geo:hasGeometry/geo:asWKT ?wkt.
+  }
+  UNION
+  {
+    ?district a s4city:District;
+              geo:hasGeometry/geo:asWKT ?wktDistrict.
+    BIND (geof:buffer(?wktDistrict,xsd:double(0.0008)) AS ?wkt)
+  }
+      VALUES (?district) {(<http://usage-project.eu/ld/resource/District/ZGZ-id-1>)}
+} 

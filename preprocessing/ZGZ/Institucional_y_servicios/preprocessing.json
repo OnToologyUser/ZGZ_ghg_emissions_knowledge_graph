@@ -1,7 +1,35 @@
 [
   {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ID_CELDA",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ID_CELDA"
+        }
+      ]
+    }
+  },
+  {
     "op": "core/column-addition",
-    "description": "Create column asWKT at index 5 based on column COORD_INF using expression grel:\"POLYGON((\"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_SUP\"].value+ \", \"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_INF\"].value+ \", \"\n+cells[\"COORD_DER\"].value+\" \"+cells[\"COORD_INF\"].value+ \", \"\n+cells[\"COORD_DER\"].value+\" \"+cells[\"COORD_SUP\"].value+ \", \"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_SUP\"].value+\"))\"",
+    "description": "Create column asWKT at index 5 based on column COORD_INF using expression grel:null",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
@@ -9,7 +37,7 @@
     "newColumnName": "asWKT",
     "columnInsertIndex": 5,
     "baseColumnName": "COORD_INF",
-    "expression": "grel:\"POLYGON((\"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_SUP\"].value+ \", \"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_INF\"].value+ \", \"\n+cells[\"COORD_DER\"].value+\" \"+cells[\"COORD_INF\"].value+ \", \"\n+cells[\"COORD_DER\"].value+\" \"+cells[\"COORD_SUP\"].value+ \", \"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_SUP\"].value+\"))\"",
+    "expression": "grel:null",
     "onError": "set-to-blank"
   },
   {

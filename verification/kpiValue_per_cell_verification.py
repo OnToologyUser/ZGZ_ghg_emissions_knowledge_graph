@@ -7,7 +7,7 @@ import rdflib
 # %%
 # Getting data from sparql endpoint
 endpoint = SPARQLWrapper2("http://127.0.0.1:7200/repositories/USAGE-LD")
-query = open('./kpiaValue_per_cell.rq', 'r').read()
+query = open('./verification/kpiaValue_per_cell.rq', 'r').read()
 endpoint.setQuery(query)
 qres = endpoint.query()
 
