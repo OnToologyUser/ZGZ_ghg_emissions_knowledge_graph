@@ -29,7 +29,8 @@
 
 ## validation (data)
 # ./validation/ZGZ/Residencial/shapes_diagram_to_code.sh
-python validation/ZGZ/Residencial/validationZGZResidencial.py
+# python validation/ZGZ/Residencial/validationZGZResidencial.py
+./validation/ZGZ/geoSHACL/validateGeoSHACL.sh
 
 ## loading
 # ./loading/join.sh

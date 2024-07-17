@@ -19,7 +19,7 @@
 <http://usage-project.eu/ld/resource/Cell/ZGZ-id-157237> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://usage-project.eu/ld/resource/Geometry/ZGZ-id-157237> .
 <http://usage-project.eu/ld/resource/Geometry/ZGZ-id-157237> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://usage-project.eu/ld/resource/Geometry/ZGZ-id-157237> <http://www.opengis.net/ont/geosparql#asWKT> "POLYGON((-0.882464623232464 41.6554150733404, -0.882464623232464 41.6544150733404, -0.881464623232464 41.6544150733404, -0.881464623232464 41.6554150733404, -0.882464623232464 41.6554150733404))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://usage-project.eu/ld/resource/Geometry/ZGZ-id-157237> <http://www.opengis.net/ont/geosparql#asWKT> "POLYGON((-0.882464623232 41.6554150733, -0.882464623232 41.6544150733, -0.881464623232 41.6544150733, -0.881464623232 41.6554150733, -0.882464623232 41.6554150733))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+# <http://usage-project.eu/ld/resource/Geometry/ZGZ-id-157237> <http://www.opengis.net/ont/geosparql#asWKT> "POLYGON((-0.882464623232 41.6554150733, -0.882464623232 41.6544150733, -0.881464623232 41.6544150733, -0.881464623232 41.6554150733, -0.882464623232 41.6554150733))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 
 <http://usage-project.eu/ld/resource/Cell/ZGZ-id-151958> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://usage-project.eu/ld/ontology#Cell> .
@@ -29,4 +29,31 @@
 <http://usage-project.eu/ld/resource/Geometry/ZGZ-id-151958> <http://www.opengis.net/ont/geosparql#asWKT> "POLYGON((-0.893464623232464 41.6544150733404, -0.893464623232464 41.6534150733404, -0.892464623232464 41.6534150733404, -0.892464623232464 41.6544150733404, -0.893464623232464 41.6544150733404))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 
-	
+<http://usage-project.eu/ld/resource/Geometry/ZGZ-id-154864> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
+# <http://usage-project.eu/ld/resource/Geometry/ZGZ-id-154864> <http://www.opengis.net/ont/geosparql#asWKT> "POLYGON((-0.887464623232464 41.6284150733404, -0.887464623232464 41.6274150733404, -0.886464623232464 41.6274150733404, -0.886464623232464 41.6284150733404, -0.887464623232464 41.6284150733404))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://usage-project.eu/ld/resource/Geometry/ZGZ-id-154864> <http://www.opengis.net/ont/geosparql#asWKT> "POLYGON((-0.887464623232464 41.62841507334045, -0.887464623232464 41.62741507334045, -0.886464623232464 41.62741507334045, -0.886464623232464 41.62841507334045, -0.887464623232464 41.62841507334045))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://usage-project.eu/ld/resource/Cell/ZGZ-id-154864> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://usage-project.eu/ld/resource/Geometry/ZGZ-id-154864> .
+<http://usage-project.eu/ld/resource/Cell/ZGZ-id-154864> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://usage-project.eu/ld/ontology#Cell> .
+<http://usage-project.eu/ld/resource/Cell/ZGZ-id-154864> <http://www.opengis.net/ont/geosparql#sfWithin> <http://usage-project.eu/ld/resource/District/IDEZAR-id-8> .
+<http://usage-project.eu/ld/resource/Cell/ZGZ-id-154864> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://usage-project.eu/ld/resource/Geometry/ZGZ-id-154864> .
+
+<http://usage-project.eu/ld/resource/Geometry/ZGZ-id-154863> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
+# <http://usage-project.eu/ld/resource/Geometry/ZGZ-id-154863> <http://www.opengis.net/ont/geosparql#asWKT> "POLYGON((-0.887464623232464 41.6294150733404, -0.887464623232464 41.6284150733404, -0.886464623232464 41.6284150733404, -0.886464623232464 41.6294150733404, -0.887464623232464 41.6294150733404))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://usage-project.eu/ld/resource/Geometry/ZGZ-id-154863> <http://www.opengis.net/ont/geosparql#asWKT> "POLYGON((-0.887464623232464 41.62941507334045, -0.887464623232464 41.62841507334045, -0.886464623232464 41.62841507334045, -0.886464623232464 41.62941507334045, -0.887464623232464 41.62941507334045))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://usage-project.eu/ld/resource/Cell/ZGZ-id-154863> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://usage-project.eu/ld/resource/Geometry/ZGZ-id-154863> .
+<http://usage-project.eu/ld/resource/Cell/ZGZ-id-154863> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://usage-project.eu/ld/ontology#Cell> .
+<http://usage-project.eu/ld/resource/Cell/ZGZ-id-154863> <http://www.opengis.net/ont/geosparql#sfWithin> <http://usage-project.eu/ld/resource/District/IDEZAR-id-8> .
+<http://usage-project.eu/ld/resource/Cell/ZGZ-id-154863> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://usage-project.eu/ld/resource/Geometry/ZGZ-id-154863> .
+
+<http://usage-project.eu/ld/resource/Geometry/ZGZ-id-154865> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://usage-project.eu/ld/resource/Geometry/ZGZ-id-154865> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
+<http://usage-project.eu/ld/resource/Geometry/ZGZ-id-154865> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://usage-project.eu/ld/resource/Geometry/ZGZ-id-154865> <http://www.w3.org/2002/07/owl#sameAs> <http://usage-project.eu/ld/resource/Geometry/ZGZ-id-154865> .
+# <http://usage-project.eu/ld/resource/Geometry/ZGZ-id-154865> <http://www.opengis.net/ont/geosparql#asWKT> "POLYGON((-0.887464623232464 41.6274150733404, -0.887464623232464 41.6264150733404, -0.886464623232464 41.6264150733404, -0.886464623232464 41.6274150733404, -0.887464623232464 41.6274150733404))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://usage-project.eu/ld/resource/Geometry/ZGZ-id-154865> <http://www.opengis.net/ont/geosparql#asWKT> "POLYGON((-0.887464623232464 41.62741507334044, -0.887464623232464 41.62641507334045, -0.886464623232464 41.62641507334045, -0.886464623232464 41.62741507334044, -0.887464623232464 41.62741507334044))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://usage-project.eu/ld/resource/Geometry/ZGZ-id-154865> <http://www.w3.org/2002/07/owl#sameAs> <http://usage-project.eu/ld/resource/Geometry/ZGZ-id-154865> .
+<http://usage-project.eu/ld/resource/Cell/ZGZ-id-154865> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://usage-project.eu/ld/resource/Geometry/ZGZ-id-154865> .
+<http://usage-project.eu/ld/resource/Cell/ZGZ-id-154865> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://usage-project.eu/ld/ontology#Cell> .
+<http://usage-project.eu/ld/resource/Cell/ZGZ-id-154865> <http://www.opengis.net/ont/geosparql#sfWithin> <http://usage-project.eu/ld/resource/District/IDEZAR-id-8> .
+<http://usage-project.eu/ld/resource/Cell/ZGZ-id-154865> <http://www.opengis.net/ont/geosparql#hasGeometry> <http://usage-project.eu/ld/resource/Geometry/ZGZ-id-154865> .
+   

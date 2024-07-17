@@ -21,6 +21,29 @@ usage-s:asWKT a sh:PropertyShape;
     sh:datatype geo:wktLiteral;
     sh:maxCount 1.
 
+usage-s:GeometryShape sh:sparql usage-s:NoCellOverlaps.
+usage-s:NoCellOverlaps a sh:SPARQLConstraint ;
+    sh:severity sh:Violation;
+    sh:prefixes usage-o:, geo:, geof:, s4city:, xsd:, uom: ;
+    sh:message "Geometry {$this} overlaps with {?otherGeometry}, polygon {?value} is conflicting with polygon {?otherWkt}.";
+    sh:select """
+    PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+    PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+    PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+    PREFIX uom: <http://www.opengis.net/def/uom/OGC/1.0/>
+    PREFIX usage-o: <http://usage-project.eu/ld/ontology#>
+    SELECT ?cell (?otherCell as ?value) $this ?otherGeometry ?wkt ?otherWkt WHERE {
+        ?cell a usage-o:Cell;
+            geo:hasGeometry $this.
+        ?otherCell a usage-o:Cell;
+            geo:hasGeometry ?otherGeometry.
+        $this geo:asWKT ?wkt.
+        ?otherGeometry a geo:Geometry;
+                geo:asWKT ?otherWkt.
+        FILTER (geof:sfIntersects(?wkt,?otherWkt) && geof:relate(?wkt,?otherWkt,"2********") && !geof:sfEquals(?wkt,?otherWkt))
+    }
+    """.
+
 usage-s:CellShape a sh:NodeShape;
                   sh:targetClass usage-o:Cell.
 
@@ -40,6 +63,7 @@ usage-s:NotInMultipleDistricts a sh:SPARQLConstraint ;
     FILTER (?district != ?district2)
     }
     """ .
+
 
 usage-s:CellShape sh:sparql usage-s:ActuallyWithin.
 usage-s:ActuallyWithin a sh:SPARQLConstraint ;
