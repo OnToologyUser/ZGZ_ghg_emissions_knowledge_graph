@@ -13,7 +13,7 @@ for file in $data_directory'linked/*.csv' ; do
     echo [CONFIGURATION]>$config_file
     echo output_file = $data_directory'rdf/'$output_name>>$config_file
     echo number_of_processes=1 >>$config_file
-    echo output_format=N-TRIPLES >>$config_file
+    echo output_format=N-QUADS >>$config_file
 
     echo [DataSourceCSV]>>$config_file
     echo mappings=$linking_file>>$config_file

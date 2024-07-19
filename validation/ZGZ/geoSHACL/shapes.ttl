@@ -25,7 +25,7 @@ usage-s:GeometryShape sh:sparql usage-s:NoCellOverlaps.
 usage-s:NoCellOverlaps a sh:SPARQLConstraint ;
     sh:severity sh:Violation;
     sh:prefixes usage-o:, geo:, geof:, s4city:, xsd:, uom: ;
-    sh:message "Geometry {$this} overlaps with {?otherGeometry}, polygon {?value} is conflicting with polygon {?otherWkt}.";
+    sh:message "Geometry {$this} overlaps with {?otherGeometry}, polygon {?wkt} is conflicting with polygon {?otherWkt}.";
     sh:select """
     PREFIX geo: <http://www.opengis.net/ont/geosparql#>
     PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
@@ -85,6 +85,19 @@ usage-s:ActuallyWithin a sh:SPARQLConstraint ;
         FILTER (!geof:sfWithin(?wkt,?bufferWkt))
         }
         """.
+
+usage-s:KPIAShape a sh:NodeShape;
+                      sh:targetClass s4city:KeyPerformanceIndicatorAssessment.
+
+usage-s:KPIAShape sh:property usage-s:hasValue.
+usage-s:hasValue a sh:PropertyShape;
+    sh:path geo:hasValue;
+    sh:severity sh:Violation;
+    sh:datatype xsd:float;
+    sh:maxCount 1 ;
+    sh:minLength 1 ;
+    sh:minExclusive "0"^^xsd:float.
+
 
 # Prefixes declaration
 usage-o: sh:declare [

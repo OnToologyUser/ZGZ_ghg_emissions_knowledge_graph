@@ -25,15 +25,15 @@
 # ./mapping/ZGZ/Residencial/materialisationZGZResidencial.sh 
 # ./mapping/ZGZ/Industrial/materialisationZGZIndustrial.sh 
 # ./mapping/ZGZ/Institucional_y_servicios/materialisation.sh 
-
+# ./mapping/join.sh
+# python mapping/zip.py
 
 ## validation (data)
 # ./validation/ZGZ/Residencial/shapes_diagram_to_code.sh
 # python validation/ZGZ/Residencial/validationZGZResidencial.py
-./validation/ZGZ/geoSHACL/validateGeoSHACL.sh
+./validation/ZGZ/geoSHACL/validateGeoSHACL.sh # load in memory
 
 ## loading
-# ./loading/join.sh
 # ./loading/load_graphdb.sh
 # ./loading/run_graphdb.sh
 # ./loading/preload_graphdb.bat # for local db running in windows with the db shutdown

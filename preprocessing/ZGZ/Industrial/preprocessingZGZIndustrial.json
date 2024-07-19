@@ -1,5 +1,57 @@
 [
   {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column COORD_IZQ using expression grel:(value.split(\".\")[0]+\".\"+value.split(\".\")[1][0,13]).toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "COORD_IZQ",
+    "expression": "grel:(value.split(\".\")[0]+\".\"+value.split(\".\")[1][0,13]).toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column COORD_SUP using expression grel:(value.split(\".\")[0]+\".\"+value.split(\".\")[1][0,13]).toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "COORD_SUP",
+    "expression": "grel:(value.split(\".\")[0]+\".\"+value.split(\".\")[1][0,13]).toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column COORD_DER using expression grel:(value.split(\".\")[0]+\".\"+value.split(\".\")[1][0,13]).toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "COORD_DER",
+    "expression": "grel:(value.split(\".\")[0]+\".\"+value.split(\".\")[1][0,13]).toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column COORD_INF using expression grel:(value.split(\".\")[0]+\".\"+value.split(\".\")[1][0,13]).toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "COORD_INF",
+    "expression": "grel:(value.split(\".\")[0]+\".\"+value.split(\".\")[1][0,13]).toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
     "op": "core/column-addition",
     "description": "Create column asWKT at index 5 based on column COORD_INF using expression grel:\"POLYGON((\"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_SUP\"].value+ \", \"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_INF\"].value+ \", \"\n+cells[\"COORD_DER\"].value+\" \"+cells[\"COORD_INF\"].value+ \", \"\n+cells[\"COORD_DER\"].value+\" \"+cells[\"COORD_SUP\"].value+ \", \"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_SUP\"].value+\"))\"",
     "engineConfig": {
