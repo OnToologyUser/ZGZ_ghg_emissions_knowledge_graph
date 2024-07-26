@@ -12,6 +12,7 @@
 # ./preprocessing/ZGZ/Residencial/preprocessingZGZResidencial.sh
 # ./preprocessing/ZGZ/Industrial/preprocessingZGZIndustrial.sh
 # ./preprocessing/ZGZ/Institucional_y_servicios/preprocessing.sh
+# ./preprocessing/ZGZ/IPPU_Gases_fluorados/preprocessing.sh
 
 ## mapping
 # ./mapping/ZGZ/Residencial/mapping_diagram_to_code.sh  # chowlk api doesn't support big files
@@ -24,14 +25,16 @@
 
 # ./mapping/ZGZ/Residencial/materialisationZGZResidencial.sh 
 # ./mapping/ZGZ/Industrial/materialisationZGZIndustrial.sh 
-# ./mapping/ZGZ/Institucional_y_servicios/materialisation.sh 
+# ./mapping/ZGZ/Institucional_y_servicios/materialisation.sh
+# ./mapping/ZGZ/IPPU_Gases_fluorados/materialisation.sh 
 # ./mapping/join.sh
 # python mapping/zip.py
 
 ## validation (data)
 # ./validation/ZGZ/Residencial/shapes_diagram_to_code.sh
 # python validation/ZGZ/Residencial/validationZGZResidencial.py
-./validation/ZGZ/geoSHACL/validateGeoSHACL.sh # load in memory
+# ./validation/ZGZ/geoSHACL/nquads_to_ntriples.sh
+# ./validation/ZGZ/geoSHACL/validateGeoSHACL.sh # load in memory
 
 ## loading
 # ./loading/load_graphdb.sh
