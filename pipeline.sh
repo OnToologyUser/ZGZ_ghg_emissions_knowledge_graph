@@ -11,12 +11,18 @@
 # ./preprocessing/IDEZAR/Distritos/preprocessingIDEZARDistritos.sh
 # ./preprocessing/ZGZ/Residencial/preprocessingZGZResidencial.sh
 # ./preprocessing/ZGZ/Industrial/preprocessingZGZIndustrial.sh
-# ./preprocessing/ZGZ/Institucional_y_servicios/preprocessing.sh
 # ./preprocessing/ZGZ/IPPU_Gases_fluorados/preprocessing.sh
+# ./preprocessing/ZGZ/Residuos/preprocessing.sh 
+# ./preprocessing/ZGZ/Arbolado/preprocessing.sh 
+
+# ./preprocessing/ZGZ/Institucional_y_servicios/preprocessing.sh # Corrupted dataset
 
 ## mapping
 # ./mapping/ZGZ/Residencial/mapping_diagram_to_code.sh  # chowlk api doesn't support big files
 # ./mapping/ZGZ/Industrial/mapping_diagram_to_code.sh  # chowlk api doesn't support big files
+# ./mapping/ZGZ/Residuos/mapping_diagram_to_code.sh  # chowlk api doesn't support big files
+# ./mapping/ZGZ/Arbolado/mapping_diagram_to_code.sh  # chowlk api doesn't support big files
+
     # using the Chowlk repo:
     # python3 converter.py ../USAGE-LD/mapping/ZGZ/Residencial/mapping_temp.xml ../USAGE-LD/mapping/ZGZ/Residencial/mapping.ttl
 
@@ -25,10 +31,13 @@
 
 # ./mapping/ZGZ/Residencial/materialisationZGZResidencial.sh 
 # ./mapping/ZGZ/Industrial/materialisationZGZIndustrial.sh 
-# ./mapping/ZGZ/Institucional_y_servicios/materialisation.sh
+# ./mapping/ZGZ/Institucional_y_servicios/materialisation.sh # Corrupted dataset
 # ./mapping/ZGZ/IPPU_Gases_fluorados/materialisation.sh 
-# ./mapping/join.sh
-# python mapping/zip.py
+# ./mapping/ZGZ/Residuos/materialisation.sh 
+# ./mapping/ZGZ/Arbolado/materialisation.sh 
+
+./mapping/join.sh
+python mapping/zip.py
 
 ## validation (data)
 # ./validation/ZGZ/Residencial/shapes_diagram_to_code.sh
@@ -37,7 +46,7 @@
 # ./validation/ZGZ/geoSHACL/validateGeoSHACL.sh # load in memory
 
 ## loading
-# ./loading/load_graphdb.sh
+./loading/load_graphdb.sh
 # ./loading/run_graphdb.sh
 # ./loading/preload_graphdb.bat # for local db running in windows with the db shutdown
 
