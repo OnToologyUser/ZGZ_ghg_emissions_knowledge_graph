@@ -1,0 +1,592 @@
+@prefix : <http://base.uri#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix om: <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix s4city: <https://saref.etsi.org/saref4city/> .
+@prefix saref: <https://saref.etsi.org/core/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix usage-g: <http://usage-project.eu/ld/graph/> .
+@prefix usage-o: <http://usage-project.eu/ld/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+: a owl:Ontology ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+<http://base.uri#CH4_ALC1> a owl:NamedIndividual,
+        rr:TriplesMap ;
+    rml:logicalSource <http://base.uri#_b1> ;
+    rr:predicateObjectMap <http://base.uri#_b15>,
+        <http://base.uri#_b16>,
+        <http://base.uri#_b18i>,
+        <http://base.uri#_b20s>,
+        <http://base.uri#_b67>,
+        <http://base.uri#_b69> ;
+    rr:subjectMap <http://base.uri#_b66> .
+
+<http://base.uri#CO> a owl:NamedIndividual,
+        rr:TriplesMap ;
+    rml:logicalSource <http://base.uri#_b1> ;
+    rr:predicateObjectMap <http://base.uri#_b115>,
+        <http://base.uri#_b117>,
+        <http://base.uri#_b15>,
+        <http://base.uri#_b16>,
+        <http://base.uri#_b18i>,
+        <http://base.uri#_b20s> ;
+    rr:subjectMap <http://base.uri#_b114> .
+
+<http://base.uri#CO2_ALC1> a owl:NamedIndividual,
+        rr:TriplesMap ;
+    rml:logicalSource <http://base.uri#_b1> ;
+    rr:predicateObjectMap <http://base.uri#_b12>,
+        <http://base.uri#_b14>,
+        <http://base.uri#_b15>,
+        <http://base.uri#_b16>,
+        <http://base.uri#_b18i>,
+        <http://base.uri#_b20s> ;
+    rr:subjectMap <http://base.uri#_b11> .
+
+<http://base.uri#COV> a owl:NamedIndividual,
+        rr:TriplesMap ;
+    rml:logicalSource <http://base.uri#_b1> ;
+    rr:predicateObjectMap <http://base.uri#_b123>,
+        <http://base.uri#_b125>,
+        <http://base.uri#_b15>,
+        <http://base.uri#_b16>,
+        <http://base.uri#_b18i>,
+        <http://base.uri#_b20s> ;
+    rr:subjectMap <http://base.uri#_b122> .
+
+<http://base.uri#COVNM> a owl:NamedIndividual,
+        rr:TriplesMap ;
+    rml:logicalSource <http://base.uri#_b1> ;
+    rr:predicateObjectMap <http://base.uri#_b127>,
+        <http://base.uri#_b129>,
+        <http://base.uri#_b15>,
+        <http://base.uri#_b16>,
+        <http://base.uri#_b18i>,
+        <http://base.uri#_b20s> ;
+    rr:subjectMap <http://base.uri#_b126> .
+
+<http://base.uri#N2O_ALC1> a owl:NamedIndividual,
+        rr:TriplesMap ;
+    rml:logicalSource <http://base.uri#_b1> ;
+    rr:predicateObjectMap <http://base.uri#_b15>,
+        <http://base.uri#_b16>,
+        <http://base.uri#_b18i>,
+        <http://base.uri#_b20s>,
+        <http://base.uri#_b71>,
+        <http://base.uri#_b73> ;
+    rr:subjectMap <http://base.uri#_b70> .
+
+<http://base.uri#NH3> a owl:NamedIndividual,
+        rr:TriplesMap ;
+    rml:logicalSource <http://base.uri#_b1> ;
+    rr:predicateObjectMap <http://base.uri#_b131>,
+        <http://base.uri#_b133>,
+        <http://base.uri#_b15>,
+        <http://base.uri#_b16>,
+        <http://base.uri#_b18i>,
+        <http://base.uri#_b20s> ;
+    rr:subjectMap <http://base.uri#_b130> .
+
+<http://base.uri#NOx> a owl:NamedIndividual,
+        rr:TriplesMap ;
+    rml:logicalSource <http://base.uri#_b1> ;
+    rr:predicateObjectMap <http://base.uri#_b111>,
+        <http://base.uri#_b113>,
+        <http://base.uri#_b15>,
+        <http://base.uri#_b16>,
+        <http://base.uri#_b18i>,
+        <http://base.uri#_b20s> ;
+    rr:subjectMap <http://base.uri#_b110> .
+
+<http://base.uri#PM10> a owl:NamedIndividual,
+        rr:TriplesMap ;
+    rml:logicalSource <http://base.uri#_b1> ;
+    rr:predicateObjectMap <http://base.uri#_b139>,
+        <http://base.uri#_b141>,
+        <http://base.uri#_b15>,
+        <http://base.uri#_b16>,
+        <http://base.uri#_b18i>,
+        <http://base.uri#_b20s> ;
+    rr:subjectMap <http://base.uri#_b138> .
+
+<http://base.uri#PM2.5> a owl:NamedIndividual,
+        rr:TriplesMap ;
+    rml:logicalSource <http://base.uri#_b1> ;
+    rr:predicateObjectMap <http://base.uri#_b135>,
+        <http://base.uri#_b137>,
+        <http://base.uri#_b15>,
+        <http://base.uri#_b16>,
+        <http://base.uri#_b18i>,
+        <http://base.uri#_b20s> ;
+    rr:subjectMap <http://base.uri#_b134> .
+
+<http://base.uri#SO2> a owl:NamedIndividual,
+        rr:TriplesMap ;
+    rml:logicalSource <http://base.uri#_b1> ;
+    rr:predicateObjectMap <http://base.uri#_b119>,
+        <http://base.uri#_b121>,
+        <http://base.uri#_b15>,
+        <http://base.uri#_b16>,
+        <http://base.uri#_b18i>,
+        <http://base.uri#_b20s> ;
+    rr:subjectMap <http://base.uri#_b118> .
+
+<http://base.uri#TSP> a owl:NamedIndividual,
+        rr:TriplesMap ;
+    rml:logicalSource <http://base.uri#_b1> ;
+    rr:predicateObjectMap <http://base.uri#_b143>,
+        <http://base.uri#_b145>,
+        <http://base.uri#_b15>,
+        <http://base.uri#_b16>,
+        <http://base.uri#_b18i>,
+        <http://base.uri#_b20s> ;
+    rr:subjectMap <http://base.uri#_b142> .
+
+<http://base.uri#_b7y> a owl:NamedIndividual ;
+    rr:objectMap <http://base.uri#_b8y> ;
+    rr:predicate time:year .
+
+rml:logicalSource a owl:ObjectProperty ;
+    rdfs:label "logical source" .
+
+rml:reference a owl:DatatypeProperty ;
+    rdfs:label "reference" .
+
+rml:referenceFormulation a owl:ObjectProperty ;
+    rdfs:label "reference formulation" .
+
+rml:source a owl:DatatypeProperty ;
+    rdfs:label "source" .
+
+rr:child a owl:DatatypeProperty ;
+    rdfs:label "child" .
+
+rr:class a owl:ObjectProperty ;
+    rdfs:label "class" .
+
+rr:datatype a owl:ObjectProperty ;
+    rdfs:label "datatype" .
+
+rr:graph a owl:ObjectProperty ;
+    rdfs:label "graph" .
+
+rr:joinCondition a owl:ObjectProperty ;
+    rdfs:label "join condition" .
+
+rr:object a owl:ObjectProperty ;
+    rdfs:label "object" .
+
+rr:objectMap a owl:ObjectProperty ;
+    rdfs:label "object map" .
+
+rr:parent a owl:DatatypeProperty ;
+    rdfs:label "parent" .
+
+rr:parentTriplesMap a owl:ObjectProperty ;
+    rdfs:label "parent triples map" .
+
+rr:predicate a owl:ObjectProperty ;
+    rdfs:label "predicate" .
+
+rr:predicateObjectMap a owl:ObjectProperty ;
+    rdfs:label "predicate object map" .
+
+rr:subjectMap a owl:ObjectProperty ;
+    rdfs:label "subject map" .
+
+rr:template a owl:DatatypeProperty ;
+    rdfs:label "template" .
+
+rr:termType a owl:ObjectProperty ;
+    rdfs:label "term type" .
+
+<http://base.uri#Cell> a owl:NamedIndividual,
+        rr:TriplesMap ;
+    rml:logicalSource <http://base.uri#_b1> ;
+    rr:predicateObjectMap <http://base.uri#_b3> ;
+    rr:subjectMap <http://base.uri#_b2> .
+
+<http://base.uri#Geometry> a owl:NamedIndividual,
+        rr:TriplesMap ;
+    rml:logicalSource <http://base.uri#_b1> ;
+    rr:predicateObjectMap <http://base.uri#_b7> ;
+    rr:subjectMap <http://base.uri#_b6> .
+
+<http://base.uri#Interval> a owl:NamedIndividual,
+        rr:TriplesMap ;
+    rml:logicalSource <http://base.uri#_b1> ;
+    rr:predicateObjectMap <http://base.uri#_b7i> ;
+    rr:subjectMap <http://base.uri#_b6i> .
+
+<http://base.uri#Year> a owl:NamedIndividual,
+        rr:TriplesMap ;
+    rml:logicalSource <http://base.uri#_b1> ;
+    rr:subjectMap <http://base.uri#_b6y> .
+
+<http://base.uri#_b11> a owl:NamedIndividual ;
+    rr:class s4city:KeyPerformanceIndicatorAssessment ;
+    rr:graph usage-g:ZGZ-Ganaderia ;
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CO2Scope1Emissions/LiveStock/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+<http://base.uri#_b110> a owl:NamedIndividual ;
+    rr:class s4city:KeyPerformanceIndicatorAssessment ;
+    rr:graph usage-g:ZGZ-Ganaderia ;
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NOxScope1Emissions/LiveStock/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+<http://base.uri#_b111> a owl:NamedIndividual ;
+    rr:objectMap <http://base.uri#_b112> ;
+    rr:predicate saref:hasValue .
+
+<http://base.uri#_b112> a owl:NamedIndividual ;
+    rml:reference "NOx" ;
+    rr:datatype xsd:float .
+
+<http://base.uri#_b113> a owl:NamedIndividual ;
+    rr:object usage-o:NOxScope1Emissions ;
+    rr:predicate s4city:quantifiesKPI .
+
+<http://base.uri#_b114> a owl:NamedIndividual ;
+    rr:class s4city:KeyPerformanceIndicatorAssessment ;
+    rr:graph usage-g:ZGZ-Ganaderia ;
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/COScope1Emissions/LiveStock/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+<http://base.uri#_b115> a owl:NamedIndividual ;
+    rr:objectMap <http://base.uri#_b116> ;
+    rr:predicate saref:hasValue .
+
+<http://base.uri#_b116> a owl:NamedIndividual ;
+    rml:reference "CO" ;
+    rr:datatype xsd:float .
+
+<http://base.uri#_b117> a owl:NamedIndividual ;
+    rr:object usage-o:COScope1Emissions ;
+    rr:predicate s4city:quantifiesKPI .
+
+<http://base.uri#_b118> a owl:NamedIndividual ;
+    rr:class s4city:KeyPerformanceIndicatorAssessment ;
+    rr:graph usage-g:ZGZ-Ganaderia ;
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/SO2Scope1Emissions/LiveStock/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+<http://base.uri#_b119> a owl:NamedIndividual ;
+    rr:objectMap <http://base.uri#_b120> ;
+    rr:predicate saref:hasValue .
+
+<http://base.uri#_b12> a owl:NamedIndividual ;
+    rr:objectMap <http://base.uri#_b13> ;
+    rr:predicate saref:hasValue .
+
+<http://base.uri#_b120> a owl:NamedIndividual ;
+    rml:reference "SO2" ;
+    rr:datatype xsd:float .
+
+<http://base.uri#_b121> a owl:NamedIndividual ;
+    rr:object usage-o:SO2Scope1Emissions ;
+    rr:predicate s4city:quantifiesKPI .
+
+<http://base.uri#_b122> a owl:NamedIndividual ;
+    rr:class s4city:KeyPerformanceIndicatorAssessment ;
+    rr:graph usage-g:ZGZ-Ganaderia ;
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/VOCScope1Emissions/LiveStock/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+<http://base.uri#_b123> a owl:NamedIndividual ;
+    rr:objectMap <http://base.uri#_b124> ;
+    rr:predicate saref:hasValue .
+
+<http://base.uri#_b124> a owl:NamedIndividual ;
+    rml:reference "COV" ;
+    rr:datatype xsd:float .
+
+<http://base.uri#_b125> a owl:NamedIndividual ;
+    rr:object usage-o:VOCScope1Emissions ;
+    rr:predicate s4city:quantifiesKPI .
+
+<http://base.uri#_b126> a owl:NamedIndividual ;
+    rr:class s4city:KeyPerformanceIndicatorAssessment ;
+    rr:graph usage-g:ZGZ-Ganaderia ;
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NMVOCScope1Emissions/LiveStock/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+<http://base.uri#_b127> a owl:NamedIndividual ;
+    rr:objectMap <http://base.uri#_b128> ;
+    rr:predicate saref:hasValue .
+
+<http://base.uri#_b128> a owl:NamedIndividual ;
+    rml:reference "COVNM" ;
+    rr:datatype xsd:float .
+
+<http://base.uri#_b129> a owl:NamedIndividual ;
+    rr:object usage-o:NMVOCScope1Emissions ;
+    rr:predicate s4city:quantifiesKPI .
+
+<http://base.uri#_b13> a owl:NamedIndividual ;
+    rml:reference "CO2_ALC1" ;
+    rr:datatype xsd:float .
+
+<http://base.uri#_b130> a owl:NamedIndividual ;
+    rr:class s4city:KeyPerformanceIndicatorAssessment ;
+    rr:graph usage-g:ZGZ-Ganaderia ;
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NH3Scope1Emissions/LiveStock/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+<http://base.uri#_b131> a owl:NamedIndividual ;
+    rr:objectMap <http://base.uri#_b132> ;
+    rr:predicate saref:hasValue .
+
+<http://base.uri#_b132> a owl:NamedIndividual ;
+    rml:reference "NH3" ;
+    rr:datatype xsd:float .
+
+<http://base.uri#_b133> a owl:NamedIndividual ;
+    rr:object usage-o:NH3Scope1Emissions ;
+    rr:predicate s4city:quantifiesKPI .
+
+<http://base.uri#_b134> a owl:NamedIndividual ;
+    rr:class s4city:KeyPerformanceIndicatorAssessment ;
+    rr:graph usage-g:ZGZ-Ganaderia ;
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PM2.5Scope1Emissions/LiveStock/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+<http://base.uri#_b135> a owl:NamedIndividual ;
+    rr:objectMap <http://base.uri#_b136> ;
+    rr:predicate saref:hasValue .
+
+<http://base.uri#_b136> a owl:NamedIndividual ;
+    rml:reference "PM2.5" ;
+    rr:datatype xsd:float .
+
+<http://base.uri#_b137> a owl:NamedIndividual ;
+    rr:object usage-o:PM2.5Scope1Emissions ;
+    rr:predicate s4city:quantifiesKPI .
+
+<http://base.uri#_b138> a owl:NamedIndividual ;
+    rr:class s4city:KeyPerformanceIndicatorAssessment ;
+    rr:graph usage-g:ZGZ-Ganaderia ;
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PM10Scope1Emissions/LiveStock/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+<http://base.uri#_b139> a owl:NamedIndividual ;
+    rr:objectMap <http://base.uri#_b140> ;
+    rr:predicate saref:hasValue .
+
+<http://base.uri#_b14> a owl:NamedIndividual ;
+    rr:object usage-o:CO2Scope1Emissions ;
+    rr:predicate s4city:quantifiesKPI .
+
+<http://base.uri#_b140> a owl:NamedIndividual ;
+    rml:reference "PM10" ;
+    rr:datatype xsd:float .
+
+<http://base.uri#_b141> a owl:NamedIndividual ;
+    rr:object usage-o:PM10Scope1Emissions ;
+    rr:predicate s4city:quantifiesKPI .
+
+<http://base.uri#_b142> a owl:NamedIndividual ;
+    rr:class s4city:KeyPerformanceIndicatorAssessment ;
+    rr:graph usage-g:ZGZ-Ganaderia ;
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/TSPScope1Emissions/LiveStock/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+<http://base.uri#_b143> a owl:NamedIndividual ;
+    rr:objectMap <http://base.uri#_b144> ;
+    rr:predicate saref:hasValue .
+
+<http://base.uri#_b144> a owl:NamedIndividual ;
+    rml:reference "TSP" ;
+    rr:datatype xsd:float .
+
+<http://base.uri#_b145> a owl:NamedIndividual ;
+    rr:object usage-o:TSPScope1Emissions ;
+    rr:predicate s4city:quantifiesKPI .
+
+<http://base.uri#_b17> a owl:NamedIndividual ;
+    rr:joinCondition <http://base.uri#_b5> ;
+    rr:parentTriplesMap <http://base.uri#Cell> .
+
+<http://base.uri#_b19i> a owl:NamedIndividual ;
+    rr:joinCondition <http://base.uri#_b5> ;
+    rr:parentTriplesMap <http://base.uri#Interval> .
+
+<http://base.uri#_b2> a owl:NamedIndividual ;
+    rr:class usage-o:Cell ;
+    rr:graph usage-g:ZGZ-Ganaderia ;
+    rr:template "http://usage-project.eu/ld/resource/Cell/ZGZ-id-{ID_CELDA}" .
+
+<http://base.uri#_b21s> a owl:NamedIndividual ;
+    rml:reference "Sector" ;
+    rr:termType rr:IRI .
+
+<http://base.uri#_b3> a owl:NamedIndividual ;
+    rr:objectMap <http://base.uri#_b4> ;
+    rr:predicate geo:hasGeometry .
+
+<http://base.uri#_b4> a owl:NamedIndividual ;
+    rr:joinCondition <http://base.uri#_b5> ;
+    rr:parentTriplesMap <http://base.uri#Geometry> .
+
+<http://base.uri#_b6> a owl:NamedIndividual ;
+    rr:class geo:Geometry ;
+    rr:graph usage-g:ZGZ-Ganaderia ;
+    rr:template "http://usage-project.eu/ld/resource/Geometry/ZGZ-id-{ID_CELDA}" .
+
+<http://base.uri#_b66> a owl:NamedIndividual ;
+    rr:class s4city:KeyPerformanceIndicatorAssessment ;
+    rr:graph usage-g:ZGZ-Ganaderia ;
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CH4Scope1Emissions/LiveStock/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+<http://base.uri#_b67> a owl:NamedIndividual ;
+    rr:objectMap <http://base.uri#_b68> ;
+    rr:predicate saref:hasValue .
+
+<http://base.uri#_b68> a owl:NamedIndividual ;
+    rml:reference "CH4_ALC1" ;
+    rr:datatype xsd:float .
+
+<http://base.uri#_b69> a owl:NamedIndividual ;
+    rr:object usage-o:CH4Scope1Emissions ;
+    rr:predicate s4city:quantifiesKPI .
+
+<http://base.uri#_b6i> a owl:NamedIndividual ;
+    rr:class time:DateTimeInterval ;
+    rr:graph usage-g:ZGZ-Ganaderia ;
+    rr:template "http://usage-project.eu/ld/resource/Interval/ZGZ-id-{AÑO}" .
+
+<http://base.uri#_b6y> a owl:NamedIndividual ;
+    rr:class time:DateTimeDescription ;
+    rr:graph usage-g:ZGZ-Ganaderia ;
+    rr:template "http://usage-project.eu/ld/resource/Year/ZGZ-id-{AÑO}" .
+
+<http://base.uri#_b7> a owl:NamedIndividual ;
+    rr:objectMap <http://base.uri#_b8> ;
+    rr:predicate geo:asWKT .
+
+<http://base.uri#_b70> a owl:NamedIndividual ;
+    rr:class s4city:KeyPerformanceIndicatorAssessment ;
+    rr:graph usage-g:ZGZ-Ganaderia ;
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/N2OScope1Emissions/LiveStock/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+<http://base.uri#_b71> a owl:NamedIndividual ;
+    rr:objectMap <http://base.uri#_b72> ;
+    rr:predicate saref:hasValue .
+
+<http://base.uri#_b72> a owl:NamedIndividual ;
+    rml:reference "N2O_ALC1" ;
+    rr:datatype xsd:float .
+
+<http://base.uri#_b73> a owl:NamedIndividual ;
+    rr:object usage-o:N2OScope1Emissions ;
+    rr:predicate s4city:quantifiesKPI .
+
+<http://base.uri#_b7i> a owl:NamedIndividual ;
+    rr:objectMap <http://base.uri#_b8i> ;
+    rr:predicate time:hasDateTimeDescription .
+
+<http://base.uri#_b8> a owl:NamedIndividual ;
+    rml:reference "asWKT" ;
+    rr:datatype geo:wktLiteral .
+
+<http://base.uri#_b8i> a owl:NamedIndividual ;
+    rr:joinCondition <http://base.uri#_b5> ;
+    rr:parentTriplesMap <http://base.uri#Year> .
+
+<http://base.uri#_b8y> a owl:NamedIndividual ;
+    rml:reference "AÑO" ;
+    rr:datatype xsd:gYear .
+
+ql:CSV a owl:NamedIndividual .
+
+usage-o:CH4Scope1Emissions a owl:NamedIndividual .
+
+usage-o:CO2Scope1Emissions a owl:NamedIndividual .
+
+usage-o:COScope1Emissions a owl:NamedIndividual .
+
+usage-o:Cell a owl:NamedIndividual .
+
+usage-o:N2OScope1Emissions a owl:NamedIndividual .
+
+usage-o:NH3Scope1Emissions a owl:NamedIndividual .
+
+usage-o:NMVOCScope1Emissions a owl:NamedIndividual .
+
+usage-o:NOxScope1Emissions a owl:NamedIndividual .
+
+usage-o:PM10Scope1Emissions a owl:NamedIndividual .
+
+usage-o:PM2.5Scope1Emissions a owl:NamedIndividual .
+
+usage-o:SO2Scope1Emissions a owl:NamedIndividual .
+
+usage-o:TSPScope1Emissions a owl:NamedIndividual .
+
+usage-o:VOCScope1Emissions a owl:NamedIndividual .
+
+usage-o:refersToSector a owl:NamedIndividual .
+
+om:tonneOfCarbonDioxideEquivalent a owl:NamedIndividual .
+
+geo:Geometry a owl:NamedIndividual .
+
+geo:asWKT a owl:NamedIndividual .
+
+geo:hasGeometry a owl:NamedIndividual .
+
+geo:wktLiteral a owl:NamedIndividual .
+
+xsd:gYear a owl:NamedIndividual .
+
+time:DateTimeDescription a owl:NamedIndividual .
+
+time:DateTimeInterval a owl:NamedIndividual .
+
+time:hasDateTimeDescription a owl:NamedIndividual .
+
+time:year a owl:NamedIndividual .
+
+rr:IRI a owl:NamedIndividual .
+
+saref:isMeasuredIn a owl:NamedIndividual .
+
+s4city:refersToFeature a owl:NamedIndividual .
+
+s4city:refersToTime a owl:NamedIndividual .
+
+<http://base.uri#_b5> a owl:NamedIndividual ;
+    rr:child "ID_CELDA" ;
+    rr:parent "ID_CELDA" .
+
+<http://base.uri#_b15> a owl:NamedIndividual ;
+    rr:object om:tonneOfCarbonDioxideEquivalent ;
+    rr:predicate saref:isMeasuredIn .
+
+<http://base.uri#_b16> a owl:NamedIndividual ;
+    rr:objectMap <http://base.uri#_b17> ;
+    rr:predicate s4city:refersToFeature .
+
+<http://base.uri#_b18i> a owl:NamedIndividual ;
+    rr:objectMap <http://base.uri#_b19i> ;
+    rr:predicate s4city:refersToTime .
+
+<http://base.uri#_b20s> a owl:NamedIndividual ;
+    rr:objectMap <http://base.uri#_b21s> ;
+    rr:predicate usage-o:refersToSector .
+
+xsd:float a owl:NamedIndividual .
+
+saref:hasValue a owl:NamedIndividual .
+
+s4city:KeyPerformanceIndicatorAssessment a owl:NamedIndividual .
+
+s4city:quantifiesKPI a owl:NamedIndividual .
+
+<http://base.uri#_b1> a owl:NamedIndividual ;
+    rml:referenceFormulation ql:CSV ;
+    rml:source "./data/ZGZ/Ganaderia/refined/Emisiones_Gan_2019.csv" .
+
+usage-g:ZGZ-Ganaderia a owl:NamedIndividual .
+
+rr:TriplesMap a owl:Class ;
+    rdfs:label "Triples Map" .
+
+
