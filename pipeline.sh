@@ -6,7 +6,7 @@
 ## conceptualisation
 # ./ontology/conceptualisation_to_code.sh
 
-## preprocessing
+## preprocessing # raw files names should not include whitespaces
 # ./preprocessing/IDEZAR/Barrios/preprocessingIDEZARBarrios.sh
 # ./preprocessing/IDEZAR/Distritos/preprocessingIDEZARDistritos.sh
 # ./preprocessing/ZGZ/Residencial/preprocessingZGZResidencial.sh
@@ -15,6 +15,8 @@
 # ./preprocessing/ZGZ/Residuos/preprocessing.sh 
 # ./preprocessing/ZGZ/Arbolado/preprocessing.sh 
 # ./preprocessing/ZGZ/Ganaderia/preprocessing.sh 
+# ./preprocessing/ZGZ/Transporte/preprocessing.sh 
+
 
 
 # ./preprocessing/ZGZ/Institucional_y_servicios/preprocessing.sh # Corrupted dataset
@@ -25,6 +27,8 @@
 # ./mapping/ZGZ/Residuos/mapping_diagram_to_code.sh  # chowlk api doesn't support big files
 # ./mapping/ZGZ/Arbolado/mapping_diagram_to_code.sh  # chowlk api doesn't support big files
 # ./mapping/ZGZ/Ganaderia/mapping_diagram_to_code.sh  # supported by chowlk api
+# ./mapping/ZGZ/Transporte/mapping_diagram_to_code.sh  # chowlk api doesn't support big files
+
     # using the Chowlk repo:
     # python3 converter.py ../USAGE-LD/mapping/ZGZ/Residencial/mapping_temp.xml ../USAGE-LD/mapping/ZGZ/Residencial/mapping.ttl
 
@@ -38,6 +42,7 @@
 # ./mapping/ZGZ/Residuos/materialisation.sh 
 # ./mapping/ZGZ/Arbolado/materialisation.sh 
 # ./mapping/ZGZ/Ganaderia/materialisation.sh 
+# ./mapping/ZGZ/Transporte/materialisation.sh 
 
 # ./mapping/join.sh
 # python mapping/zip.py
