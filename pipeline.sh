@@ -11,15 +11,14 @@
 # ./preprocessing/IDEZAR/Distritos/preprocessingIDEZARDistritos.sh
 # ./preprocessing/ZGZ/Residencial/preprocessingZGZResidencial.sh
 # ./preprocessing/ZGZ/Industrial/preprocessingZGZIndustrial.sh
+# ./preprocessing/ZGZ/Institucional_y_servicios/preprocessing.sh # Corrupted dataset
 # ./preprocessing/ZGZ/IPPU_Gases_fluorados/preprocessing.sh
 # ./preprocessing/ZGZ/Residuos/preprocessing.sh 
 # ./preprocessing/ZGZ/Arbolado/preprocessing.sh 
 # ./preprocessing/ZGZ/Ganaderia/preprocessing.sh 
-# ./preprocessing/ZGZ/Transporte/preprocessing.sh 
+# ./preprocessing/ZGZ/Transporte/preprocessing.sh
+# python3 preprocessing/ZGZ/Transporte/blank_column_cli.py asWKT data/ZGZ/Transporte/refined/BBDD_Transp_Carretera_TPrivado_2021_v001.csv # Removed conflictive polygons
 
-
-
-# ./preprocessing/ZGZ/Institucional_y_servicios/preprocessing.sh # Corrupted dataset
 
 ## mapping
 # ./mapping/ZGZ/Residencial/mapping_diagram_to_code.sh  # chowlk api doesn't support big files
