@@ -14,4 +14,5 @@ cd tools
 -i storeBlankCellsAsNulls=false \
 -i encoding=UTF-8 \
 -m 4096M \
+-RX
 cd ..
