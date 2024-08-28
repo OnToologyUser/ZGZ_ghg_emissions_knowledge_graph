@@ -213,11 +213,17 @@ usage-o:NonRenewableBiomassConsumption a owl:NamedIndividual,
     rdfs:label "C_BIOMASA"@es ;
     rdfs:comment "Consumo final de biomasa de origen no renovable"@es .
 
-usage-o:OnRoadTransport a usage-o:Sector,
+usage-o:OnRoadPrivateTransport a usage-o:Sector,
         owl:NamedIndividual ;
-    rdfs:label "On-road transport"@en ;
-    rdfs:comment "On-road transport subsector."@en ;
-    skos:broader usage-o:Transport .
+    rdfs:label "On-road private transport"@en ;
+    rdfs:comment "On-road private transport subsector."@en ;
+    skos:broader usage-o:OnRoadTransport .
+
+usage-o:OnRoadPublicTransport a usage-o:Sector,
+        owl:NamedIndividual ;
+    rdfs:label "On-road public transport"@en ;
+    rdfs:comment "On-road public transport subsector."@en ;
+    skos:broader usage-o:OnRoadTransport .
 
 usage-o:OnSiteElectricRenewableEnergyConsumption a owl:NamedIndividual,
         s4city:KeyPerformanceIndicator ;
@@ -393,7 +399,8 @@ s4city:refersToFeature a owl:ObjectProperty ;
 s4city:refersToTime a owl:ObjectProperty ;
     rdfs:label "refers to time" .
 
-usage-o:AFOLU a owl:NamedIndividual ;
+usage-o:AFOLU a usage-o:Sector,
+        owl:NamedIndividual ;
     rdfs:label "AFOLU"@en ;
     rdfs:comment "Agriculture, forestry & other land uses sector."@en .
 
@@ -406,12 +413,18 @@ geo:Geometry a owl:Class ;
     rdfs:label "Geometry" ;
     rdfs:subClassOf geo:SpatialObject .
 
-skos:Concept a owl:Class ;
-    rdfs:label "Concept" .
+usage-o:OnRoadTransport a usage-o:Sector,
+        owl:NamedIndividual ;
+    rdfs:label "On-road transport"@en ;
+    rdfs:comment "On-road transport subsector."@en ;
+    skos:broader usage-o:Transport .
 
 geo:Feature a owl:Class ;
     rdfs:label "Feature" ;
     rdfs:subClassOf geo:SpatialObject .
+
+skos:Concept a owl:Class ;
+    rdfs:label "Concept" .
 
 time:TemporalEntity a owl:Class ;
     rdfs:label "Temporal Entity" .
@@ -433,6 +446,7 @@ usage-o:Sector a owl:Class ;
     rdfs:subClassOf skos:Concept .
 
 s4city:KeyPerformanceIndicator a owl:Class ;
-    rdfs:label "Key Performance Indicator" .
+    rdfs:label "Key Performance Indicator" ;
+    rdfs:subClassOf skos:Concept .
 
 

@@ -1,0 +1,24 @@
+PREFIX s4city: <https://saref.etsi.org/saref4city/>
+PREFIX saref: <https://saref.etsi.org/core/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX bigg: <http://bigg-project.eu/ld/ontology#>
+PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX usage-o: <http://usage-project.eu/ld/ontology#>
+
+DELETE WHERE{
+    ?kpia a s4city:KeyPerformanceIndicatorAssessment;
+          saref:hasValue ?kpiaValue;
+          saref:isMeasuredIn ?kpiaValueUnit;
+          s4city:quantifiesKPI ?kpi;
+          s4city:refersToFeature ?cell;
+          s4city:refersToTime ?interval;
+          usage-o:refersToSector ?sector.
+    ?cell a usage-o:Cell;
+          geo:hasGeometry ?cellGeom;
+          geo:sfWithin ?district.
+    ?cellGeom a geo:Geometry;
+              geo:asWKT ?cellWkt.
+} 

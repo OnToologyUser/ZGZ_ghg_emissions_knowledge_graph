@@ -30,8 +30,15 @@ WHERE {
       ?cell a usage-o:Cell;
             geo:sfWithin ?district.
       ?district a s4city:District.
-        FILTER (STRSTARTS(STR(?district),"http://usage-project.eu/ld/resource/District/ZGZ-id-"))
-#      VALUES (?district) {(<http://usage-project.eu/ld/resource/District/ZGZ-id-10>)}
+      {
+        SELECT ?district ?districtName WHERE {
+          GRAPH <http://usage-project.eu/ld/graph/ZGZ-Residencial> {
+            ?district a s4city:District;
+                rdfs:label ?districtName. # Warning: multiple names for the same district
+          }
+        }
+      }
+    #   VALUES (?district) {(<http://usage-project.eu/ld/resource/District/ZGZ-id-1>)}
       BIND (IRI(CONCAT("http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/",
                 STRAFTER(STR(?kpi),"http://usage-project.eu/ld/ontology#"),"/",
                 STRAFTER(STR(?sector),"http://usage-project.eu/ld/ontology#"),
