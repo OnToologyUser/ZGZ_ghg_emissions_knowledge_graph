@@ -15,7 +15,7 @@ print(wms.identification.type,
 # %%
 # List capabilities
 print(list(wms.contents))
-item = "FE_FBK_single_tree_detection_v2:fbk_single_tree_detection_v2"
+item = "green_roof_suitability:roof_suitability" #"FE_FBK_single_tree_detection_v2:fbk_single_tree_detection_v2"
 print(wms[item].title, "\n",
       wms[item].boundingBoxWGS84, "\n",
       wms[item].crsOptions, "\n",
