@@ -7,6 +7,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix usage-o: <http://usage-project.eu/ld/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 usage-o: a owl:Ontology ;
     mod:createdWith <https://chowlk.linkeddata.es/> .
@@ -362,13 +363,21 @@ rdfs:label a owl:AnnotationProperty ;
 skos:broader a owl:ObjectProperty ;
     rdfs:label "broader" .
 
+time:DateTimeDescription a owl:Class ;
+    rdfs:label "Date Time Description" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom xsd:gYear ;
+            owl:onProperty time:year ],
+        time:GeneralDateTimeDescription .
+
 time:Instant a owl:Class ;
     rdfs:label "Instant" ;
     rdfs:subClassOf time:TemporalEntity .
 
-time:Interval a owl:Class ;
-    rdfs:label "Interval" ;
-    rdfs:subClassOf time:TemporalEntity .
+time:hasDateTimeDescription a owl:ObjectProperty ;
+    rdfs:label "has date time description" ;
+    rdfs:domain time:DateTimeInterval ;
+    rdfs:range time:GeneralDateTimeDescription .
 
 saref:UnitOfMeasure a owl:Class ;
     rdfs:label "Unit Of Measure" .
@@ -413,6 +422,22 @@ geo:Geometry a owl:Class ;
     rdfs:label "Geometry" ;
     rdfs:subClassOf geo:SpatialObject .
 
+time:DateTimeInterval a owl:Class ;
+    rdfs:label "Date Time Interval" ;
+    rdfs:subClassOf time:ProperInterval .
+
+time:Interval a owl:Class ;
+    rdfs:label "Interval" ;
+    rdfs:subClassOf time:TemporalEntity .
+
+time:ProperInterval a owl:Class ;
+    rdfs:label "Proper Interval" ;
+    rdfs:subClassOf time:Interval .
+
+time:year a owl:DatatypeProperty ;
+    rdfs:label "year" ;
+    rdfs:range xsd:gYear .
+
 usage-o:OnRoadTransport a usage-o:Sector,
         owl:NamedIndividual ;
     rdfs:label "On-road transport"@en ;
@@ -425,6 +450,9 @@ geo:Feature a owl:Class ;
 
 skos:Concept a owl:Class ;
     rdfs:label "Concept" .
+
+time:GeneralDateTimeDescription a owl:Class ;
+    rdfs:label "General Date Time Description" .
 
 time:TemporalEntity a owl:Class ;
     rdfs:label "Temporal Entity" .
