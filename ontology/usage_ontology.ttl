@@ -1,3 +1,4 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix mod: <https://w3id.org/mod#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -7,10 +8,24 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix usage-o: <http://usage-project.eu/ld/ontology#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-usage-o: a owl:Ontology ;
-    mod:createdWith <https://chowlk.linkeddata.es/> .
+dc:contributor a owl:AnnotationProperty .
+
+dc:created a owl:AnnotationProperty .
+
+dc:creator a owl:AnnotationProperty .
+
+dc:description a owl:AnnotationProperty .
+
+dc:license a owl:AnnotationProperty .
+
+dc:title a owl:AnnotationProperty .
+
+vann:preferredNamespacePrefix a owl:AnnotationProperty .
+
+vann:preferredNamespaceUri a owl:AnnotationProperty .
 
 usage-o:Agriculture a usage-o:Sector,
         owl:NamedIndividual ;
@@ -360,6 +375,10 @@ rdfs:comment a owl:AnnotationProperty ;
 rdfs:label a owl:AnnotationProperty ;
     rdfs:label "label" .
 
+owl:versionIRI a owl:AnnotationProperty .
+
+owl:versionInfo a owl:AnnotationProperty .
+
 skos:broader a owl:ObjectProperty ;
     rdfs:label "broader" .
 
@@ -407,6 +426,19 @@ s4city:refersToFeature a owl:ObjectProperty ;
 
 s4city:refersToTime a owl:ObjectProperty ;
     rdfs:label "refers to time" .
+
+usage-o: a owl:Ontology ;
+    dc:contributor <https://w3id.org/people#AContributorURI> ;
+    dc:created "2024-05-24"^^xsd:date ;
+    dc:creator <https://www.linkedin.com/in/edgar-alexis-martinez-sarmiento/> ;
+    dc:description "City-level environmental and climate ontology for Local Green Deal."@en ;
+    dc:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dc:title "The Urban Data Space for Green Deal ontology"@en ;
+    vann:preferredNamespacePrefix "usage-o" ;
+    vann:preferredNamespaceUri usage-o: ;
+    owl:versionIRI <http://usage-project.eu/ld/ontology/1.0.0#> ;
+    owl:versionInfo "1.0.0" ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
 
 usage-o:AFOLU a usage-o:Sector,
         owl:NamedIndividual ;

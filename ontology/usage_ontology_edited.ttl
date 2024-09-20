@@ -1,4 +1,5 @@
 @prefix : <http://usage-project.eu/ld/ontology#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix mod: <https://w3id.org/mod#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -8,17 +9,61 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix time: <http://www.w3.org/2006/time#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix saref: <https://saref.etsi.org/core/> .
 @prefix s4city: <https://saref.etsi.org/saref4city/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix usage-o: <http://usage-project.eu/ld/ontology#> .
 @base <http://usage-project.eu/ld/ontology#> .
 
 <http://usage-project.eu/ld/ontology#> rdf:type owl:Ontology ;
+                                        owl:versionIRI <http://usage-project.eu/ld/ontology/1.0.0#> ;
+                                        dc:contributor <https://orcid.org/0000-0002-1685-4700> ;
+                                        dc:created "2024-05-24"^^xsd:date ;
+                                        dc:creator <https://orcid.org/0000-0002-1664-2281> ;
+                                        dc:description "City-level environmental and climate ontology for Local Green Deal."@en ;
+                                        dc:license <https://creativecommons.org/licenses/by/4.0/> ;
+                                        dc:title "The Urban Data Space for Green Deal ontology"@en ;
+                                        vann:preferredNamespacePrefix "usage-o" ;
+                                        vann:preferredNamespaceUri <http://usage-project.eu/ld/ontology#> ;
+                                        owl:versionInfo "1.0.0" ;
                                         mod:createdWith <https://chowlk.linkeddata.es/> .
 
 #################################################################
 #    Annotation properties
 #################################################################
+
+###  http://purl.org/dc/elements/1.1/contributor
+dc:contributor rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/created
+dc:created rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/creator
+dc:creator rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/description
+dc:description rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/license
+dc:license rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+dc:title rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespacePrefix
+vann:preferredNamespacePrefix rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespaceUri
+vann:preferredNamespaceUri rdf:type owl:AnnotationProperty .
+
 
 ###  http://www.w3.org/2000/01/rdf-schema#comment
 rdfs:comment rdf:type owl:AnnotationProperty ;
@@ -28,6 +73,14 @@ rdfs:comment rdf:type owl:AnnotationProperty ;
 ###  http://www.w3.org/2000/01/rdf-schema#label
 rdfs:label rdf:type owl:AnnotationProperty ;
            rdfs:label "label" .
+
+
+###  http://www.w3.org/2002/07/owl#versionIRI
+owl:versionIRI rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2002/07/owl#versionInfo
+owl:versionInfo rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/2004/02/skos/core#definition
@@ -60,6 +113,10 @@ mod:createdWith rdf:type owl:AnnotationProperty .
 
 ###  http://www.opengis.net/ont/geosparql#wktLiteral
 geo:wktLiteral rdf:type rdfs:Datatype .
+
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
 
 
 ###  http://www.w3.org/2001/XMLSchema#gDay
@@ -534,8 +591,8 @@ time:GeneralDateTimeDescription rdf:type owl:Class ;
                                              "Description of date and time structured with separate values for the various elements of a calendar-clock system"@en ;
                                 rdfs:label "Generalized date-time description"@en ,
                                            "descripción de fecha-hora generalizada"@es ;
-                                skos:definition "Descripción de fecha y hora estructurada con valores separados para los distintos elementos de un sistema calendario-reloj." ,
-                                                "Description of date and time structured with separate values for the various elements of a calendar-clock system"@en ;
+                                skos:definition "Description of date and time structured with separate values for the various elements of a calendar-clock system"@en ,
+                                                "Descripción de fecha y hora estructurada con valores separados para los distintos elementos de un sistema calendario-reloj." ;
                                 skos:note "Algunas combinaciones de propiedades son redundantes - por ejemplo, dentro de un 'año' especificado si se proporciona 'día del año' entonces 'día' y 'mes' se pueden computar, y viceversa. Los valores individuales deberían ser consistentes entre ellos y con el calendario, indicado a través del valor de la propiedad 'tiene TRS'."@es ,
                                           "Some combinations of properties are redundant - for example, within a specified :year if :dayOfYear is provided then :day and :month can be computed, and vice versa. Individual values should be consistent with each other and the calendar, indicated through the value of the :hasTRS property." .
 
