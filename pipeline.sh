@@ -76,6 +76,7 @@
 
 ## publication
 # ./publish/publish.bat
+# ./publish/generate_ontology_documentation.sh
 
 ## exploitation
 
