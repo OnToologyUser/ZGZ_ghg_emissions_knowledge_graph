@@ -7,9 +7,11 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:qudt="http://qudt.org/schema/qudt/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:vann="http://purl.org/vocab/vann/">
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://usage-project.eu/ld/ontology#">
         <owl:versionIRI rdf:resource="http://usage-project.eu/ld/ontology/1.0.0#"/>
         <dc:contributor rdf:resource="https://orcid.org/0000-0002-1685-4700"/>
@@ -80,6 +82,13 @@
     
 
 
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
     <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
 
 
@@ -91,6 +100,90 @@
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/applicableSystem -->
+
+
+    <owl:AnnotationProperty rdf:about="http://qudt.org/schema/qudt/applicableSystem"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/conversionMultiplier -->
+
+
+    <owl:AnnotationProperty rdf:about="http://qudt.org/schema/qudt/conversionMultiplier"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/conversionMultiplierSN -->
+
+
+    <owl:AnnotationProperty rdf:about="http://qudt.org/schema/qudt/conversionMultiplierSN"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/exactMatch -->
+
+
+    <owl:AnnotationProperty rdf:about="http://qudt.org/schema/qudt/exactMatch"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/hasDimensionVector -->
+
+
+    <owl:AnnotationProperty rdf:about="http://qudt.org/schema/qudt/hasDimensionVector"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/hasQuantityKind -->
+
+
+    <owl:AnnotationProperty rdf:about="http://qudt.org/schema/qudt/hasQuantityKind"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/plainTextDescription -->
+
+
+    <owl:AnnotationProperty rdf:about="http://qudt.org/schema/qudt/plainTextDescription"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/siExactMatch -->
+
+
+    <owl:AnnotationProperty rdf:about="http://qudt.org/schema/qudt/siExactMatch"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/symbol -->
+
+
+    <owl:AnnotationProperty rdf:about="http://qudt.org/schema/qudt/symbol"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/ucumCode -->
+
+
+    <owl:AnnotationProperty rdf:about="http://qudt.org/schema/qudt/ucumCode"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/udunitsCode -->
+
+
+    <owl:AnnotationProperty rdf:about="http://qudt.org/schema/qudt/udunitsCode"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/uneceCommonCode -->
+
+
+    <owl:AnnotationProperty rdf:about="http://qudt.org/schema/qudt/uneceCommonCode"/>
     
 
 
@@ -180,10 +273,24 @@
     
 
 
+    <!-- http://qudt.org/schema/qudt/UCUMcs -->
+
+
+    <rdfs:Datatype rdf:about="http://qudt.org/schema/qudt/UCUMcs"/>
+    
+
+
     <!-- http://www.opengis.net/ont/geosparql#wktLiteral -->
 
 
     <rdfs:Datatype rdf:about="http://www.opengis.net/ont/geosparql#wktLiteral"/>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML"/>
     
 
 
@@ -605,6 +712,13 @@ The range of this property is not specified, so can be replaced by any specific 
      -->
 
 
+    
+
+
+    <!-- http://qudt.org/schema/qudt/Unit -->
+
+
+    <owl:Class rdf:about="http://qudt.org/schema/qudt/Unit"/>
     
 
 
@@ -1170,6 +1284,35 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
     
 
 
+    <!-- http://qudt.org/vocab/unit/TONNE -->
+
+
+    <owl:NamedIndividual rdf:about="http://qudt.org/vocab/unit/TONNE">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/Unit"/>
+        <rdf:type rdf:resource="https://saref.etsi.org/core/UnitOfMeasure"/>
+        <terms:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">1,000-fold of the SI base unit kilogram</terms:description>
+        <qudt:applicableSystem rdf:resource="http://qudt.org/vocab/sou/CGS"/>
+        <qudt:applicableSystem rdf:resource="http://qudt.org/vocab/sou/CGS-EMU"/>
+        <qudt:applicableSystem rdf:resource="http://qudt.org/vocab/sou/CGS-GAUSS"/>
+        <qudt:applicableSystem rdf:resource="http://qudt.org/vocab/sou/SI"/>
+        <qudt:conversionMultiplier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1000.0</qudt:conversionMultiplier>
+        <qudt:conversionMultiplierSN rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1000.0</qudt:conversionMultiplierSN>
+        <qudt:exactMatch rdf:resource="http://qudt.org/vocab/unit/TON_Metric"/>
+        <qudt:hasDimensionVector rdf:resource="http://qudt.org/vocab/dimensionvector/A0E0L0I0M1H0T0D0"/>
+        <qudt:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/CO2Equivalent"/>
+        <qudt:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Mass"/>
+        <qudt:plainTextDescription>1,000-fold of the SI base unit kilogram</qudt:plainTextDescription>
+        <qudt:siExactMatch rdf:resource="https://si-digital-framework.org/SI/units/tonne"/>
+        <qudt:symbol>t</qudt:symbol>
+        <qudt:ucumCode rdf:datatype="http://qudt.org/schema/qudt/UCUMcs">t</qudt:ucumCode>
+        <qudt:udunitsCode>t</qudt:udunitsCode>
+        <qudt:uneceCommonCode>TNE</qudt:uneceCommonCode>
+        <rdfs:isDefinedBy rdf:resource="http://qudt.org/vocab/unit"/>
+        <rdfs:label xml:lang="en">Tonne</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://usage-project.eu/ld/ontology#AFOLU -->
 
 
@@ -1210,6 +1353,18 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
         <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
         <rdfs:comment xml:lang="es">Consumo final de gasóleo para automoción</rdfs:comment>
         <rdfs:label xml:lang="es">C_GASOLEO_A</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://usage-project.eu/ld/ontology#Aviation -->
+
+
+    <owl:NamedIndividual rdf:about="http://usage-project.eu/ld/ontology#Aviation">
+        <rdf:type rdf:resource="http://usage-project.eu/ld/ontology#Sector"/>
+        <skos:broader rdf:resource="http://usage-project.eu/ld/ontology#Transport"/>
+        <rdfs:comment xml:lang="en">Aviation subsector.</rdfs:comment>
+        <rdfs:label xml:lang="en">Aviation</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1335,6 +1490,19 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
     
 
 
+    <!-- http://usage-project.eu/ld/ontology#Cattle -->
+
+
+    <owl:NamedIndividual rdf:about="http://usage-project.eu/ld/ontology#Cattle">
+        <rdf:type rdf:resource="http://usage-project.eu/ld/ontology#Sector"/>
+        <skos:broader rdf:resource="http://usage-project.eu/ld/ontology#Livestock"/>
+        <rdfs:comment xml:lang="en">Cattle subsector.</rdfs:comment>
+        <rdfs:label xml:lang="es">Bóvidos</rdfs:label>
+        <rdfs:label xml:lang="en">Cattle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://usage-project.eu/ld/ontology#CdScope1Emissions -->
 
 
@@ -1390,6 +1558,28 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
     
 
 
+    <!-- http://usage-project.eu/ld/ontology#GHGEmissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://usage-project.eu/ld/ontology#GHGEmissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Gases de efecto invernadero (GEI).</rdfs:comment>
+        <rdfs:label xml:lang="es">GEI</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://usage-project.eu/ld/ontology#GHGEmissionsVariation -->
+
+
+    <owl:NamedIndividual rdf:about="http://usage-project.eu/ld/ontology#GHGEmissionsVariation">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Variación de los Gases de efecto invernadero (GEI).</rdfs:comment>
+        <rdfs:label xml:lang="es">VARIACION_GEI</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://usage-project.eu/ld/ontology#GasolineConsumption -->
 
 
@@ -1397,6 +1587,19 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
         <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
         <rdfs:comment xml:lang="es">Consumo final de gasolina</rdfs:comment>
         <rdfs:label xml:lang="es">C_GASOLINA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://usage-project.eu/ld/ontology#Goats -->
+
+
+    <owl:NamedIndividual rdf:about="http://usage-project.eu/ld/ontology#Goats">
+        <rdf:type rdf:resource="http://usage-project.eu/ld/ontology#Sector"/>
+        <skos:broader rdf:resource="http://usage-project.eu/ld/ontology#Livestock"/>
+        <rdfs:comment xml:lang="en">Goats subsector.</rdfs:comment>
+        <rdfs:label xml:lang="es">Caprino</rdfs:label>
+        <rdfs:label xml:lang="en">Goats</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1441,6 +1644,19 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
         <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
         <rdfs:comment xml:lang="es">Emisiones de Mercurio (Hg) dentro del Alcance 1. Emisiones directas.</rdfs:comment>
         <rdfs:label xml:lang="es">Hg</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://usage-project.eu/ld/ontology#Horses -->
+
+
+    <owl:NamedIndividual rdf:about="http://usage-project.eu/ld/ontology#Horses">
+        <rdf:type rdf:resource="http://usage-project.eu/ld/ontology#Sector"/>
+        <skos:broader rdf:resource="http://usage-project.eu/ld/ontology#Livestock"/>
+        <rdfs:comment xml:lang="en">Horses subsector.</rdfs:comment>
+        <rdfs:label xml:lang="en">Horses</rdfs:label>
+        <rdfs:label xml:lang="es">Équidos</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1491,6 +1707,18 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
     
 
 
+    <!-- http://usage-project.eu/ld/ontology#IrrigatedAgriculture -->
+
+
+    <owl:NamedIndividual rdf:about="http://usage-project.eu/ld/ontology#IrrigatedAgriculture">
+        <rdf:type rdf:resource="http://usage-project.eu/ld/ontology#Sector"/>
+        <skos:broader rdf:resource="http://usage-project.eu/ld/ontology#Agriculture"/>
+        <rdfs:comment xml:lang="en">Irrigated agriculture subsector.</rdfs:comment>
+        <rdfs:label xml:lang="en">Irrigated agriculture</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://usage-project.eu/ld/ontology#LPGConsumption -->
 
 
@@ -1510,6 +1738,18 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
         <skos:broader rdf:resource="http://usage-project.eu/ld/ontology#AFOLU"/>
         <rdfs:comment xml:lang="en">Livestock subsector.</rdfs:comment>
         <rdfs:label xml:lang="en">Livestock</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://usage-project.eu/ld/ontology#MunicipalFleet -->
+
+
+    <owl:NamedIndividual rdf:about="http://usage-project.eu/ld/ontology#MunicipalFleet">
+        <rdf:type rdf:resource="http://usage-project.eu/ld/ontology#Sector"/>
+        <skos:broader rdf:resource="http://usage-project.eu/ld/ontology#OnRoadTransport"/>
+        <rdfs:comment xml:lang="en">Municipal fleet subsector.</rdfs:comment>
+        <rdfs:label xml:lang="en">Municipal fleet</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1759,6 +1999,44 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
     
 
 
+    <!-- http://usage-project.eu/ld/ontology#Poultry -->
+
+
+    <owl:NamedIndividual rdf:about="http://usage-project.eu/ld/ontology#Poultry">
+        <rdf:type rdf:resource="http://usage-project.eu/ld/ontology#Sector"/>
+        <skos:broader rdf:resource="http://usage-project.eu/ld/ontology#Livestock"/>
+        <rdfs:comment xml:lang="en">Poultry subsector.</rdfs:comment>
+        <rdfs:label xml:lang="es">Aves de corral</rdfs:label>
+        <rdfs:label xml:lang="en">Poultry</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://usage-project.eu/ld/ontology#Rabbits -->
+
+
+    <owl:NamedIndividual rdf:about="http://usage-project.eu/ld/ontology#Rabbits">
+        <rdf:type rdf:resource="http://usage-project.eu/ld/ontology#Sector"/>
+        <skos:broader rdf:resource="http://usage-project.eu/ld/ontology#Livestock"/>
+        <rdfs:comment xml:lang="en">Rabbits subsector.</rdfs:comment>
+        <rdfs:label xml:lang="es">Conejos</rdfs:label>
+        <rdfs:label xml:lang="en">Rabbits</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://usage-project.eu/ld/ontology#RainfedAgriculture -->
+
+
+    <owl:NamedIndividual rdf:about="http://usage-project.eu/ld/ontology#RainfedAgriculture">
+        <rdf:type rdf:resource="http://usage-project.eu/ld/ontology#Sector"/>
+        <skos:broader rdf:resource="http://usage-project.eu/ld/ontology#Agriculture"/>
+        <rdfs:comment xml:lang="en">Rainfed agriculture subsector.</rdfs:comment>
+        <rdfs:label xml:lang="en">Rainfed agriculture</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://usage-project.eu/ld/ontology#ResidentialBuildings -->
 
 
@@ -1800,6 +2078,19 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
         <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
         <rdfs:comment xml:lang="es">Emisiones de Selenio (Se) dentro del Alcance 1. Emisiones directas.</rdfs:comment>
         <rdfs:label xml:lang="es">Se</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://usage-project.eu/ld/ontology#Sheep -->
+
+
+    <owl:NamedIndividual rdf:about="http://usage-project.eu/ld/ontology#Sheep">
+        <rdf:type rdf:resource="http://usage-project.eu/ld/ontology#Sector"/>
+        <skos:broader rdf:resource="http://usage-project.eu/ld/ontology#Livestock"/>
+        <rdfs:comment xml:lang="en">Sheep subsector.</rdfs:comment>
+        <rdfs:label xml:lang="es">Ovino</rdfs:label>
+        <rdfs:label xml:lang="en">Sheep</rdfs:label>
     </owl:NamedIndividual>
     
 

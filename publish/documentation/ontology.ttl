@@ -47,12 +47,64 @@
 <http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
 
 
+###  http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
+
+
 ###  http://purl.org/vocab/vann/preferredNamespacePrefix
 <http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/vocab/vann/preferredNamespaceUri
 <http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty .
+
+
+###  http://qudt.org/schema/qudt/applicableSystem
+<http://qudt.org/schema/qudt/applicableSystem> rdf:type owl:AnnotationProperty .
+
+
+###  http://qudt.org/schema/qudt/conversionMultiplier
+<http://qudt.org/schema/qudt/conversionMultiplier> rdf:type owl:AnnotationProperty .
+
+
+###  http://qudt.org/schema/qudt/conversionMultiplierSN
+<http://qudt.org/schema/qudt/conversionMultiplierSN> rdf:type owl:AnnotationProperty .
+
+
+###  http://qudt.org/schema/qudt/exactMatch
+<http://qudt.org/schema/qudt/exactMatch> rdf:type owl:AnnotationProperty .
+
+
+###  http://qudt.org/schema/qudt/hasDimensionVector
+<http://qudt.org/schema/qudt/hasDimensionVector> rdf:type owl:AnnotationProperty .
+
+
+###  http://qudt.org/schema/qudt/hasQuantityKind
+<http://qudt.org/schema/qudt/hasQuantityKind> rdf:type owl:AnnotationProperty .
+
+
+###  http://qudt.org/schema/qudt/plainTextDescription
+<http://qudt.org/schema/qudt/plainTextDescription> rdf:type owl:AnnotationProperty .
+
+
+###  http://qudt.org/schema/qudt/siExactMatch
+<http://qudt.org/schema/qudt/siExactMatch> rdf:type owl:AnnotationProperty .
+
+
+###  http://qudt.org/schema/qudt/symbol
+<http://qudt.org/schema/qudt/symbol> rdf:type owl:AnnotationProperty .
+
+
+###  http://qudt.org/schema/qudt/ucumCode
+<http://qudt.org/schema/qudt/ucumCode> rdf:type owl:AnnotationProperty .
+
+
+###  http://qudt.org/schema/qudt/udunitsCode
+<http://qudt.org/schema/qudt/udunitsCode> rdf:type owl:AnnotationProperty .
+
+
+###  http://qudt.org/schema/qudt/uneceCommonCode
+<http://qudt.org/schema/qudt/uneceCommonCode> rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/2000/01/rdf-schema#comment
@@ -101,8 +153,16 @@ owl:versionInfo rdf:type owl:AnnotationProperty .
 #    Datatypes
 #################################################################
 
+###  http://qudt.org/schema/qudt/UCUMcs
+<http://qudt.org/schema/qudt/UCUMcs> rdf:type rdfs:Datatype .
+
+
 ###  http://www.opengis.net/ont/geosparql#wktLiteral
 <http://www.opengis.net/ont/geosparql#wktLiteral> rdf:type rdfs:Datatype .
+
+
+###  http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML
+rdf:HTML rdf:type rdfs:Datatype .
 
 
 ###  http://www.w3.org/2001/XMLSchema#date
@@ -367,6 +427,10 @@ The range of this property is not specified, so can be replaced by any specific 
 #################################################################
 #    Classes
 #################################################################
+
+###  http://qudt.org/schema/qudt/Unit
+<http://qudt.org/schema/qudt/Unit> rdf:type owl:Class .
+
 
 ###  http://usage-project.eu/ld/ontology#Cell
 :Cell rdf:type owl:Class ;
@@ -758,6 +822,31 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 #    Individuals
 #################################################################
 
+###  http://qudt.org/vocab/unit/TONNE
+<http://qudt.org/vocab/unit/TONNE> rdf:type owl:NamedIndividual ,
+                                            <http://qudt.org/schema/qudt/Unit> ,
+                                            <https://saref.etsi.org/core/UnitOfMeasure> ;
+                                   <http://purl.org/dc/terms/description> "1,000-fold of the SI base unit kilogram"^^rdf:HTML ;
+                                   <http://qudt.org/schema/qudt/applicableSystem> <http://qudt.org/vocab/sou/CGS> ,
+                                                                                  <http://qudt.org/vocab/sou/CGS-EMU> ,
+                                                                                  <http://qudt.org/vocab/sou/CGS-GAUSS> ,
+                                                                                  <http://qudt.org/vocab/sou/SI> ;
+                                   <http://qudt.org/schema/qudt/conversionMultiplier> 1000.0 ;
+                                   <http://qudt.org/schema/qudt/conversionMultiplierSN> "1000.0"^^xsd:double ;
+                                   <http://qudt.org/schema/qudt/exactMatch> <http://qudt.org/vocab/unit/TON_Metric> ;
+                                   <http://qudt.org/schema/qudt/hasDimensionVector> <http://qudt.org/vocab/dimensionvector/A0E0L0I0M1H0T0D0> ;
+                                   <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/CO2Equivalent> ,
+                                                                                 <http://qudt.org/vocab/quantitykind/Mass> ;
+                                   <http://qudt.org/schema/qudt/plainTextDescription> "1,000-fold of the SI base unit kilogram" ;
+                                   <http://qudt.org/schema/qudt/siExactMatch> <https://si-digital-framework.org/SI/units/tonne> ;
+                                   <http://qudt.org/schema/qudt/symbol> "t" ;
+                                   <http://qudt.org/schema/qudt/ucumCode> "t"^^<http://qudt.org/schema/qudt/UCUMcs> ;
+                                   <http://qudt.org/schema/qudt/udunitsCode> "t" ;
+                                   <http://qudt.org/schema/qudt/uneceCommonCode> "TNE" ;
+                                   rdfs:isDefinedBy <http://qudt.org/vocab/unit> ;
+                                   rdfs:label "Tonne"@en .
+
+
 ###  http://usage-project.eu/ld/ontology#AFOLU
 :AFOLU rdf:type owl:NamedIndividual ,
                 :Sector ;
@@ -784,6 +873,14 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
                                       <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
                              rdfs:comment "Consumo final de gasóleo para automoción"@es ;
                              rdfs:label "C_GASOLEO_A"@es .
+
+
+###  http://usage-project.eu/ld/ontology#Aviation
+:Aviation rdf:type owl:NamedIndividual ,
+                   :Sector ;
+          <http://www.w3.org/2004/02/skos/core#broader> :Transport ;
+          rdfs:comment "Aviation subsector."@en ;
+          rdfs:label "Aviation"@en .
 
 
 ###  http://usage-project.eu/ld/ontology#BCScope1Emissions
@@ -863,6 +960,15 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
                    rdfs:label "CO"@es .
 
 
+###  http://usage-project.eu/ld/ontology#Cattle
+:Cattle rdf:type owl:NamedIndividual ,
+                 :Sector ;
+        <http://www.w3.org/2004/02/skos/core#broader> :Livestock ;
+        rdfs:comment "Cattle subsector."@en ;
+        rdfs:label "Bóvidos"@es ,
+                   "Cattle"@en .
+
+
 ###  http://usage-project.eu/ld/ontology#CdScope1Emissions
 :CdScope1Emissions rdf:type owl:NamedIndividual ,
                             <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
@@ -898,11 +1004,34 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
                                     rdfs:label "C_ELECTRICIDAD_GDO"@es .
 
 
+###  http://usage-project.eu/ld/ontology#GHGEmissions
+:GHGEmissions rdf:type owl:NamedIndividual ,
+                       <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+              rdfs:comment "Gases de efecto invernadero (GEI)."@es ;
+              rdfs:label "GEI"@es .
+
+
+###  http://usage-project.eu/ld/ontology#GHGEmissionsVariation
+:GHGEmissionsVariation rdf:type owl:NamedIndividual ,
+                                <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                       rdfs:comment "Variación de los Gases de efecto invernadero (GEI)."@es ;
+                       rdfs:label "VARIACION_GEI"@es .
+
+
 ###  http://usage-project.eu/ld/ontology#GasolineConsumption
 :GasolineConsumption rdf:type owl:NamedIndividual ,
                               <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
                      rdfs:comment "Consumo final de gasolina"@es ;
                      rdfs:label "C_GASOLINA"@es .
+
+
+###  http://usage-project.eu/ld/ontology#Goats
+:Goats rdf:type owl:NamedIndividual ,
+                :Sector ;
+       <http://www.w3.org/2004/02/skos/core#broader> :Livestock ;
+       rdfs:comment "Goats subsector."@en ;
+       rdfs:label "Caprino"@es ,
+                  "Goats"@en .
 
 
 ###  http://usage-project.eu/ld/ontology#HCBScope1Emissions
@@ -931,6 +1060,15 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
                             <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
                    rdfs:comment "Emisiones de Mercurio (Hg) dentro del Alcance 1. Emisiones directas."@es ;
                    rdfs:label "Hg"@es .
+
+
+###  http://usage-project.eu/ld/ontology#Horses
+:Horses rdf:type owl:NamedIndividual ,
+                 :Sector ;
+        <http://www.w3.org/2004/02/skos/core#broader> :Livestock ;
+        rdfs:comment "Horses subsector."@en ;
+        rdfs:label "Horses"@en ,
+                   "Équidos"@es .
 
 
 ###  http://usage-project.eu/ld/ontology#IPPU
@@ -963,6 +1101,14 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
                           rdfs:label "Institutional and services"@en .
 
 
+###  http://usage-project.eu/ld/ontology#IrrigatedAgriculture
+:IrrigatedAgriculture rdf:type owl:NamedIndividual ,
+                               :Sector ;
+                      <http://www.w3.org/2004/02/skos/core#broader> :Agriculture ;
+                      rdfs:comment "Irrigated agriculture subsector."@en ;
+                      rdfs:label "Irrigated agriculture"@en .
+
+
 ###  http://usage-project.eu/ld/ontology#LPGConsumption
 :LPGConsumption rdf:type owl:NamedIndividual ,
                          <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
@@ -976,6 +1122,14 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
            <http://www.w3.org/2004/02/skos/core#broader> :AFOLU ;
            rdfs:comment "Livestock subsector."@en ;
            rdfs:label "Livestock"@en .
+
+
+###  http://usage-project.eu/ld/ontology#MunicipalFleet
+:MunicipalFleet rdf:type owl:NamedIndividual ,
+                         :Sector ;
+                <http://www.w3.org/2004/02/skos/core#broader> :OnRoadTransport ;
+                rdfs:comment "Municipal fleet subsector."@en ;
+                rdfs:label "Municipal fleet"@en .
 
 
 ###  http://usage-project.eu/ld/ontology#N2OScope1Emissions
@@ -1135,6 +1289,32 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
                    rdfs:label "Pb"@es .
 
 
+###  http://usage-project.eu/ld/ontology#Poultry
+:Poultry rdf:type owl:NamedIndividual ,
+                  :Sector ;
+         <http://www.w3.org/2004/02/skos/core#broader> :Livestock ;
+         rdfs:comment "Poultry subsector."@en ;
+         rdfs:label "Aves de corral"@es ,
+                    "Poultry"@en .
+
+
+###  http://usage-project.eu/ld/ontology#Rabbits
+:Rabbits rdf:type owl:NamedIndividual ,
+                  :Sector ;
+         <http://www.w3.org/2004/02/skos/core#broader> :Livestock ;
+         rdfs:comment "Rabbits subsector."@en ;
+         rdfs:label "Conejos"@es ,
+                    "Rabbits"@en .
+
+
+###  http://usage-project.eu/ld/ontology#RainfedAgriculture
+:RainfedAgriculture rdf:type owl:NamedIndividual ,
+                             :Sector ;
+                    <http://www.w3.org/2004/02/skos/core#broader> :Agriculture ;
+                    rdfs:comment "Rainfed agriculture subsector."@en ;
+                    rdfs:label "Rainfed agriculture"@en .
+
+
 ###  http://usage-project.eu/ld/ontology#ResidentialBuildings
 :ResidentialBuildings rdf:type owl:NamedIndividual ,
                                :Sector ;
@@ -1162,6 +1342,15 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
                             <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
                    rdfs:comment "Emisiones de Selenio (Se) dentro del Alcance 1. Emisiones directas."@es ;
                    rdfs:label "Se"@es .
+
+
+###  http://usage-project.eu/ld/ontology#Sheep
+:Sheep rdf:type owl:NamedIndividual ,
+                :Sector ;
+       <http://www.w3.org/2004/02/skos/core#broader> :Livestock ;
+       rdfs:comment "Sheep subsector."@en ;
+       rdfs:label "Ovino"@es ,
+                  "Sheep"@en .
 
 
 ###  http://usage-project.eu/ld/ontology#Stationary

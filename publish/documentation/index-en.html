@@ -17,7 +17,7 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"http://usage-project.eu/ld/ontology#","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://usage-project.eu/ld/ontology#","name":"The Urban Data Space for Green Deal ontology", "headline":"Document describing the ontology http://usage-project.eu/ld/ontology#", "dateReleased":"2024-05-24", "version":"1.0.0", "license":"https://creativecommons.org/licenses/by/4.0/", "author":[{"@type":"Person","name":"https://orcid.org/0000-0002-1664-2281","url":"https://orcid.org/0000-0002-1664-2281"}], "contributor":[{"@type":"Person","name":"https://orcid.org/0000-0002-1685-4700","url":"https://orcid.org/0000-0002-1685-4700"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"http://usage-project.eu/ld/ontology#","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://usage-project.eu/ld/ontology#","name":"The Urban Data Space for Green Deal ontology", "headline":"Document describing the ontology http://usage-project.eu/ld/ontology#", "dateReleased":"2024-05-24", "dateModified":"2024-10-02", "version":"1.0.0", "author":[{"@type":"Person","name":"https://orcid.org/0000-0002-1664-2281","url":"https://orcid.org/0000-0002-1664-2281"}], "contributor":[{"@type":"Person","name":"https://orcid.org/0000-0002-1685-4700","url":"https://orcid.org/0000-0002-1685-4700"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -70,6 +70,7 @@ $(function(){
 
 
 <dl>
+<dt>Modified on: 2024-10-02</dt>
 <dt>This version:</dt>
 <dd><a href="http://usage-project.eu/ld/ontology/1.0.0#">http://usage-project.eu/ld/ontology/1.0.0#</a></dd>
 <dt>Latest version:</dt>
@@ -82,7 +83,7 @@ $(function(){
 <dt>Contributors:</dt>
 <dd><a href="https://orcid.org/0000-0002-1685-4700">https://orcid.org/0000-0002-1685-4700</a></dd>
 
-<dt>Download serialization:</dt><dd><span><a href="ontology.jsonld" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.owl" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License:</dt><dd><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg" alt="https://creativecommons.org/licenses/by/4.0/" /></a>
+<dt>Download serialization:</dt><dd><span><a href="ontology.jsonld" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.owl" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License:</dt><dd><a href="http://insertlicenseURIhere.example.org" target="_blank"><img src="https://img.shields.io/badge/License-CC-blue.svg" alt="http://insertlicenseURIhere.example.org" /></a>
 </dd><dt>Visualization:</dt><dd><a href="webvowl/index.html#" target="_blank"><img src="https://img.shields.io/badge/Visualize_with-WebVowl-blue.svg" alt="Visualize with WebVowl" /></a></dd>
 <!-- <dt>Evaluation:</dt><dd><a href="OOPSevaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --><dt>Cite as:</dt>
 <dd>https://orcid.org/0000-0002-1664-2281. The Urban Data Space for Green Deal ontology. Revision: 1.0.0. Retrieved from: http://usage-project.eu/ld/ontology/1.0.0#</dd>
@@ -115,12 +116,14 @@ This is a place holder text for the introduction. The introduction should briefl
 <tr><td><b>geo</b></td><td>&lt;http://www.opengis.net/ont/geosparql#&gt;</td></tr>
 <tr><td><b>mod</b></td><td>&lt;https://w3id.org/mod#&gt;</td></tr>
 <tr><td><b>owl</b></td><td>&lt;http://www.w3.org/2002/07/owl#&gt;</td></tr>
+<tr><td><b>qudt</b></td><td>&lt;http://qudt.org/schema/qudt/&gt;</td></tr>
 <tr><td><b>rdf</b></td><td>&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;</td></tr>
 <tr><td><b>rdfs</b></td><td>&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</td></tr>
 <tr><td><b>s4city</b></td><td>&lt;https://saref.etsi.org/saref4city/&gt;</td></tr>
 <tr><td><b>saref</b></td><td>&lt;https://saref.etsi.org/core/&gt;</td></tr>
 <tr><td><b>skos</b></td><td>&lt;http://www.w3.org/2004/02/skos/core#&gt;</td></tr>
 <tr><td><b>time</b></td><td>&lt;http://www.w3.org/2006/time#&gt;</td></tr>
+<tr><td><b>unit</b></td><td>&lt;http://qudt.org/vocab/unit/&gt;</td></tr>
 <tr><td><b>usage-o</b></td><td>&lt;http://usage-project.eu/ld/ontology#&gt;</td></tr>
 <tr><td><b>vann</b></td><td>&lt;http://purl.org/vocab/vann/&gt;</td></tr>
 <tr><td><b>wgs84_pos</b></td><td>&lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;</td></tr>
@@ -288,6 +291,9 @@ This ontology has the following classes and properties.</span>
          title="http://usage-project.eu/ld/ontology#AsScope1Emissions">As</a>
    </li>
    <li>
+      <a href="#Aviation" title="http://usage-project.eu/ld/ontology#Aviation">Aviation</a>
+   </li>
+   <li>
       <a href="#BCScope1Emissions"
          title="http://usage-project.eu/ld/ontology#BCScope1Emissions">BC</a>
    </li>
@@ -348,6 +354,9 @@ This ontology has the following classes and properties.</span>
          title="http://usage-project.eu/ld/ontology#OtherRenewableEnergyConsumption">C_OTROS_RES</a>
    </li>
    <li>
+      <a href="#Cattle" title="http://usage-project.eu/ld/ontology#Cattle">Cattle</a>
+   </li>
+   <li>
       <a href="#CdScope1Emissions"
          title="http://usage-project.eu/ld/ontology#CdScope1Emissions">Cd</a>
    </li>
@@ -400,6 +409,13 @@ This ontology has the following classes and properties.</span>
          title="http://usage-project.eu/ld/ontology#PCDDandPCDFScope1Emissions">DIOX</a>
    </li>
    <li>
+      <a href="#GHGEmissions"
+         title="http://usage-project.eu/ld/ontology#GHGEmissions">GEI</a>
+   </li>
+   <li>
+      <a href="#Goats" title="http://usage-project.eu/ld/ontology#Goats">Goats</a>
+   </li>
+   <li>
       <a href="#HCBScope1Emissions"
          title="http://usage-project.eu/ld/ontology#HCBScope1Emissions">HCB</a>
    </li>
@@ -410,6 +426,9 @@ This ontology has the following classes and properties.</span>
    <li>
       <a href="#HgScope1Emissions"
          title="http://usage-project.eu/ld/ontology#HgScope1Emissions">Hg</a>
+   </li>
+   <li>
+      <a href="#Horses" title="http://usage-project.eu/ld/ontology#Horses">Horses</a>
    </li>
    <li>
       <a href="#IPScope1Emissions"
@@ -427,7 +446,15 @@ This ontology has the following classes and properties.</span>
       <a href="#IPPU" title="http://usage-project.eu/ld/ontology#IPPU">IPPU</a>
    </li>
    <li>
+      <a href="#IrrigatedAgriculture"
+         title="http://usage-project.eu/ld/ontology#IrrigatedAgriculture">Irrigated agriculture</a>
+   </li>
+   <li>
       <a href="#Livestock" title="http://usage-project.eu/ld/ontology#Livestock">Livestock</a>
+   </li>
+   <li>
+      <a href="#MunicipalFleet"
+         title="http://usage-project.eu/ld/ontology#MunicipalFleet">Municipal fleet</a>
    </li>
    <li>
       <a href="#N2OScope1Emissions"
@@ -490,6 +517,16 @@ This ontology has the following classes and properties.</span>
          title="http://usage-project.eu/ld/ontology#PM2.5Scope1Emissions">PM2.5</a>
    </li>
    <li>
+      <a href="#Poultry" title="http://usage-project.eu/ld/ontology#Poultry">Poultry</a>
+   </li>
+   <li>
+      <a href="#Rabbits" title="http://usage-project.eu/ld/ontology#Rabbits">Rabbits</a>
+   </li>
+   <li>
+      <a href="#RainfedAgriculture"
+         title="http://usage-project.eu/ld/ontology#RainfedAgriculture">Rainfed agriculture</a>
+   </li>
+   <li>
       <a href="#ResidentialBuildings"
          title="http://usage-project.eu/ld/ontology#ResidentialBuildings">Residential buildings</a>
    </li>
@@ -502,11 +539,17 @@ This ontology has the following classes and properties.</span>
          title="http://usage-project.eu/ld/ontology#SF6Scope1Emissions">SF6_ALC1</a>
    </li>
    <li>
+      <a href="#Sheep" title="http://usage-project.eu/ld/ontology#Sheep">Sheep</a>
+   </li>
+   <li>
       <a href="#SO2Scope1Emissions"
          title="http://usage-project.eu/ld/ontology#SO2Scope1Emissions">SO2</a>
    </li>
    <li>
       <a href="#Stationary" title="http://usage-project.eu/ld/ontology#Stationary">Stationary</a>
+   </li>
+   <li>
+      <a href="#http://qudt.org/vocab/unit/TONNE" title="http://qudt.org/vocab/unit/TONNE">Tonne</a>
    </li>
    <li>
       <a href="#TotalHeavyMetalsScope1Emissions"
@@ -526,6 +569,10 @@ This ontology has the following classes and properties.</span>
    <li>
       <a href="#UrbanWoodland"
          title="http://usage-project.eu/ld/ontology#UrbanWoodland">Urban woodland</a>
+   </li>
+   <li>
+      <a href="#GHGEmissionsVariation"
+         title="http://usage-project.eu/ld/ontology#GHGEmissionsVariation">VARIACION_GEI</a>
    </li>
    <li>
       <a href="#Waste" title="http://usage-project.eu/ld/ontology#Waste">Waste</a>
@@ -1011,7 +1058,7 @@ This section provides details for each class and property defined by The Urban D
     has members
    </dt>
    <dd>
-    <a href="#AsScope1Emissions" title="http://usage-project.eu/ld/ontology#AsScope1Emissions">As</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#BCScope1Emissions" title="http://usage-project.eu/ld/ontology#BCScope1Emissions">BC</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#BaPScope1Emissions" title="http://usage-project.eu/ld/ontology#BaPScope1Emissions">BENZO_A</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#BbFScope1Emissions" title="http://usage-project.eu/ld/ontology#BbFScope1Emissions">BENZO_B</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#C6H6Scope1Emissions" title="http://usage-project.eu/ld/ontology#C6H6Scope1Emissions">C6H6</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#CH4Scope1Emissions" title="http://usage-project.eu/ld/ontology#CH4Scope1Emissions">CH4_ALC1</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#CH4Scope2Emissions" title="http://usage-project.eu/ld/ontology#CH4Scope2Emissions">CH4_ALC2</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#CH4Scope3Emissions" title="http://usage-project.eu/ld/ontology#CH4Scope3Emissions">CH4_ALC3</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#COScope1Emissions" title="http://usage-project.eu/ld/ontology#COScope1Emissions">CO</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#CO2Scope1Emissions" title="http://usage-project.eu/ld/ontology#CO2Scope1Emissions">CO2_ALC1</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#CO2Scope2Emissions" title="http://usage-project.eu/ld/ontology#CO2Scope2Emissions">CO2_ALC2</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#CO2Scope3Emissions" title="http://usage-project.eu/ld/ontology#CO2Scope3Emissions">CO2_ALC3</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#VOCScope1Emissions" title="http://usage-project.eu/ld/ontology#VOCScope1Emissions">COV</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#NMVOCScope1Emissions" title="http://usage-project.eu/ld/ontology#NMVOCScope1Emissions">COVNM</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#NonRenewableBiomassConsumption" title="http://usage-project.eu/ld/ontology#NonRenewableBiomassConsumption">C_BIOMASA</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#ElectricRenewableEnergyConsumption" title="http://usage-project.eu/ld/ontology#ElectricRenewableEnergyConsumption">C_ELECTRICIDAD_GDO</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#ElectricGridEnergyConsumption" title="http://usage-project.eu/ld/ontology#ElectricGridEnergyConsumption">C_ELECTRICIDAD_MIXNAC</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#OnSiteElectricRenewableEnergyConsumption" title="http://usage-project.eu/ld/ontology#OnSiteElectricRenewableEnergyConsumption">C_ELECTRICIDAD_RES_LOCAL</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#NaturalGasConsumption" title="http://usage-project.eu/ld/ontology#NaturalGasConsumption">C_GASNATURAL</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#AutomotiveDieselConsumption" title="http://usage-project.eu/ld/ontology#AutomotiveDieselConsumption">C_GASOLEO_A</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#HeatingOilConsumption" title="http://usage-project.eu/ld/ontology#HeatingOilConsumption">C_GASOLEO_C</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#GasolineConsumption" title="http://usage-project.eu/ld/ontology#GasolineConsumption">C_GASOLINA</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#LPGConsumption" title="http://usage-project.eu/ld/ontology#LPGConsumption">C_GLP</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#OtherFossilFuelsConsumption" title="http://usage-project.eu/ld/ontology#OtherFossilFuelsConsumption">C_OTROS_FOSILES</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#OtherRenewableEnergyConsumption" title="http://usage-project.eu/ld/ontology#OtherRenewableEnergyConsumption">C_OTROS_RES</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#CdScope1Emissions" title="http://usage-project.eu/ld/ontology#CdScope1Emissions">Cd</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#CrScope1Emissions" title="http://usage-project.eu/ld/ontology#CrScope1Emissions">Cr</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#CuScope1Emissions" title="http://usage-project.eu/ld/ontology#CuScope1Emissions">Cu</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#PCDDandPCDFScope1Emissions" title="http://usage-project.eu/ld/ontology#PCDDandPCDFScope1Emissions">DIOX</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#HCBScope1Emissions" title="http://usage-project.eu/ld/ontology#HCBScope1Emissions">HCB</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#HFCScope1Emissions" title="http://usage-project.eu/ld/ontology#HFCScope1Emissions">HFC_ALC1</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#HgScope1Emissions" title="http://usage-project.eu/ld/ontology#HgScope1Emissions">Hg</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#IPScope1Emissions" title="http://usage-project.eu/ld/ontology#IPScope1Emissions">INDENO_123</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#N2OScope1Emissions" title="http://usage-project.eu/ld/ontology#N2OScope1Emissions">N2O_ALC1</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#N2OScope2Emissions" title="http://usage-project.eu/ld/ontology#N2OScope2Emissions">N2O_ALC2</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#N2OScope3Emissions" title="http://usage-project.eu/ld/ontology#N2OScope3Emissions">N2O_ALC3</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#NH3Scope1Emissions" title="http://usage-project.eu/ld/ontology#NH3Scope1Emissions">NH3</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#NOxScope1Emissions" title="http://usage-project.eu/ld/ontology#NOxScope1Emissions">NOx</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#NiScope1Emissions" title="http://usage-project.eu/ld/ontology#NiScope1Emissions">Ni</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#PAHScope1Emissions" title="http://usage-project.eu/ld/ontology#PAHScope1Emissions">PAH</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#PCBsScope1Emissions" title="http://usage-project.eu/ld/ontology#PCBsScope1Emissions">PCBs</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#PFCScope1Emissions" title="http://usage-project.eu/ld/ontology#PFCScope1Emissions">PFC_ALC1</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#PM10Scope1Emissions" title="http://usage-project.eu/ld/ontology#PM10Scope1Emissions">PM10</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#PM2.5Scope1Emissions" title="http://usage-project.eu/ld/ontology#PM2.5Scope1Emissions">PM2.5</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#PbScope1Emissions" title="http://usage-project.eu/ld/ontology#PbScope1Emissions">Pb</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#SF6Scope1Emissions" title="http://usage-project.eu/ld/ontology#SF6Scope1Emissions">SF6_ALC1</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#SO2Scope1Emissions" title="http://usage-project.eu/ld/ontology#SO2Scope1Emissions">SO2</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#SeScope1Emissions" title="http://usage-project.eu/ld/ontology#SeScope1Emissions">Se</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#TotalHeavyMetalsScope1Emissions" title="http://usage-project.eu/ld/ontology#TotalHeavyMetalsScope1Emissions">TOTAL_MPESADOS</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#TotalPOPsScope1Emissions" title="http://usage-project.eu/ld/ontology#TotalPOPsScope1Emissions">TOTAL_POPs</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#TSPScope1Emissions" title="http://usage-project.eu/ld/ontology#TSPScope1Emissions">TSP</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#ZnScope1Emissions" title="http://usage-project.eu/ld/ontology#ZnScope1Emissions">Zn</a> <sup class="type-ni" title="named individual">ni</sup>
+    <a href="#AsScope1Emissions" title="http://usage-project.eu/ld/ontology#AsScope1Emissions">As</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#BCScope1Emissions" title="http://usage-project.eu/ld/ontology#BCScope1Emissions">BC</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#BaPScope1Emissions" title="http://usage-project.eu/ld/ontology#BaPScope1Emissions">BENZO_A</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#BbFScope1Emissions" title="http://usage-project.eu/ld/ontology#BbFScope1Emissions">BENZO_B</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#C6H6Scope1Emissions" title="http://usage-project.eu/ld/ontology#C6H6Scope1Emissions">C6H6</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#CH4Scope1Emissions" title="http://usage-project.eu/ld/ontology#CH4Scope1Emissions">CH4_ALC1</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#CH4Scope2Emissions" title="http://usage-project.eu/ld/ontology#CH4Scope2Emissions">CH4_ALC2</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#CH4Scope3Emissions" title="http://usage-project.eu/ld/ontology#CH4Scope3Emissions">CH4_ALC3</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#COScope1Emissions" title="http://usage-project.eu/ld/ontology#COScope1Emissions">CO</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#CO2Scope1Emissions" title="http://usage-project.eu/ld/ontology#CO2Scope1Emissions">CO2_ALC1</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#CO2Scope2Emissions" title="http://usage-project.eu/ld/ontology#CO2Scope2Emissions">CO2_ALC2</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#CO2Scope3Emissions" title="http://usage-project.eu/ld/ontology#CO2Scope3Emissions">CO2_ALC3</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#VOCScope1Emissions" title="http://usage-project.eu/ld/ontology#VOCScope1Emissions">COV</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#NMVOCScope1Emissions" title="http://usage-project.eu/ld/ontology#NMVOCScope1Emissions">COVNM</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#NonRenewableBiomassConsumption" title="http://usage-project.eu/ld/ontology#NonRenewableBiomassConsumption">C_BIOMASA</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#ElectricRenewableEnergyConsumption" title="http://usage-project.eu/ld/ontology#ElectricRenewableEnergyConsumption">C_ELECTRICIDAD_GDO</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#ElectricGridEnergyConsumption" title="http://usage-project.eu/ld/ontology#ElectricGridEnergyConsumption">C_ELECTRICIDAD_MIXNAC</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#OnSiteElectricRenewableEnergyConsumption" title="http://usage-project.eu/ld/ontology#OnSiteElectricRenewableEnergyConsumption">C_ELECTRICIDAD_RES_LOCAL</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#NaturalGasConsumption" title="http://usage-project.eu/ld/ontology#NaturalGasConsumption">C_GASNATURAL</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#AutomotiveDieselConsumption" title="http://usage-project.eu/ld/ontology#AutomotiveDieselConsumption">C_GASOLEO_A</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#HeatingOilConsumption" title="http://usage-project.eu/ld/ontology#HeatingOilConsumption">C_GASOLEO_C</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#GasolineConsumption" title="http://usage-project.eu/ld/ontology#GasolineConsumption">C_GASOLINA</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#LPGConsumption" title="http://usage-project.eu/ld/ontology#LPGConsumption">C_GLP</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#OtherFossilFuelsConsumption" title="http://usage-project.eu/ld/ontology#OtherFossilFuelsConsumption">C_OTROS_FOSILES</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#OtherRenewableEnergyConsumption" title="http://usage-project.eu/ld/ontology#OtherRenewableEnergyConsumption">C_OTROS_RES</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#CdScope1Emissions" title="http://usage-project.eu/ld/ontology#CdScope1Emissions">Cd</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#CrScope1Emissions" title="http://usage-project.eu/ld/ontology#CrScope1Emissions">Cr</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#CuScope1Emissions" title="http://usage-project.eu/ld/ontology#CuScope1Emissions">Cu</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#PCDDandPCDFScope1Emissions" title="http://usage-project.eu/ld/ontology#PCDDandPCDFScope1Emissions">DIOX</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#GHGEmissions" title="http://usage-project.eu/ld/ontology#GHGEmissions">GEI</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#HCBScope1Emissions" title="http://usage-project.eu/ld/ontology#HCBScope1Emissions">HCB</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#HFCScope1Emissions" title="http://usage-project.eu/ld/ontology#HFCScope1Emissions">HFC_ALC1</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#HgScope1Emissions" title="http://usage-project.eu/ld/ontology#HgScope1Emissions">Hg</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#IPScope1Emissions" title="http://usage-project.eu/ld/ontology#IPScope1Emissions">INDENO_123</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#N2OScope1Emissions" title="http://usage-project.eu/ld/ontology#N2OScope1Emissions">N2O_ALC1</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#N2OScope2Emissions" title="http://usage-project.eu/ld/ontology#N2OScope2Emissions">N2O_ALC2</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#N2OScope3Emissions" title="http://usage-project.eu/ld/ontology#N2OScope3Emissions">N2O_ALC3</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#NH3Scope1Emissions" title="http://usage-project.eu/ld/ontology#NH3Scope1Emissions">NH3</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#NOxScope1Emissions" title="http://usage-project.eu/ld/ontology#NOxScope1Emissions">NOx</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#NiScope1Emissions" title="http://usage-project.eu/ld/ontology#NiScope1Emissions">Ni</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#PAHScope1Emissions" title="http://usage-project.eu/ld/ontology#PAHScope1Emissions">PAH</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#PCBsScope1Emissions" title="http://usage-project.eu/ld/ontology#PCBsScope1Emissions">PCBs</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#PFCScope1Emissions" title="http://usage-project.eu/ld/ontology#PFCScope1Emissions">PFC_ALC1</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#PM10Scope1Emissions" title="http://usage-project.eu/ld/ontology#PM10Scope1Emissions">PM10</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#PM2.5Scope1Emissions" title="http://usage-project.eu/ld/ontology#PM2.5Scope1Emissions">PM2.5</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#PbScope1Emissions" title="http://usage-project.eu/ld/ontology#PbScope1Emissions">Pb</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#SF6Scope1Emissions" title="http://usage-project.eu/ld/ontology#SF6Scope1Emissions">SF6_ALC1</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#SO2Scope1Emissions" title="http://usage-project.eu/ld/ontology#SO2Scope1Emissions">SO2</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#SeScope1Emissions" title="http://usage-project.eu/ld/ontology#SeScope1Emissions">Se</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#TotalHeavyMetalsScope1Emissions" title="http://usage-project.eu/ld/ontology#TotalHeavyMetalsScope1Emissions">TOTAL_MPESADOS</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#TotalPOPsScope1Emissions" title="http://usage-project.eu/ld/ontology#TotalPOPsScope1Emissions">TOTAL_POPs</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#TSPScope1Emissions" title="http://usage-project.eu/ld/ontology#TSPScope1Emissions">TSP</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#GHGEmissionsVariation" title="http://usage-project.eu/ld/ontology#GHGEmissionsVariation">VARIACION_GEI</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#ZnScope1Emissions" title="http://usage-project.eu/ld/ontology#ZnScope1Emissions">Zn</a> <sup class="type-ni" title="named individual">ni</sup>
    </dd>
   </dl>
  </div>
@@ -1128,7 +1175,7 @@ This section provides details for each class and property defined by The Urban D
     has members
    </dt>
    <dd>
-    <a href="#AFOLU" title="http://usage-project.eu/ld/ontology#AFOLU">AFOLU</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#Agriculture" title="http://usage-project.eu/ld/ontology#Agriculture">Agriculture</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#IPPU" title="http://usage-project.eu/ld/ontology#IPPU">IPPU</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#IndustrialBuildings" title="http://usage-project.eu/ld/ontology#IndustrialBuildings">Industrial buildings</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#InstitutionalAndServices" title="http://usage-project.eu/ld/ontology#InstitutionalAndServices">Institutional and services</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#Livestock" title="http://usage-project.eu/ld/ontology#Livestock">Livestock</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#OnRoadPrivateTransport" title="http://usage-project.eu/ld/ontology#OnRoadPrivateTransport">On-road private transport</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#OnRoadPublicTransport" title="http://usage-project.eu/ld/ontology#OnRoadPublicTransport">On-road public transport</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#OnRoadTransport" title="http://usage-project.eu/ld/ontology#OnRoadTransport">On-road transport</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#ResidentialBuildings" title="http://usage-project.eu/ld/ontology#ResidentialBuildings">Residential buildings</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#Stationary" title="http://usage-project.eu/ld/ontology#Stationary">Stationary</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#Transport" title="http://usage-project.eu/ld/ontology#Transport">Transport</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#UrbanWoodland" title="http://usage-project.eu/ld/ontology#UrbanWoodland">Urban woodland</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#Waste" title="http://usage-project.eu/ld/ontology#Waste">Waste</a> <sup class="type-ni" title="named individual">ni</sup>
+    <a href="#AFOLU" title="http://usage-project.eu/ld/ontology#AFOLU">AFOLU</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#Agriculture" title="http://usage-project.eu/ld/ontology#Agriculture">Agriculture</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#Aviation" title="http://usage-project.eu/ld/ontology#Aviation">Aviation</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#Cattle" title="http://usage-project.eu/ld/ontology#Cattle">Cattle</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#Goats" title="http://usage-project.eu/ld/ontology#Goats">Goats</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#Horses" title="http://usage-project.eu/ld/ontology#Horses">Horses</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#IPPU" title="http://usage-project.eu/ld/ontology#IPPU">IPPU</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#IndustrialBuildings" title="http://usage-project.eu/ld/ontology#IndustrialBuildings">Industrial buildings</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#InstitutionalAndServices" title="http://usage-project.eu/ld/ontology#InstitutionalAndServices">Institutional and services</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#IrrigatedAgriculture" title="http://usage-project.eu/ld/ontology#IrrigatedAgriculture">Irrigated agriculture</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#Livestock" title="http://usage-project.eu/ld/ontology#Livestock">Livestock</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#MunicipalFleet" title="http://usage-project.eu/ld/ontology#MunicipalFleet">Municipal fleet</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#OnRoadPrivateTransport" title="http://usage-project.eu/ld/ontology#OnRoadPrivateTransport">On-road private transport</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#OnRoadPublicTransport" title="http://usage-project.eu/ld/ontology#OnRoadPublicTransport">On-road public transport</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#OnRoadTransport" title="http://usage-project.eu/ld/ontology#OnRoadTransport">On-road transport</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#Poultry" title="http://usage-project.eu/ld/ontology#Poultry">Poultry</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#Rabbits" title="http://usage-project.eu/ld/ontology#Rabbits">Rabbits</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#RainfedAgriculture" title="http://usage-project.eu/ld/ontology#RainfedAgriculture">Rainfed agriculture</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#ResidentialBuildings" title="http://usage-project.eu/ld/ontology#ResidentialBuildings">Residential buildings</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#Sheep" title="http://usage-project.eu/ld/ontology#Sheep">Sheep</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#Stationary" title="http://usage-project.eu/ld/ontology#Stationary">Stationary</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#Transport" title="http://usage-project.eu/ld/ontology#Transport">Transport</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#UrbanWoodland" title="http://usage-project.eu/ld/ontology#UrbanWoodland">Urban woodland</a> <sup class="type-ni" title="named individual">ni</sup>, <a href="#Waste" title="http://usage-project.eu/ld/ontology#Waste">Waste</a> <sup class="type-ni" title="named individual">ni</sup>
    </dd>
   </dl>
  </div>
@@ -1280,6 +1327,12 @@ This section provides details for each class and property defined by The Urban D
    </dt>
    <dd>
     <a href="#https://saref.etsi.org/core/isMeasuredIn" title="https://saref.etsi.org/core/isMeasuredIn">is measured in</a> <sup class="type-op" title="object property">op</sup>
+   </dd>
+   <dt>
+    has members
+   </dt>
+   <dd>
+    <a href="#http://qudt.org/vocab/unit/TONNE" title="http://qudt.org/vocab/unit/TONNE">Tonne</a> <sup class="type-ni" title="named individual">ni</sup>
    </dd>
    <dt>
     is disjoint with
@@ -1693,6 +1746,7 @@ This section provides details for each class and property defined by The Urban D
   <li><a href="#AFOLU" title="http://usage-project.eu/ld/ontology#AFOLU">AFOLU</a></li>
   <li><a href="#Agriculture" title="http://usage-project.eu/ld/ontology#Agriculture">Agriculture</a></li>
   <li><a href="#AsScope1Emissions" title="http://usage-project.eu/ld/ontology#AsScope1Emissions">As</a></li>
+  <li><a href="#Aviation" title="http://usage-project.eu/ld/ontology#Aviation">Aviation</a></li>
   <li><a href="#BCScope1Emissions" title="http://usage-project.eu/ld/ontology#BCScope1Emissions">BC</a></li>
   <li><a href="#BaPScope1Emissions" title="http://usage-project.eu/ld/ontology#BaPScope1Emissions">BENZO_A</a></li>
   <li><a href="#BbFScope1Emissions" title="http://usage-project.eu/ld/ontology#BbFScope1Emissions">BENZO_B</a></li>
@@ -1708,6 +1762,7 @@ This section provides details for each class and property defined by The Urban D
   <li><a href="#LPGConsumption" title="http://usage-project.eu/ld/ontology#LPGConsumption">C_GLP</a></li>
   <li><a href="#OtherFossilFuelsConsumption" title="http://usage-project.eu/ld/ontology#OtherFossilFuelsConsumption">C_OTROS_FOSILES</a></li>
   <li><a href="#OtherRenewableEnergyConsumption" title="http://usage-project.eu/ld/ontology#OtherRenewableEnergyConsumption">C_OTROS_RES</a></li>
+  <li><a href="#Cattle" title="http://usage-project.eu/ld/ontology#Cattle">Cattle</a></li>
   <li><a href="#CdScope1Emissions" title="http://usage-project.eu/ld/ontology#CdScope1Emissions">Cd</a></li>
   <li><a href="#CH4Scope1Emissions" title="http://usage-project.eu/ld/ontology#CH4Scope1Emissions">CH4_ALC1</a></li>
   <li><a href="#CH4Scope2Emissions" title="http://usage-project.eu/ld/ontology#CH4Scope2Emissions">CH4_ALC2</a></li>
@@ -1721,14 +1776,19 @@ This section provides details for each class and property defined by The Urban D
   <li><a href="#CrScope1Emissions" title="http://usage-project.eu/ld/ontology#CrScope1Emissions">Cr</a></li>
   <li><a href="#CuScope1Emissions" title="http://usage-project.eu/ld/ontology#CuScope1Emissions">Cu</a></li>
   <li><a href="#PCDDandPCDFScope1Emissions" title="http://usage-project.eu/ld/ontology#PCDDandPCDFScope1Emissions">DIOX</a></li>
+  <li><a href="#GHGEmissions" title="http://usage-project.eu/ld/ontology#GHGEmissions">GEI</a></li>
+  <li><a href="#Goats" title="http://usage-project.eu/ld/ontology#Goats">Goats</a></li>
   <li><a href="#HCBScope1Emissions" title="http://usage-project.eu/ld/ontology#HCBScope1Emissions">HCB</a></li>
   <li><a href="#HFCScope1Emissions" title="http://usage-project.eu/ld/ontology#HFCScope1Emissions">HFC_ALC1</a></li>
   <li><a href="#HgScope1Emissions" title="http://usage-project.eu/ld/ontology#HgScope1Emissions">Hg</a></li>
+  <li><a href="#Horses" title="http://usage-project.eu/ld/ontology#Horses">Horses</a></li>
   <li><a href="#IPScope1Emissions" title="http://usage-project.eu/ld/ontology#IPScope1Emissions">INDENO_123</a></li>
   <li><a href="#IndustrialBuildings" title="http://usage-project.eu/ld/ontology#IndustrialBuildings">Industrial buildings</a></li>
   <li><a href="#InstitutionalAndServices" title="http://usage-project.eu/ld/ontology#InstitutionalAndServices">Institutional and services</a></li>
   <li><a href="#IPPU" title="http://usage-project.eu/ld/ontology#IPPU">IPPU</a></li>
+  <li><a href="#IrrigatedAgriculture" title="http://usage-project.eu/ld/ontology#IrrigatedAgriculture">Irrigated agriculture</a></li>
   <li><a href="#Livestock" title="http://usage-project.eu/ld/ontology#Livestock">Livestock</a></li>
+  <li><a href="#MunicipalFleet" title="http://usage-project.eu/ld/ontology#MunicipalFleet">Municipal fleet</a></li>
   <li><a href="#N2OScope1Emissions" title="http://usage-project.eu/ld/ontology#N2OScope1Emissions">N2O_ALC1</a></li>
   <li><a href="#N2OScope2Emissions" title="http://usage-project.eu/ld/ontology#N2OScope2Emissions">N2O_ALC2</a></li>
   <li><a href="#N2OScope3Emissions" title="http://usage-project.eu/ld/ontology#N2OScope3Emissions">N2O_ALC3</a></li>
@@ -1744,16 +1804,22 @@ This section provides details for each class and property defined by The Urban D
   <li><a href="#PFCScope1Emissions" title="http://usage-project.eu/ld/ontology#PFCScope1Emissions">PFC_ALC1</a></li>
   <li><a href="#PM10Scope1Emissions" title="http://usage-project.eu/ld/ontology#PM10Scope1Emissions">PM10</a></li>
   <li><a href="#PM2.5Scope1Emissions" title="http://usage-project.eu/ld/ontology#PM2.5Scope1Emissions">PM2.5</a></li>
+  <li><a href="#Poultry" title="http://usage-project.eu/ld/ontology#Poultry">Poultry</a></li>
+  <li><a href="#Rabbits" title="http://usage-project.eu/ld/ontology#Rabbits">Rabbits</a></li>
+  <li><a href="#RainfedAgriculture" title="http://usage-project.eu/ld/ontology#RainfedAgriculture">Rainfed agriculture</a></li>
   <li><a href="#ResidentialBuildings" title="http://usage-project.eu/ld/ontology#ResidentialBuildings">Residential buildings</a></li>
   <li><a href="#SeScope1Emissions" title="http://usage-project.eu/ld/ontology#SeScope1Emissions">Se</a></li>
   <li><a href="#SF6Scope1Emissions" title="http://usage-project.eu/ld/ontology#SF6Scope1Emissions">SF6_ALC1</a></li>
+  <li><a href="#Sheep" title="http://usage-project.eu/ld/ontology#Sheep">Sheep</a></li>
   <li><a href="#SO2Scope1Emissions" title="http://usage-project.eu/ld/ontology#SO2Scope1Emissions">SO2</a></li>
   <li><a href="#Stationary" title="http://usage-project.eu/ld/ontology#Stationary">Stationary</a></li>
+  <li><a href="#http://qudt.org/vocab/unit/TONNE" title="http://qudt.org/vocab/unit/TONNE">Tonne</a></li>
   <li><a href="#TotalHeavyMetalsScope1Emissions" title="http://usage-project.eu/ld/ontology#TotalHeavyMetalsScope1Emissions">TOTAL_MPESADOS</a></li>
   <li><a href="#TotalPOPsScope1Emissions" title="http://usage-project.eu/ld/ontology#TotalPOPsScope1Emissions">TOTAL_POPs</a></li>
   <li><a href="#Transport" title="http://usage-project.eu/ld/ontology#Transport">Transport</a></li>
   <li><a href="#TSPScope1Emissions" title="http://usage-project.eu/ld/ontology#TSPScope1Emissions">TSP</a></li>
   <li><a href="#UrbanWoodland" title="http://usage-project.eu/ld/ontology#UrbanWoodland">Urban woodland</a></li>
+  <li><a href="#GHGEmissionsVariation" title="http://usage-project.eu/ld/ontology#GHGEmissionsVariation">VARIACION_GEI</a></li>
   <li><a href="#Waste" title="http://usage-project.eu/ld/ontology#Waste">Waste</a></li>
   <li><a href="#ZnScope1Emissions" title="http://usage-project.eu/ld/ontology#ZnScope1Emissions">Zn</a></li>
  </ul>
@@ -1799,6 +1865,27 @@ This section provides details for each class and property defined by The Urban D
    </dt>
    <dd>
     <a href="#https://saref.etsi.org/saref4city/KeyPerformanceIndicator" title="https://saref.etsi.org/saref4city/KeyPerformanceIndicator">Key Performance Indicator</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="Aviation">
+  <h3>Aviation<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://usage-project.eu/ld/ontology#Aviation</p>
+  <div class="comment">
+   <span class="markdown">Aviation subsector.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#Sector" title="http://usage-project.eu/ld/ontology#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="#http://www.w3.org/2004/02/skos/core#broader" title="http://www.w3.org/2004/02/skos/core#broader">has broader</a> <sup class="type-op" title="object property">op</sup> <a href="#Transport" title="http://usage-project.eu/ld/ontology#Transport">Transport</a> <sup class="type-ni" title="named individual">ni</sup>
    </dd>
   </dl>
  </div>
@@ -2027,6 +2114,27 @@ This section provides details for each class and property defined by The Urban D
    </dd>
   </dl>
  </div>
+ <div class="entity" id="Cattle">
+  <h3>Cattle<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://usage-project.eu/ld/ontology#Cattle</p>
+  <div class="comment">
+   <span class="markdown">Cattle subsector.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#Sector" title="http://usage-project.eu/ld/ontology#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="#http://www.w3.org/2004/02/skos/core#broader" title="http://www.w3.org/2004/02/skos/core#broader">has broader</a> <sup class="type-op" title="object property">op</sup> <a href="#Livestock" title="http://usage-project.eu/ld/ontology#Livestock">Livestock</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
  <div class="entity" id="CdScope1Emissions">
   <h3>Cd<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://usage-project.eu/ld/ontology#CdScope1Emissions</p>
@@ -2222,6 +2330,42 @@ This section provides details for each class and property defined by The Urban D
    </dd>
   </dl>
  </div>
+ <div class="entity" id="GHGEmissions">
+  <h3>GEI<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://usage-project.eu/ld/ontology#GHGEmissions</p>
+  <div class="comment">
+   <span class="markdown">Gases de efecto invernadero (GEI).</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#https://saref.etsi.org/saref4city/KeyPerformanceIndicator" title="https://saref.etsi.org/saref4city/KeyPerformanceIndicator">Key Performance Indicator</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="Goats">
+  <h3>Goats<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://usage-project.eu/ld/ontology#Goats</p>
+  <div class="comment">
+   <span class="markdown">Goats subsector.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#Sector" title="http://usage-project.eu/ld/ontology#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="#http://www.w3.org/2004/02/skos/core#broader" title="http://www.w3.org/2004/02/skos/core#broader">has broader</a> <sup class="type-op" title="object property">op</sup> <a href="#Livestock" title="http://usage-project.eu/ld/ontology#Livestock">Livestock</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
  <div class="entity" id="HCBScope1Emissions">
   <h3>HCB<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://usage-project.eu/ld/ontology#HCBScope1Emissions</p>
@@ -2264,6 +2408,27 @@ This section provides details for each class and property defined by The Urban D
    </dt>
    <dd>
     <a href="#https://saref.etsi.org/saref4city/KeyPerformanceIndicator" title="https://saref.etsi.org/saref4city/KeyPerformanceIndicator">Key Performance Indicator</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="Horses">
+  <h3>Horses<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://usage-project.eu/ld/ontology#Horses</p>
+  <div class="comment">
+   <span class="markdown">Horses subsector.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#Sector" title="http://usage-project.eu/ld/ontology#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="#http://www.w3.org/2004/02/skos/core#broader" title="http://www.w3.org/2004/02/skos/core#broader">has broader</a> <sup class="type-op" title="object property">op</sup> <a href="#Livestock" title="http://usage-project.eu/ld/ontology#Livestock">Livestock</a> <sup class="type-ni" title="named individual">ni</sup>
    </dd>
   </dl>
  </div>
@@ -2339,6 +2504,27 @@ This section provides details for each class and property defined by The Urban D
    </dd>
   </dl>
  </div>
+ <div class="entity" id="IrrigatedAgriculture">
+  <h3>Irrigated agriculture<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://usage-project.eu/ld/ontology#IrrigatedAgriculture</p>
+  <div class="comment">
+   <span class="markdown">Irrigated agriculture subsector.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#Sector" title="http://usage-project.eu/ld/ontology#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="#http://www.w3.org/2004/02/skos/core#broader" title="http://www.w3.org/2004/02/skos/core#broader">has broader</a> <sup class="type-op" title="object property">op</sup> <a href="#Agriculture" title="http://usage-project.eu/ld/ontology#Agriculture">Agriculture</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
  <div class="entity" id="Livestock">
   <h3>Livestock<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://usage-project.eu/ld/ontology#Livestock</p>
@@ -2357,6 +2543,27 @@ This section provides details for each class and property defined by The Urban D
    </dt>
    <dd>
     <a href="#http://www.w3.org/2004/02/skos/core#broader" title="http://www.w3.org/2004/02/skos/core#broader">has broader</a> <sup class="type-op" title="object property">op</sup> <a href="#AFOLU" title="http://usage-project.eu/ld/ontology#AFOLU">AFOLU</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="MunicipalFleet">
+  <h3>Municipal fleet<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://usage-project.eu/ld/ontology#MunicipalFleet</p>
+  <div class="comment">
+   <span class="markdown">Municipal fleet subsector.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#Sector" title="http://usage-project.eu/ld/ontology#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="#http://www.w3.org/2004/02/skos/core#broader" title="http://www.w3.org/2004/02/skos/core#broader">has broader</a> <sup class="type-op" title="object property">op</sup> <a href="#OnRoadTransport" title="http://usage-project.eu/ld/ontology#OnRoadTransport">On-road transport</a> <sup class="type-ni" title="named individual">ni</sup>
    </dd>
   </dl>
  </div>
@@ -2603,6 +2810,69 @@ This section provides details for each class and property defined by The Urban D
    </dd>
   </dl>
  </div>
+ <div class="entity" id="Poultry">
+  <h3>Poultry<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://usage-project.eu/ld/ontology#Poultry</p>
+  <div class="comment">
+   <span class="markdown">Poultry subsector.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#Sector" title="http://usage-project.eu/ld/ontology#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="#http://www.w3.org/2004/02/skos/core#broader" title="http://www.w3.org/2004/02/skos/core#broader">has broader</a> <sup class="type-op" title="object property">op</sup> <a href="#Livestock" title="http://usage-project.eu/ld/ontology#Livestock">Livestock</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="Rabbits">
+  <h3>Rabbits<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://usage-project.eu/ld/ontology#Rabbits</p>
+  <div class="comment">
+   <span class="markdown">Rabbits subsector.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#Sector" title="http://usage-project.eu/ld/ontology#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="#http://www.w3.org/2004/02/skos/core#broader" title="http://www.w3.org/2004/02/skos/core#broader">has broader</a> <sup class="type-op" title="object property">op</sup> <a href="#Livestock" title="http://usage-project.eu/ld/ontology#Livestock">Livestock</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="RainfedAgriculture">
+  <h3>Rainfed agriculture<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://usage-project.eu/ld/ontology#RainfedAgriculture</p>
+  <div class="comment">
+   <span class="markdown">Rainfed agriculture&nbsp;subsector.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#Sector" title="http://usage-project.eu/ld/ontology#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="#http://www.w3.org/2004/02/skos/core#broader" title="http://www.w3.org/2004/02/skos/core#broader">has broader</a> <sup class="type-op" title="object property">op</sup> <a href="#Agriculture" title="http://usage-project.eu/ld/ontology#Agriculture">Agriculture</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
  <div class="entity" id="ResidentialBuildings">
   <h3>Residential buildings<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://usage-project.eu/ld/ontology#ResidentialBuildings</p>
@@ -2654,6 +2924,27 @@ This section provides details for each class and property defined by The Urban D
    </dd>
   </dl>
  </div>
+ <div class="entity" id="Sheep">
+  <h3>Sheep<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://usage-project.eu/ld/ontology#Sheep</p>
+  <div class="comment">
+   <span class="markdown">Sheep subsector.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#Sector" title="http://usage-project.eu/ld/ontology#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="#http://www.w3.org/2004/02/skos/core#broader" title="http://www.w3.org/2004/02/skos/core#broader">has broader</a> <sup class="type-op" title="object property">op</sup> <a href="#Livestock" title="http://usage-project.eu/ld/ontology#Livestock">Livestock</a> <sup class="type-ni" title="named individual">ni</sup>
+   </dd>
+  </dl>
+ </div>
  <div class="entity" id="SO2Scope1Emissions">
   <h3>SO2<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://usage-project.eu/ld/ontology#SO2Scope1Emissions</p>
@@ -2681,6 +2972,83 @@ This section provides details for each class and property defined by The Urban D
    </dt>
    <dd>
     <a href="#Sector" title="http://usage-project.eu/ld/ontology#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="http://qudt.org/vocab/unit/TONNE">
+  <h3>Tonne<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://qudt.org/vocab/unit/TONNE</p>
+  <dl class="definedBy">
+   <dt>
+    Is defined by
+   </dt>
+   <dd>
+    <a href="http://qudt.org/vocab/unit">http://qudt.org/vocab/unit</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="http://qudt.org/schema/qudt/Unit" target="_blank" title="http://qudt.org/schema/qudt/Unit">Unit</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dd>
+    <a href="#https://saref.etsi.org/core/UnitOfMeasure" title="https://saref.etsi.org/core/UnitOfMeasure">Unit of measure</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+   <dt>
+    has facts
+   </dt>
+   <dd>
+    <a href="http://purl.org/dc/terms/description" target="_blank" title="http://purl.org/dc/terms/description">description</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"1,000-fold of the SI base unit kilogram"^^<a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML" target="_blank" title="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">H T M L</a> </span>
+   </dd>
+   <dd>
+    <a href="http://qudt.org/schema/qudt/applicableSystem" target="_blank" title="http://qudt.org/schema/qudt/applicableSystem">applicable System</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="http://qudt.org/vocab/sou/CGS" target="_blank" title="http://qudt.org/vocab/sou/CGS">C G S</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="http://qudt.org/schema/qudt/applicableSystem" target="_blank" title="http://qudt.org/schema/qudt/applicableSystem">applicable System</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="http://qudt.org/vocab/sou/CGS-EMU" target="_blank" title="http://qudt.org/vocab/sou/CGS-EMU">C G S E M U</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="http://qudt.org/schema/qudt/applicableSystem" target="_blank" title="http://qudt.org/schema/qudt/applicableSystem">applicable System</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="http://qudt.org/vocab/sou/CGS-GAUSS" target="_blank" title="http://qudt.org/vocab/sou/CGS-GAUSS">C G S G A U S S</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="http://qudt.org/schema/qudt/applicableSystem" target="_blank" title="http://qudt.org/schema/qudt/applicableSystem">applicable System</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="http://qudt.org/vocab/sou/SI" target="_blank" title="http://qudt.org/vocab/sou/SI">S I</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="http://qudt.org/schema/qudt/conversionMultiplier" target="_blank" title="http://qudt.org/schema/qudt/conversionMultiplier">conversion Multiplier</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"1000.0"^^<a href="http://www.w3.org/2001/XMLSchema#decimal" target="_blank" title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a> </span>
+   </dd>
+   <dd>
+    <a href="http://qudt.org/schema/qudt/conversionMultiplierSN" target="_blank" title="http://qudt.org/schema/qudt/conversionMultiplierSN">conversion Multiplier S N</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"1000.0"^^<a href="http://www.w3.org/2001/XMLSchema#double" target="_blank" title="http://www.w3.org/2001/XMLSchema#double">double</a> </span>
+   </dd>
+   <dd>
+    <a href="http://qudt.org/schema/qudt/exactMatch" target="_blank" title="http://qudt.org/schema/qudt/exactMatch">exact Match</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="http://qudt.org/vocab/unit/TON_Metric" target="_blank" title="http://qudt.org/vocab/unit/TON_Metric">T O N Metric</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="http://qudt.org/schema/qudt/hasDimensionVector" target="_blank" title="http://qudt.org/schema/qudt/hasDimensionVector">has Dimension Vector</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="http://qudt.org/vocab/dimensionvector/A0E0L0I0M1H0T0D0" target="_blank" title="http://qudt.org/vocab/dimensionvector/A0E0L0I0M1H0T0D0">A0 E0 L0 I0 M1 H0 T0 D0</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="http://qudt.org/schema/qudt/hasQuantityKind" target="_blank" title="http://qudt.org/schema/qudt/hasQuantityKind">has Quantity Kind</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="http://qudt.org/vocab/quantitykind/CO2Equivalent" target="_blank" title="http://qudt.org/vocab/quantitykind/CO2Equivalent">C O2 Equivalent</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="http://qudt.org/schema/qudt/hasQuantityKind" target="_blank" title="http://qudt.org/schema/qudt/hasQuantityKind">has Quantity Kind</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="http://qudt.org/vocab/quantitykind/Mass" target="_blank" title="http://qudt.org/vocab/quantitykind/Mass">Mass</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="http://qudt.org/schema/qudt/plainTextDescription" target="_blank" title="http://qudt.org/schema/qudt/plainTextDescription">plain Text Description</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"1,000-fold of the SI base unit kilogram"</span>
+   </dd>
+   <dd>
+    <a href="http://qudt.org/schema/qudt/siExactMatch" target="_blank" title="http://qudt.org/schema/qudt/siExactMatch">si Exact Match</a> <sup class="type-ap" title="annotation property">ap</sup> <a href="https://si-digital-framework.org/SI/units/tonne" target="_blank" title="https://si-digital-framework.org/SI/units/tonne">tonne</a> <sup class="type-ep" title="external property">ep</sup>
+   </dd>
+   <dd>
+    <a href="http://qudt.org/schema/qudt/symbol" target="_blank" title="http://qudt.org/schema/qudt/symbol">symbol</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"t"</span>
+   </dd>
+   <dd>
+    <a href="http://qudt.org/schema/qudt/ucumCode" target="_blank" title="http://qudt.org/schema/qudt/ucumCode">ucum Code</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"t"^^<a href="http://qudt.org/schema/qudt/UCUMcs" target="_blank" title="http://qudt.org/schema/qudt/UCUMcs">U C U Mcs</a> <sup class="type-ep" title="external property">ep</sup> </span>
+   </dd>
+   <dd>
+    <a href="http://qudt.org/schema/qudt/udunitsCode" target="_blank" title="http://qudt.org/schema/qudt/udunitsCode">udunits Code</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"t"</span>
+   </dd>
+   <dd>
+    <a href="http://qudt.org/schema/qudt/uneceCommonCode" target="_blank" title="http://qudt.org/schema/qudt/uneceCommonCode">unece Common Code</a> <sup class="type-ap" title="annotation property">ap</sup> <span class="literal">"TNE"</span>
    </dd>
   </dl>
  </div>
@@ -2756,6 +3124,21 @@ This section provides details for each class and property defined by The Urban D
    </dt>
    <dd>
     <a href="#Sector" title="http://usage-project.eu/ld/ontology#Sector">Sector</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="GHGEmissionsVariation">
+  <h3>VARIACION_GEI<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://usage-project.eu/ld/ontology#GHGEmissionsVariation</p>
+  <div class="comment">
+   <span class="markdown">Variación de los Gases de efecto invernadero (GEI).</span>
+  </div>
+  <dl class="description">
+   <dt>
+    belongs to
+   </dt>
+   <dd>
+    <a href="#https://saref.etsi.org/saref4city/KeyPerformanceIndicator" title="https://saref.etsi.org/saref4city/KeyPerformanceIndicator">Key Performance Indicator</a> <sup class="type-c" title="class">c</sup>
    </dd>
   </dl>
  </div>

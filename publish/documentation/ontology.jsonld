@@ -283,11 +283,122 @@
   "@id" : "http://purl.org/dc/elements/1.1/title",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/UCUMcs",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/Unit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/applicableSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/conversionMultiplier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/conversionMultiplierSN",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/exactMatch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/hasDimensionVector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/hasQuantityKind",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/plainTextDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/siExactMatch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/symbol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/ucumCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/udunitsCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/uneceCommonCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://qudt.org/vocab/unit/TONNE",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML",
+    "@value" : "1,000-fold of the SI base unit kilogram"
+  } ],
+  "http://qudt.org/schema/qudt/applicableSystem" : [ {
+    "@id" : "http://qudt.org/vocab/sou/CGS"
+  }, {
+    "@id" : "http://qudt.org/vocab/sou/CGS-EMU"
+  }, {
+    "@id" : "http://qudt.org/vocab/sou/CGS-GAUSS"
+  }, {
+    "@id" : "http://qudt.org/vocab/sou/SI"
+  } ],
+  "http://qudt.org/schema/qudt/conversionMultiplier" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1000.0"
+  } ],
+  "http://qudt.org/schema/qudt/conversionMultiplierSN" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "1000.0"
+  } ],
+  "http://qudt.org/schema/qudt/exactMatch" : [ {
+    "@id" : "http://qudt.org/vocab/unit/TON_Metric"
+  } ],
+  "http://qudt.org/schema/qudt/hasDimensionVector" : [ {
+    "@id" : "http://qudt.org/vocab/dimensionvector/A0E0L0I0M1H0T0D0"
+  } ],
+  "http://qudt.org/schema/qudt/hasQuantityKind" : [ {
+    "@id" : "http://qudt.org/vocab/quantitykind/CO2Equivalent"
+  }, {
+    "@id" : "http://qudt.org/vocab/quantitykind/Mass"
+  } ],
+  "http://qudt.org/schema/qudt/plainTextDescription" : [ {
+    "@value" : "1,000-fold of the SI base unit kilogram"
+  } ],
+  "http://qudt.org/schema/qudt/siExactMatch" : [ {
+    "@id" : "https://si-digital-framework.org/SI/units/tonne"
+  } ],
+  "http://qudt.org/schema/qudt/symbol" : [ {
+    "@value" : "t"
+  } ],
+  "http://qudt.org/schema/qudt/ucumCode" : [ {
+    "@type" : "http://qudt.org/schema/qudt/UCUMcs",
+    "@value" : "t"
+  } ],
+  "http://qudt.org/schema/qudt/udunitsCode" : [ {
+    "@value" : "t"
+  } ],
+  "http://qudt.org/schema/qudt/uneceCommonCode" : [ {
+    "@value" : "TNE"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://qudt.org/schema/qudt/Unit"
+  }, {
+    "@id" : "https://saref.etsi.org/core/UnitOfMeasure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://qudt.org/vocab/unit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tonne"
+  } ]
 }, {
   "@id" : "http://usage-project.eu/ld/ontology#",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
@@ -382,6 +493,23 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
     "@value" : "C_GASOLEO_A"
+  } ]
+}, {
+  "@id" : "http://usage-project.eu/ld/ontology#Aviation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://usage-project.eu/ld/ontology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Aviation subsector."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Aviation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://usage-project.eu/ld/ontology#Transport"
   } ]
 }, {
   "@id" : "http://usage-project.eu/ld/ontology#BCScope1Emissions",
@@ -538,6 +666,26 @@
     "@value" : "CO"
   } ]
 }, {
+  "@id" : "http://usage-project.eu/ld/ontology#Cattle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://usage-project.eu/ld/ontology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Cattle subsector."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Bóvidos"
+  }, {
+    "@language" : "en",
+    "@value" : "Cattle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://usage-project.eu/ld/ontology#Livestock"
+  } ]
+}, {
   "@id" : "http://usage-project.eu/ld/ontology#CdScope1Emissions",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -621,6 +769,34 @@
     "@value" : "C_ELECTRICIDAD_GDO"
   } ]
 }, {
+  "@id" : "http://usage-project.eu/ld/ontology#GHGEmissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Gases de efecto invernadero (GEI)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "GEI"
+  } ]
+}, {
+  "@id" : "http://usage-project.eu/ld/ontology#GHGEmissionsVariation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Variación de los Gases de efecto invernadero (GEI)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "VARIACION_GEI"
+  } ]
+}, {
   "@id" : "http://usage-project.eu/ld/ontology#GasolineConsumption",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -633,6 +809,26 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
     "@value" : "C_GASOLINA"
+  } ]
+}, {
+  "@id" : "http://usage-project.eu/ld/ontology#Goats",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://usage-project.eu/ld/ontology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Goats subsector."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Caprino"
+  }, {
+    "@language" : "en",
+    "@value" : "Goats"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://usage-project.eu/ld/ontology#Livestock"
   } ]
 }, {
   "@id" : "http://usage-project.eu/ld/ontology#HCBScope1Emissions",
@@ -689,6 +885,26 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
     "@value" : "Hg"
+  } ]
+}, {
+  "@id" : "http://usage-project.eu/ld/ontology#Horses",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://usage-project.eu/ld/ontology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Horses subsector."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Horses"
+  }, {
+    "@language" : "es",
+    "@value" : "Équidos"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://usage-project.eu/ld/ontology#Livestock"
   } ]
 }, {
   "@id" : "http://usage-project.eu/ld/ontology#IPPU",
@@ -753,6 +969,23 @@
     "@id" : "http://usage-project.eu/ld/ontology#Stationary"
   } ]
 }, {
+  "@id" : "http://usage-project.eu/ld/ontology#IrrigatedAgriculture",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://usage-project.eu/ld/ontology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Irrigated agriculture subsector."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Irrigated agriculture"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://usage-project.eu/ld/ontology#Agriculture"
+  } ]
+}, {
   "@id" : "http://usage-project.eu/ld/ontology#LPGConsumption",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -782,6 +1015,23 @@
   } ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
     "@id" : "http://usage-project.eu/ld/ontology#AFOLU"
+  } ]
+}, {
+  "@id" : "http://usage-project.eu/ld/ontology#MunicipalFleet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://usage-project.eu/ld/ontology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Municipal fleet subsector."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Municipal fleet"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://usage-project.eu/ld/ontology#OnRoadTransport"
   } ]
 }, {
   "@id" : "http://usage-project.eu/ld/ontology#N2OScope1Emissions",
@@ -1101,6 +1351,63 @@
     "@value" : "Pb"
   } ]
 }, {
+  "@id" : "http://usage-project.eu/ld/ontology#Poultry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://usage-project.eu/ld/ontology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Poultry subsector."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Aves de corral"
+  }, {
+    "@language" : "en",
+    "@value" : "Poultry"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://usage-project.eu/ld/ontology#Livestock"
+  } ]
+}, {
+  "@id" : "http://usage-project.eu/ld/ontology#Rabbits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://usage-project.eu/ld/ontology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Rabbits subsector."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Conejos"
+  }, {
+    "@language" : "en",
+    "@value" : "Rabbits"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://usage-project.eu/ld/ontology#Livestock"
+  } ]
+}, {
+  "@id" : "http://usage-project.eu/ld/ontology#RainfedAgriculture",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://usage-project.eu/ld/ontology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Rainfed agriculture subsector."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rainfed agriculture"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://usage-project.eu/ld/ontology#Agriculture"
+  } ]
+}, {
   "@id" : "http://usage-project.eu/ld/ontology#ResidentialBuildings",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -1171,6 +1478,26 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ]
+}, {
+  "@id" : "http://usage-project.eu/ld/ontology#Sheep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://usage-project.eu/ld/ontology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Sheep subsector."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Ovino"
+  }, {
+    "@language" : "en",
+    "@value" : "Sheep"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://usage-project.eu/ld/ontology#Livestock"
   } ]
 }, {
   "@id" : "http://usage-project.eu/ld/ontology#Stationary",
@@ -1626,6 +1953,9 @@
   } ]
 }, {
   "@id" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML",
   "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
 }, {
   "@id" : "http://www.w3.org/2000/01/rdf-schema#comment",

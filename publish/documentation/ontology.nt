@@ -37,11 +37,50 @@
 # http://purl.org/dc/elements/1.1/title
 <http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://purl.org/vocab/vann/preferredNamespacePrefix
 <http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/vocab/vann/preferredNamespaceUri
 <http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://qudt.org/schema/qudt/applicableSystem
+<http://qudt.org/schema/qudt/applicableSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://qudt.org/schema/qudt/conversionMultiplier
+<http://qudt.org/schema/qudt/conversionMultiplier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://qudt.org/schema/qudt/conversionMultiplierSN
+<http://qudt.org/schema/qudt/conversionMultiplierSN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://qudt.org/schema/qudt/exactMatch
+<http://qudt.org/schema/qudt/exactMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://qudt.org/schema/qudt/hasDimensionVector
+<http://qudt.org/schema/qudt/hasDimensionVector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://qudt.org/schema/qudt/hasQuantityKind
+<http://qudt.org/schema/qudt/hasQuantityKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://qudt.org/schema/qudt/plainTextDescription
+<http://qudt.org/schema/qudt/plainTextDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://qudt.org/schema/qudt/siExactMatch
+<http://qudt.org/schema/qudt/siExactMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://qudt.org/schema/qudt/symbol
+<http://qudt.org/schema/qudt/symbol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://qudt.org/schema/qudt/ucumCode
+<http://qudt.org/schema/qudt/ucumCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://qudt.org/schema/qudt/udunitsCode
+<http://qudt.org/schema/qudt/udunitsCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://qudt.org/schema/qudt/uneceCommonCode
+<http://qudt.org/schema/qudt/uneceCommonCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://www.w3.org/2000/01/rdf-schema#comment
 <http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -84,8 +123,14 @@
 # #################################################################
 # 
 # 
+# http://qudt.org/schema/qudt/UCUMcs
+<http://qudt.org/schema/qudt/UCUMcs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
 # http://www.opengis.net/ont/geosparql#wktLiteral
 <http://www.opengis.net/ont/geosparql#wktLiteral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
 # 
 # http://www.w3.org/2001/XMLSchema#date
 <http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
@@ -320,6 +365,9 @@
 # #
 # #################################################################
 # 
+# 
+# http://qudt.org/schema/qudt/Unit
+<http://qudt.org/schema/qudt/Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # http://usage-project.eu/ld/ontology#Cell
 <http://usage-project.eu/ld/ontology#Cell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -685,6 +733,30 @@ _:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # #################################################################
 # 
 # 
+# http://qudt.org/vocab/unit/TONNE
+<http://qudt.org/vocab/unit/TONNE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://qudt.org/vocab/unit/TONNE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/Unit> .
+<http://qudt.org/vocab/unit/TONNE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/core/UnitOfMeasure> .
+<http://qudt.org/vocab/unit/TONNE> <http://purl.org/dc/terms/description> "1,000-fold of the SI base unit kilogram"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> .
+<http://qudt.org/vocab/unit/TONNE> <http://qudt.org/schema/qudt/applicableSystem> <http://qudt.org/vocab/sou/CGS> .
+<http://qudt.org/vocab/unit/TONNE> <http://qudt.org/schema/qudt/applicableSystem> <http://qudt.org/vocab/sou/CGS-EMU> .
+<http://qudt.org/vocab/unit/TONNE> <http://qudt.org/schema/qudt/applicableSystem> <http://qudt.org/vocab/sou/CGS-GAUSS> .
+<http://qudt.org/vocab/unit/TONNE> <http://qudt.org/schema/qudt/applicableSystem> <http://qudt.org/vocab/sou/SI> .
+<http://qudt.org/vocab/unit/TONNE> <http://qudt.org/schema/qudt/conversionMultiplier> "1000.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://qudt.org/vocab/unit/TONNE> <http://qudt.org/schema/qudt/conversionMultiplierSN> "1000.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://qudt.org/vocab/unit/TONNE> <http://qudt.org/schema/qudt/exactMatch> <http://qudt.org/vocab/unit/TON_Metric> .
+<http://qudt.org/vocab/unit/TONNE> <http://qudt.org/schema/qudt/hasDimensionVector> <http://qudt.org/vocab/dimensionvector/A0E0L0I0M1H0T0D0> .
+<http://qudt.org/vocab/unit/TONNE> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/CO2Equivalent> .
+<http://qudt.org/vocab/unit/TONNE> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Mass> .
+<http://qudt.org/vocab/unit/TONNE> <http://qudt.org/schema/qudt/plainTextDescription> "1,000-fold of the SI base unit kilogram" .
+<http://qudt.org/vocab/unit/TONNE> <http://qudt.org/schema/qudt/siExactMatch> <https://si-digital-framework.org/SI/units/tonne> .
+<http://qudt.org/vocab/unit/TONNE> <http://qudt.org/schema/qudt/symbol> "t" .
+<http://qudt.org/vocab/unit/TONNE> <http://qudt.org/schema/qudt/ucumCode> "t"^^<http://qudt.org/schema/qudt/UCUMcs> .
+<http://qudt.org/vocab/unit/TONNE> <http://qudt.org/schema/qudt/udunitsCode> "t" .
+<http://qudt.org/vocab/unit/TONNE> <http://qudt.org/schema/qudt/uneceCommonCode> "TNE" .
+<http://qudt.org/vocab/unit/TONNE> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/vocab/unit> .
+<http://qudt.org/vocab/unit/TONNE> <http://www.w3.org/2000/01/rdf-schema#label> "Tonne"@en .
+# 
 # http://usage-project.eu/ld/ontology#AFOLU
 <http://usage-project.eu/ld/ontology#AFOLU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://usage-project.eu/ld/ontology#AFOLU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://usage-project.eu/ld/ontology#Sector> .
@@ -708,6 +780,13 @@ _:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://usage-project.eu/ld/ontology#AutomotiveDieselConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
 <http://usage-project.eu/ld/ontology#AutomotiveDieselConsumption> <http://www.w3.org/2000/01/rdf-schema#comment> "Consumo final de gasóleo para automoción"@es .
 <http://usage-project.eu/ld/ontology#AutomotiveDieselConsumption> <http://www.w3.org/2000/01/rdf-schema#label> "C_GASOLEO_A"@es .
+# 
+# http://usage-project.eu/ld/ontology#Aviation
+<http://usage-project.eu/ld/ontology#Aviation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://usage-project.eu/ld/ontology#Aviation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://usage-project.eu/ld/ontology#Sector> .
+<http://usage-project.eu/ld/ontology#Aviation> <http://www.w3.org/2004/02/skos/core#broader> <http://usage-project.eu/ld/ontology#Transport> .
+<http://usage-project.eu/ld/ontology#Aviation> <http://www.w3.org/2000/01/rdf-schema#comment> "Aviation subsector."@en .
+<http://usage-project.eu/ld/ontology#Aviation> <http://www.w3.org/2000/01/rdf-schema#label> "Aviation"@en .
 # 
 # http://usage-project.eu/ld/ontology#BCScope1Emissions
 <http://usage-project.eu/ld/ontology#BCScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -775,6 +854,14 @@ _:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://usage-project.eu/ld/ontology#COScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de monóxido de carbono (CO) dentro del Alcance 1. Emisiones directas."@es .
 <http://usage-project.eu/ld/ontology#COScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "CO"@es .
 # 
+# http://usage-project.eu/ld/ontology#Cattle
+<http://usage-project.eu/ld/ontology#Cattle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://usage-project.eu/ld/ontology#Cattle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://usage-project.eu/ld/ontology#Sector> .
+<http://usage-project.eu/ld/ontology#Cattle> <http://www.w3.org/2004/02/skos/core#broader> <http://usage-project.eu/ld/ontology#Livestock> .
+<http://usage-project.eu/ld/ontology#Cattle> <http://www.w3.org/2000/01/rdf-schema#comment> "Cattle subsector."@en .
+<http://usage-project.eu/ld/ontology#Cattle> <http://www.w3.org/2000/01/rdf-schema#label> "Bóvidos"@es .
+<http://usage-project.eu/ld/ontology#Cattle> <http://www.w3.org/2000/01/rdf-schema#label> "Cattle"@en .
+# 
 # http://usage-project.eu/ld/ontology#CdScope1Emissions
 <http://usage-project.eu/ld/ontology#CdScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://usage-project.eu/ld/ontology#CdScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
@@ -805,11 +892,31 @@ _:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://usage-project.eu/ld/ontology#ElectricRenewableEnergyConsumption> <http://www.w3.org/2000/01/rdf-schema#comment> "Consumo final de electricidad con Garantía de Origen (GdO) Renovable."@es .
 <http://usage-project.eu/ld/ontology#ElectricRenewableEnergyConsumption> <http://www.w3.org/2000/01/rdf-schema#label> "C_ELECTRICIDAD_GDO"@es .
 # 
+# http://usage-project.eu/ld/ontology#GHGEmissions
+<http://usage-project.eu/ld/ontology#GHGEmissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://usage-project.eu/ld/ontology#GHGEmissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://usage-project.eu/ld/ontology#GHGEmissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Gases de efecto invernadero (GEI)."@es .
+<http://usage-project.eu/ld/ontology#GHGEmissions> <http://www.w3.org/2000/01/rdf-schema#label> "GEI"@es .
+# 
+# http://usage-project.eu/ld/ontology#GHGEmissionsVariation
+<http://usage-project.eu/ld/ontology#GHGEmissionsVariation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://usage-project.eu/ld/ontology#GHGEmissionsVariation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://usage-project.eu/ld/ontology#GHGEmissionsVariation> <http://www.w3.org/2000/01/rdf-schema#comment> "Variación de los Gases de efecto invernadero (GEI)."@es .
+<http://usage-project.eu/ld/ontology#GHGEmissionsVariation> <http://www.w3.org/2000/01/rdf-schema#label> "VARIACION_GEI"@es .
+# 
 # http://usage-project.eu/ld/ontology#GasolineConsumption
 <http://usage-project.eu/ld/ontology#GasolineConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://usage-project.eu/ld/ontology#GasolineConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
 <http://usage-project.eu/ld/ontology#GasolineConsumption> <http://www.w3.org/2000/01/rdf-schema#comment> "Consumo final de gasolina"@es .
 <http://usage-project.eu/ld/ontology#GasolineConsumption> <http://www.w3.org/2000/01/rdf-schema#label> "C_GASOLINA"@es .
+# 
+# http://usage-project.eu/ld/ontology#Goats
+<http://usage-project.eu/ld/ontology#Goats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://usage-project.eu/ld/ontology#Goats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://usage-project.eu/ld/ontology#Sector> .
+<http://usage-project.eu/ld/ontology#Goats> <http://www.w3.org/2004/02/skos/core#broader> <http://usage-project.eu/ld/ontology#Livestock> .
+<http://usage-project.eu/ld/ontology#Goats> <http://www.w3.org/2000/01/rdf-schema#comment> "Goats subsector."@en .
+<http://usage-project.eu/ld/ontology#Goats> <http://www.w3.org/2000/01/rdf-schema#label> "Caprino"@es .
+<http://usage-project.eu/ld/ontology#Goats> <http://www.w3.org/2000/01/rdf-schema#label> "Goats"@en .
 # 
 # http://usage-project.eu/ld/ontology#HCBScope1Emissions
 <http://usage-project.eu/ld/ontology#HCBScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -834,6 +941,14 @@ _:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://usage-project.eu/ld/ontology#HgScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
 <http://usage-project.eu/ld/ontology#HgScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de Mercurio (Hg) dentro del Alcance 1. Emisiones directas."@es .
 <http://usage-project.eu/ld/ontology#HgScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "Hg"@es .
+# 
+# http://usage-project.eu/ld/ontology#Horses
+<http://usage-project.eu/ld/ontology#Horses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://usage-project.eu/ld/ontology#Horses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://usage-project.eu/ld/ontology#Sector> .
+<http://usage-project.eu/ld/ontology#Horses> <http://www.w3.org/2004/02/skos/core#broader> <http://usage-project.eu/ld/ontology#Livestock> .
+<http://usage-project.eu/ld/ontology#Horses> <http://www.w3.org/2000/01/rdf-schema#comment> "Horses subsector."@en .
+<http://usage-project.eu/ld/ontology#Horses> <http://www.w3.org/2000/01/rdf-schema#label> "Horses"@en .
+<http://usage-project.eu/ld/ontology#Horses> <http://www.w3.org/2000/01/rdf-schema#label> "Équidos"@es .
 # 
 # http://usage-project.eu/ld/ontology#IPPU
 <http://usage-project.eu/ld/ontology#IPPU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -861,6 +976,13 @@ _:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://usage-project.eu/ld/ontology#InstitutionalAndServices> <http://www.w3.org/2000/01/rdf-schema#comment> "Institutional and services subsector."@en .
 <http://usage-project.eu/ld/ontology#InstitutionalAndServices> <http://www.w3.org/2000/01/rdf-schema#label> "Institutional and services"@en .
 # 
+# http://usage-project.eu/ld/ontology#IrrigatedAgriculture
+<http://usage-project.eu/ld/ontology#IrrigatedAgriculture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://usage-project.eu/ld/ontology#IrrigatedAgriculture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://usage-project.eu/ld/ontology#Sector> .
+<http://usage-project.eu/ld/ontology#IrrigatedAgriculture> <http://www.w3.org/2004/02/skos/core#broader> <http://usage-project.eu/ld/ontology#Agriculture> .
+<http://usage-project.eu/ld/ontology#IrrigatedAgriculture> <http://www.w3.org/2000/01/rdf-schema#comment> "Irrigated agriculture subsector."@en .
+<http://usage-project.eu/ld/ontology#IrrigatedAgriculture> <http://www.w3.org/2000/01/rdf-schema#label> "Irrigated agriculture"@en .
+# 
 # http://usage-project.eu/ld/ontology#LPGConsumption
 <http://usage-project.eu/ld/ontology#LPGConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://usage-project.eu/ld/ontology#LPGConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
@@ -873,6 +995,13 @@ _:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://usage-project.eu/ld/ontology#Livestock> <http://www.w3.org/2004/02/skos/core#broader> <http://usage-project.eu/ld/ontology#AFOLU> .
 <http://usage-project.eu/ld/ontology#Livestock> <http://www.w3.org/2000/01/rdf-schema#comment> "Livestock subsector."@en .
 <http://usage-project.eu/ld/ontology#Livestock> <http://www.w3.org/2000/01/rdf-schema#label> "Livestock"@en .
+# 
+# http://usage-project.eu/ld/ontology#MunicipalFleet
+<http://usage-project.eu/ld/ontology#MunicipalFleet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://usage-project.eu/ld/ontology#MunicipalFleet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://usage-project.eu/ld/ontology#Sector> .
+<http://usage-project.eu/ld/ontology#MunicipalFleet> <http://www.w3.org/2004/02/skos/core#broader> <http://usage-project.eu/ld/ontology#OnRoadTransport> .
+<http://usage-project.eu/ld/ontology#MunicipalFleet> <http://www.w3.org/2000/01/rdf-schema#comment> "Municipal fleet subsector."@en .
+<http://usage-project.eu/ld/ontology#MunicipalFleet> <http://www.w3.org/2000/01/rdf-schema#label> "Municipal fleet"@en .
 # 
 # http://usage-project.eu/ld/ontology#N2OScope1Emissions
 <http://usage-project.eu/ld/ontology#N2OScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1009,6 +1138,29 @@ _:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://usage-project.eu/ld/ontology#PbScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de Plomo (Pb) dentro del Alcance 1. Emisiones directas."@es .
 <http://usage-project.eu/ld/ontology#PbScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "Pb"@es .
 # 
+# http://usage-project.eu/ld/ontology#Poultry
+<http://usage-project.eu/ld/ontology#Poultry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://usage-project.eu/ld/ontology#Poultry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://usage-project.eu/ld/ontology#Sector> .
+<http://usage-project.eu/ld/ontology#Poultry> <http://www.w3.org/2004/02/skos/core#broader> <http://usage-project.eu/ld/ontology#Livestock> .
+<http://usage-project.eu/ld/ontology#Poultry> <http://www.w3.org/2000/01/rdf-schema#comment> "Poultry subsector."@en .
+<http://usage-project.eu/ld/ontology#Poultry> <http://www.w3.org/2000/01/rdf-schema#label> "Aves de corral"@es .
+<http://usage-project.eu/ld/ontology#Poultry> <http://www.w3.org/2000/01/rdf-schema#label> "Poultry"@en .
+# 
+# http://usage-project.eu/ld/ontology#Rabbits
+<http://usage-project.eu/ld/ontology#Rabbits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://usage-project.eu/ld/ontology#Rabbits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://usage-project.eu/ld/ontology#Sector> .
+<http://usage-project.eu/ld/ontology#Rabbits> <http://www.w3.org/2004/02/skos/core#broader> <http://usage-project.eu/ld/ontology#Livestock> .
+<http://usage-project.eu/ld/ontology#Rabbits> <http://www.w3.org/2000/01/rdf-schema#comment> "Rabbits subsector."@en .
+<http://usage-project.eu/ld/ontology#Rabbits> <http://www.w3.org/2000/01/rdf-schema#label> "Conejos"@es .
+<http://usage-project.eu/ld/ontology#Rabbits> <http://www.w3.org/2000/01/rdf-schema#label> "Rabbits"@en .
+# 
+# http://usage-project.eu/ld/ontology#RainfedAgriculture
+<http://usage-project.eu/ld/ontology#RainfedAgriculture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://usage-project.eu/ld/ontology#RainfedAgriculture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://usage-project.eu/ld/ontology#Sector> .
+<http://usage-project.eu/ld/ontology#RainfedAgriculture> <http://www.w3.org/2004/02/skos/core#broader> <http://usage-project.eu/ld/ontology#Agriculture> .
+<http://usage-project.eu/ld/ontology#RainfedAgriculture> <http://www.w3.org/2000/01/rdf-schema#comment> "Rainfed agriculture subsector."@en .
+<http://usage-project.eu/ld/ontology#RainfedAgriculture> <http://www.w3.org/2000/01/rdf-schema#label> "Rainfed agriculture"@en .
+# 
 # http://usage-project.eu/ld/ontology#ResidentialBuildings
 <http://usage-project.eu/ld/ontology#ResidentialBuildings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://usage-project.eu/ld/ontology#ResidentialBuildings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://usage-project.eu/ld/ontology#Sector> .
@@ -1033,6 +1185,14 @@ _:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://usage-project.eu/ld/ontology#SeScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
 <http://usage-project.eu/ld/ontology#SeScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de Selenio (Se) dentro del Alcance 1. Emisiones directas."@es .
 <http://usage-project.eu/ld/ontology#SeScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "Se"@es .
+# 
+# http://usage-project.eu/ld/ontology#Sheep
+<http://usage-project.eu/ld/ontology#Sheep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://usage-project.eu/ld/ontology#Sheep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://usage-project.eu/ld/ontology#Sector> .
+<http://usage-project.eu/ld/ontology#Sheep> <http://www.w3.org/2004/02/skos/core#broader> <http://usage-project.eu/ld/ontology#Livestock> .
+<http://usage-project.eu/ld/ontology#Sheep> <http://www.w3.org/2000/01/rdf-schema#comment> "Sheep subsector."@en .
+<http://usage-project.eu/ld/ontology#Sheep> <http://www.w3.org/2000/01/rdf-schema#label> "Ovino"@es .
+<http://usage-project.eu/ld/ontology#Sheep> <http://www.w3.org/2000/01/rdf-schema#label> "Sheep"@en .
 # 
 # http://usage-project.eu/ld/ontology#Stationary
 <http://usage-project.eu/ld/ontology#Stationary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
