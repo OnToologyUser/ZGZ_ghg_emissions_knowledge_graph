@@ -7,6 +7,7 @@
 @prefix saref: <https://saref.etsi.org/core/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix time: <http://www.w3.org/2006/time#> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
 @prefix usage-o: <http://usage-project.eu/ld/ontology#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -27,10 +28,8 @@ vann:preferredNamespacePrefix a owl:AnnotationProperty .
 
 vann:preferredNamespaceUri a owl:AnnotationProperty .
 
-usage-o:Agriculture a usage-o:Sector,
-        owl:NamedIndividual ;
-    rdfs:label "Agriculture"@en ;
-    rdfs:comment "Agriculture subsector."@en .
+unit:TONNE a owl:NamedIndividual,
+        saref:UnitOfMeasure .
 
 usage-o:AsScope1Emissions a owl:NamedIndividual,
         s4city:KeyPerformanceIndicator ;
@@ -41,6 +40,12 @@ usage-o:AutomotiveDieselConsumption a owl:NamedIndividual,
         s4city:KeyPerformanceIndicator ;
     rdfs:label "C_GASOLEO_A"@es ;
     rdfs:comment "Consumo final de gasóleo para automoción"@es .
+
+usage-o:Aviation a usage-o:Sector,
+        owl:NamedIndividual ;
+    rdfs:label "Aviation"@en ;
+    rdfs:comment "Aviation subsector."@en ;
+    skos:broader usage-o:Transport .
 
 usage-o:BCScope1Emissions a owl:NamedIndividual,
         s4city:KeyPerformanceIndicator ;
@@ -97,6 +102,13 @@ usage-o:COScope1Emissions a owl:NamedIndividual,
     rdfs:label "CO"@es ;
     rdfs:comment "Emisiones de monóxido de carbono (CO) dentro del Alcance 1. Emisiones directas."@es .
 
+usage-o:Cattle a usage-o:Sector,
+        owl:NamedIndividual ;
+    rdfs:label "Cattle"@en,
+        "Bóvidos"@es ;
+    rdfs:comment "Cattle subsector."@en ;
+    skos:broader usage-o:Livestock .
+
 usage-o:CdScope1Emissions a owl:NamedIndividual,
         s4city:KeyPerformanceIndicator ;
     rdfs:label "Cd"@es ;
@@ -126,10 +138,27 @@ usage-o:ElectricRenewableEnergyConsumption a owl:NamedIndividual,
     rdfs:label "C_ELECTRICIDAD_GDO"@es ;
     rdfs:comment "Consumo final de electricidad con Garantía de Origen (GdO) Renovable."@es .
 
+usage-o:GHGEmissions a owl:NamedIndividual,
+        s4city:KeyPerformanceIndicator ;
+    rdfs:label "GEI"@es ;
+    rdfs:comment "Gases de efecto invernadero (GEI)."@es .
+
+usage-o:GHGEmissionsVariation a owl:NamedIndividual,
+        s4city:KeyPerformanceIndicator ;
+    rdfs:label "VARIACION_GEI"@es ;
+    rdfs:comment "Variación de los Gases de efecto invernadero (GEI)."@es .
+
 usage-o:GasolineConsumption a owl:NamedIndividual,
         s4city:KeyPerformanceIndicator ;
     rdfs:label "C_GASOLINA"@es ;
     rdfs:comment "Consumo final de gasolina"@es .
+
+usage-o:Goats a usage-o:Sector,
+        owl:NamedIndividual ;
+    rdfs:label "Goats"@en,
+        "Caprino"@es ;
+    rdfs:comment "Goats subsector."@en ;
+    skos:broader usage-o:Livestock .
 
 usage-o:HCBScope1Emissions a owl:NamedIndividual,
         s4city:KeyPerformanceIndicator ;
@@ -150,6 +179,13 @@ usage-o:HgScope1Emissions a owl:NamedIndividual,
         s4city:KeyPerformanceIndicator ;
     rdfs:label "Hg"@es ;
     rdfs:comment "Emisiones de Mercurio (Hg) dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:Horses a usage-o:Sector,
+        owl:NamedIndividual ;
+    rdfs:label "Horses"@en,
+        "Équidos"@es ;
+    rdfs:comment "Horses subsector."@en ;
+    skos:broader usage-o:Livestock .
 
 usage-o:IPPU a usage-o:Sector,
         owl:NamedIndividual ;
@@ -173,16 +209,22 @@ usage-o:InstitutionalAndServices a usage-o:Sector,
     rdfs:comment "Institutional and services subsector."@en ;
     skos:broader usage-o:Stationary .
 
+usage-o:IrrigatedAgriculture a usage-o:Sector,
+        owl:NamedIndividual ;
+    rdfs:label "Irrigated agriculture"@en ;
+    rdfs:comment "Irrigated agriculture subsector."@en ;
+    skos:broader usage-o:Agriculture .
+
 usage-o:LPGConsumption a owl:NamedIndividual,
         s4city:KeyPerformanceIndicator ;
     rdfs:label "C_GLP"@es ;
     rdfs:comment "Consumo final de GLP"@es .
 
-usage-o:Livestock a usage-o:Sector,
+usage-o:MunicipalFleet a usage-o:Sector,
         owl:NamedIndividual ;
-    rdfs:label "Livestock"@en ;
-    rdfs:comment "Livestock subsector."@en ;
-    skos:broader usage-o:AFOLU .
+    rdfs:label "Municipal fleet"@en ;
+    rdfs:comment "Municipal fleet subsector."@en ;
+    skos:broader usage-o:OnRoadTransport .
 
 usage-o:N2OScope1Emissions a owl:NamedIndividual,
         s4city:KeyPerformanceIndicator ;
@@ -291,9 +333,29 @@ usage-o:PbScope1Emissions a owl:NamedIndividual,
     rdfs:label "Pb"@es ;
     rdfs:comment "Emisiones de Plomo (Pb) dentro del Alcance 1. Emisiones directas."@es .
 
+usage-o:Poultry a usage-o:Sector,
+        owl:NamedIndividual ;
+    rdfs:label "Poultry"@en,
+        "Aves de corral"@es ;
+    rdfs:comment "Poultry subsector."@en ;
+    skos:broader usage-o:Livestock .
+
+usage-o:Rabbits a usage-o:Sector,
+        owl:NamedIndividual ;
+    rdfs:label "Rabbits"@en,
+        "Conejos"@es ;
+    rdfs:comment "Rabbits subsector."@en ;
+    skos:broader usage-o:Livestock .
+
+usage-o:RainfedAgriculture a usage-o:Sector,
+        owl:NamedIndividual ;
+    rdfs:label "Rainfed agriculture"@en ;
+    rdfs:comment "Rainfed agriculture subsector."@en ;
+    skos:broader usage-o:Agriculture .
+
 usage-o:ResidentialBuildings a usage-o:Sector,
         owl:NamedIndividual ;
-    rdfs:label "Residential buildings"@es ;
+    rdfs:label "Residential buildings"@en ;
     rdfs:comment "Residential buildings subsector."@en ;
     skos:broader usage-o:Stationary .
 
@@ -311,6 +373,13 @@ usage-o:SeScope1Emissions a owl:NamedIndividual,
         s4city:KeyPerformanceIndicator ;
     rdfs:label "Se"@es ;
     rdfs:comment "Emisiones de Selenio (Se) dentro del Alcance 1. Emisiones directas."@es .
+
+usage-o:Sheep a usage-o:Sector,
+        owl:NamedIndividual ;
+    rdfs:label "Sheep"@en,
+        "Ovino"@es ;
+    rdfs:comment "Sheep subsector."@en ;
+    skos:broader usage-o:Livestock .
 
 usage-o:TSPScope1Emissions a owl:NamedIndividual,
         s4city:KeyPerformanceIndicator ;
@@ -398,14 +467,15 @@ time:hasDateTimeDescription a owl:ObjectProperty ;
     rdfs:domain time:DateTimeInterval ;
     rdfs:range time:GeneralDateTimeDescription .
 
-saref:UnitOfMeasure a owl:Class ;
-    rdfs:label "Unit Of Measure" .
-
 saref:hasValue a owl:DatatypeProperty ;
     rdfs:label "has value" .
 
 saref:isMeasuredIn a owl:ObjectProperty ;
     rdfs:label "is measured in" .
+
+s4city:City a owl:Class ;
+    rdfs:label "City" ;
+    rdfs:subClassOf s4city:AdministrativeArea .
 
 s4city:District a owl:Class ;
     rdfs:label "District" ;
@@ -413,10 +483,6 @@ s4city:District a owl:Class ;
 
 s4city:KeyPerformanceIndicatorAssessment a owl:Class ;
     rdfs:label "Key Performance Indicator Assessment" .
-
-s4city:Neighbourhood a owl:Class ;
-    rdfs:label "Neighbourhood" ;
-    rdfs:subClassOf s4city:AdministrativeArea .
 
 s4city:quantifiesKPI a owl:ObjectProperty ;
     rdfs:label "quantifies k p i" .
@@ -440,16 +506,6 @@ usage-o: a owl:Ontology ;
     owl:versionInfo "1.0.0" ;
     mod:createdWith <https://chowlk.linkeddata.es/> .
 
-usage-o:AFOLU a usage-o:Sector,
-        owl:NamedIndividual ;
-    rdfs:label "AFOLU"@en ;
-    rdfs:comment "Agriculture, forestry & other land uses sector."@en .
-
-usage-o:Transport a usage-o:Sector,
-        owl:NamedIndividual ;
-    rdfs:label "Transport"@en ;
-    rdfs:comment "Transport sector."@en .
-
 geo:Geometry a owl:Class ;
     rdfs:label "Geometry" ;
     rdfs:subClassOf geo:SpatialObject .
@@ -470,11 +526,24 @@ time:year a owl:DatatypeProperty ;
     rdfs:label "year" ;
     rdfs:range xsd:gYear .
 
-usage-o:OnRoadTransport a usage-o:Sector,
+saref:UnitOfMeasure a owl:Class ;
+    rdfs:label "Unit Of Measure" .
+
+usage-o:AFOLU a usage-o:Sector,
         owl:NamedIndividual ;
-    rdfs:label "On-road transport"@en ;
-    rdfs:comment "On-road transport subsector."@en ;
-    skos:broader usage-o:Transport .
+    rdfs:label "AFOLU"@en ;
+    rdfs:comment "Agriculture, forestry & other land uses sector."@en .
+
+usage-o:Agriculture a usage-o:Sector,
+        owl:NamedIndividual ;
+    rdfs:label "Agriculture"@en ;
+    rdfs:comment "Agriculture subsector."@en ;
+    skos:broader usage-o:AFOLU .
+
+usage-o:Transport a usage-o:Sector,
+        owl:NamedIndividual ;
+    rdfs:label "Transport"@en ;
+    rdfs:comment "Transport sector."@en .
 
 geo:Feature a owl:Class ;
     rdfs:label "Feature" ;
@@ -493,10 +562,22 @@ s4city:AdministrativeArea a owl:Class ;
     rdfs:label "Administrative Area" ;
     rdfs:subClassOf geo:Feature .
 
+usage-o:OnRoadTransport a usage-o:Sector,
+        owl:NamedIndividual ;
+    rdfs:label "On-road transport"@en ;
+    rdfs:comment "On-road transport subsector."@en ;
+    skos:broader usage-o:Transport .
+
 usage-o:Stationary a usage-o:Sector,
         owl:NamedIndividual ;
     rdfs:label "Stationary"@en ;
     rdfs:comment "Stationary sector."@en .
+
+usage-o:Livestock a usage-o:Sector,
+        owl:NamedIndividual ;
+    rdfs:label "Livestock"@en ;
+    rdfs:comment "Livestock subsector."@en ;
+    skos:broader usage-o:AFOLU .
 
 geo:SpatialObject a owl:Class ;
     rdfs:label "Spatial Object" .

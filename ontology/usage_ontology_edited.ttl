@@ -9,6 +9,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix time: <http://www.w3.org/2006/time#> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix saref: <https://saref.etsi.org/core/> .
 @prefix s4city: <https://saref.etsi.org/saref4city/> .
@@ -57,12 +58,64 @@ dc:license rdf:type owl:AnnotationProperty .
 dc:title rdf:type owl:AnnotationProperty .
 
 
+###  http://purl.org/dc/terms/description
+dcterms:description rdf:type owl:AnnotationProperty .
+
+
 ###  http://purl.org/vocab/vann/preferredNamespacePrefix
 vann:preferredNamespacePrefix rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/vocab/vann/preferredNamespaceUri
 vann:preferredNamespaceUri rdf:type owl:AnnotationProperty .
+
+
+###  http://qudt.org/schema/qudt/applicableSystem
+<http://qudt.org/schema/qudt/applicableSystem> rdf:type owl:AnnotationProperty .
+
+
+###  http://qudt.org/schema/qudt/conversionMultiplier
+<http://qudt.org/schema/qudt/conversionMultiplier> rdf:type owl:AnnotationProperty .
+
+
+###  http://qudt.org/schema/qudt/conversionMultiplierSN
+<http://qudt.org/schema/qudt/conversionMultiplierSN> rdf:type owl:AnnotationProperty .
+
+
+###  http://qudt.org/schema/qudt/exactMatch
+<http://qudt.org/schema/qudt/exactMatch> rdf:type owl:AnnotationProperty .
+
+
+###  http://qudt.org/schema/qudt/hasDimensionVector
+<http://qudt.org/schema/qudt/hasDimensionVector> rdf:type owl:AnnotationProperty .
+
+
+###  http://qudt.org/schema/qudt/hasQuantityKind
+<http://qudt.org/schema/qudt/hasQuantityKind> rdf:type owl:AnnotationProperty .
+
+
+###  http://qudt.org/schema/qudt/plainTextDescription
+<http://qudt.org/schema/qudt/plainTextDescription> rdf:type owl:AnnotationProperty .
+
+
+###  http://qudt.org/schema/qudt/siExactMatch
+<http://qudt.org/schema/qudt/siExactMatch> rdf:type owl:AnnotationProperty .
+
+
+###  http://qudt.org/schema/qudt/symbol
+<http://qudt.org/schema/qudt/symbol> rdf:type owl:AnnotationProperty .
+
+
+###  http://qudt.org/schema/qudt/ucumCode
+<http://qudt.org/schema/qudt/ucumCode> rdf:type owl:AnnotationProperty .
+
+
+###  http://qudt.org/schema/qudt/udunitsCode
+<http://qudt.org/schema/qudt/udunitsCode> rdf:type owl:AnnotationProperty .
+
+
+###  http://qudt.org/schema/qudt/uneceCommonCode
+<http://qudt.org/schema/qudt/uneceCommonCode> rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/2000/01/rdf-schema#comment
@@ -111,8 +164,16 @@ mod:createdWith rdf:type owl:AnnotationProperty .
 #    Datatypes
 #################################################################
 
+###  http://qudt.org/schema/qudt/UCUMcs
+<http://qudt.org/schema/qudt/UCUMcs> rdf:type rdfs:Datatype .
+
+
 ###  http://www.opengis.net/ont/geosparql#wktLiteral
 geo:wktLiteral rdf:type rdfs:Datatype .
+
+
+###  http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML
+rdf:HTML rdf:type rdfs:Datatype .
 
 
 ###  http://www.w3.org/2001/XMLSchema#date
@@ -377,6 +438,10 @@ s4city:hasLastUpdateDate rdf:type owl:DatatypeProperty .
 #################################################################
 #    Classes
 #################################################################
+
+###  http://qudt.org/schema/qudt/Unit
+<http://qudt.org/schema/qudt/Unit> rdf:type owl:Class .
+
 
 ###  http://usage-project.eu/ld/ontology#Cell
 usage-o:Cell rdf:type owl:Class ;
@@ -768,6 +833,31 @@ s4city:KeyPerformanceIndicatorAssessment rdf:type owl:Class ;
 #    Individuals
 #################################################################
 
+###  http://qudt.org/vocab/unit/TONNE
+unit:TONNE rdf:type owl:NamedIndividual ,
+                    <http://qudt.org/schema/qudt/Unit> ,
+                    saref:UnitOfMeasure ;
+           dcterms:description "1,000-fold of the SI base unit kilogram"^^rdf:HTML ;
+           <http://qudt.org/schema/qudt/applicableSystem> <http://qudt.org/vocab/sou/CGS> ,
+                                                          <http://qudt.org/vocab/sou/CGS-EMU> ,
+                                                          <http://qudt.org/vocab/sou/CGS-GAUSS> ,
+                                                          <http://qudt.org/vocab/sou/SI> ;
+           <http://qudt.org/schema/qudt/conversionMultiplier> 1000.0 ;
+           <http://qudt.org/schema/qudt/conversionMultiplierSN> "1000.0"^^xsd:double ;
+           <http://qudt.org/schema/qudt/exactMatch> unit:TON_Metric ;
+           <http://qudt.org/schema/qudt/hasDimensionVector> <http://qudt.org/vocab/dimensionvector/A0E0L0I0M1H0T0D0> ;
+           <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/CO2Equivalent> ,
+                                                         <http://qudt.org/vocab/quantitykind/Mass> ;
+           <http://qudt.org/schema/qudt/plainTextDescription> "1,000-fold of the SI base unit kilogram" ;
+           <http://qudt.org/schema/qudt/siExactMatch> <https://si-digital-framework.org/SI/units/tonne> ;
+           <http://qudt.org/schema/qudt/symbol> "t" ;
+           <http://qudt.org/schema/qudt/ucumCode> "t"^^<http://qudt.org/schema/qudt/UCUMcs> ;
+           <http://qudt.org/schema/qudt/udunitsCode> "t" ;
+           <http://qudt.org/schema/qudt/uneceCommonCode> "TNE" ;
+           rdfs:isDefinedBy <http://qudt.org/vocab/unit> ;
+           rdfs:label "Tonne"@en .
+
+
 ###  http://usage-project.eu/ld/ontology#AFOLU
 usage-o:AFOLU rdf:type owl:NamedIndividual ,
                        usage-o:Sector ;
@@ -794,6 +884,14 @@ usage-o:AutomotiveDieselConsumption rdf:type owl:NamedIndividual ,
                                              s4city:KeyPerformanceIndicator ;
                                     rdfs:comment "Consumo final de gasóleo para automoción"@es ;
                                     rdfs:label "C_GASOLEO_A"@es .
+
+
+###  http://usage-project.eu/ld/ontology#Aviation
+usage-o:Aviation rdf:type owl:NamedIndividual ,
+                          usage-o:Sector ;
+                 skos:broader usage-o:Transport ;
+                 rdfs:comment "Aviation subsector."@en ;
+                 rdfs:label "Aviation"@en .
 
 
 ###  http://usage-project.eu/ld/ontology#BCScope1Emissions
@@ -873,6 +971,15 @@ usage-o:COScope1Emissions rdf:type owl:NamedIndividual ,
                           rdfs:label "CO"@es .
 
 
+###  http://usage-project.eu/ld/ontology#Cattle
+usage-o:Cattle rdf:type owl:NamedIndividual ,
+                        usage-o:Sector ;
+               skos:broader usage-o:Livestock ;
+               rdfs:comment "Cattle subsector."@en ;
+               rdfs:label "Bóvidos"@es ,
+                          "Cattle"@en .
+
+
 ###  http://usage-project.eu/ld/ontology#CdScope1Emissions
 usage-o:CdScope1Emissions rdf:type owl:NamedIndividual ,
                                    s4city:KeyPerformanceIndicator ;
@@ -908,11 +1015,34 @@ usage-o:ElectricRenewableEnergyConsumption rdf:type owl:NamedIndividual ,
                                            rdfs:label "C_ELECTRICIDAD_GDO"@es .
 
 
+###  http://usage-project.eu/ld/ontology#GHGEmissions
+usage-o:GHGEmissions rdf:type owl:NamedIndividual ,
+                              s4city:KeyPerformanceIndicator ;
+                     rdfs:comment "Gases de efecto invernadero (GEI)."@es ;
+                     rdfs:label "GEI"@es .
+
+
+###  http://usage-project.eu/ld/ontology#GHGEmissionsVariation
+usage-o:GHGEmissionsVariation rdf:type owl:NamedIndividual ,
+                                       s4city:KeyPerformanceIndicator ;
+                              rdfs:comment "Variación de los Gases de efecto invernadero (GEI)."@es ;
+                              rdfs:label "VARIACION_GEI"@es .
+
+
 ###  http://usage-project.eu/ld/ontology#GasolineConsumption
 usage-o:GasolineConsumption rdf:type owl:NamedIndividual ,
                                      s4city:KeyPerformanceIndicator ;
                             rdfs:comment "Consumo final de gasolina"@es ;
                             rdfs:label "C_GASOLINA"@es .
+
+
+###  http://usage-project.eu/ld/ontology#Goats
+usage-o:Goats rdf:type owl:NamedIndividual ,
+                       usage-o:Sector ;
+              skos:broader usage-o:Livestock ;
+              rdfs:comment "Goats subsector."@en ;
+              rdfs:label "Caprino"@es ,
+                         "Goats"@en .
 
 
 ###  http://usage-project.eu/ld/ontology#HCBScope1Emissions
@@ -941,6 +1071,15 @@ usage-o:HgScope1Emissions rdf:type owl:NamedIndividual ,
                                    s4city:KeyPerformanceIndicator ;
                           rdfs:comment "Emisiones de Mercurio (Hg) dentro del Alcance 1. Emisiones directas."@es ;
                           rdfs:label "Hg"@es .
+
+
+###  http://usage-project.eu/ld/ontology#Horses
+usage-o:Horses rdf:type owl:NamedIndividual ,
+                        usage-o:Sector ;
+               skos:broader usage-o:Livestock ;
+               rdfs:comment "Horses subsector."@en ;
+               rdfs:label "Horses"@en ,
+                          "Équidos"@es .
 
 
 ###  http://usage-project.eu/ld/ontology#IPPU
@@ -973,6 +1112,14 @@ usage-o:InstitutionalAndServices rdf:type owl:NamedIndividual ,
                                  rdfs:label "Institutional and services"@en .
 
 
+###  http://usage-project.eu/ld/ontology#IrrigatedAgriculture
+usage-o:IrrigatedAgriculture rdf:type owl:NamedIndividual ,
+                                      usage-o:Sector ;
+                             skos:broader usage-o:Agriculture ;
+                             rdfs:comment "Irrigated agriculture subsector."@en ;
+                             rdfs:label "Irrigated agriculture"@en .
+
+
 ###  http://usage-project.eu/ld/ontology#LPGConsumption
 usage-o:LPGConsumption rdf:type owl:NamedIndividual ,
                                 s4city:KeyPerformanceIndicator ;
@@ -986,6 +1133,14 @@ usage-o:Livestock rdf:type owl:NamedIndividual ,
                   skos:broader usage-o:AFOLU ;
                   rdfs:comment "Livestock subsector."@en ;
                   rdfs:label "Livestock"@en .
+
+
+###  http://usage-project.eu/ld/ontology#MunicipalFleet
+usage-o:MunicipalFleet rdf:type owl:NamedIndividual ,
+                                usage-o:Sector ;
+                       skos:broader usage-o:OnRoadTransport ;
+                       rdfs:comment "Municipal fleet subsector."@en ;
+                       rdfs:label "Municipal fleet"@en .
 
 
 ###  http://usage-project.eu/ld/ontology#N2OScope1Emissions
@@ -1145,6 +1300,32 @@ usage-o:PbScope1Emissions rdf:type owl:NamedIndividual ,
                           rdfs:label "Pb"@es .
 
 
+###  http://usage-project.eu/ld/ontology#Poultry
+usage-o:Poultry rdf:type owl:NamedIndividual ,
+                         usage-o:Sector ;
+                skos:broader usage-o:Livestock ;
+                rdfs:comment "Poultry subsector."@en ;
+                rdfs:label "Aves de corral"@es ,
+                           "Poultry"@en .
+
+
+###  http://usage-project.eu/ld/ontology#Rabbits
+usage-o:Rabbits rdf:type owl:NamedIndividual ,
+                         usage-o:Sector ;
+                skos:broader usage-o:Livestock ;
+                rdfs:comment "Rabbits subsector."@en ;
+                rdfs:label "Conejos"@es ,
+                           "Rabbits"@en .
+
+
+###  http://usage-project.eu/ld/ontology#RainfedAgriculture
+usage-o:RainfedAgriculture rdf:type owl:NamedIndividual ,
+                                    usage-o:Sector ;
+                           skos:broader usage-o:Agriculture ;
+                           rdfs:comment "Rainfed agriculture subsector."@en ;
+                           rdfs:label "Rainfed agriculture"@en .
+
+
 ###  http://usage-project.eu/ld/ontology#ResidentialBuildings
 usage-o:ResidentialBuildings rdf:type owl:NamedIndividual ,
                                       usage-o:Sector ;
@@ -1172,6 +1353,15 @@ usage-o:SeScope1Emissions rdf:type owl:NamedIndividual ,
                                    s4city:KeyPerformanceIndicator ;
                           rdfs:comment "Emisiones de Selenio (Se) dentro del Alcance 1. Emisiones directas."@es ;
                           rdfs:label "Se"@es .
+
+
+###  http://usage-project.eu/ld/ontology#Sheep
+usage-o:Sheep rdf:type owl:NamedIndividual ,
+                       usage-o:Sector ;
+              skos:broader usage-o:Livestock ;
+              rdfs:comment "Sheep subsector."@en ;
+              rdfs:label "Ovino"@es ,
+                         "Sheep"@en .
 
 
 ###  http://usage-project.eu/ld/ontology#Stationary

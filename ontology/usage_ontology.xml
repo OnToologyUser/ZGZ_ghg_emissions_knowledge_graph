@@ -2377,7 +2377,7 @@
                 </mxCell>
                 <mxCell id="647" value="&lt;div&gt;skos:broader&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" parent="646" vertex="1" connectable="0">
                     <mxGeometry x="-0.1269" relative="1" as="geometry">
-                        <mxPoint x="-1" y="-373" as="offset"/>
+                        <mxPoint x="-1" y="-362" as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="648" value="" style="endArrow=open;html=1;fontColor=#000099;endFill=0;dashed=1;endSize=8;exitX=0;exitY=0.7;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0.2;entryY=1;entryDx=0;entryDy=0;" parent="1" source="633" target="412" edge="1">
