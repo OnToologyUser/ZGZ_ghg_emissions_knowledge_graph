@@ -1360,6 +1360,15 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
             rdfs:label "Stationary"@en .
 
 
+###  http://usage-project.eu/ld/ontology#Swine
+:Swine rdf:type owl:NamedIndividual ,
+                :Sector ;
+       <http://www.w3.org/2004/02/skos/core#broader> :Livestock ;
+       rdfs:comment "Swine subsector."@en ;
+       rdfs:label "Cerdos"@es ,
+                  "Swine"@en .
+
+
 ###  http://usage-project.eu/ld/ontology#TSPScope1Emissions
 :TSPScope1Emissions rdf:type owl:NamedIndividual ,
                              <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;

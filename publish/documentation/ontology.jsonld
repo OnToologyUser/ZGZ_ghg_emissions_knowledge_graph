@@ -1514,6 +1514,26 @@
     "@value" : "Stationary"
   } ]
 }, {
+  "@id" : "http://usage-project.eu/ld/ontology#Swine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://usage-project.eu/ld/ontology#Sector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Swine subsector."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Cerdos"
+  }, {
+    "@language" : "en",
+    "@value" : "Swine"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://usage-project.eu/ld/ontology#Livestock"
+  } ]
+}, {
   "@id" : "http://usage-project.eu/ld/ontology#TSPScope1Emissions",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {

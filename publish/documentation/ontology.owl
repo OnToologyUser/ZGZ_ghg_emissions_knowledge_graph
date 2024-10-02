@@ -2106,6 +2106,19 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
     
 
 
+    <!-- http://usage-project.eu/ld/ontology#Swine -->
+
+
+    <owl:NamedIndividual rdf:about="http://usage-project.eu/ld/ontology#Swine">
+        <rdf:type rdf:resource="http://usage-project.eu/ld/ontology#Sector"/>
+        <skos:broader rdf:resource="http://usage-project.eu/ld/ontology#Livestock"/>
+        <rdfs:comment xml:lang="en">Swine subsector.</rdfs:comment>
+        <rdfs:label xml:lang="es">Cerdos</rdfs:label>
+        <rdfs:label xml:lang="en">Swine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://usage-project.eu/ld/ontology#TSPScope1Emissions -->
 
 

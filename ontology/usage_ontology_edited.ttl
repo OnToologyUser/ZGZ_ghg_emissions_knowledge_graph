@@ -6,6 +6,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix time: <http://www.w3.org/2006/time#> .
@@ -71,51 +72,51 @@ vann:preferredNamespaceUri rdf:type owl:AnnotationProperty .
 
 
 ###  http://qudt.org/schema/qudt/applicableSystem
-<http://qudt.org/schema/qudt/applicableSystem> rdf:type owl:AnnotationProperty .
+qudt:applicableSystem rdf:type owl:AnnotationProperty .
 
 
 ###  http://qudt.org/schema/qudt/conversionMultiplier
-<http://qudt.org/schema/qudt/conversionMultiplier> rdf:type owl:AnnotationProperty .
+qudt:conversionMultiplier rdf:type owl:AnnotationProperty .
 
 
 ###  http://qudt.org/schema/qudt/conversionMultiplierSN
-<http://qudt.org/schema/qudt/conversionMultiplierSN> rdf:type owl:AnnotationProperty .
+qudt:conversionMultiplierSN rdf:type owl:AnnotationProperty .
 
 
 ###  http://qudt.org/schema/qudt/exactMatch
-<http://qudt.org/schema/qudt/exactMatch> rdf:type owl:AnnotationProperty .
+qudt:exactMatch rdf:type owl:AnnotationProperty .
 
 
 ###  http://qudt.org/schema/qudt/hasDimensionVector
-<http://qudt.org/schema/qudt/hasDimensionVector> rdf:type owl:AnnotationProperty .
+qudt:hasDimensionVector rdf:type owl:AnnotationProperty .
 
 
 ###  http://qudt.org/schema/qudt/hasQuantityKind
-<http://qudt.org/schema/qudt/hasQuantityKind> rdf:type owl:AnnotationProperty .
+qudt:hasQuantityKind rdf:type owl:AnnotationProperty .
 
 
 ###  http://qudt.org/schema/qudt/plainTextDescription
-<http://qudt.org/schema/qudt/plainTextDescription> rdf:type owl:AnnotationProperty .
+qudt:plainTextDescription rdf:type owl:AnnotationProperty .
 
 
 ###  http://qudt.org/schema/qudt/siExactMatch
-<http://qudt.org/schema/qudt/siExactMatch> rdf:type owl:AnnotationProperty .
+qudt:siExactMatch rdf:type owl:AnnotationProperty .
 
 
 ###  http://qudt.org/schema/qudt/symbol
-<http://qudt.org/schema/qudt/symbol> rdf:type owl:AnnotationProperty .
+qudt:symbol rdf:type owl:AnnotationProperty .
 
 
 ###  http://qudt.org/schema/qudt/ucumCode
-<http://qudt.org/schema/qudt/ucumCode> rdf:type owl:AnnotationProperty .
+qudt:ucumCode rdf:type owl:AnnotationProperty .
 
 
 ###  http://qudt.org/schema/qudt/udunitsCode
-<http://qudt.org/schema/qudt/udunitsCode> rdf:type owl:AnnotationProperty .
+qudt:udunitsCode rdf:type owl:AnnotationProperty .
 
 
 ###  http://qudt.org/schema/qudt/uneceCommonCode
-<http://qudt.org/schema/qudt/uneceCommonCode> rdf:type owl:AnnotationProperty .
+qudt:uneceCommonCode rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/2000/01/rdf-schema#comment
@@ -165,7 +166,7 @@ mod:createdWith rdf:type owl:AnnotationProperty .
 #################################################################
 
 ###  http://qudt.org/schema/qudt/UCUMcs
-<http://qudt.org/schema/qudt/UCUMcs> rdf:type rdfs:Datatype .
+qudt:UCUMcs rdf:type rdfs:Datatype .
 
 
 ###  http://www.opengis.net/ont/geosparql#wktLiteral
@@ -440,7 +441,7 @@ s4city:hasLastUpdateDate rdf:type owl:DatatypeProperty .
 #################################################################
 
 ###  http://qudt.org/schema/qudt/Unit
-<http://qudt.org/schema/qudt/Unit> rdf:type owl:Class .
+qudt:Unit rdf:type owl:Class .
 
 
 ###  http://usage-project.eu/ld/ontology#Cell
@@ -835,25 +836,25 @@ s4city:KeyPerformanceIndicatorAssessment rdf:type owl:Class ;
 
 ###  http://qudt.org/vocab/unit/TONNE
 unit:TONNE rdf:type owl:NamedIndividual ,
-                    <http://qudt.org/schema/qudt/Unit> ,
+                    qudt:Unit ,
                     saref:UnitOfMeasure ;
            dcterms:description "1,000-fold of the SI base unit kilogram"^^rdf:HTML ;
-           <http://qudt.org/schema/qudt/applicableSystem> <http://qudt.org/vocab/sou/CGS> ,
-                                                          <http://qudt.org/vocab/sou/CGS-EMU> ,
-                                                          <http://qudt.org/vocab/sou/CGS-GAUSS> ,
-                                                          <http://qudt.org/vocab/sou/SI> ;
-           <http://qudt.org/schema/qudt/conversionMultiplier> 1000.0 ;
-           <http://qudt.org/schema/qudt/conversionMultiplierSN> "1000.0"^^xsd:double ;
-           <http://qudt.org/schema/qudt/exactMatch> unit:TON_Metric ;
-           <http://qudt.org/schema/qudt/hasDimensionVector> <http://qudt.org/vocab/dimensionvector/A0E0L0I0M1H0T0D0> ;
-           <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/CO2Equivalent> ,
-                                                         <http://qudt.org/vocab/quantitykind/Mass> ;
-           <http://qudt.org/schema/qudt/plainTextDescription> "1,000-fold of the SI base unit kilogram" ;
-           <http://qudt.org/schema/qudt/siExactMatch> <https://si-digital-framework.org/SI/units/tonne> ;
-           <http://qudt.org/schema/qudt/symbol> "t" ;
-           <http://qudt.org/schema/qudt/ucumCode> "t"^^<http://qudt.org/schema/qudt/UCUMcs> ;
-           <http://qudt.org/schema/qudt/udunitsCode> "t" ;
-           <http://qudt.org/schema/qudt/uneceCommonCode> "TNE" ;
+           qudt:applicableSystem <http://qudt.org/vocab/sou/CGS> ,
+                                 <http://qudt.org/vocab/sou/CGS-EMU> ,
+                                 <http://qudt.org/vocab/sou/CGS-GAUSS> ,
+                                 <http://qudt.org/vocab/sou/SI> ;
+           qudt:conversionMultiplier 1000.0 ;
+           qudt:conversionMultiplierSN "1000.0"^^xsd:double ;
+           qudt:exactMatch unit:TON_Metric ;
+           qudt:hasDimensionVector <http://qudt.org/vocab/dimensionvector/A0E0L0I0M1H0T0D0> ;
+           qudt:hasQuantityKind <http://qudt.org/vocab/quantitykind/CO2Equivalent> ,
+                                <http://qudt.org/vocab/quantitykind/Mass> ;
+           qudt:plainTextDescription "1,000-fold of the SI base unit kilogram" ;
+           qudt:siExactMatch <https://si-digital-framework.org/SI/units/tonne> ;
+           qudt:symbol "t" ;
+           qudt:ucumCode "t"^^qudt:UCUMcs ;
+           qudt:udunitsCode "t" ;
+           qudt:uneceCommonCode "TNE" ;
            rdfs:isDefinedBy <http://qudt.org/vocab/unit> ;
            rdfs:label "Tonne"@en .
 
@@ -1369,6 +1370,15 @@ usage-o:Stationary rdf:type owl:NamedIndividual ,
                             usage-o:Sector ;
                    rdfs:comment "Stationary sector."@en ;
                    rdfs:label "Stationary"@en .
+
+
+###  http://usage-project.eu/ld/ontology#Swine
+usage-o:Swine rdf:type owl:NamedIndividual ,
+                       usage-o:Sector ;
+              skos:broader usage-o:Livestock ;
+              rdfs:comment "Swine subsector."@en ;
+              rdfs:label "Cerdos"@es ,
+                         "Swine"@en .
 
 
 ###  http://usage-project.eu/ld/ontology#TSPScope1Emissions

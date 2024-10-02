@@ -381,6 +381,13 @@ usage-o:Sheep a usage-o:Sector,
     rdfs:comment "Sheep subsector."@en ;
     skos:broader usage-o:Livestock .
 
+usage-o:Swine a usage-o:Sector,
+        owl:NamedIndividual ;
+    rdfs:label "Swine"@en,
+        "Cerdos"@es ;
+    rdfs:comment "Swine subsector."@en ;
+    skos:broader usage-o:Livestock .
+
 usage-o:TSPScope1Emissions a owl:NamedIndividual,
         s4city:KeyPerformanceIndicator ;
     rdfs:label "TSP"@es ;
@@ -573,14 +580,14 @@ usage-o:Stationary a usage-o:Sector,
     rdfs:label "Stationary"@en ;
     rdfs:comment "Stationary sector."@en .
 
+geo:SpatialObject a owl:Class ;
+    rdfs:label "Spatial Object" .
+
 usage-o:Livestock a usage-o:Sector,
         owl:NamedIndividual ;
     rdfs:label "Livestock"@en ;
     rdfs:comment "Livestock subsector."@en ;
     skos:broader usage-o:AFOLU .
-
-geo:SpatialObject a owl:Class ;
-    rdfs:label "Spatial Object" .
 
 usage-o:Sector a owl:Class ;
     rdfs:label "Sector" ;

@@ -86,7 +86,7 @@
     "id" : "8",
     "type" : "owl:Class"
   }, {
-    "id" : "14",
+    "id" : "11",
     "type" : "owl:Class"
   }, {
     "id" : "18",
@@ -110,13 +110,13 @@
     "id" : "24",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "35",
-    "type" : "owl:Class"
-  }, {
-    "id" : "37",
+    "id" : "25",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "41",
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "5",
@@ -134,7 +134,7 @@
     "id" : "66",
     "type" : "owl:Class"
   }, {
-    "id" : "71",
+    "id" : "72",
     "type" : "owl:Class"
   }, {
     "id" : "63",
@@ -149,7 +149,7 @@
     "id" : "75",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "12",
+    "id" : "13",
     "type" : "owl:Class"
   }, {
     "id" : "50",
@@ -164,7 +164,7 @@
     "id" : "87",
     "type" : "owl:Class"
   }, {
-    "id" : "13",
+    "id" : "14",
     "type" : "owl:Class"
   }, {
     "id" : "7",
@@ -176,7 +176,7 @@
     "id" : "33",
     "type" : "owl:Class"
   }, {
-    "id" : "26",
+    "id" : "27",
     "type" : "owl:Class"
   }, {
     "id" : "93",
@@ -194,7 +194,7 @@
     "id" : "68",
     "type" : "owl:Class"
   }, {
-    "id" : "28",
+    "id" : "40",
     "type" : "owl:Class"
   }, {
     "id" : "55",
@@ -238,7 +238,7 @@
     },
     "label" : {
       "IRI-based" : "Interval",
-      "en" : "A temporal entity with an extent or duration",
+      "en" : "Time interval",
       "es" : "intervalo de tiempo"
     },
     "subClasses" : [ "3" ],
@@ -276,6 +276,11 @@
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/req/core/spatial-object-class",
+        "type" : "iri"
+      }, {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
         "value" : "http://www.opengis.net/ont/geosparql#",
         "type" : "iri"
       }, {
@@ -287,11 +292,6 @@
         "identifier" : "isDefinedBy",
         "language" : "undefined",
         "value" : "http://www.opengis.net/ont/geosparql",
-        "type" : "iri"
-      }, {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/req/core/spatial-object-class",
         "type" : "iri"
       } ],
       "prefLabel" : [ {
@@ -309,12 +309,12 @@
       "example" : [ {
         "identifier" : "example",
         "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.1.2",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.1.1",
         "type" : "iri"
       }, {
         "identifier" : "example",
         "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.1.1",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.1.2",
         "type" : "iri"
       } ]
     },
@@ -417,12 +417,12 @@
         "hasQuantityKind" : [ {
           "identifier" : "hasQuantityKind",
           "language" : "undefined",
-          "value" : "http://qudt.org/vocab/quantitykind/CO2Equivalent",
+          "value" : "http://qudt.org/vocab/quantitykind/Mass",
           "type" : "iri"
         }, {
           "identifier" : "hasQuantityKind",
           "language" : "undefined",
-          "value" : "http://qudt.org/vocab/quantitykind/Mass",
+          "value" : "http://qudt.org/vocab/quantitykind/CO2Equivalent",
           "type" : "iri"
         } ],
         "siExactMatch" : [ {
@@ -440,12 +440,12 @@
         "applicableSystem" : [ {
           "identifier" : "applicableSystem",
           "language" : "undefined",
-          "value" : "http://qudt.org/vocab/sou/SI",
+          "value" : "http://qudt.org/vocab/sou/CGS",
           "type" : "iri"
         }, {
           "identifier" : "applicableSystem",
           "language" : "undefined",
-          "value" : "http://qudt.org/vocab/sou/CGS",
+          "value" : "http://qudt.org/vocab/sou/SI",
           "type" : "iri"
         }, {
           "identifier" : "applicableSystem",
@@ -477,7 +477,7 @@
       }
     } ],
     "attributes" : [ "external" ],
-    "id" : "14"
+    "id" : "11"
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "id" : "18",
@@ -530,6 +530,13 @@
       "IRI-based" : "gYear"
     }
   }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "25",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
     "iri" : "https://saref.etsi.org/saref4city/Agent",
     "baseIri" : "https://saref.etsi.org/saref4city",
     "instances" : 0,
@@ -537,18 +544,11 @@
       "IRI-based" : "Agent"
     },
     "attributes" : [ "external" ],
-    "id" : "35"
+    "id" : "31"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "37",
-    "label" : {
-      "IRI-based" : "dateTime"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "41",
+    "id" : "42",
     "label" : {
       "IRI-based" : "dateTime"
     }
@@ -566,7 +566,7 @@
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.0/req/core/feature-class",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/req/core/feature-class",
         "type" : "iri"
       }, {
         "identifier" : "isDefinedBy",
@@ -581,7 +581,7 @@
       }, {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/req/core/feature-class",
+        "value" : "http://www.opengis.net/spec/geosparql/1.0/req/core/feature-class",
         "type" : "iri"
       } ],
       "prefLabel" : [ {
@@ -599,7 +599,7 @@
       "example" : [ {
         "identifier" : "example",
         "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.3",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.2.2",
         "type" : "iri"
       }, {
         "identifier" : "example",
@@ -609,22 +609,7 @@
       }, {
         "identifier" : "example",
         "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.3.3",
-        "type" : "iri"
-      }, {
-        "identifier" : "example",
-        "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.9",
-        "type" : "iri"
-      }, {
-        "identifier" : "example",
-        "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.2.4",
-        "type" : "iri"
-      }, {
-        "identifier" : "example",
-        "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.2.2",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.7",
         "type" : "iri"
       }, {
         "identifier" : "example",
@@ -634,12 +619,12 @@
       }, {
         "identifier" : "example",
         "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.1",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.4",
         "type" : "iri"
       }, {
         "identifier" : "example",
         "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.5",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.1",
         "type" : "iri"
       }, {
         "identifier" : "example",
@@ -649,22 +634,37 @@
       }, {
         "identifier" : "example",
         "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.3.2",
-        "type" : "iri"
-      }, {
-        "identifier" : "example",
-        "language" : "undefined",
         "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.8",
         "type" : "iri"
       }, {
         "identifier" : "example",
         "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.7",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.3.2",
         "type" : "iri"
       }, {
         "identifier" : "example",
         "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.4",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.3.3",
+        "type" : "iri"
+      }, {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.3",
+        "type" : "iri"
+      }, {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.9",
+        "type" : "iri"
+      }, {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.5",
+        "type" : "iri"
+      }, {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.2.4",
         "type" : "iri"
       } ]
     },
@@ -739,24 +739,14 @@
         "es" : "Conejos"
       }
     }, {
-      "iri" : "http://usage-project.eu/ld/ontology#Waste",
+      "iri" : "http://usage-project.eu/ld/ontology#IrrigatedAgriculture",
       "baseIri" : "http://usage-project.eu/ld/ontology",
       "comment" : {
-        "en" : "Waste subsector."
+        "en" : "Irrigated agriculture subsector."
       },
       "labels" : {
-        "IRI-based" : "Waste",
-        "en" : "Waste"
-      }
-    }, {
-      "iri" : "http://usage-project.eu/ld/ontology#Aviation",
-      "baseIri" : "http://usage-project.eu/ld/ontology",
-      "comment" : {
-        "en" : "Aviation subsector."
-      },
-      "labels" : {
-        "IRI-based" : "Aviation",
-        "en" : "Aviation"
+        "IRI-based" : "IrrigatedAgriculture",
+        "en" : "Irrigated agriculture"
       }
     }, {
       "iri" : "http://usage-project.eu/ld/ontology#OnRoadTransport",
@@ -769,38 +759,6 @@
         "en" : "On-road transport"
       }
     }, {
-      "iri" : "http://usage-project.eu/ld/ontology#Goats",
-      "baseIri" : "http://usage-project.eu/ld/ontology",
-      "comment" : {
-        "en" : "Goats subsector."
-      },
-      "labels" : {
-        "IRI-based" : "Goats",
-        "en" : "Goats",
-        "es" : "Caprino"
-      }
-    }, {
-      "iri" : "http://usage-project.eu/ld/ontology#IrrigatedAgriculture",
-      "baseIri" : "http://usage-project.eu/ld/ontology",
-      "comment" : {
-        "en" : "Irrigated agriculture subsector."
-      },
-      "labels" : {
-        "IRI-based" : "IrrigatedAgriculture",
-        "en" : "Irrigated agriculture"
-      }
-    }, {
-      "iri" : "http://usage-project.eu/ld/ontology#Poultry",
-      "baseIri" : "http://usage-project.eu/ld/ontology",
-      "comment" : {
-        "en" : "Poultry subsector."
-      },
-      "labels" : {
-        "IRI-based" : "Poultry",
-        "en" : "Poultry",
-        "es" : "Aves de corral"
-      }
-    }, {
       "iri" : "http://usage-project.eu/ld/ontology#Stationary",
       "baseIri" : "http://usage-project.eu/ld/ontology",
       "comment" : {
@@ -809,16 +767,6 @@
       "labels" : {
         "IRI-based" : "Stationary",
         "en" : "Stationary"
-      }
-    }, {
-      "iri" : "http://usage-project.eu/ld/ontology#Agriculture",
-      "baseIri" : "http://usage-project.eu/ld/ontology",
-      "comment" : {
-        "en" : "Agriculture subsector."
-      },
-      "labels" : {
-        "IRI-based" : "Agriculture",
-        "en" : "Agriculture"
       }
     }, {
       "iri" : "http://usage-project.eu/ld/ontology#Horses",
@@ -873,17 +821,6 @@
         "en" : "On-road public transport"
       }
     }, {
-      "iri" : "http://usage-project.eu/ld/ontology#Sheep",
-      "baseIri" : "http://usage-project.eu/ld/ontology",
-      "comment" : {
-        "en" : "Sheep subsector."
-      },
-      "labels" : {
-        "IRI-based" : "Sheep",
-        "en" : "Sheep",
-        "es" : "Ovino"
-      }
-    }, {
       "iri" : "http://usage-project.eu/ld/ontology#Transport",
       "baseIri" : "http://usage-project.eu/ld/ontology",
       "comment" : {
@@ -904,14 +841,15 @@
         "en" : "Institutional and services"
       }
     }, {
-      "iri" : "http://usage-project.eu/ld/ontology#RainfedAgriculture",
+      "iri" : "http://usage-project.eu/ld/ontology#Swine",
       "baseIri" : "http://usage-project.eu/ld/ontology",
       "comment" : {
-        "en" : "Rainfed agriculture subsector."
+        "en" : "Swine subsector."
       },
       "labels" : {
-        "IRI-based" : "RainfedAgriculture",
-        "en" : "Rainfed agriculture"
+        "IRI-based" : "Swine",
+        "en" : "Swine",
+        "es" : "Cerdos"
       }
     }, {
       "iri" : "http://usage-project.eu/ld/ontology#MunicipalFleet",
@@ -922,6 +860,89 @@
       "labels" : {
         "IRI-based" : "MunicipalFleet",
         "en" : "Municipal fleet"
+      }
+    }, {
+      "iri" : "http://usage-project.eu/ld/ontology#ResidentialBuildings",
+      "baseIri" : "http://usage-project.eu/ld/ontology",
+      "comment" : {
+        "en" : "Residential buildings subsector."
+      },
+      "labels" : {
+        "IRI-based" : "ResidentialBuildings",
+        "es" : "Residential buildings"
+      }
+    }, {
+      "iri" : "http://usage-project.eu/ld/ontology#Waste",
+      "baseIri" : "http://usage-project.eu/ld/ontology",
+      "comment" : {
+        "en" : "Waste subsector."
+      },
+      "labels" : {
+        "IRI-based" : "Waste",
+        "en" : "Waste"
+      }
+    }, {
+      "iri" : "http://usage-project.eu/ld/ontology#Aviation",
+      "baseIri" : "http://usage-project.eu/ld/ontology",
+      "comment" : {
+        "en" : "Aviation subsector."
+      },
+      "labels" : {
+        "IRI-based" : "Aviation",
+        "en" : "Aviation"
+      }
+    }, {
+      "iri" : "http://usage-project.eu/ld/ontology#Goats",
+      "baseIri" : "http://usage-project.eu/ld/ontology",
+      "comment" : {
+        "en" : "Goats subsector."
+      },
+      "labels" : {
+        "IRI-based" : "Goats",
+        "en" : "Goats",
+        "es" : "Caprino"
+      }
+    }, {
+      "iri" : "http://usage-project.eu/ld/ontology#Poultry",
+      "baseIri" : "http://usage-project.eu/ld/ontology",
+      "comment" : {
+        "en" : "Poultry subsector."
+      },
+      "labels" : {
+        "IRI-based" : "Poultry",
+        "en" : "Poultry",
+        "es" : "Aves de corral"
+      }
+    }, {
+      "iri" : "http://usage-project.eu/ld/ontology#Agriculture",
+      "baseIri" : "http://usage-project.eu/ld/ontology",
+      "comment" : {
+        "en" : "Agriculture subsector."
+      },
+      "labels" : {
+        "IRI-based" : "Agriculture",
+        "en" : "Agriculture"
+      }
+    }, {
+      "iri" : "http://usage-project.eu/ld/ontology#Sheep",
+      "baseIri" : "http://usage-project.eu/ld/ontology",
+      "comment" : {
+        "en" : "Sheep subsector."
+      },
+      "labels" : {
+        "IRI-based" : "Sheep",
+        "en" : "Sheep",
+        "es" : "Ovino"
+      }
+    }, {
+      "iri" : "http://usage-project.eu/ld/ontology#RainfedAgriculture",
+      "baseIri" : "http://usage-project.eu/ld/ontology",
+      "comment" : {
+        "en" : "Rainfed agriculture subsector."
+      },
+      "labels" : {
+        "IRI-based" : "RainfedAgriculture",
+        "en" : "Rainfed agriculture"
       }
     }, {
       "iri" : "http://usage-project.eu/ld/ontology#UrbanWoodland",
@@ -942,16 +963,6 @@
       "labels" : {
         "IRI-based" : "IndustrialBuildings",
         "en" : "Industrial buildings"
-      }
-    }, {
-      "iri" : "http://usage-project.eu/ld/ontology#ResidentialBuildings",
-      "baseIri" : "http://usage-project.eu/ld/ontology",
-      "comment" : {
-        "en" : "Residential buildings subsector."
-      },
-      "labels" : {
-        "IRI-based" : "ResidentialBuildings",
-        "es" : "Residential buildings"
       }
     }, {
       "iri" : "http://usage-project.eu/ld/ontology#IPPU",
@@ -1005,7 +1016,7 @@
       "IRI-based" : "Collection"
     },
     "attributes" : [ "external" ],
-    "id" : "71"
+    "id" : "72"
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "id" : "63",
@@ -1042,7 +1053,7 @@
       "IRI-based" : "Measurement"
     },
     "attributes" : [ "external" ],
-    "id" : "12"
+    "id" : "13"
   }, {
     "iri" : "https://saref.etsi.org/core/Property",
     "baseIri" : "https://saref.etsi.org/core",
@@ -1320,16 +1331,6 @@
         "es" : "CH4_ALC1"
       }
     }, {
-      "iri" : "http://usage-project.eu/ld/ontology#LPGConsumption",
-      "baseIri" : "http://usage-project.eu/ld/ontology",
-      "comment" : {
-        "es" : "Consumo final de GLP"
-      },
-      "labels" : {
-        "IRI-based" : "LPGConsumption",
-        "es" : "C_GLP"
-      }
-    }, {
       "iri" : "http://usage-project.eu/ld/ontology#AutomotiveDieselConsumption",
       "baseIri" : "http://usage-project.eu/ld/ontology",
       "comment" : {
@@ -1338,6 +1339,16 @@
       "labels" : {
         "IRI-based" : "AutomotiveDieselConsumption",
         "es" : "C_GASOLEO_A"
+      }
+    }, {
+      "iri" : "http://usage-project.eu/ld/ontology#LPGConsumption",
+      "baseIri" : "http://usage-project.eu/ld/ontology",
+      "comment" : {
+        "es" : "Consumo final de GLP"
+      },
+      "labels" : {
+        "IRI-based" : "LPGConsumption",
+        "es" : "C_GLP"
       }
     }, {
       "iri" : "http://usage-project.eu/ld/ontology#NonRenewableBiomassConsumption",
@@ -1600,16 +1611,6 @@
         "es" : "C_GASNATURAL"
       }
     }, {
-      "iri" : "http://usage-project.eu/ld/ontology#CO2Scope2Emissions",
-      "baseIri" : "http://usage-project.eu/ld/ontology",
-      "comment" : {
-        "es" : "Emisiones de dióxido de carbono (CO2) dentro del Alcance 2. Emisiones indirectas por consumo de electricidad."
-      },
-      "labels" : {
-        "IRI-based" : "CO2Scope2Emissions",
-        "es" : "CO2_ALC2"
-      }
-    }, {
       "iri" : "http://usage-project.eu/ld/ontology#PFCScope1Emissions",
       "baseIri" : "http://usage-project.eu/ld/ontology",
       "comment" : {
@@ -1618,6 +1619,16 @@
       "labels" : {
         "IRI-based" : "PFCScope1Emissions",
         "es" : "PFC_ALC1"
+      }
+    }, {
+      "iri" : "http://usage-project.eu/ld/ontology#CO2Scope2Emissions",
+      "baseIri" : "http://usage-project.eu/ld/ontology",
+      "comment" : {
+        "es" : "Emisiones de dióxido de carbono (CO2) dentro del Alcance 2. Emisiones indirectas por consumo de electricidad."
+      },
+      "labels" : {
+        "IRI-based" : "CO2Scope2Emissions",
+        "es" : "CO2_ALC2"
       }
     }, {
       "iri" : "http://usage-project.eu/ld/ontology#IPScope1Emissions",
@@ -1630,16 +1641,6 @@
         "es" : "INDENO_123"
       }
     }, {
-      "iri" : "http://usage-project.eu/ld/ontology#N2OScope2Emissions",
-      "baseIri" : "http://usage-project.eu/ld/ontology",
-      "comment" : {
-        "es" : "Emisiones de óxido nitroso (N2O) dentro del Alcance 2. Emisiones indirectas por consumo de electricidad."
-      },
-      "labels" : {
-        "IRI-based" : "N2OScope2Emissions",
-        "es" : "N2O_ALC2"
-      }
-    }, {
       "iri" : "http://usage-project.eu/ld/ontology#HFCScope1Emissions",
       "baseIri" : "http://usage-project.eu/ld/ontology",
       "comment" : {
@@ -1648,6 +1649,16 @@
       "labels" : {
         "IRI-based" : "HFCScope1Emissions",
         "es" : "HFC_ALC1"
+      }
+    }, {
+      "iri" : "http://usage-project.eu/ld/ontology#N2OScope2Emissions",
+      "baseIri" : "http://usage-project.eu/ld/ontology",
+      "comment" : {
+        "es" : "Emisiones de óxido nitroso (N2O) dentro del Alcance 2. Emisiones indirectas por consumo de electricidad."
+      },
+      "labels" : {
+        "IRI-based" : "N2OScope2Emissions",
+        "es" : "N2O_ALC2"
       }
     } ],
     "comment" : {
@@ -1733,12 +1744,12 @@
         "hasQuantityKind" : [ {
           "identifier" : "hasQuantityKind",
           "language" : "undefined",
-          "value" : "http://qudt.org/vocab/quantitykind/CO2Equivalent",
+          "value" : "http://qudt.org/vocab/quantitykind/Mass",
           "type" : "iri"
         }, {
           "identifier" : "hasQuantityKind",
           "language" : "undefined",
-          "value" : "http://qudt.org/vocab/quantitykind/Mass",
+          "value" : "http://qudt.org/vocab/quantitykind/CO2Equivalent",
           "type" : "iri"
         } ],
         "siExactMatch" : [ {
@@ -1756,12 +1767,12 @@
         "applicableSystem" : [ {
           "identifier" : "applicableSystem",
           "language" : "undefined",
-          "value" : "http://qudt.org/vocab/sou/SI",
+          "value" : "http://qudt.org/vocab/sou/CGS",
           "type" : "iri"
         }, {
           "identifier" : "applicableSystem",
           "language" : "undefined",
-          "value" : "http://qudt.org/vocab/sou/CGS",
+          "value" : "http://qudt.org/vocab/sou/SI",
           "type" : "iri"
         }, {
           "identifier" : "applicableSystem",
@@ -1796,7 +1807,7 @@
       "en" : "The unit of measure is a standard for measurement of a quantity, such as a Property. For example,  Power is a property and Watt is a unit of power that represents a definite predetermined power: when we say 10 Watt, we actually mean 10 times the definite predetermined power called \"watt\". Our definition is based on the definition of unit of measure in the Ontology of units of Measure (OM). We propose here a list of some units of measure that are relevant for the purpose of SAREF, but this list can be extended, also using some other ontologies rather than the Ontology of units of Measure (OM)."
     },
     "attributes" : [ "external" ],
-    "id" : "13"
+    "id" : "14"
   }, {
     "iri" : "http://www.opengis.net/ont/geosparql#Geometry",
     "baseIri" : "http://www.opengis.net/ont/geosparql",
@@ -1811,22 +1822,22 @@
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://www.opengis.net/ont/geosparql",
-        "type" : "iri"
-      }, {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/geometry-class",
-        "type" : "iri"
-      }, {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
         "value" : "http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/geometry-class",
         "type" : "iri"
       }, {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
         "value" : "http://www.opengis.net/ont/geosparql#",
+        "type" : "iri"
+      }, {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.opengis.net/ont/geosparql",
+        "type" : "iri"
+      }, {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/geometry-class",
         "type" : "iri"
       } ],
       "prefLabel" : [ {
@@ -1844,31 +1855,6 @@
       "example" : [ {
         "identifier" : "example",
         "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.2.4",
-        "type" : "iri"
-      }, {
-        "identifier" : "example",
-        "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.2",
-        "type" : "iri"
-      }, {
-        "identifier" : "example",
-        "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.5",
-        "type" : "iri"
-      }, {
-        "identifier" : "example",
-        "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.3",
-        "type" : "iri"
-      }, {
-        "identifier" : "example",
-        "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.8",
-        "type" : "iri"
-      }, {
-        "identifier" : "example",
-        "language" : "undefined",
         "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.4",
         "type" : "iri"
       }, {
@@ -1879,12 +1865,17 @@
       }, {
         "identifier" : "example",
         "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.2.3",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.2",
         "type" : "iri"
       }, {
         "identifier" : "example",
         "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.3.2",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.8",
+        "type" : "iri"
+      }, {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.5",
         "type" : "iri"
       }, {
         "identifier" : "example",
@@ -1894,12 +1885,32 @@
       }, {
         "identifier" : "example",
         "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.2.2",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.3",
+        "type" : "iri"
+      }, {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.3.2",
+        "type" : "iri"
+      }, {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.2.4",
         "type" : "iri"
       }, {
         "identifier" : "example",
         "language" : "undefined",
         "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.3.3",
+        "type" : "iri"
+      }, {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.2.3",
+        "type" : "iri"
+      }, {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.2.2",
         "type" : "iri"
       } ]
     },
@@ -1947,13 +1958,13 @@
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "'intervalo de fecha-hora' es una subclase de 'intervalo propio', definida utilizando el multi-elemento 'descripción de fecha-hora'.",
+        "language" : "en",
+        "value" : "DateTimeInterval is a subclass of ProperInterval, defined using the multi-element DateTimeDescription.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "DateTimeInterval is a subclass of ProperInterval, defined using the multi-element DateTimeDescription.",
+        "language" : "es",
+        "value" : "'intervalo de fecha-hora' es una subclase de 'intervalo propio', definida utilizando el multi-elemento 'descripción de fecha-hora'.",
         "type" : "label"
       } ]
     },
@@ -1981,7 +1992,7 @@
       "en" : "A Key Performance Indicator assessment represents the assessment of a KPI calculated by a given agent in a given time."
     },
     "attributes" : [ "external" ],
-    "id" : "26"
+    "id" : "27"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#gYear",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -1990,18 +2001,18 @@
       "IRI-based" : "gYear"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#gMonth",
+    "iri" : "http://www.w3.org/2001/XMLSchema#gDay",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "95",
     "label" : {
-      "IRI-based" : "gMonth"
+      "IRI-based" : "gDay"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#gDay",
+    "iri" : "http://www.w3.org/2001/XMLSchema#gMonth",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "97",
     "label" : {
-      "IRI-based" : "gDay"
+      "IRI-based" : "gMonth"
     }
   }, {
     "iri" : "http://www.w3.org/2006/time#DateTimeDescription",
@@ -2062,7 +2073,7 @@
       "IRI-based" : "FeatureOfInterest"
     },
     "attributes" : [ "external" ],
-    "id" : "28"
+    "id" : "40"
   }, {
     "iri" : "http://www.w3.org/2006/time#TemporalPosition",
     "baseIri" : "http://www.w3.org/2006/time",
@@ -2086,13 +2097,13 @@
       } ],
       "definition" : [ {
         "identifier" : "definition",
-        "language" : "en",
-        "value" : "A temporal entity with zero extent or duration",
+        "language" : "es",
+        "value" : "Una entidad temporal con una extensión o duración cero.",
         "type" : "label"
       }, {
         "identifier" : "definition",
-        "language" : "es",
-        "value" : "Una entidad temporal con una extensión o duración cero.",
+        "language" : "en",
+        "value" : "A temporal entity with zero extent or duration",
         "type" : "label"
       } ]
     },
@@ -2146,7 +2157,7 @@
     "id" : "2"
   } ],
   "property" : [ {
-    "id" : "11",
+    "id" : "12",
     "type" : "owl:objectProperty"
   }, {
     "id" : "15",
@@ -2155,44 +2166,44 @@
     "id" : "23",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "25",
+    "id" : "26",
     "type" : "owl:allValuesFrom"
   }, {
-    "id" : "27",
-    "type" : "owl:allValuesFrom"
-  }, {
-    "id" : "29",
+    "id" : "28",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "30",
+    "id" : "29",
     "type" : "owl:allValuesFrom"
   }, {
-    "id" : "31",
+    "id" : "30",
     "type" : "owl:allValuesFrom"
   }, {
     "id" : "32",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "36",
+    "id" : "35",
     "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "37",
+    "type" : "owl:allValuesFrom"
   }, {
     "id" : "38",
-    "type" : "owl:allValuesFrom"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "39",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "40",
     "type" : "owl:allValuesFrom"
   }, {
-    "id" : "42",
-    "type" : "owl:datatypeProperty"
+    "id" : "41",
+    "type" : "owl:allValuesFrom"
   }, {
     "id" : "43",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "44",
-    "type" : "owl:allValuesFrom"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "45",
     "type" : "owl:allValuesFrom"
@@ -2245,7 +2256,7 @@
     "id" : "70",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "72",
+    "id" : "71",
     "type" : "owl:objectProperty"
   }, {
     "id" : "73",
@@ -2326,7 +2337,7 @@
   "propertyAttribute" : [ {
     "iri" : "https://saref.etsi.org/core/isMeasuredIn",
     "baseIri" : "https://saref.etsi.org/core",
-    "range" : "13",
+    "range" : "14",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -2339,12 +2350,12 @@
       "IRI-based" : "isMeasuredIn",
       "en" : "is measured in"
     },
-    "domain" : "12",
+    "domain" : "13",
     "comment" : {
       "en" : "A relationship identifying the unit of measure used for a certain entity."
     },
-    "attributes" : [ "external", "object" ],
-    "id" : "11"
+    "attributes" : [ "object", "external" ],
+    "id" : "12"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#narrower",
     "baseIri" : "http://www.w3.org/2004/02/skos/core",
@@ -2378,7 +2389,7 @@
     "comment" : {
       "en" : "Narrower concepts are typically rendered as children in a concept hierarchy (tree)."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "15"
   }, {
     "iri" : "http://www.w3.org/2006/time#minute",
@@ -2392,35 +2403,26 @@
     "attributes" : [ "datatype", "external" ],
     "id" : "23"
   }, {
-    "iri" : "https://saref.etsi.org/saref4city/refersToTime",
+    "iri" : "https://saref.etsi.org/saref4city/hasCreationDate",
     "baseIri" : "https://saref.etsi.org/saref4city",
-    "range" : "2",
+    "range" : "25",
     "label" : {
-      "IRI-based" : "refersToTime",
-      "en" : "refers to time"
+      "IRI-based" : "hasCreationDate"
     },
-    "domain" : "26",
-    "comment" : {
-      "en" : "refers to time"
-    },
-    "attributes" : [ "allValues", "external", "object" ],
-    "id" : "25"
-  }, {
-    "iri" : "https://saref.etsi.org/saref4city/assesses",
-    "baseIri" : "https://saref.etsi.org/saref4city",
-    "range" : "28",
-    "label" : {
-      "IRI-based" : "assesses"
-    },
-    "domain" : "26",
-    "attributes" : [ "allValues", "external", "object" ],
-    "id" : "27"
+    "domain" : "27",
+    "attributes" : [ "datatype", "allValues", "external" ],
+    "id" : "26"
   }, {
     "iri" : "http://www.opengis.net/ont/geosparql#sfContains",
     "baseIri" : "http://www.opengis.net/ont/geosparql",
     "range" : "6",
     "annotations" : {
       "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.opengis.net/ont/geosparql#",
+        "type" : "iri"
+      }, {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
         "value" : "http://www.opengis.net/spec/geosparql/1.1/req/topology-vocab-extension/rcc8-spatial-relations",
@@ -2434,11 +2436,6 @@
         "identifier" : "isDefinedBy",
         "language" : "undefined",
         "value" : "http://www.opengis.net/spec/geosparql/1.0/req/topology-vocab-extension/rcc8-spatial-relations",
-        "type" : "iri"
-      }, {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://www.opengis.net/ont/geosparql#",
         "type" : "iri"
       } ],
       "prefLabel" : [ {
@@ -2468,8 +2465,8 @@
     "comment" : {
       "en" : "Exists if the subject SpatialObject spatially contains the object SpatialObject. DE-9IM: T*****FF*"
     },
-    "attributes" : [ "external", "object" ],
-    "id" : "29"
+    "attributes" : [ "object", "external" ],
+    "id" : "28"
   }, {
     "iri" : "https://saref.etsi.org/saref4city/hasLastUpdateDate",
     "baseIri" : "https://saref.etsi.org/saref4city",
@@ -2477,19 +2474,31 @@
     "label" : {
       "IRI-based" : "hasLastUpdateDate"
     },
-    "domain" : "26",
+    "domain" : "27",
     "attributes" : [ "datatype", "allValues", "external" ],
-    "id" : "30"
+    "id" : "29"
   }, {
-    "iri" : "https://saref.etsi.org/saref4city/isDerivedFrom",
-    "baseIri" : "https://saref.etsi.org/saref4city",
-    "range" : "12",
-    "label" : {
-      "IRI-based" : "isDerivedFrom"
+    "iri" : "https://saref.etsi.org/core/isMeasuredIn",
+    "baseIri" : "https://saref.etsi.org/core",
+    "range" : "14",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://saref.etsi.org/core/",
+        "type" : "iri"
+      } ]
     },
-    "domain" : "26",
-    "attributes" : [ "allValues", "external", "object" ],
-    "id" : "31"
+    "label" : {
+      "IRI-based" : "isMeasuredIn",
+      "en" : "is measured in"
+    },
+    "domain" : "27",
+    "comment" : {
+      "en" : "A relationship identifying the unit of measure used for a certain entity."
+    },
+    "attributes" : [ "allValues", "object", "external" ],
+    "id" : "30"
   }, {
     "iri" : "http://www.w3.org/2006/time#hasDateTimeDescription",
     "baseIri" : "http://www.w3.org/2006/time",
@@ -2517,7 +2526,7 @@
       "en" : "Value of DateTimeInterval expressed as a structured value. The beginning and end of the interval coincide with the limits of the shortest element in the description.",
       "es" : "Valor de intervalo de fecha-hora expresado como un valor estructurado. El principio y el final del intervalo coincide con los límites del elemento más corto en la descripción."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "32"
   }, {
     "iri" : "http://www.w3.org/2006/time#dayOfYear",
@@ -2529,17 +2538,31 @@
     "maxCardinality" : "1",
     "domain" : "16",
     "attributes" : [ "datatype", "external" ],
+    "id" : "35"
+  }, {
+    "iri" : "https://saref.etsi.org/saref4city/quantifiesKPI",
+    "baseIri" : "https://saref.etsi.org/saref4city",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "quantifiesKPI",
+      "en" : "quantifies KPI"
+    },
+    "domain" : "27",
+    "comment" : {
+      "en" : "quantifies KPI"
+    },
+    "attributes" : [ "allValues", "object", "external" ],
     "id" : "36"
   }, {
-    "iri" : "https://saref.etsi.org/saref4city/hasCreationDate",
+    "iri" : "https://saref.etsi.org/saref4city/isAssessedBy",
     "baseIri" : "https://saref.etsi.org/saref4city",
-    "range" : "37",
+    "range" : "31",
     "label" : {
-      "IRI-based" : "hasCreationDate"
+      "IRI-based" : "isAssessedBy"
     },
-    "domain" : "26",
-    "attributes" : [ "datatype", "allValues", "external" ],
-    "id" : "38"
+    "domain" : "27",
+    "attributes" : [ "allValues", "object", "external" ],
+    "id" : "37"
   }, {
     "iri" : "http://www.opengis.net/ont/geosparql#sfWithin",
     "baseIri" : "http://www.opengis.net/ont/geosparql",
@@ -2553,17 +2576,17 @@
       }, {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/req/topology-vocab-extension/sf-spatial-relations",
+        "type" : "iri"
+      }, {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
         "value" : "http://www.opengis.net/ont/geosparql",
         "type" : "iri"
       }, {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
         "value" : "http://www.opengis.net/spec/geosparql/1.0/req/topology-vocab-extension/sf-spatial-relations",
-        "type" : "iri"
-      }, {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/req/topology-vocab-extension/sf-spatial-relations",
         "type" : "iri"
       } ],
       "prefLabel" : [ {
@@ -2593,22 +2616,28 @@
     "comment" : {
       "en" : "Exists if the subject SpatialObject is spatially within the object SpatialObject. DE-9IM: T*F**F***"
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "38"
+  }, {
+    "iri" : "https://saref.etsi.org/saref4city/assesses",
+    "baseIri" : "https://saref.etsi.org/saref4city",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "assesses"
+    },
+    "domain" : "27",
+    "attributes" : [ "allValues", "object", "external" ],
     "id" : "39"
   }, {
-    "iri" : "https://saref.etsi.org/saref4city/quantifiesKPI",
+    "iri" : "https://saref.etsi.org/saref4city/hasExpirationDate",
     "baseIri" : "https://saref.etsi.org/saref4city",
-    "range" : "9",
+    "range" : "42",
     "label" : {
-      "IRI-based" : "quantifiesKPI",
-      "en" : "quantifies KPI"
+      "IRI-based" : "hasExpirationDate"
     },
-    "domain" : "26",
-    "comment" : {
-      "en" : "quantifies KPI"
-    },
-    "attributes" : [ "allValues", "external", "object" ],
-    "id" : "40"
+    "domain" : "27",
+    "attributes" : [ "datatype", "allValues", "external" ],
+    "id" : "41"
   }, {
     "iri" : "http://www.w3.org/2006/time#year",
     "baseIri" : "http://www.w3.org/2006/time",
@@ -2624,7 +2653,7 @@
       "es" : "Posición de año en un sistema calendario-reloj.\n\nl rango de esta propiedad no está especificado, por tanto, se puede reemplazar por cualquier representación específica de un año de calendario de un calendario cualquiera."
     },
     "attributes" : [ "datatype", "external" ],
-    "id" : "42"
+    "id" : "43"
   }, {
     "iri" : "https://saref.etsi.org/saref4city/refersToFeature",
     "baseIri" : "https://saref.etsi.org/saref4city",
@@ -2637,53 +2666,35 @@
     "comment" : {
       "en" : "Relation between a KPI assessment and the geographical feature it refers to"
     },
-    "attributes" : [ "external", "object" ],
-    "id" : "43"
-  }, {
-    "iri" : "https://saref.etsi.org/saref4city/hasExpirationDate",
-    "baseIri" : "https://saref.etsi.org/saref4city",
-    "range" : "41",
-    "label" : {
-      "IRI-based" : "hasExpirationDate"
-    },
-    "domain" : "26",
-    "attributes" : [ "datatype", "allValues", "external" ],
+    "attributes" : [ "object", "external" ],
     "id" : "44"
   }, {
-    "iri" : "https://saref.etsi.org/saref4city/isAssessedBy",
+    "iri" : "https://saref.etsi.org/saref4city/refersToTime",
     "baseIri" : "https://saref.etsi.org/saref4city",
-    "range" : "35",
+    "range" : "2",
     "label" : {
-      "IRI-based" : "isAssessedBy"
+      "IRI-based" : "refersToTime",
+      "en" : "refers to time"
     },
-    "domain" : "26",
-    "attributes" : [ "allValues", "external", "object" ],
+    "domain" : "27",
+    "comment" : {
+      "en" : "refers to time"
+    },
+    "attributes" : [ "allValues", "object", "external" ],
     "id" : "45"
   }, {
-    "iri" : "https://saref.etsi.org/core/isMeasuredIn",
-    "baseIri" : "https://saref.etsi.org/core",
+    "iri" : "https://saref.etsi.org/saref4city/isDerivedFrom",
+    "baseIri" : "https://saref.etsi.org/saref4city",
     "range" : "13",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://saref.etsi.org/core/",
-        "type" : "iri"
-      } ]
-    },
     "label" : {
-      "IRI-based" : "isMeasuredIn",
-      "en" : "is measured in"
+      "IRI-based" : "isDerivedFrom"
     },
-    "domain" : "26",
-    "comment" : {
-      "en" : "A relationship identifying the unit of measure used for a certain entity."
-    },
-    "attributes" : [ "allValues", "external", "object" ],
+    "domain" : "27",
+    "attributes" : [ "allValues", "object", "external" ],
     "id" : "46"
   }, {
-    "range" : "13",
-    "domain" : "12",
+    "range" : "14",
+    "domain" : "13",
     "attributes" : [ "anonymous", "object" ],
     "id" : "47"
   }, {
@@ -2694,10 +2705,10 @@
       "IRI-based" : "hasCalculationPeriod"
     },
     "domain" : "9",
-    "attributes" : [ "allValues", "external", "object" ],
+    "attributes" : [ "allValues", "object", "external" ],
     "id" : "48"
   }, {
-    "range" : "13",
+    "range" : "14",
     "domain" : "50",
     "attributes" : [ "anonymous", "object" ],
     "id" : "49"
@@ -2710,7 +2721,7 @@
     },
     "cardinality" : "1",
     "domain" : "16",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "52"
   }, {
     "range" : "55",
@@ -2782,8 +2793,8 @@
     },
     "maxCardinality" : "1",
     "domain" : "16",
-    "attributes" : [ "external", "object" ],
-    "id" : "72"
+    "attributes" : [ "object", "external" ],
+    "id" : "71"
   }, {
     "range" : "8",
     "domain" : "10",
@@ -2844,7 +2855,7 @@
     },
     "maxCardinality" : "1",
     "domain" : "16",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "83"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#broaderTransitive",
@@ -2855,7 +2866,7 @@
     },
     "domain" : "16",
     "subproperty" : [ "85" ],
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "84"
   }, {
     "iri" : "http://www.opengis.net/ont/geosparql#hasSerialization",
@@ -2901,7 +2912,7 @@
     "comment" : {
       "en" : "Broader concepts are typically rendered as parents in a concept hierarchy (tree)."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "85"
   }, {
     "iri" : "http://www.opengis.net/ont/geosparql#hasGeometry",
@@ -2911,7 +2922,7 @@
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties",
+        "value" : "http://www.opengis.net/ont/geosparql#",
         "type" : "iri"
       }, {
         "identifier" : "isDefinedBy",
@@ -2921,7 +2932,7 @@
       }, {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "http://www.opengis.net/ont/geosparql#",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties",
         "type" : "iri"
       } ],
       "prefLabel" : [ {
@@ -2939,47 +2950,7 @@
       "example" : [ {
         "identifier" : "example",
         "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.3.3",
-        "type" : "iri"
-      }, {
-        "identifier" : "example",
-        "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.3",
-        "type" : "iri"
-      }, {
-        "identifier" : "example",
-        "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.2",
-        "type" : "iri"
-      }, {
-        "identifier" : "example",
-        "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.2.4",
-        "type" : "iri"
-      }, {
-        "identifier" : "example",
-        "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.8",
-        "type" : "iri"
-      }, {
-        "identifier" : "example",
-        "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.2.3",
-        "type" : "iri"
-      }, {
-        "identifier" : "example",
-        "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.6",
-        "type" : "iri"
-      }, {
-        "identifier" : "example",
-        "language" : "undefined",
         "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.2",
-        "type" : "iri"
-      }, {
-        "identifier" : "example",
-        "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.4",
         "type" : "iri"
       }, {
         "identifier" : "example",
@@ -2989,12 +2960,52 @@
       }, {
         "identifier" : "example",
         "language" : "undefined",
-        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.5",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.8",
+        "type" : "iri"
+      }, {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.4",
+        "type" : "iri"
+      }, {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.2.3",
+        "type" : "iri"
+      }, {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.3.3",
+        "type" : "iri"
+      }, {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.2",
+        "type" : "iri"
+      }, {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.3",
         "type" : "iri"
       }, {
         "identifier" : "example",
         "language" : "undefined",
         "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.3.2",
+        "type" : "iri"
+      }, {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.2.4",
+        "type" : "iri"
+      }, {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.5",
+        "type" : "iri"
+      }, {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.6",
         "type" : "iri"
       } ]
     },
@@ -3006,7 +3017,7 @@
     "comment" : {
       "en" : "A spatial representation for a given feature."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "88"
   }, {
     "iri" : "http://usage-project.eu/ld/ontology#refersToSector",
@@ -3054,21 +3065,21 @@
     "attributes" : [ "datatype", "allValues", "external" ],
     "id" : "92"
   }, {
-    "iri" : "http://www.w3.org/2006/time#month",
+    "iri" : "http://www.w3.org/2006/time#day",
     "baseIri" : "http://www.w3.org/2006/time",
     "range" : "95",
     "label" : {
-      "IRI-based" : "month"
+      "IRI-based" : "day"
     },
     "domain" : "61",
     "attributes" : [ "datatype", "allValues", "external" ],
     "id" : "94"
   }, {
-    "iri" : "http://www.w3.org/2006/time#day",
+    "iri" : "http://www.w3.org/2006/time#month",
     "baseIri" : "http://www.w3.org/2006/time",
     "range" : "97",
     "label" : {
-      "IRI-based" : "day"
+      "IRI-based" : "month"
     },
     "domain" : "61",
     "attributes" : [ "datatype", "allValues", "external" ],
@@ -3085,7 +3096,7 @@
     "id" : "99"
   }, {
     "range" : "8",
-    "domain" : "71",
+    "domain" : "72",
     "attributes" : [ "anonymous", "object" ],
     "id" : "100"
   }, {
@@ -3107,7 +3118,7 @@
     },
     "maxCardinality" : "1",
     "domain" : "16",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "102"
   }, {
     "iri" : "http://www.w3.org/2006/time#hasTRS",
@@ -3117,7 +3128,7 @@
       "IRI-based" : "hasTRS"
     },
     "domain" : "16",
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "103"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#narrowerTransitive",
@@ -3128,7 +3139,7 @@
     },
     "domain" : "16",
     "subproperty" : [ "15" ],
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "17"
   } ]
 }

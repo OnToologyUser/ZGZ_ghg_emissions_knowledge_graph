@@ -1200,6 +1200,14 @@ _:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://usage-project.eu/ld/ontology#Stationary> <http://www.w3.org/2000/01/rdf-schema#comment> "Stationary sector."@en .
 <http://usage-project.eu/ld/ontology#Stationary> <http://www.w3.org/2000/01/rdf-schema#label> "Stationary"@en .
 # 
+# http://usage-project.eu/ld/ontology#Swine
+<http://usage-project.eu/ld/ontology#Swine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://usage-project.eu/ld/ontology#Swine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://usage-project.eu/ld/ontology#Sector> .
+<http://usage-project.eu/ld/ontology#Swine> <http://www.w3.org/2004/02/skos/core#broader> <http://usage-project.eu/ld/ontology#Livestock> .
+<http://usage-project.eu/ld/ontology#Swine> <http://www.w3.org/2000/01/rdf-schema#comment> "Swine subsector."@en .
+<http://usage-project.eu/ld/ontology#Swine> <http://www.w3.org/2000/01/rdf-schema#label> "Cerdos"@es .
+<http://usage-project.eu/ld/ontology#Swine> <http://www.w3.org/2000/01/rdf-schema#label> "Swine"@en .
+# 
 # http://usage-project.eu/ld/ontology#TSPScope1Emissions
 <http://usage-project.eu/ld/ontology#TSPScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://usage-project.eu/ld/ontology#TSPScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .

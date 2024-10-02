@@ -1,5 +1,52 @@
 [
   {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "AÑO",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "AÑO"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ID_CELDA",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ID_CELDA"
+        }
+      ]
+    }
+  },
+  {
     "op": "core/column-rename",
     "description": "Rename column left to COORD_IZQ",
     "oldColumnName": "left",
@@ -148,11 +195,138 @@
     "repeatCount": 10
   },
   {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column ID_CELDA using expression grel:\"NA\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "AÑO",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "AÑO"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ID_CELDA",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ID_CELDA"
+        }
+      ]
+    },
+    "columnName": "ID_CELDA",
+    "expression": "grel:\"NA\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
     "op": "core/column-addition",
     "description": "Create column asWKT at index 5 based on column COORD_INF using expression grel:\"POLYGON((\"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_SUP\"].value+ \", \"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_INF\"].value+ \", \"\n+cells[\"COORD_DER\"].value+\" \"+cells[\"COORD_INF\"].value+ \", \"\n+cells[\"COORD_DER\"].value+\" \"+cells[\"COORD_SUP\"].value+ \", \"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_SUP\"].value+\"))\"",
     "engineConfig": {
       "mode": "row-based",
-      "facets": []
+      "facets": [{
+        "omitError": false,
+        "expression": "isBlank(value)",
+        "selectBlank": false,
+        "selection": [
+          {
+            "v": {
+              "v": false,
+              "l": "false"
+            }
+          }
+        ],
+        "selectError": false,
+        "invert": false,
+        "name": "COORD_IZQ",
+        "omitBlank": false,
+        "type": "list",
+        "columnName": "COORD_IZQ"
+      },
+      {
+        "omitError": false,
+        "expression": "isBlank(value)",
+        "selectBlank": false,
+        "selection": [
+          {
+            "v": {
+              "v": false,
+              "l": "false"
+            }
+          }
+        ],
+        "selectError": false,
+        "invert": false,
+        "name": "COORD_SUP",
+        "omitBlank": false,
+        "type": "list",
+        "columnName": "COORD_SUP"
+      },
+      {
+        "omitError": false,
+        "expression": "isBlank(value)",
+        "selectBlank": false,
+        "selection": [
+          {
+            "v": {
+              "v": false,
+              "l": "false"
+            }
+          }
+        ],
+        "selectError": false,
+        "invert": false,
+        "name": "COORD_DER",
+        "omitBlank": false,
+        "type": "list",
+        "columnName": "COORD_DER"
+      },
+      {
+        "omitError": false,
+        "expression": "isBlank(value)",
+        "selectBlank": false,
+        "selection": [
+          {
+            "v": {
+              "v": false,
+              "l": "false"
+            }
+          }
+        ],
+        "selectError": false,
+        "invert": false,
+        "name": "COORD_INF",
+        "omitBlank": false,
+        "type": "list",
+        "columnName": "COORD_INF"
+      }]
     },
     "newColumnName": "asWKT",
     "columnInsertIndex": 5,
@@ -900,5 +1074,18 @@
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Subsection at index 11 based on column TEXTO_SUBS using expression grel:\"http://usage-project.eu/ld/ontology#\"+if(value.contains(\"Bóvidos\"),\"Cattle\",if(value.contains(\"Caprino\"),\"Goats\",if(value.contains(\"Conejos\"),\"Rabbits\",if(value.contains(\"Équidos\"),\"Horses\",if(value.contains(\"Gallinas\"),\"Poultry\",if(value.contains(\"Ovino\"),\"Sheep\",if(value.contains(\"Cerdos\"),\"Swine\",null)))))))",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Subsection",
+    "columnInsertIndex": 11,
+    "baseColumnName": "TEXTO_SUBS",
+    "expression": "grel:\"http://usage-project.eu/ld/ontology#\"+if(value.contains(\"Bóvidos\"),\"Cattle\",if(value.contains(\"Caprino\"),\"Goats\",if(value.contains(\"Conejos\"),\"Rabbits\",if(value.contains(\"Équidos\"),\"Horses\",if(value.contains(\"Gallinas\"),\"Poultry\",if(value.contains(\"Ovino\"),\"Sheep\",if(value.contains(\"Cerdos\"),\"Swine\",null)))))))",
+    "onError": "set-to-blank"
   }
 ]
