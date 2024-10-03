@@ -1050,19 +1050,6 @@
     "repeatCount": 10
   },
   {
-    "op": "core/column-addition",
-    "description": "Create column Sector at index 20 based on column ID_CELDA using expression grel:\"http://usage-project.eu/ld/ontology#LiveStock\"",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "newColumnName": "Sector",
-    "columnInsertIndex": 20,
-    "baseColumnName": "ID_CELDA",
-    "expression": "grel:\"http://usage-project.eu/ld/ontology#LiveStock\"",
-    "onError": "set-to-blank"
-  },
-  {
     "op": "core/text-transform",
     "description": "Text transform on cells in column AÑO using expression grel:value.floor()",
     "engineConfig": {
@@ -1077,12 +1064,12 @@
   },
   {
     "op": "core/column-addition",
-    "description": "Create column Subsection at index 11 based on column TEXTO_SUBS using expression grel:\"http://usage-project.eu/ld/ontology#\"+if(value.contains(\"Bóvidos\"),\"Cattle\",if(value.contains(\"Caprino\"),\"Goats\",if(value.contains(\"Conejos\"),\"Rabbits\",if(value.contains(\"Équidos\"),\"Horses\",if(value.contains(\"Gallinas\"),\"Poultry\",if(value.contains(\"Ovino\"),\"Sheep\",if(value.contains(\"Cerdos\"),\"Swine\",null)))))))",
+    "description": "Create column Subsector at index 11 based on column TEXTO_SUBS using expression grel:\"http://usage-project.eu/ld/ontology#\"+if(value.contains(\"Bóvidos\"),\"Cattle\",if(value.contains(\"Caprino\"),\"Goats\",if(value.contains(\"Conejos\"),\"Rabbits\",if(value.contains(\"Équidos\"),\"Horses\",if(value.contains(\"Gallinas\"),\"Poultry\",if(value.contains(\"Ovino\"),\"Sheep\",if(value.contains(\"Cerdos\"),\"Swine\",null)))))))",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
-    "newColumnName": "Subsection",
+    "newColumnName": "Subsector",
     "columnInsertIndex": 11,
     "baseColumnName": "TEXTO_SUBS",
     "expression": "grel:\"http://usage-project.eu/ld/ontology#\"+if(value.contains(\"Bóvidos\"),\"Cattle\",if(value.contains(\"Caprino\"),\"Goats\",if(value.contains(\"Conejos\"),\"Rabbits\",if(value.contains(\"Équidos\"),\"Horses\",if(value.contains(\"Gallinas\"),\"Poultry\",if(value.contains(\"Ovino\"),\"Sheep\",if(value.contains(\"Cerdos\"),\"Swine\",null)))))))",
