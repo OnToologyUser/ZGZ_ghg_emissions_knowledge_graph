@@ -10,7 +10,7 @@
 # ./preprocessing/IDEZAR/Barrios/preprocessingIDEZARBarrios.sh
 # ./preprocessing/IDEZAR/Distritos/preprocessingIDEZARDistritos.sh
 # ./preprocessing/ZGZ/Residencial/preprocessingZGZResidencial.sh
-# ./preprocessing/ZGZ/Industrial/preprocessingZGZIndustrial.sh
+# ./preprocessing/ZGZ/Industrial/preprocessing.sh
 # ./preprocessing/ZGZ/Institucional_y_servicios/preprocessing.sh # Corrupted dataset
 # ./preprocessing/ZGZ/IPPU_Gases_fluorados/preprocessing.sh
 # ./preprocessing/ZGZ/Residuos/preprocessing.sh 
@@ -36,7 +36,7 @@
 # ./mapping/IDEZAR/Distritos/materialisationIDEZARDistritos.sh 
 
 # ./mapping/ZGZ/Residencial/materialisationZGZResidencial.sh 
-# ./mapping/ZGZ/Industrial/materialisationZGZIndustrial.sh 
+# ./mapping/ZGZ/Industrial/materialisation.sh 
 # ./mapping/ZGZ/Institucional_y_servicios/materialisation.sh # Corrupted dataset
 # ./mapping/ZGZ/IPPU_Gases_fluorados/materialisation.sh 
 # ./mapping/ZGZ/Residuos/materialisation.sh 

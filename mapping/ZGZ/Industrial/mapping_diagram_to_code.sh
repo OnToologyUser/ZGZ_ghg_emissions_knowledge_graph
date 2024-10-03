@@ -1,5 +1,5 @@
 mapping_directory='mapping/ZGZ/Industrial/'
-mapping_file_name='mappingZGZIndustrial'
+mapping_file_name='mapping'
 
 cp $mapping_directory$mapping_file_name'.drawio' $mapping_directory'mapping_temp.xml'
 curl -F data=@$mapping_directory'mapping_temp.xml' https://chowlk.linkeddata.es/api | \
