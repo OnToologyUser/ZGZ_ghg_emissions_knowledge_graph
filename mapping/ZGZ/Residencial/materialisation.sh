@@ -1,7 +1,7 @@
 #!/bin/bash
 data_directory='data/ZGZ/Residencial/'
 mapping_directory='mapping/ZGZ/Residencial/'
-mapping_file=$mapping_directory'mappingZGZResidencial.ttl'
+mapping_file=$mapping_directory'mapping.ttl'
 data_file=$data_directory'dataInProcess.csv'
 config_file=$mapping_directory'configInProcess.ini'
 

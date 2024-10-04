@@ -9,7 +9,7 @@
 ## preprocessing # raw files names should not include whitespaces
 # ./preprocessing/IDEZAR/Barrios/preprocessingIDEZARBarrios.sh
 # ./preprocessing/IDEZAR/Distritos/preprocessingIDEZARDistritos.sh
-# ./preprocessing/ZGZ/Residencial/preprocessingZGZResidencial.sh
+# ./preprocessing/ZGZ/Residencial/preprocessing.sh
 # ./preprocessing/ZGZ/Industrial/preprocessing.sh
 # ./preprocessing/ZGZ/Institucional_y_servicios/preprocessing.sh # Corrupted dataset
 # ./preprocessing/ZGZ/IPPU_Gases_fluorados/preprocessing.sh
@@ -35,7 +35,7 @@
 # ./mapping/IDEZAR/Barrios/materialisationIDEZARBarrios.sh 
 # ./mapping/IDEZAR/Distritos/materialisationIDEZARDistritos.sh 
 
-# ./mapping/ZGZ/Residencial/materialisationZGZResidencial.sh 
+# ./mapping/ZGZ/Residencial/materialisation.sh 
 # ./mapping/ZGZ/Industrial/materialisation.sh 
 # ./mapping/ZGZ/Institucional_y_servicios/materialisation.sh # Corrupted dataset
 # ./mapping/ZGZ/IPPU_Gases_fluorados/materialisation.sh 
