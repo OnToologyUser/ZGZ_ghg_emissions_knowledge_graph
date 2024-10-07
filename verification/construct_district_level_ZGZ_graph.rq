@@ -1,0 +1,101 @@
+PREFIX s4city: <https://saref.etsi.org/saref4city/>
+PREFIX saref: <https://saref.etsi.org/core/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX bigg: <http://bigg-project.eu/ld/ontology#>
+PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX usage-o: <http://usage-project.eu/ld/ontology#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+CONSTRUCT{	
+    ?kpia a s4city:KeyPerformanceIndicatorAssessment;
+          a ?kpiaType;
+          saref:hasValue ?kpiaValue;
+          saref:isMeasuredIn ?kpiaValueUnit;
+          s4city:quantifiesKPI ?kpi;
+          s4city:refersToFeature ?district;
+          s4city:refersToTime ?interval;
+          usage-o:refersToSector ?sector.
+    ?kpi a s4city:KeyPerformanceIndicator;
+         a ?kpiType;
+         rdfs:label ?kpiLabel;
+         rdfs:comment ?kpiComment.
+    ?sector a usage-o:Sector;
+            a ?sectorType;
+            rdfs:label ?sectorLabel;
+            rdfs:comment ?sectorComment.
+	?sector skos:broader ?sectorBroader.
+    ?sectorBroader a ?sectorBroaderType;
+                     rdfs:label ?sectorBroaderLabel;
+                     rdfs:comment ?sectorBroaderComment.
+    ?interval a time:DateTimeInterval;
+              a ?intervalType;
+              time:hasDateTimeDescription ?intervalDescription.
+    ?intervalDescription a time:DateTimeDescription;
+                         a ?intervalDescriptionType;
+                         time:year ?intervalYear.
+#	?kpiaValueUnit a saref:UnitOfMeasure.
+    
+    ?district a s4city:District;
+              a ?districtType;
+              rdfs:label ?districtName;
+              geo:hasGeometry ?districtGeometry.#;
+#              owl:sameAs ?otherSourceDistrict.
+    ?districtGeometry a geo:Geometry;
+                      a ?districtGeometryType;
+                      geo:asWKT ?districtGeometryWKT.
+}
+
+WHERE{
+    ?kpia a s4city:KeyPerformanceIndicatorAssessment;
+          a ?kpiaType;
+          saref:hasValue ?kpiaValue;
+          saref:isMeasuredIn ?kpiaValueUnit;
+          s4city:quantifiesKPI ?kpi;
+          s4city:refersToFeature ?district;
+          s4city:refersToTime ?interval;
+          usage-o:refersToSector ?sector.
+    ?kpi a s4city:KeyPerformanceIndicator;
+         a ?kpiType;
+         rdfs:label ?kpiLabel;
+         rdfs:comment ?kpiComment.
+    OPTIONAL{?sector a usage-o:Sector;
+            a ?sectorType;
+            rdfs:label ?sectorLabel;
+            rdfs:comment ?sectorComment.}
+    OPTIONAL{?sector skos:broader ?sectorBroader.
+    		?sectorBroader a ?sectorBroaderType;
+                     rdfs:label ?sectorBroaderLabel;
+                     rdfs:comment ?sectorBroaderComment.}
+    ?interval a time:DateTimeInterval;
+              a ?intervalType;
+              time:hasDateTimeDescription ?intervalDescription.
+    ?intervalDescription a time:DateTimeDescription;
+                         a ?intervalDescriptionType;
+                         time:year ?intervalYear.
+#    ?kpiaValueUnit a saref:UnitOfMeasure.
+    
+    ?district a s4city:District;
+              a ?districtType;
+              rdfs:label ?districtName.
+#    OPTIONAL{?district owl:sameAs ?otherSourceDistrict.}
+    OPTIONAL{?district geo:hasGeometry ?districtGeometry.
+    		 ?districtGeometry a geo:Geometry; 
+                         a ?districtGeometryType;
+                         geo:asWKT ?districtGeometryWKT}
+
+    {
+        SELECT ?district ?districtName ?districtGeometry WHERE {
+          GRAPH <http://usage-project.eu/ld/graph/ZGZ-Residencial> {
+            ?district a s4city:District;
+                rdfs:label ?districtName. # Warning: multiple names for the same district
+          }
+        }
+    }
+#    VALUES (?district) {(<http://usage-project.eu/ld/resource/District/ZGZ-id-1>) 
+#        (<http://usage-project.eu/ld/resource/District/ZGZ-id-NA>)
+#    }
+} 

@@ -1,0 +1,27 @@
+PREFIX s4city: <https://saref.etsi.org/saref4city/>
+PREFIX saref: <https://saref.etsi.org/core/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX bigg: <http://bigg-project.eu/ld/ontology#>
+PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX usage-o: <http://usage-project.eu/ld/ontology#>
+
+SELECT ?wkt ?district ?kpiaValue 
+ (CONCAT("portland, ", str(?kpiaValue/9.5)) as ?wktColor)
+ (CONCAT(str(?kpiaValue)) as ?wktLabel)
+WHERE{
+  ?kpia a s4city:KeyPerformanceIndicatorAssessment;
+        saref:hasValue ?kpiaValue;
+        saref:isMeasuredIn ?kpiaValueUnit;
+        s4city:quantifiesKPI ?kpi;
+        s4city:refersToFeature ?district;
+        s4city:refersToTime/time:hasDateTimeDescription/time:year ?year;
+        usage-o:refersToSector ?sector.
+  ?district a s4city:District;
+#            rdfs:label ?districtName. # Warning: multiple names for the same district
+  OPTIONAL{ ?district geo:hasGeometry/geo:asWKT ?wkt}. # ZGZ 29 districts IDEZAR has 25 districts' geometries 
+  VALUES (?kpi ?year ?sector) {(usage-o:CH4Scope1Emissions "2021"^^xsd:gYear usage-o:ResidentialBuildings)}
+#  VALUES (?district) {(<http://usage-project.eu/ld/resource/District/ZGZ-id-1>)}
+}  

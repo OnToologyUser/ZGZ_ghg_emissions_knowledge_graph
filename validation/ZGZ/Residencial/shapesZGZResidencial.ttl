@@ -1,0 +1,70 @@
+@prefix : <http://base.uri#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix s4city: <http://www.owl-ontologies.com/s4city#> .
+@prefix saref: <http://www.owl-ontologies.com/saref#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix usage-s: <http://usage-project.eu/ld/shape/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+: a owl:Ontology ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+usage-s:KPIAssessmentDatatypeShape a owl:NamedIndividual,
+        sh:NodeShape ;
+    sh:property <http://base.uri#_b1> ;
+    sh:targetClass s4city:KeyPerformanceIndicatorAssessment .
+
+usage-s:WKTgeometryShape a owl:NamedIndividual,
+        sh:NodeShape ;
+    sh:property <http://base.uri#_b2> ;
+    sh:targetClass geo:Geometry .
+
+sh:datatype a owl:ObjectProperty ;
+    rdfs:label "datatype" .
+
+sh:maxCount a owl:DatatypeProperty ;
+    rdfs:label "max count" .
+
+sh:minCount a owl:DatatypeProperty ;
+    rdfs:label "min count" .
+
+sh:path a owl:ObjectProperty ;
+    rdfs:label "path" .
+
+sh:property a owl:ObjectProperty ;
+    rdfs:label "property" .
+
+sh:targetClass a owl:ObjectProperty ;
+    rdfs:label "target class" .
+
+<http://base.uri#_b1> a owl:NamedIndividual ;
+    sh:datatype xsd:float ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:path saref:hasValue .
+
+<http://base.uri#_b2> a owl:NamedIndividual ;
+    sh:datatype geo:wktLiteral ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:path geo:asWKT .
+
+geo:Geometry a owl:NamedIndividual .
+
+geo:asWKT a owl:NamedIndividual .
+
+geo:wktLiteral a owl:NamedIndividual .
+
+s4city:KeyPerformanceIndicatorAssessment a owl:NamedIndividual .
+
+saref:hasValue a owl:NamedIndividual .
+
+xsd:float a owl:NamedIndividual .
+
+sh:NodeShape a owl:Class ;
+    rdfs:label "Node Shape" .
+
+

@@ -1,0 +1,827 @@
+[
+  {
+    "op": "core/column-rename",
+    "description": "Rename column C_ELECTRICIDAD to C_ELECTRICIDAD_MIXNAC",
+    "oldColumnName": "C_ELECTRICIDAD",
+    "newColumnName": "C_ELECTRICIDAD_MIXNAC"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column COORD_IZQ using expression grel:(value.split(\".\")[0]+\".\"+value.split(\".\")[1][0,13]).toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "COORD_IZQ",
+    "expression": "grel:(value.split(\".\")[0]+\".\"+value.split(\".\")[1][0,13]).toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column COORD_SUP using expression grel:(value.split(\".\")[0]+\".\"+value.split(\".\")[1][0,13]).toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "COORD_SUP",
+    "expression": "grel:(value.split(\".\")[0]+\".\"+value.split(\".\")[1][0,13]).toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column COORD_DER using expression grel:(value.split(\".\")[0]+\".\"+value.split(\".\")[1][0,13]).toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "COORD_DER",
+    "expression": "grel:(value.split(\".\")[0]+\".\"+value.split(\".\")[1][0,13]).toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column COORD_INF using expression grel:(value.split(\".\")[0]+\".\"+value.split(\".\")[1][0,13]).toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "COORD_INF",
+    "expression": "grel:(value.split(\".\")[0]+\".\"+value.split(\".\")[1][0,13]).toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column asWKT at index 5 based on column COORD_INF using expression grel:\"POLYGON((\"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_SUP\"].value+ \", \"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_INF\"].value+ \", \"\n+cells[\"COORD_DER\"].value+\" \"+cells[\"COORD_INF\"].value+ \", \"\n+cells[\"COORD_DER\"].value+\" \"+cells[\"COORD_SUP\"].value+ \", \"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_SUP\"].value+\"))\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "asWKT",
+    "columnInsertIndex": 5,
+    "baseColumnName": "COORD_INF",
+    "expression": "grel:\"POLYGON((\"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_SUP\"].value+ \", \"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_INF\"].value+ \", \"\n+cells[\"COORD_DER\"].value+\" \"+cells[\"COORD_INF\"].value+ \", \"\n+cells[\"COORD_DER\"].value+\" \"+cells[\"COORD_SUP\"].value+ \", \"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_SUP\"].value+\"))\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column ID_CELDA using expression grel:value.floor()",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "ID_CELDA",
+    "expression": "grel:value.floor()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NUM_DISTRITO using expression grel:value.floor()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NUM_DISTRITO",
+    "expression": "grel:value.floor()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column C_ELECTRICIDAD_MIXNAC using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "C_ELECTRICIDAD_MIXNAC",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column C_ELECTRICIDAD_GDO using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "C_ELECTRICIDAD_GDO",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column C_ELECTRICIDAD_RES_LOCAL using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "C_ELECTRICIDAD_RES_LOCAL",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column C_GASNATURAL using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "C_GASNATURAL",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column C_GLP using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "C_GLP",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column C_GASOLEO_C using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "C_GASOLEO_C",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column C_GASOLEO_A using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "C_GASOLEO_A",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column C_GASOLINA using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "C_GASOLINA",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column C_OTROS_FOSILES using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "C_OTROS_FOSILES",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column C_BIOMASA using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "C_BIOMASA",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column C_OTROS_RES using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "C_OTROS_RES",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column CO2_ALC1 using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "CO2_ALC1",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column CH4_ALC1 using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "CH4_ALC1",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column N2O_ALC1 using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "N2O_ALC1",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column HFC_ALC1 using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "HFC_ALC1",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PFC_ALC1 using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PFC_ALC1",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column SF6_ALC1 using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "SF6_ALC1",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column CO2_ALC2 using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "CO2_ALC2",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column CH4_ALC2 using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "CH4_ALC2",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column N2O_ALC2 using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "N2O_ALC2",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column CO2_ALC3 using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "CO2_ALC3",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column CH4_ALC3 using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "CH4_ALC3",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column N2O_ALC3 using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "N2O_ALC3",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NOx using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOx",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column CO using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "CO",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column SO2 using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "SO2",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column COV using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "COV",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column COVNM using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "COVNM",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NH3 using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NH3",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PM2.5 using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PM2.5",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PM10 using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PM10",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TSP using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TSP",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column BC using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "BC",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column C6H6 using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "C6H6",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Pb using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Pb",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Cd using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Cd",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Hg using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Hg",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column As using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "As",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Cr using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Cr",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Cu using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Cu",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Ni using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Ni",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Se using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Se",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Zn using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Zn",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column DIOX using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DIOX",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column BENZO_A using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "BENZO_A",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column BENZO_B using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "BENZO_B",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column INDENO_123 using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "INDENO_123",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PAH using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PAH",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PAH using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PAH",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column HCB using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "HCB",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PCBs using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PCBs",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TOTAL_POPs using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TOTAL_POPs",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TOTAL_MPESADOS using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TOTAL_MPESADOS",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },  
+  {
+    "op": "core/column-addition",
+    "description": "Create column Sector at index 20 based on column FUENTE_TRANSP using expression grel:\"http://usage-project.eu/ld/ontology#\"+if(value==\"Vehículos privados\",\"OnRoadPrivateTransport\",if(value==\"Transporte público\",\"OnRoadPublicTransport\",null))",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Sector",
+    "columnInsertIndex": 20,
+    "baseColumnName": "FUENTE_TRANSP",
+    "expression": "grel:\"http://usage-project.eu/ld/ontology#\"+if(value==\"Vehículos privados\",\"OnRoadPrivateTransport\",if(value==\"Transporte público\",\"OnRoadPublicTransport\",null))",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column AÑO using expression grel:value.floor()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "AÑO",
+    "expression": "grel:value.floor()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Subsector at index 22 based on column FUENTE_TRANSP using expression grel:if(value==\"Vehículos privados\",\"OnRoadPrivateTransport\",if(value==\"Transporte público\",\"OnRoadPublicTransport\",null))",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Subsector",
+    "columnInsertIndex": 22,
+    "baseColumnName": "FUENTE_TRANSP",
+    "expression": "grel:if(value==\"Vehículos privados\",\"OnRoadPrivateTransport\",if(value==\"Transporte público\",\"OnRoadPublicTransport\",null))",
+    "onError": "set-to-blank"
+  }
+]

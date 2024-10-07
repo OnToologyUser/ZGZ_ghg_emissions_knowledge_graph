@@ -1,0 +1,49 @@
+PREFIX s4city: <https://saref.etsi.org/saref4city/>
+PREFIX saref: <https://saref.etsi.org/core/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX bigg: <http://bigg-project.eu/ld/ontology#>
+PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX usage-o: <http://usage-project.eu/ld/ontology#>
+CONSTRUCT{
+    ?uri a s4city:KeyPerformanceIndicatorAssessment;
+         saref:hasValue ?sumKpiaValue;
+         saref:isMeasuredIn ?kpiaValueUnit;
+         s4city:quantifiesKPI ?kpi;
+         s4city:refersToFeature ?district;
+         s4city:refersToTime ?interval;
+         usage-o:refersToSector ?sector.
+}
+WHERE {
+    SELECT ?uri ?district ?interval ?kpi ?kpiaValueUnit ?sector (SUM(?kpiaValue) as ?sumKpiaValue)
+    WHERE{
+      ?kpia a s4city:KeyPerformanceIndicatorAssessment;
+            saref:hasValue ?kpiaValue;
+            saref:isMeasuredIn ?kpiaValueUnit;
+            s4city:quantifiesKPI ?kpi;
+            s4city:refersToFeature ?cell;
+            s4city:refersToTime ?interval;
+			s4city:refersToTime/time:hasDateTimeDescription/time:year ?year;
+            usage-o:refersToSector ?sector.
+      ?cell a usage-o:Cell;
+            geo:sfWithin ?district.
+      ?district a s4city:District.
+      {
+        SELECT ?district ?districtName WHERE {
+          GRAPH <http://usage-project.eu/ld/graph/ZGZ-Residencial> {
+            ?district a s4city:District;
+                rdfs:label ?districtName. # Warning: multiple names for the same district
+          }
+        }
+      }
+    #   VALUES (?district) {(<http://usage-project.eu/ld/resource/District/ZGZ-id-1>)}
+      BIND (IRI(CONCAT("http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/",
+                STRAFTER(STR(?kpi),"http://usage-project.eu/ld/ontology#"),"/",
+                STRAFTER(STR(?sector),"http://usage-project.eu/ld/ontology#"),
+                "/USAGE-zgz-district-id-",
+                STRAFTER(STR(?district),"http://usage-project.eu/ld/resource/District/ZGZ-id-"),
+            	"-y-",STR(?year))) as ?uri)
+    } GROUP BY ?uri ?district ?interval ?kpi ?kpiaValueUnit ?sector 
+}
