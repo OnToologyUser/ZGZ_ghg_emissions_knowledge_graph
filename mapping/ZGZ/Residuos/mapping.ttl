@@ -1,7 +1,6 @@
 @prefix : <http://base.uri#> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix mod: <https://w3id.org/mod#> .
-@prefix om: <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix ql: <http://semweb.mmlab.be/ns/ql#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -10,6 +9,7 @@
 @prefix s4city: <https://saref.etsi.org/saref4city/> .
 @prefix saref: <https://saref.etsi.org/core/> .
 @prefix time: <http://www.w3.org/2006/time#> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
 @prefix usage-g: <http://usage-project.eu/ld/graph/> .
 @prefix usage-o: <http://usage-project.eu/ld/ontology#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -1335,6 +1335,8 @@ rr:termType a owl:ObjectProperty ;
     rr:joinCondition <http://base.uri#_b5> ;
     rr:parentTriplesMap <http://base.uri#District> .
 
+unit:TONNE a owl:NamedIndividual .
+
 ql:CSV a owl:NamedIndividual .
 
 usage-o:AsScope1Emissions a owl:NamedIndividual .
@@ -1423,8 +1425,6 @@ usage-o:ZnScope1Emissions a owl:NamedIndividual .
 
 usage-o:refersToSector a owl:NamedIndividual .
 
-om:tonneOfCarbonDioxideEquivalent a owl:NamedIndividual .
-
 geo:Geometry a owl:NamedIndividual .
 
 geo:asWKT a owl:NamedIndividual .
@@ -1464,7 +1464,7 @@ s4city:refersToTime a owl:NamedIndividual .
     rr:parent "ID_CELDA" .
 
 <http://base.uri#_b15> a owl:NamedIndividual ;
-    rr:object om:tonneOfCarbonDioxideEquivalent ;
+    rr:object unit:TONNE ;
     rr:predicate saref:isMeasuredIn .
 
 <http://base.uri#_b16> a owl:NamedIndividual ;
