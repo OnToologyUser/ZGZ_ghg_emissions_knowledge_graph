@@ -1,0 +1,237 @@
+[
+    {
+      "op": "core/recon",
+      "description": "Reconcile cells in column DISTRITO to type Q8561195",
+      "columnName": "DISTRITO",
+      "config": {
+        "mode": "standard-service",
+        "service": "https://wikidata.reconci.link/en/api",
+        "identifierSpace": "http://www.wikidata.org/entity/",
+        "schemaSpace": "http://www.wikidata.org/prop/direct/",
+        "type": {
+          "id": "Q8561195",
+          "name": "district of Zaragoza"
+        },
+        "autoMatch": true,
+        "columnDetails": [],
+        "limit": 0
+      },
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": []
+      }
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "description": "Match topic San José (Q3571959) for cells containing \"San Jose\" in column DISTRITO",
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": [
+          {
+            "omitError": false,
+            "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+            "selectBlank": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "none",
+                  "l": "none"
+                }
+              }
+            ],
+            "selectError": false,
+            "invert": false,
+            "name": "DISTRITO: judgment",
+            "omitBlank": false,
+            "type": "list",
+            "columnName": "DISTRITO"
+          }
+        ]
+      },
+      "columnName": "DISTRITO",
+      "similarValue": "San Jose",
+      "judgment": "matched",
+      "match": {
+        "id": "Q3571959",
+        "name": "San José",
+        "score": 100,
+        "types": [
+          ""
+        ]
+      },
+      "shareNewTopics": false
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "description": "Match topic Distrito Centro (Q8560648) for cells containing \"Centro\" in column DISTRITO",
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": [
+          {
+            "omitError": false,
+            "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+            "selectBlank": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "none",
+                  "l": "none"
+                }
+              }
+            ],
+            "selectError": false,
+            "invert": false,
+            "name": "DISTRITO: judgment",
+            "omitBlank": false,
+            "type": "list",
+            "columnName": "DISTRITO"
+          }
+        ]
+      },
+      "columnName": "DISTRITO",
+      "similarValue": "Centro",
+      "judgment": "matched",
+      "match": {
+        "id": "Q8560648",
+        "name": "Distrito Centro",
+        "score": 100,
+        "types": [
+          ""
+        ]
+      },
+      "shareNewTopics": false
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "description": "Match topic Casco Antiguo (Q8341913) for cells containing \"Casco Historico\" in column DISTRITO",
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": [
+          {
+            "omitError": false,
+            "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+            "selectBlank": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "none",
+                  "l": "none"
+                }
+              }
+            ],
+            "selectError": false,
+            "invert": false,
+            "name": "DISTRITO: judgment",
+            "omitBlank": false,
+            "type": "list",
+            "columnName": "DISTRITO"
+          }
+        ]
+      },
+      "columnName": "DISTRITO",
+      "similarValue": "Casco Historico",
+      "judgment": "matched",
+      "match": {
+        "id": "Q8341913",
+        "name": "Casco Antiguo",
+        "score": 77,
+        "types": [
+          "Q8561195"
+        ]
+      },
+      "shareNewTopics": false
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "description": "Match topic Almozara (Q9018307) for cells containing \"Almozara\" in column DISTRITO",
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": [
+          {
+            "omitError": false,
+            "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+            "selectBlank": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "none",
+                  "l": "none"
+                }
+              }
+            ],
+            "selectError": false,
+            "invert": false,
+            "name": "DISTRITO: judgment",
+            "omitBlank": false,
+            "type": "list",
+            "columnName": "DISTRITO"
+          }
+        ]
+      },
+      "columnName": "DISTRITO",
+      "similarValue": "Almozara",
+      "judgment": "matched",
+      "match": {
+        "id": "Q9018307",
+        "name": "Almozara",
+        "score": 100,
+        "types": [
+          ""
+        ]
+      },
+      "shareNewTopics": false
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "description": "Match topic San Juan de Mozarrifar (Q9073535) for cells containing \"San Juan\" in column DISTRITO",
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": [
+          {
+            "omitError": false,
+            "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+            "selectBlank": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "none",
+                  "l": "none"
+                }
+              }
+            ],
+            "selectError": false,
+            "invert": false,
+            "name": "DISTRITO: judgment",
+            "omitBlank": false,
+            "type": "list",
+            "columnName": "DISTRITO"
+          }
+        ]
+      },
+      "columnName": "DISTRITO",
+      "similarValue": "San Juan",
+      "judgment": "matched",
+      "match": {
+        "id": "Q9073535",
+        "name": "San Juan de Mozarrifar",
+        "score": 100,
+        "types": [
+          ""
+        ]
+      },
+      "shareNewTopics": false
+    },
+    {
+      "op": "core/column-addition",
+      "description": "Create column wikidata at index 9 based on column DISTRITO using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": []
+      },
+      "newColumnName": "wikidata",
+      "columnInsertIndex": 9,
+      "baseColumnName": "DISTRITO",
+      "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+      "onError": "set-to-blank"
+    }
+  ]

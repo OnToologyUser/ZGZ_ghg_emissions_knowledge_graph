@@ -1,0 +1,22 @@
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX s4city: <https://saref.etsi.org/saref4city/>
+PREFIX saref: <https://saref.etsi.org/core/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX usage-o: <http://usage-project.eu/ld/ontology#>
+SELECT * WHERE {
+  ?kpia a s4city:KeyPerformanceIndicatorAssessment;
+       saref:hasValue ?kpiaValue;
+       saref:isMeasuredIn ?kpiaValueUnit;
+       s4city:quantifiesKPI ?kpi;
+       s4city:refersToFeature ?cell;
+       s4city:refersToTime/time:hasDateTimeDescription/time:year ?year;
+       usage-o:refersToSector ?sector.
+  ?cell a usage-o:Cell;
+           geo:hasGeometry ?geometry.
+  ?geometry a geo:Geometry;
+            geo:asWKT ?wkt.
+  BIND( CONCAT("portland, ", str(?kpiaValue/271000)) as ?wktColor) 
+  VALUES (?kpi ?year ?sector) {(usage-o:CO2Scope1Emissions "2019"^^xsd:gYear usage-o:IndustrialBuildings)}
+} 

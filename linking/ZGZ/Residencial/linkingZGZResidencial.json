@@ -1,0 +1,250 @@
+[
+    {
+      "op": "core/column-addition",
+      "description": "Create column NOM_DISTRITO_R at index 10 based on column NOM_DISTRITO using expression grel:value",
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": []
+      },
+      "newColumnName": "NOM_DISTRITO_R",
+      "columnInsertIndex": 10,
+      "baseColumnName": "NOM_DISTRITO",
+      "expression": "grel:value",
+      "onError": "set-to-blank"
+    },
+    {
+      "op": "core/recon",
+      "description": "Reconcile cells in column NOM_DISTRITO_R to type Q8561195",
+      "columnName": "NOM_DISTRITO_R",
+      "config": {
+        "mode": "standard-service",
+        "service": "https://wikidata.reconci.link/en/api",
+        "identifierSpace": "http://www.wikidata.org/entity/",
+        "schemaSpace": "http://www.wikidata.org/prop/direct/",
+        "type": {
+          "id": "Q8561195",
+          "name": "district of Zaragoza"
+        },
+        "autoMatch": true,
+        "columnDetails": [],
+        "limit": 0
+      },
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": []
+      }
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "description": "Match topic Sur (Q56317686) for cells containing \"Sur\" in column NOM_DISTRITO_R",
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": [
+          {
+            "omitError": false,
+            "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+            "selectBlank": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "none",
+                  "l": "none"
+                }
+              }
+            ],
+            "selectError": false,
+            "invert": false,
+            "name": "NOM_DISTRITO_R: judgment",
+            "omitBlank": false,
+            "type": "list",
+            "columnName": "NOM_DISTRITO_R"
+          }
+        ]
+      },
+      "columnName": "NOM_DISTRITO_R",
+      "similarValue": "Sur",
+      "judgment": "matched",
+      "match": {
+        "id": "Q56317686",
+        "name": "Sur",
+        "score": 50,
+        "types": [
+          ""
+        ]
+      },
+      "shareNewTopics": false
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "description": "Match topic Almozara (Q9018307) for cells containing \"La Almozara\" in column NOM_DISTRITO_R",
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": [
+          {
+            "omitError": false,
+            "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+            "selectBlank": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "none",
+                  "l": "none"
+                }
+              }
+            ],
+            "selectError": false,
+            "invert": false,
+            "name": "NOM_DISTRITO_R: judgment",
+            "omitBlank": false,
+            "type": "list",
+            "columnName": "NOM_DISTRITO_R"
+          }
+        ]
+      },
+      "columnName": "NOM_DISTRITO_R",
+      "similarValue": "La Almozara",
+      "judgment": "matched",
+      "match": {
+        "id": "Q9018307",
+        "name": "Almozara",
+        "score": 100,
+        "types": [
+          ""
+        ]
+      },
+      "shareNewTopics": false
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "description": "Match topic Juslibol (Q9016797) for cells containing \"Juslibol - El Zorongo\" in column NOM_DISTRITO_R",
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": [
+          {
+            "omitError": false,
+            "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+            "selectBlank": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "none",
+                  "l": "none"
+                }
+              }
+            ],
+            "selectError": false,
+            "invert": false,
+            "name": "NOM_DISTRITO_R: judgment",
+            "omitBlank": false,
+            "type": "list",
+            "columnName": "NOM_DISTRITO_R"
+          }
+        ]
+      },
+      "columnName": "NOM_DISTRITO_R",
+      "similarValue": "Juslibol - El Zorongo",
+      "judgment": "matched",
+      "match": {
+        "id": "Q9016797",
+        "name": "Juslibol",
+        "score": 100,
+        "types": [
+          ""
+        ]
+      },
+      "shareNewTopics": false
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "description": "Match topic Casco Antiguo (Q8341913) for cells containing \"Casco Histórico\" in column NOM_DISTRITO_R",
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": [
+          {
+            "omitError": false,
+            "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+            "selectBlank": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "none",
+                  "l": "none"
+                }
+              }
+            ],
+            "selectError": false,
+            "invert": false,
+            "name": "NOM_DISTRITO_R: judgment",
+            "omitBlank": false,
+            "type": "list",
+            "columnName": "NOM_DISTRITO_R"
+          }
+        ]
+      },
+      "columnName": "NOM_DISTRITO_R",
+      "similarValue": "Casco Histórico",
+      "judgment": "matched",
+      "match": {
+        "id": "Q8341913",
+        "name": "Casco Antiguo",
+        "score": 77,
+        "types": [
+          "Q8561195"
+        ]
+      },
+      "shareNewTopics": false
+    },
+    {
+      "op": "core/recon-judge-similar-cells",
+      "description": "Match topic Distrito Centro (Q8560648) for cells containing \"Centro\" in column NOM_DISTRITO_R",
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": [
+          {
+            "omitError": false,
+            "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+            "selectBlank": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "none",
+                  "l": "none"
+                }
+              }
+            ],
+            "selectError": false,
+            "invert": false,
+            "name": "NOM_DISTRITO_R: judgment",
+            "omitBlank": false,
+            "type": "list",
+            "columnName": "NOM_DISTRITO_R"
+          }
+        ]
+      },
+      "columnName": "NOM_DISTRITO_R",
+      "similarValue": "Centro",
+      "judgment": "matched",
+      "match": {
+        "id": "Q8560648",
+        "name": "Distrito Centro",
+        "score": 100,
+        "types": [
+          ""
+        ]
+      },
+      "shareNewTopics": false
+    },
+    {
+      "op": "core/column-addition",
+      "description": "Create column wikidata at index 11 based on column NOM_DISTRITO_R using expression grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+      "engineConfig": {
+        "mode": "row-based",
+        "facets": []
+      },
+      "newColumnName": "wikidata",
+      "columnInsertIndex": 11,
+      "baseColumnName": "NOM_DISTRITO_R",
+      "expression": "grel:\"https://www.wikidata.org/wiki/\"+cell.recon.match.id",
+      "onError": "set-to-blank"
+    }
+  ]

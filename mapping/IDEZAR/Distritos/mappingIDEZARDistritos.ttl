@@ -88,7 +88,7 @@ rr:template a owl:DatatypeProperty ;
 
 <http://base.uri#_b2> a owl:NamedIndividual ;
     rr:class geo:Geometry ;
-    rr:graph usage-g:IDEZAR ;
+    rr:graph  usage-g:IDEZAR-Distritos ;
     rr:template "http://usage-project.eu/ld/resource/Geometry/District/IDEZAR-id-{OBJECTID}" .
 
 <http://base.uri#_b3> a owl:NamedIndividual ;
@@ -105,7 +105,7 @@ rr:template a owl:DatatypeProperty ;
 
 <http://base.uri#_b6> a owl:NamedIndividual ;
     rr:class s4city:District ;
-    rr:graph usage-g:IDEZAR ;
+    rr:graph  usage-g:IDEZAR-Distritos ;
     rr:template "http://usage-project.eu/ld/resource/District/IDEZAR-id-{OBJECTID}" .
 
 <http://base.uri#_b7> a owl:NamedIndividual ;
@@ -136,7 +136,7 @@ s4city:District a owl:NamedIndividual .
 
 ql:CSV a owl:NamedIndividual .
 
-usage-g:IDEZAR a owl:NamedIndividual .
+ usage-g:IDEZAR-Distritos a owl:NamedIndividual .
 
 rr:TriplesMap a owl:Class ;
     rdfs:label "Triples Map" .
