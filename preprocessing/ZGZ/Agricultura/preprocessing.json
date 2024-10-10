@@ -1,0 +1,74 @@
+[
+  {
+    "op": "core/column-rename",
+    "description": "Rename column PM2,5 regadío (ton) to PM2.5 regadío (ton)",
+    "oldColumnName": "PM2,5 regadío (ton)",
+    "newColumnName": "PM2.5 regadío (ton)"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column PM2,5 TOTALES (ton) to PM2.5 TOTALES (ton)",
+    "oldColumnName": "PM2,5 TOTALES (ton)",
+    "newColumnName": "PM2.5 TOTALES (ton)"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column PM2,5 secano (ton) to PM2.5 secano (ton)",
+    "oldColumnName": "PM2,5 secano (ton)",
+    "newColumnName": "PM2.5 secano (ton)"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Year at index 1 based on column File using expression grel:value.split(\"_\")[2][0,4]",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Year",
+    "columnInsertIndex": 1,
+    "baseColumnName": "File",
+    "expression": "grel:value.split(\"_\")[2][0,4]",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "TOTAL N ZARAGOZA (kg N)",
+                "l": "TOTAL N ZARAGOZA (kg N)"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": true,
+          "name": "Cultivo",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Cultivo"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column City at index 4 based on column Cultivo using expression grel:value.split(\" \")[2]",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "newColumnName": "City",
+    "columnInsertIndex": 4,
+    "baseColumnName": "Cultivo",
+    "expression": "grel:value.split(\" \")[2]",
+    "onError": "set-to-blank"
+  }
+]

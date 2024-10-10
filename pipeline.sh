@@ -19,6 +19,7 @@
 # ./preprocessing/ZGZ/Transporte/preprocessing.sh
 # python3 preprocessing/ZGZ/Transporte/blank_column_cli.py asWKT data/ZGZ/Transporte/refined/BBDD_Transp_Carretera_TPrivado_2021_v001.csv # Removed conflictive polygons
 # python3 preprocessing/ZGZ/Transporte/fill_column_cli.py data/ZGZ/Transporte/refined/BBDD_Transp_Carretera_TPrivado_2019_v001.csv AÑO 2019 # Filled conflictive years
+# ./preprocessing/ZGZ/Agricultura/preprocessing.sh
 
 
 ## mapping
@@ -28,6 +29,7 @@
 # ./mapping/ZGZ/Arbolado/mapping_diagram_to_code.sh  # chowlk api doesn't support big files
 # ./mapping/ZGZ/Ganaderia/mapping_diagram_to_code.sh  # supported by chowlk api
 # ./mapping/ZGZ/Transporte/mapping_diagram_to_code.sh  # chowlk api doesn't support big files
+# ./mapping/ZGZ/Agricultura/mapping_diagram_to_code.sh
 
     # using the Chowlk repo:
     # python3 converter.py ../USAGE-LD/mapping/ZGZ/Residencial/mapping_temp.xml ../USAGE-LD/mapping/ZGZ/Residencial/mapping.ttl
@@ -43,6 +45,7 @@
 # ./mapping/ZGZ/Arbolado/materialisation.sh 
 # ./mapping/ZGZ/Ganaderia/materialisation.sh 
 # ./mapping/ZGZ/Transporte/materialisation.sh 
+# ./mapping/ZGZ/Agricultura/materialisation.sh
 
 # ./mapping/join.sh
 # python mapping/zip.py
