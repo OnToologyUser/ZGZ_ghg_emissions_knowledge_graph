@@ -62,7 +62,84 @@
     "description": "Create column asWKT at index 5 based on column COORD_INF using expression grel:\"POLYGON((\"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_SUP\"].value+ \", \"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_INF\"].value+ \", \"\n+cells[\"COORD_DER\"].value+\" \"+cells[\"COORD_INF\"].value+ \", \"\n+cells[\"COORD_DER\"].value+\" \"+cells[\"COORD_SUP\"].value+ \", \"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_SUP\"].value+\"))\"",
     "engineConfig": {
       "mode": "row-based",
-      "facets": []
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value == \"NA\"",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "COORD_IZQ",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "COORD_IZQ"
+        },
+        {
+          "omitError": false,
+          "expression": "value == \"NA\"",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "COORD_SUP",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "COORD_SUP"
+        },
+        {
+          "omitError": false,
+          "expression": "value == \"NA\"",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "COORD_DER",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "COORD_DER"
+        },
+        {
+          "omitError": false,
+          "expression": "value == \"NA\"",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "COORD_INF",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "COORD_INF"
+        }
+      ]
     },
     "newColumnName": "asWKT",
     "columnInsertIndex": 5,
@@ -784,18 +861,31 @@
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10
-  },  
+  },
   {
     "op": "core/column-addition",
-    "description": "Create column Sector at index 20 based on column FUENTE_TRANSP using expression grel:\"http://usage-project.eu/ld/ontology#\"+if(value==\"Vehículos privados\",\"OnRoadPrivateTransport\",if(value==\"Transporte público\",\"OnRoadPublicTransport\",null))",
+    "description": "Create column SectorByFile at index 1 based on column File using expression grel:value.split(\"_\")[3]",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "SectorByFile",
+    "columnInsertIndex": 1,
+    "baseColumnName": "File",
+    "expression": "grel:value.split(\"_\")[3]",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Sector at index 20 based on column SectorByFile using expression grel:\"http://usage-project.eu/ld/ontology#\"+if(value==\"TPrivado\",\"OnRoadPrivateTransport\",if(value==\"TPublico\",\"OnRoadPublicTransport\",if(value==\"FlotaMuni\",\"MunicipalFleet\",null)))",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
     "newColumnName": "Sector",
     "columnInsertIndex": 20,
-    "baseColumnName": "FUENTE_TRANSP",
-    "expression": "grel:\"http://usage-project.eu/ld/ontology#\"+if(value==\"Vehículos privados\",\"OnRoadPrivateTransport\",if(value==\"Transporte público\",\"OnRoadPublicTransport\",null))",
+    "baseColumnName": "SectorByFile",
+    "expression": "grel:\"http://usage-project.eu/ld/ontology#\"+if(value==\"TPrivado\",\"OnRoadPrivateTransport\",if(value==\"TPublico\",\"OnRoadPublicTransport\",if(value==\"FlotaMuni\",\"MunicipalFleet\",null)))",
     "onError": "set-to-blank"
   },
   {
@@ -812,16 +902,34 @@
     "repeatCount": 10
   },
   {
+    "op": "core/column-removal",
+    "description": "Remove column AÑO",
+    "columnName": "AÑO"
+  },
+  {
     "op": "core/column-addition",
-    "description": "Create column Subsector at index 22 based on column FUENTE_TRANSP using expression grel:if(value==\"Vehículos privados\",\"OnRoadPrivateTransport\",if(value==\"Transporte público\",\"OnRoadPublicTransport\",null))",
+    "description": "Create column AÑO at index 1 based on column File using expression grel:value.split(\"#\")[1].toNumber().floor()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "AÑO",
+    "columnInsertIndex": 1,
+    "baseColumnName": "File",
+    "expression": "grel:value.split(\"#\")[1].toNumber().floor()",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Subsector at index 21 based on column Sector using expression grel:value.split(\"#\")[1]",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
     "newColumnName": "Subsector",
-    "columnInsertIndex": 22,
-    "baseColumnName": "FUENTE_TRANSP",
-    "expression": "grel:if(value==\"Vehículos privados\",\"OnRoadPrivateTransport\",if(value==\"Transporte público\",\"OnRoadPublicTransport\",null))",
+    "columnInsertIndex": 21,
+    "baseColumnName": "Sector",
+    "expression": "grel:value.split(\"#\")[1]",
     "onError": "set-to-blank"
   }
 ]
