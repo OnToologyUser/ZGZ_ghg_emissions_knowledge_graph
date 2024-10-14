@@ -1,5 +1,5 @@
 linking_directory='linking/IDEZAR/Distritos/'
-linking_file_name='linkingIDEZARDistritos'
+linking_file_name='linking_diagram'
 
 cp $linking_directory$linking_file_name'.drawio' $linking_directory'linking_temp.xml'
 curl -F data=@$linking_directory'linking_temp.xml' https://chowlk.linkeddata.es/api | \

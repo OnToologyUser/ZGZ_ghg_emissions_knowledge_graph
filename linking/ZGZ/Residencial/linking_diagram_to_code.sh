@@ -1,5 +1,5 @@
 linking_directory='linking/ZGZ/Residencial/'
-linking_file_name='linkingZGZResidencial'
+linking_file_name='linking_mapping'
 
 cp $linking_directory$linking_file_name'.drawio' $linking_directory'linking_temp.xml'
 curl -F data=@$linking_directory'linking_temp.xml' https://chowlk.linkeddata.es/api | \

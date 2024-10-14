@@ -1,7 +1,7 @@
 #!/bin/bash
 data_directory='data/IDEZAR/Distritos/'
 linking_directory='linking/IDEZAR/Distritos/'
-linking_file=$linking_directory'linkingIDEZARDistritos.ttl'
+linking_file=$linking_directory'linking_mapping.ttl'
 data_file=$data_directory'linkingDataInProcess.csv'
 config_file=$linking_directory'linkingConfigInProcess.ini'
 

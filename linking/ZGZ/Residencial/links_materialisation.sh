@@ -1,7 +1,7 @@
 #!/bin/bash
 data_directory='data/ZGZ/Residencial/'
 linking_directory='linking/ZGZ/Residencial/'
-linking_file=$linking_directory'linkingZGZResidencial.ttl'
+linking_file=$linking_directory'linking_mapping.ttl'
 data_file=$data_directory'linkingDataInProcess.csv'
 config_file=$linking_directory'linkingConfigInProcess.ini'
 
@@ -19,7 +19,7 @@ for file in data/ZGZ/Residencial/linked/*.csv ; do
     echo mappings=$linking_file>>$config_file
     echo file_path=$data_file>>$config_file
 
-    python -m morph_kgc $config_file
+    python3 -m morph_kgc $config_file
     rm -r $config_file
     rm -r $data_file
 done
