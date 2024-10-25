@@ -18,9 +18,10 @@
 # ./preprocessing/ZGZ/Ganaderia/preprocessing.sh 
 # ./preprocessing/ZGZ/Transporte/preprocessing.sh
 # python3 preprocessing/ZGZ/Transporte/blank_column_cli.py asWKT data/ZGZ/Transporte/refined/BBDD_Transp_Carretera_TPrivado_2021_v001.csv # Removed conflictive polygons
-# python3 preprocessing/ZGZ/Transporte/fill_column_cli.py data/ZGZ/Transporte/refined/BBDD_Transp_Carretera_TPrivado_2019_v001.csv AÑO 2019 # Filled conflictive years
+## python3 preprocessing/ZGZ/Transporte/fill_column_cli.py data/ZGZ/Transporte/refined/BBDD_Transp_Carretera_TPrivado_2019_v001.csv AÑO 2019 # Filled conflictive years
 # ./preprocessing/ZGZ/Agricultura/preprocessing.sh
 # ./preprocessing/ZGZ/Flota_municipal/preprocessing.sh
+# ./preprocessing/ZGZ/Aviacion/preprocessing.sh
 
 
 ## mapping

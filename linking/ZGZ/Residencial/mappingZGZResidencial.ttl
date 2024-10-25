@@ -1335,7 +1335,7 @@ rr:template a owl:DatatypeProperty ;
 <http://base.uri#_b6d> a owl:NamedIndividual ;
     rr:class s4city:District ;
     rr:graph usage-g:ZGZ ;
-    rr:template "http://usage-project.eu/ld/resource/District/ZGZ-id-{NUM_DISTRITO}" .
+    rr:template "http://usage-project.eu/ld/resource/District/ZGZ-id-{ID_PADRON}" .
 
 <http://base.uri#_b7> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b8> ;

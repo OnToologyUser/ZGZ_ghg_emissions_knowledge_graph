@@ -73,7 +73,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="28" value="&quot;http://usage-project.eu/ld/resource/District/ZGZ-id-{NUM_DISTRITO&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;}&quot;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
+                <mxCell id="28" value="&quot;http://usage-project.eu/ld/resource/District/ZGZ-id-{ID_PADRON&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;}&quot;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;" parent="1" vertex="1">
                     <mxGeometry x="460" y="410" width="390" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="30" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;usage-g:ZGZ&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];fontStyle=4" parent="1" vertex="1">
