@@ -1,5 +1,23 @@
 [
   {
+    "op": "core/column-removal",
+    "description": "Remove column AÑO",
+    "columnName": "AÑO"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column AÑO at index 1 based on column File using expression grel:value.split(\"_\")[2][0,4].toNumber().floor()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "AÑO",
+    "columnInsertIndex": 1,
+    "baseColumnName": "File",
+    "expression": "grel:value.split(\"_\")[2][0,4].toNumber().floor()",
+    "onError": "set-to-blank"
+  },  
+  {
     "op": "core/text-transform",
     "description": "Text transform on cells in column COORD_IZQ using expression grel:(value.split(\".\")[0]+\".\"+value.split(\".\")[1][0,13]).toNumber()",
     "engineConfig": {
