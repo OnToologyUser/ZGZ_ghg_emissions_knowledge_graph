@@ -1,15 +1,138 @@
 [
   {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column ID_CELDA using expression grel:value.floor()",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "ID_CELDA",
+    "expression": "grel:value.floor()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column CO2_ALC1 using expression grel:value.toNumber()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "CO2_ALC1",
+    "expression": "grel:value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column CO2_ALC1 using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "CO2_ALC1",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column ID_CELDA to position 0",
+    "columnName": "ID_CELDA",
+    "index": 0
+  },
+  {
+    "op": "core/row-reorder",
+    "description": "Reorder rows",
+    "mode": "record-based",
+    "sorting": {
+      "criteria": [
+        {
+          "errorPosition": 1,
+          "caseSensitive": false,
+          "valueType": "string",
+          "column": "ID_CELDA",
+          "blankPosition": 2,
+          "reverse": false
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/blank-down",
+    "description": "Blank down cells in column ID_CELDA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "ID_CELDA"
+  },
+  {
     "op": "core/column-addition",
-    "description": "Create column AÑO at index 1 based on column ID_CELDA using expression grel:2021",
+    "description": "Create column CO2_ALC1_TOTAL at index 24 based on column CO2_ALC1 using expression grel:row.record.cells[\"CO2_ALC1\"].value.sum()",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "newColumnName": "CO2_ALC1_TOTAL",
+    "columnInsertIndex": 24,
+    "baseColumnName": "CO2_ALC1",
+    "expression": "grel:row.record.cells[\"CO2_ALC1\"].value.sum()",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CO2_ALC1",
+    "columnName": "CO2_ALC1"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column CO2_ALC1_TOTAL to CO2_ALC1",
+    "oldColumnName": "CO2_ALC1_TOTAL",
+    "newColumnName": "CO2_ALC1"
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ID_CELDA",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ID_CELDA"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column AÑO at index 1 based on column File using expression grel:value.split(\"_\")[2][0,4].toNumber().floor()",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
     "newColumnName": "AÑO",
     "columnInsertIndex": 1,
-    "baseColumnName": "ID_CELDA",
-    "expression": "grel:2021",
+    "baseColumnName": "File",
+    "expression": "grel:value.split(\"_\")[2][0,4].toNumber().floor()",
     "onError": "set-to-blank"
   },
   {
@@ -76,19 +199,6 @@
     "baseColumnName": "COORD_INF",
     "expression": "grel:\"POLYGON((\"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_SUP\"].value+ \", \"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_INF\"].value+ \", \"\n+cells[\"COORD_DER\"].value+\" \"+cells[\"COORD_INF\"].value+ \", \"\n+cells[\"COORD_DER\"].value+\" \"+cells[\"COORD_SUP\"].value+ \", \"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_SUP\"].value+\"))\"",
     "onError": "set-to-blank"
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column ID_CELDA using expression grel:value.floor()",
-    "engineConfig": {
-      "mode": "record-based",
-      "facets": []
-    },
-    "columnName": "ID_CELDA",
-    "expression": "grel:value.floor()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
   },
   {
     "op": "core/text-transform",
@@ -241,19 +351,6 @@
       "facets": []
     },
     "columnName": "C_OTROS_RES",
-    "expression": "grel:if(isNumeric(value),value,null)",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column CO2_ALC1 using expression grel:if(isNumeric(value),value,null)",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "CO2_ALC1",
     "expression": "grel:if(isNumeric(value),value,null)",
     "onError": "keep-original",
     "repeat": false,
