@@ -7,7 +7,8 @@ cd tools
 -b ../preprocessing/ZGZ/Arbolado/ \
 -c ../data/ZGZ/Arbolado/refined/ \
 -e csv \
--f csv \
+-f xlsx \
+-i sheets=0 \
 -i trimStrings=true \
 -i guessCellValueTypes=false \
 -i storeBlankCellsAsNulls=false \
