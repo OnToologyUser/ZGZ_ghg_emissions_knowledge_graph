@@ -78,6 +78,7 @@
 # ./linking/ZGZ/Residencial/linking_diagram_to_code.sh
 # ./linking/ZGZ/Residencial/links_materialisation.sh
 
+# python3 linking/ZGZ/ghg_kpi_per_cell_construct.py # Aggregates enrichment
 # python linking/ZGZ/district_level_kpiaValues_construct.py # Aggregates enrichment
 
 ## publication

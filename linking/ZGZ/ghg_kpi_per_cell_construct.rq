@@ -13,53 +13,57 @@ CONSTRUCT{
     ?uri a s4city:KeyPerformanceIndicatorAssessment;
          saref:hasValue ?GHGValue;
          saref:isMeasuredIn unit:TONNE;
-         s4city:quantifiesKPI ?kpi;
+         s4city:quantifiesKPI usage-o:GHGEmissions;
          s4city:refersToFeature ?cell;
          s4city:refersToTime ?interval;
          usage-o:refersToSector ?sector.
 }
 WHERE {
   {
-    SELECT ?cell ?sector ?year ?district ?CO2Scope1Value WHERE{
+    SELECT ?cell ?sector ?interval ?year ?district ?CO2Scope1Value WHERE{
       ?kpia a s4city:KeyPerformanceIndicatorAssessment;
             saref:hasValue ?CO2Scope1Value;
             s4city:quantifiesKPI usage-o:CO2Scope1Emissions;
             s4city:refersToFeature ?cell;
-            s4city:refersToTime/time:hasDateTimeDescription/time:year ?year;
-                                                           usage-o:refersToSector ?sector.
+            s4city:refersToTime ?interval;
+            usage-o:refersToSector ?sector.
+      ?interval time:hasDateTimeDescription/time:year ?year.
       ?cell a usage-o:Cell;
             geo:sfWithin ?district.}
   }
   {
-    SELECT ?cell ?sector ?year ?district ?CO2Scope2Value WHERE{
+    SELECT ?cell ?sector ?interval ?year ?district ?CO2Scope2Value WHERE{
       ?kpia a s4city:KeyPerformanceIndicatorAssessment;
             saref:hasValue ?CO2Scope2Value;
             s4city:quantifiesKPI usage-o:CO2Scope2Emissions;
             s4city:refersToFeature ?cell;
-            s4city:refersToTime/time:hasDateTimeDescription/time:year ?year;
-                                                           usage-o:refersToSector ?sector.
+            s4city:refersToTime ?interval;
+            usage-o:refersToSector ?sector.
+      ?interval time:hasDateTimeDescription/time:year ?year.
       ?cell a usage-o:Cell;
             geo:sfWithin ?district.}
   }
   {
-    SELECT ?cell ?sector ?year ?district ?N2OScope1Value WHERE{
+    SELECT ?cell ?sector ?interval ?year ?district ?N2OScope1Value WHERE{
       ?kpia a s4city:KeyPerformanceIndicatorAssessment;
             saref:hasValue ?N2OScope1Value;
             s4city:quantifiesKPI usage-o:N2OScope1Emissions;
             s4city:refersToFeature ?cell;
-            s4city:refersToTime/time:hasDateTimeDescription/time:year ?year;
-                                                           usage-o:refersToSector ?sector.
+            s4city:refersToTime ?interval;
+            usage-o:refersToSector ?sector.
+      ?interval time:hasDateTimeDescription/time:year ?year.
       ?cell a usage-o:Cell;
             geo:sfWithin ?district.}
   }
   {
-    SELECT ?cell ?sector ?year ?district ?CH4Scope1Value WHERE{
+    SELECT ?cell ?sector ?interval ?year ?district ?CH4Scope1Value WHERE{
       ?kpia a s4city:KeyPerformanceIndicatorAssessment;
             saref:hasValue ?CH4Scope1Value;
             s4city:quantifiesKPI usage-o:CH4Scope1Emissions;
             s4city:refersToFeature ?cell;
-            s4city:refersToTime/time:hasDateTimeDescription/time:year ?year;
-                                                           usage-o:refersToSector ?sector.
+            s4city:refersToTime ?interval;
+            usage-o:refersToSector ?sector.
+      ?interval time:hasDateTimeDescription/time:year ?year.
       ?cell a usage-o:Cell;
             geo:sfWithin ?district.}
   }
