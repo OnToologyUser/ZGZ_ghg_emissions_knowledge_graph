@@ -79,7 +79,7 @@ WHERE {
 #  SELECT ?cell ?sector ?year ?districtName ((?CO2Scope1Value + 25*?CH4Scope1Value + 298*?N2OScope1Value + ?CO2Scope2Value) as ?GHGValue) 
   BIND (IRI(CONCAT("http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/GHGEmissions/",
                 STRAFTER(STR(?sector),"http://usage-project.eu/ld/ontology#"),
-                "/ZGZ-id-",
+                "/USAGE-zgz-cell-id-",
                 STRAFTER(STR(?cell),"http://usage-project.eu/ld/resource/Cell/ZGZ-id-"),
             	"-y-",STR(?year))) as ?uri)
 }
