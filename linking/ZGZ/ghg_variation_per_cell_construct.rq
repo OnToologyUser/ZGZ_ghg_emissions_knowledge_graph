@@ -17,6 +17,15 @@ CONSTRUCT{
          s4city:refersToFeature ?cell;
          s4city:refersToTime ?interval;
          usage-o:refersToSector ?sector.
+    <http://usage-project.eu/ld/resource/Instant/2019-01-01> a time:Instant ;
+        time:inXSDDateTime "2019-01-01T00:00:00Z"^^xsd:dateTime .
+
+    <http://usage-project.eu/ld/resource/Instant/2021-12-31> a time:Instant ;
+        time:inXSDDateTime "2021-12-31T23:59:59Z"^^xsd:dateTime .
+
+    <http://usage-project.eu/ld/resource/Interval/USAGE-y-2019-2021> a time:Interval ;
+        time:hasBeginning <http://usage-project.eu/ld/resource/Instant/2019-01-01> ;
+        time:hasEnd <http://usage-project.eu/ld/resource/Instant/2021-12-31> .
 }
 WHERE {
   {
@@ -57,4 +66,5 @@ WHERE {
                 "/USAGE-zgz-cell-id-",
                 STRAFTER(STR(?cell),"http://usage-project.eu/ld/resource/Cell/ZGZ-id-"),
                 "-y-",STR(?year1), "-", STR(?year2))) as ?uri)
+	BIND (IRI(CONCAT("http://usage-project.eu/ld/resource/Interval/USAGE-y-",STR(?year1), "-", STR(?year2))) as ?interval)
 }
