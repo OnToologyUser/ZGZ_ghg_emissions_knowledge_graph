@@ -79,6 +79,9 @@
 # ./linking/ZGZ/Residencial/links_materialisation.sh
 
 # python3 linking/ZGZ/ghg_kpi_per_cell_construct.py # Aggregates enrichment
+# python3 linking/ZGZ/ghg_variation_kpi_per_cell_construct.py # Aggregates enrichment
+
+# make sure the previous generated triples are inserted in the triplestore before aggregating at the district level
 # python linking/ZGZ/district_level_kpiaValues_construct.py # Aggregates enrichment
 
 ## publication
