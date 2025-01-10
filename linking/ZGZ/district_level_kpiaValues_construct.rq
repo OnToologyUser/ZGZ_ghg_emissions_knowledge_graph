@@ -16,6 +16,7 @@ CONSTRUCT{
          s4city:refersToTime ?interval;
          usage-o:refersToSector ?sector.
 }
+#SELECT *
 WHERE {
     SELECT ?uri ?district ?interval ?kpi ?kpiaValueUnit ?sector (SUM(?kpiaValue) as ?sumKpiaValue)
     WHERE{
@@ -25,7 +26,7 @@ WHERE {
             s4city:quantifiesKPI ?kpi;
             s4city:refersToFeature ?cell;
             s4city:refersToTime ?interval;
-			s4city:refersToTime/time:hasDateTimeDescription/time:year ?year;
+			# s4city:refersToTime/time:hasDateTimeDescription/time:year ?year;
             usage-o:refersToSector ?sector.
       ?cell a usage-o:Cell;
             geo:sfWithin ?district.
@@ -43,7 +44,8 @@ WHERE {
                 STRAFTER(STR(?kpi),"http://usage-project.eu/ld/ontology#"),"/",
                 STRAFTER(STR(?sector),"http://usage-project.eu/ld/ontology#"),
                 "/USAGE-zgz-district-id-",
-                STRAFTER(STR(?district),"http://usage-project.eu/ld/resource/District/ZGZ-id-"),
-            	"-y-",STR(?year))) as ?uri)
+                STRAFTER(STR(?district),"http://usage-project.eu/ld/resource/District/ZGZ-id-"),"-y-",
+		        STRAFTER(STRAFTER(STRAFTER(STR(?interval),"http://usage-project.eu/ld/resource/Interval/"),"-"),"-")
+          			  )) as ?uri)
     } GROUP BY ?uri ?district ?interval ?kpi ?kpiaValueUnit ?sector 
 }
