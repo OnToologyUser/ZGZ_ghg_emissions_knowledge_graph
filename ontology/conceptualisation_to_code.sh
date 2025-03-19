@@ -1,8 +1,6 @@
-cd ontology
-cp usage_ontology.drawio usage_ontology.xml
-curl -F data=@usage_ontology.xml https://chowlk.linkeddata.es/api | \
-    python3 -c "import sys, json; print(json.load(sys.stdin)['ttl_data'])" > usage_ontology.ttl
-curl -F data=@usage_ontology.xml https://chowlk.linkeddata.es/api | \
-    python3 -c "import sys, json; print(json.load(sys.stdin)['errors'])"    
-# rm usage_ontology.xml
-cd ..
+directory='ontology'
+file_name='ontology'
+
+cp $directory/$file_name'.drawio' $directory/$file_name'_temp.xml'
+docker run -v ./$directory:/tmp --rm  chowlk-chowlk:latest  bin/bash  -c "python3 home/app/converter.py tmp/$file_name'_temp.xml' tmp/$file_name.ttl"
+rm $directory/$file_name'_temp.xml'

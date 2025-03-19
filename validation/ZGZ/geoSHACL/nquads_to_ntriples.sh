@@ -1,1 +1,0 @@
- rev data/rdf-file.nq | cut -d "<" -f 2- |rev |sed 's/.$/./'  > data/rdf-file-triples.nt

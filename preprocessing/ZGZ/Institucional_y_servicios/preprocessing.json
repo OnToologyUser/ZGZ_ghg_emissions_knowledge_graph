@@ -107,12 +107,12 @@
   },
   {
     "op": "core/text-transform",
-    "description": "Text transform on cells in column NUM_DISTRITO using expression grel:value.floor()",
+    "description": "Text transform on cells in column ID_PADRON using expression grel:value.floor()",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
-    "columnName": "NUM_DISTRITO",
+    "columnName": "ID_PADRON",
     "expression": "grel:value.floor()",
     "onError": "keep-original",
     "repeat": false,

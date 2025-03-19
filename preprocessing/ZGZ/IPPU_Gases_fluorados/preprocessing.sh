@@ -2,7 +2,7 @@
 rm -r data/ZGZ/IPPU_Gases_fluorados/refined
 mkdir data/ZGZ/IPPU_Gases_fluorados/refined
 cd tools
-./openrefine-batch-master/openrefine-batch.sh \
+./openrefine-batch/openrefine-batch.sh \
 -a ../data/ZGZ/IPPU_Gases_fluorados/raw/ \
 -b ../preprocessing/ZGZ/IPPU_Gases_fluorados/ \
 -c ../data/ZGZ/IPPU_Gases_fluorados/refined/ \

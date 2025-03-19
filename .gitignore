@@ -1,7 +1,9 @@
 .venv
+venv
 .vscode
 **/__pycache__
 **/old
+old_data
 data/*
-tools/*
+tools/*/*
 logs

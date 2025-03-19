@@ -2,7 +2,7 @@
 rm -r data/ZGZ/Residencial/refined
 mkdir data/ZGZ/Residencial/refined
 cd tools
-./openrefine-batch-master/openrefine-batch.sh \
+./openrefine-batch/openrefine-batch.sh \
 -a ../data/ZGZ/Residencial/raw/ \
 -b ../preprocessing/ZGZ/Residencial/ \
 -c ../data/ZGZ/Residencial/refined/ \

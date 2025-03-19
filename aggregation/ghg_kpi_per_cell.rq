@@ -1,0 +1,64 @@
+PREFIX s4city: <https://saref.etsi.org/saref4city/>
+PREFIX saref: <https://saref.etsi.org/core/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX bigg: <http://bigg-project.eu/ld/ontology#>
+PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX usage-o: <http://usage-project.eu/ld/ontology#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?cell ?sector ?year ?districtName ((?CO2Scope1Value + 25*?CH4Scope1Value + 298*?N2OScope1Value + ?CO2Scope2Value) as ?GHGValue) WHERE {
+  {
+  SELECT ?cell ?sector ?year ?district ?CO2Scope1Value WHERE{
+    ?kpia a s4city:KeyPerformanceIndicatorAssessment;
+          saref:hasValue ?CO2Scope1Value;
+          s4city:quantifiesKPI usage-o:CO2Scope1Emissions;
+          s4city:refersToFeature ?cell;
+          s4city:refersToTime/time:hasDateTimeDescription/time:year ?year;
+          usage-o:refersToSector ?sector.
+    ?cell a usage-o:Cell;
+          geo:sfWithin ?district.}
+  }
+  {
+  SELECT ?cell ?sector ?year ?district ?CO2Scope2Value WHERE{
+    ?kpia a s4city:KeyPerformanceIndicatorAssessment;
+          saref:hasValue ?CO2Scope2Value;
+          s4city:quantifiesKPI usage-o:CO2Scope2Emissions;
+          s4city:refersToFeature ?cell;
+          s4city:refersToTime/time:hasDateTimeDescription/time:year ?year;
+          usage-o:refersToSector ?sector.
+    ?cell a usage-o:Cell;
+          geo:sfWithin ?district.}
+  }
+  {
+  SELECT ?cell ?sector ?year ?district ?N2OScope1Value WHERE{
+    ?kpia a s4city:KeyPerformanceIndicatorAssessment;
+          saref:hasValue ?N2OScope1Value;
+          s4city:quantifiesKPI usage-o:N2OScope1Emissions;
+          s4city:refersToFeature ?cell;
+          s4city:refersToTime/time:hasDateTimeDescription/time:year ?year;
+          usage-o:refersToSector ?sector.
+    ?cell a usage-o:Cell;
+          geo:sfWithin ?district.}
+  }
+  {
+  SELECT ?cell ?sector ?year ?district ?CH4Scope1Value WHERE{
+    ?kpia a s4city:KeyPerformanceIndicatorAssessment;
+          saref:hasValue ?CH4Scope1Value;
+          s4city:quantifiesKPI usage-o:CH4Scope1Emissions;
+          s4city:refersToFeature ?cell;
+          s4city:refersToTime/time:hasDateTimeDescription/time:year ?year;
+          usage-o:refersToSector ?sector.
+    ?cell a usage-o:Cell;
+          geo:sfWithin ?district.}
+  }
+  {
+    SELECT ?district ?districtName WHERE {
+      GRAPH <http://usage-project.eu/ld/graph/ZGZ-Transporte> {
+        ?district a s4city:District;
+            rdfs:label ?districtName. # Warning: multiple names for the same district
+      }
+    }
+  }
+}

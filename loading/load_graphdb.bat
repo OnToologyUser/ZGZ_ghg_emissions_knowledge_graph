@@ -1,2 +1,0 @@
-cd C:\Users\edgar\AppData\Local\GraphDB Free\app\bin
-loadrdf.cmd -c \\wsl.localhost\Ubuntu-22.04\home\edgar\GitHub\USAGE-LD\loading\config.ttl \\wsl.localhost\Ubuntu-22.04\home\edgar\GitHub\USAGE-LD\data\rdf-file.ttl -f -m parallel

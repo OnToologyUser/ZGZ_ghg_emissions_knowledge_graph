@@ -1463,7 +1463,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b6d> a owl:NamedIndividual ;
     rr:class s4city:District ;
     rr:graph usage-g:ZGZ-Industrial ;
-    rr:template "http://usage-project.eu/ld/resource/District/ZGZ-id-{NUM_DISTRITO}" .
+    rr:template "http://usage-project.eu/ld/resource/District/ZGZ-id-{ID_PADRON}" .
 
 <http://base.uri#_b6i> a owl:NamedIndividual ;
     rr:class time:DateTimeInterval ;

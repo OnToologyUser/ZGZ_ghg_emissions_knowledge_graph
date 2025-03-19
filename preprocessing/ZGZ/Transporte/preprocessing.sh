@@ -2,7 +2,7 @@
 rm -r data/ZGZ/Transporte/refined
 mkdir data/ZGZ/Transporte/refined
 cd tools
-./openrefine-batch-master/openrefine-batch.sh \
+./openrefine-batch/openrefine-batch.sh \
 -a ../data/ZGZ/Transporte/raw/ \
 -b ../preprocessing/ZGZ/Transporte/ \
 -c ../data/ZGZ/Transporte/refined/ \
@@ -12,6 +12,7 @@ cd tools
 -i trimStrings=true \
 -i guessCellValueTypes=false \
 -i storeBlankCellsAsNulls=false \
+-i includeFileSources=true \
 -i encoding=UTF-8 \
 -m 4096M \
 -RX
