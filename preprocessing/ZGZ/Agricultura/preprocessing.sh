@@ -2,7 +2,7 @@
 rm -r data/ZGZ/Agricultura/refined
 mkdir data/ZGZ/Agricultura/refined
 cd tools
-./openrefine-batch-master/openrefine-batch.sh \
+./openrefine-batch/openrefine-batch.sh \
 -a ../data/ZGZ/Agricultura/raw/ \
 -b ../preprocessing/ZGZ/Agricultura/ \
 -c ../data/ZGZ/Agricultura/refined/ \

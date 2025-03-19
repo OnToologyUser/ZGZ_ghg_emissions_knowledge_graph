@@ -1,0 +1,70 @@
+PREFIX unit: <http://qudt.org/vocab/unit/>
+PREFIX s4city: <https://saref.etsi.org/saref4city/>
+PREFIX saref: <https://saref.etsi.org/core/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX bigg: <http://bigg-project.eu/ld/ontology#>
+PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX usage-o: <http://usage-project.eu/ld/ontology#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+INSERT{
+    ?uri a s4city:KeyPerformanceIndicatorAssessment;
+         saref:hasValue ?GHGVariationValue;
+         saref:isMeasuredIn unit:TONNE;
+         s4city:quantifiesKPI usage-o:GHGEmissionsVariation;
+         s4city:refersToFeature ?cell;
+         s4city:refersToTime ?interval;
+         usage-o:refersToSector ?sector.
+    <http://usage-project.eu/ld/resource/Instant/2019-01-01> a time:Instant ;
+        time:inXSDDateTime "2019-01-01T00:00:00Z"^^xsd:dateTime .
+
+    <http://usage-project.eu/ld/resource/Instant/2021-12-31> a time:Instant ;
+        time:inXSDDateTime "2021-12-31T23:59:59Z"^^xsd:dateTime .
+
+    <http://usage-project.eu/ld/resource/Interval/USAGE-y-2019-2021> a time:Interval ;
+        time:hasBeginning <http://usage-project.eu/ld/resource/Instant/2019-01-01> ;
+        time:hasEnd <http://usage-project.eu/ld/resource/Instant/2021-12-31> .
+}
+WHERE {
+  {
+    SELECT ?cell ?sector ?kpia2 ?interval2 ?year2 ?district ?GHGValue2 WHERE{
+      ?kpia2 a s4city:KeyPerformanceIndicatorAssessment;
+            saref:hasValue ?GHGValue2;
+            s4city:quantifiesKPI usage-o:GHGEmissions;
+            s4city:refersToFeature ?cell;
+            s4city:refersToTime ?interval2;
+            usage-o:refersToSector ?sector.
+      ?interval2 time:hasDateTimeDescription/time:year "2021"^^xsd:gYear, ?year2.
+      ?cell a usage-o:Cell;
+            geo:sfWithin ?district.}
+  }
+  {
+    SELECT ?cell ?sector ?kpia1 ?interval1 ?year1 ?district ?GHGValue1 WHERE{
+      ?kpia1 a s4city:KeyPerformanceIndicatorAssessment;
+            saref:hasValue ?GHGValue1;
+            s4city:quantifiesKPI usage-o:GHGEmissions;
+            s4city:refersToFeature ?cell;
+            s4city:refersToTime ?interval1;
+            usage-o:refersToSector ?sector.
+      ?interval1 time:hasDateTimeDescription/time:year "2019"^^xsd:gYear, ?year1.
+      ?cell a usage-o:Cell;
+            geo:sfWithin ?district.}
+  }
+  {
+    SELECT ?district ?districtName WHERE {
+      GRAPH <http://usage-project.eu/ld/graph/ZGZ-Transporte> {
+        ?district a s4city:District;
+#                  rdfs:label ?districtName. # Warning: multiple names for the same district
+      }
+    }
+  }
+  BIND ((?GHGValue2 - ?GHGValue1) as ?GHGVariationValue) 
+  BIND (IRI(CONCAT("http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/GHGEmissionsVariation/",
+                STRAFTER(STR(?sector),"http://usage-project.eu/ld/ontology#"),
+                "/USAGE-zgz-cell-id-",
+                STRAFTER(STR(?cell),"http://usage-project.eu/ld/resource/Cell/ZGZ-id-"),
+                "-y-",STR(?year1), "-", STR(?year2))) as ?uri)
+	BIND (IRI(CONCAT("http://usage-project.eu/ld/resource/Interval/USAGE-y-",STR(?year1), "-", STR(?year2))) as ?interval)
+}

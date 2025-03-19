@@ -2,7 +2,7 @@
 rm -r data/ZGZ/Arbolado/refined
 mkdir data/ZGZ/Arbolado/refined
 cd tools
-./openrefine-batch-master/openrefine-batch.sh \
+./openrefine-batch/openrefine-batch.sh \
 -a ../data/ZGZ/Arbolado/raw/ \
 -b ../preprocessing/ZGZ/Arbolado/ \
 -c ../data/ZGZ/Arbolado/refined/ \

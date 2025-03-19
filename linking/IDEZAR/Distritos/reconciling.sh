@@ -2,7 +2,7 @@
 rm -r data/IDEZAR/Distritos/linked
 mkdir data/IDEZAR/Distritos/linked
 cd tools
-./openrefine-batch-master/openrefine-batch.sh \
+./openrefine-batch/openrefine-batch.sh \
 -a ../data/IDEZAR/Distritos/refined/ \
 -b ../linking/IDEZAR/Distritos/ \
 -c ../data/IDEZAR/Distritos/linked/ \

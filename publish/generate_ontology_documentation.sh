@@ -1,1 +1,0 @@
-java -jar tools/widoco-1.4.25-jar-with-dependencies_JDK-17.jar

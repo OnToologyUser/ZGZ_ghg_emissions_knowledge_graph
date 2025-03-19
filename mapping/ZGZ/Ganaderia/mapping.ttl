@@ -589,4 +589,3 @@ usage-g:ZGZ-Ganaderia a owl:NamedIndividual .
 rr:TriplesMap a owl:Class ;
     rdfs:label "Triples Map" .
 
-

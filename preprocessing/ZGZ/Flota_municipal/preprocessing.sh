@@ -2,7 +2,7 @@
 rm -r data/ZGZ/Flota_municipal/refined
 mkdir data/ZGZ/Flota_municipal/refined
 cd tools
-./openrefine-batch-master/openrefine-batch.sh \
+./openrefine-batch/openrefine-batch.sh \
 -a ../data/ZGZ/Flota_municipal/raw/ \
 -b ../preprocessing/ZGZ/Flota_municipal/ \
 -c ../data/ZGZ/Flota_municipal/refined/ \

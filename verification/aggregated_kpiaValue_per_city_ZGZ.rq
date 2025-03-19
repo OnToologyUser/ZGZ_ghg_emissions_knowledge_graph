@@ -1,0 +1,38 @@
+PREFIX s4city: <https://saref.etsi.org/saref4city/>
+PREFIX saref: <https://saref.etsi.org/core/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX bigg: <http://bigg-project.eu/ld/ontology#>
+PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX usage-o: <http://usage-project.eu/ld/ontology#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?sector ?year ?kpi ?kpiName  (SUM(?kpiaValue) as ?sumKpiaValue)
+WHERE{
+  ?kpia a s4city:KeyPerformanceIndicatorAssessment;
+        saref:hasValue ?kpiaValue;
+        saref:isMeasuredIn ?kpiaValueUnit;
+        s4city:quantifiesKPI ?kpi;
+        s4city:quantifiesKPI/rdfs:label ?kpiName;
+        s4city:refersToFeature ?cell;
+        s4city:refersToTime/time:hasDateTimeDescription/time:year ?year;
+        usage-o:refersToSector ?sector.
+  ?cell a usage-o:Cell.
+#        geo:hasGeometry/geo:asWKT ?cellWkt; # Warning: multiple WKT for the same cell
+#        geo:sfWithin ?district.
+#  {
+#    SELECT ?district ?districtName WHERE {
+#      GRAPH <http://usage-project.eu/ld/graph/ZGZ-Residencial> {
+#        ?district a s4city:District;
+#            rdfs:label ?districtName. # Warning: multiple names for the same district
+#      }
+#    }
+#  }
+    
+#  OPTIONAL{ ?district geo:hasGeometry/geo:asWKT ?wkt}. # ZGZ 29 districts IDEZAR has 25 districts' geometries 
+#  VALUES (?year) {("2021"^^xsd:gYear)}
+#  VALUES (?district) {(<http://usage-project.eu/ld/resource/District/ZGZ-id-1>)}
+
+} GROUP BY ?sector ?year ?kpi ?kpiName

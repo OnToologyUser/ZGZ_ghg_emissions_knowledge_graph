@@ -1,7 +1,6 @@
-linking_directory='linking/ZGZ/Residencial/'
-linking_file_name='linking_mapping'
+mapping_directory='mapping/ZGZ/Residencial/'
+mapping_file_name='mapping'
 
-cp $linking_directory$linking_file_name'.drawio' $linking_directory'linking_temp.xml'
-curl -F data=@$linking_directory'linking_temp.xml' https://chowlk.linkeddata.es/api | \
-    python3 -c "import sys, json; print(json.load(sys.stdin)['ttl_data'])" > $linking_directory$linking_file_name'.ttl'
-rm $linking_directory'linking_temp.xml'
+cp $mapping_directory$mapping_file_name'.drawio' $mapping_directory'mapping_temp.xml'
+docker run -v ./mapping/ZGZ/Residencial:/tmp --rm  chowlk-chowlk:latest  bin/bash  -c "python3 home/app/converter.py tmp/mapping_temp.xml tmp/mapping.ttl"
+rm $mapping_directory'mapping_temp.xml'

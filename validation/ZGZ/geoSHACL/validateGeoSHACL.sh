@@ -1,1 +1,0 @@
-java -jar tools/validator-0.0.1-SNAPSHOT-jar-with-dependencies.jar data/rdf-file-triples.nt validation/ZGZ/geoSHACL/shapes.ttl validation/ZGZ/geoSHACL/report.ttl

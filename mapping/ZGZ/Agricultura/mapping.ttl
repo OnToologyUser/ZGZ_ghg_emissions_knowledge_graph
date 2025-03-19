@@ -764,4 +764,3 @@ usage-g:ZGZ-Agricultura a owl:NamedIndividual .
 rr:TriplesMap a owl:Class ;
     rdfs:label "Triples Map" .
 
-

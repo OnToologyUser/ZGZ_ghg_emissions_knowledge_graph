@@ -2,7 +2,7 @@
 rm -r data/ZGZ/Residencial/linked
 mkdir data/ZGZ/Residencial/linked
 cd tools
-./openrefine-batch-master/openrefine-batch.sh \
+./openrefine-batch/openrefine-batch.sh \
 -a ../data/ZGZ/Residencial/refined/ \
 -b ../linking/ZGZ/Residencial/ \
 -c ../data/ZGZ/Residencial/linked/ \

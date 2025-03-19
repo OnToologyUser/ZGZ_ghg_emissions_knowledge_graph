@@ -2,7 +2,7 @@
 rm -r data/ZGZ/Transporte/refined
 mkdir data/ZGZ/Transporte/refined
 cd tools
-./openrefine-batch-master/openrefine-batch.sh \
+./openrefine-batch/openrefine-batch.sh \
 -a ../data/ZGZ/Transporte/raw/ \
 -b ../preprocessing/ZGZ/Transporte/ \
 -c ../data/ZGZ/Transporte/refined/ \

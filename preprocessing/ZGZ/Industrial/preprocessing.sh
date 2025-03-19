@@ -2,7 +2,7 @@
 rm -r data/ZGZ/Industrial/refined
 mkdir data/ZGZ/Industrial/refined
 cd tools
-./openrefine-batch-master/openrefine-batch.sh \
+./openrefine-batch/openrefine-batch.sh \
 -a ../data/ZGZ/Industrial/raw/ \
 -b ../preprocessing/ZGZ/Industrial/ \
 -c ../data/ZGZ/Industrial/refined/ \
