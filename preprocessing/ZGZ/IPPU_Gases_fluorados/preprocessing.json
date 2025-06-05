@@ -1,68 +1,66 @@
 [
   {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column COORD_IZQ using expression grel:(value.split(\".\")[0]+\".\"+value.split(\".\")[1][0,13]).toNumber()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "COORD_IZQ",
-    "expression": "grel:(value.split(\".\")[0]+\".\"+value.split(\".\")[1][0,13]).toNumber()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column COORD_SUP using expression grel:(value.split(\".\")[0]+\".\"+value.split(\".\")[1][0,13]).toNumber()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "COORD_SUP",
-    "expression": "grel:(value.split(\".\")[0]+\".\"+value.split(\".\")[1][0,13]).toNumber()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column COORD_DER using expression grel:(value.split(\".\")[0]+\".\"+value.split(\".\")[1][0,13]).toNumber()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "COORD_DER",
-    "expression": "grel:(value.split(\".\")[0]+\".\"+value.split(\".\")[1][0,13]).toNumber()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column COORD_INF using expression grel:(value.split(\".\")[0]+\".\"+value.split(\".\")[1][0,13]).toNumber()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "COORD_INF",
-    "expression": "grel:(value.split(\".\")[0]+\".\"+value.split(\".\")[1][0,13]).toNumber()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/column-addition",
-    "description": "Create column asWKT at index 5 based on column COORD_INF using expression grel:\"POLYGON((\"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_SUP\"].value+ \", \"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_INF\"].value+ \", \"\n+cells[\"COORD_DER\"].value+\" \"+cells[\"COORD_INF\"].value+ \", \"\n+cells[\"COORD_DER\"].value+\" \"+cells[\"COORD_SUP\"].value+ \", \"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_SUP\"].value+\"))\"",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "newColumnName": "asWKT",
-    "columnInsertIndex": 5,
-    "baseColumnName": "COORD_INF",
-    "expression": "grel:\"POLYGON((\"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_SUP\"].value+ \", \"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_INF\"].value+ \", \"\n+cells[\"COORD_DER\"].value+\" \"+cells[\"COORD_INF\"].value+ \", \"\n+cells[\"COORD_DER\"].value+\" \"+cells[\"COORD_SUP\"].value+ \", \"\n+cells[\"COORD_IZQ\"].value+\" \"+cells[\"COORD_SUP\"].value+\"))\"",
-    "onError": "set-to-blank"
+    "op": "core/column-reorder",
+    "description": "Reorder columns",
+    "columnNames": [
+      "File",
+      "ID_CELDA",
+      "NOM_DISTRITO",
+      "ID_PADRON",
+      "AÑO",
+      "C_ELECTRICIDAD_MIXNAC",
+      "C_ELECTRICIDAD_GDO",
+      "C_ELECTRICIDAD_RES_LOCAL",
+      "C_GASNATURAL",
+      "C_GLP",
+      "C_GASOLEO_C",
+      "C_GASOLEO_A",
+      "C_GASOLINA",
+      "C_OTROS_FOSILES",
+      "C_BIOMASA",
+      "C_OTROS_RES",
+      "CO2_ALC1",
+      "CH4_ALC1",
+      "N2O_ALC1",
+      "HFC_ALC1",
+      "PFC_ALC1",
+      "SF6_ALC1",
+      "CO2_ALC2",
+      "CH4_ALC2",
+      "N2O_ALC2",
+      "CO2_ALC3",
+      "CH4_ALC3",
+      "N2O_ALC3",
+      "NOx",
+      "CO",
+      "SO2",
+      "COV",
+      "COVNM",
+      "NH3",
+      "PM2.5",
+      "PM10",
+      "TSP",
+      "BC",
+      "C6H6",
+      "Pb",
+      "Cd",
+      "Hg",
+      "As",
+      "Cr",
+      "Cu",
+      "Ni",
+      "Se",
+      "Zn",
+      "DIOX",
+      "BENZO_A",
+      "BENZO_B",
+      "INDENO_123",
+      "PAH",
+      "HCB",
+      "PCBs",
+      "TOTAL_POPs",
+      "TOTAL_MPESADOS"
+    ]
   },
   {
     "op": "core/text-transform",
@@ -781,14 +779,14 @@
   },
   {
     "op": "core/column-addition",
-    "description": "Create column Sector at index 20 based on column SECTOR_CDP using expression grel:\"http://usage-project.eu/ld/ontology#IPPU\"",
+    "description": "Create column Sector at index 1 based on column ID_CELDA using expression grel:\"http://usage-project.eu/ld/ontology#IPPU\"",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
     "newColumnName": "Sector",
-    "columnInsertIndex": 20,
-    "baseColumnName": "SECTOR_CDP",
+    "columnInsertIndex": 1,
+    "baseColumnName": "ID_CELDA",
     "expression": "grel:\"http://usage-project.eu/ld/ontology#IPPU\"",
     "onError": "set-to-blank"
   },
@@ -801,6 +799,19 @@
     },
     "columnName": "AÑO",
     "expression": "grel:value.floor()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NOM_DISTRITO using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOM_DISTRITO",
+    "expression": "value.trim()",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10

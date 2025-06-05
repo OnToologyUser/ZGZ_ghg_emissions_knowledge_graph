@@ -926,5 +926,18 @@
     "baseColumnName": "NOM_MUNI",
     "expression": "grel:value.toUppercase()",
     "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NOM_DISTRITO using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOM_DISTRITO",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   }
 ]
