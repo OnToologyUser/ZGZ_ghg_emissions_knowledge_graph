@@ -11,7 +11,6 @@ cd tools
 -i sheets=0 \
 -i trimStrings=true \
 -i guessCellValueTypes=false \
--i ignoreLines=3 \
 -i storeBlankRows=false \
 -i storeBlankCellsAsNulls=false \
 -i includeFileSources=true \

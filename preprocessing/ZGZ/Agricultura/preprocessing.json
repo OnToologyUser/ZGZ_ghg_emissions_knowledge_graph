@@ -1,34 +1,108 @@
 [
   {
     "op": "core/column-rename",
-    "description": "Rename column PM2,5 regadío (ton) to PM2.5 regadío (ton)",
-    "oldColumnName": "PM2,5 regadío (ton)",
-    "newColumnName": "PM2.5 regadío (ton)"
+    "description": "Rename column PM2,5 to PM2.5",
+    "oldColumnName": "PM2,5",
+    "newColumnName": "PM2.5"
   },
   {
     "op": "core/column-rename",
-    "description": "Rename column PM2,5 TOTALES (ton) to PM2.5 TOTALES (ton)",
-    "oldColumnName": "PM2,5 TOTALES (ton)",
-    "newColumnName": "PM2.5 TOTALES (ton)"
+    "description": "Rename column CH4_TOTAL to CH4_ALC1",
+    "oldColumnName": "CH4_TOTAL",
+    "newColumnName": "CH4_ALC1"
   },
   {
     "op": "core/column-rename",
-    "description": "Rename column PM2,5 secano (ton) to PM2.5 secano (ton)",
-    "oldColumnName": "PM2,5 secano (ton)",
-    "newColumnName": "PM2.5 secano (ton)"
+    "description": "Rename column CO2 to CO2_ALC1",
+    "oldColumnName": "CO2",
+    "newColumnName": "CO2_ALC1"
   },
   {
-    "op": "core/column-addition",
-    "description": "Create column Year at index 1 based on column File using expression grel:value.split(\"_\")[2][0,4]",
+    "op": "core/column-rename",
+    "description": "Rename column N20 to N2O_ALC1",
+    "oldColumnName": "N20",
+    "newColumnName": "N2O_ALC1"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column NMVOC to COVNM",
+    "oldColumnName": "NMVOC",
+    "newColumnName": "COVNM"
+  },
+  {
+    "op": "core/column-reorder",
+    "description": "Reorder columns",
+    "columnNames": [
+      "ID_CELDA",
+      "NOM_DISTRITO",
+      "ID_PADRON",
+      "AÑO",
+      "CO2_ALC1",
+      "CH4_ALC1",
+      "NOx",
+      "CO",
+      "SO2",
+      "COV",
+      "COVNM",
+      "NH3",
+      "PM2.5",
+      "PM10",
+      "TSP",
+      "PARTÍC_TOTAL",
+      "N2O_ALC1"
+    ]
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column ID_CELDA using expression grel:if(value==\"ND\",\"NA\",value)",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
-    "newColumnName": "Year",
-    "columnInsertIndex": 1,
-    "baseColumnName": "File",
-    "expression": "grel:value.split(\"_\")[2][0,4]",
-    "onError": "set-to-blank"
+    "columnName": "ID_CELDA",
+    "expression": "grel:if(value==\"ND\",\"NA\",value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NOM_DISTRITO using expression grel:if(value==\"ND\",null,value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOM_DISTRITO",
+    "expression": "grel:if(value==\"ND\",null,value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column ID_PADRON using expression grel:if(value==\"ND\",null,value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "ID_PADRON",
+    "expression": "grel:if(value==\"ND\",null,value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column ID_CELDA using expression grel:if(isBlank(value),NA,value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "ID_CELDA",
+    "expression": "grel:if(isBlank(value),NA,value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   },
   {
     "op": "core/row-removal",
@@ -38,37 +112,316 @@
       "facets": [
         {
           "omitError": false,
-          "expression": "value",
+          "expression": "isBlank(value)",
           "selectBlank": false,
           "selection": [
             {
               "v": {
-                "v": "TOTAL N ZARAGOZA (kg N)",
-                "l": "TOTAL N ZARAGOZA (kg N)"
+                "v": true,
+                "l": "true"
               }
             }
           ],
           "selectError": false,
-          "invert": true,
-          "name": "Cultivo",
+          "invert": false,
+          "name": "AÑO",
           "omitBlank": false,
           "type": "list",
-          "columnName": "Cultivo"
+          "columnName": "AÑO"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ID_CELDA",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ID_CELDA"
         }
       ]
     }
   },
   {
-    "op": "core/column-addition",
-    "description": "Create column City at index 4 based on column Cultivo using expression grel:value.split(\" \")[2]",
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column ID_CELDA using expression grel:\"NA\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "AÑO",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "AÑO"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ID_CELDA",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ID_CELDA"
+        }
+      ]
+    },
+    "columnName": "ID_CELDA",
+    "expression": "grel:\"NA\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column ID_CELDA using expression grel:value.floor()",
     "engineConfig": {
       "mode": "record-based",
       "facets": []
     },
-    "newColumnName": "City",
-    "columnInsertIndex": 4,
-    "baseColumnName": "Cultivo",
-    "expression": "grel:value.split(\" \")[2]",
+    "columnName": "ID_CELDA",
+    "expression": "grel:value.floor()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column ID_PADRON using expression grel:value.floor()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "ID_PADRON",
+    "expression": "grel:value.floor()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column CO2_ALC1 using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "CO2_ALC1",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column CH4_ALC1 using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "CH4_ALC1",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column N2O_ALC1 using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "N2O_ALC1",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NOx using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOx",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column CO using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "CO",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column SO2 using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "SO2",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column COV using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "COV",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column COVNM using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "COVNM",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NH3 using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NH3",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PM2.5 using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PM2.5",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PM10 using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PM10",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TSP using expression grel:if(isNumeric(value),value,null)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TSP",
+    "expression": "grel:if(isNumeric(value),value,null)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column AÑO using expression grel:value.floor()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "AÑO",
+    "expression": "grel:value.floor()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Sector at index 1 based on column ID_CELDA using expression grel:\"http://usage-project.eu/ld/ontology#Livestock\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Sector",
+    "columnInsertIndex": 1,
+    "baseColumnName": "ID_CELDA",
+    "expression": "grel:\"http://usage-project.eu/ld/ontology#Agriculture\"",
     "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NOM_DISTRITO using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOM_DISTRITO",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   }
 ]

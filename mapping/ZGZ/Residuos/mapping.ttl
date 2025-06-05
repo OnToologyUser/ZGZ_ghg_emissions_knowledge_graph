@@ -171,6 +171,39 @@
         <http://base.uri#_b20s> ;
     rr:subjectMap <http://base.uri#_b126> .
 
+<http://base.uri#C_ELECTRICIDAD_GDO> a owl:NamedIndividual,
+        rr:TriplesMap ;
+    rml:logicalSource <http://base.uri#_b1> ;
+    rr:predicateObjectMap <http://base.uri#_b15>,
+        <http://base.uri#_b16>,
+        <http://base.uri#_b18i>,
+        <http://base.uri#_b20s>,
+        <http://base.uri#_b23>,
+        <http://base.uri#_b25> ;
+    rr:subjectMap <http://base.uri#_b22> .
+
+<http://base.uri#C_ELECTRICIDAD_MIXNAC> a owl:NamedIndividual,
+        rr:TriplesMap ;
+    rml:logicalSource <http://base.uri#_b1> ;
+    rr:predicateObjectMap <http://base.uri#_b15>,
+        <http://base.uri#_b16>,
+        <http://base.uri#_b18i>,
+        <http://base.uri#_b19>,
+        <http://base.uri#_b20s>,
+        <http://base.uri#_b21> ;
+    rr:subjectMap <http://base.uri#_b18> .
+
+<http://base.uri#C_ELECTRICIDAD_RES_LOCAL> a owl:NamedIndividual,
+        rr:TriplesMap ;
+    rml:logicalSource <http://base.uri#_b1> ;
+    rr:predicateObjectMap <http://base.uri#_b15>,
+        <http://base.uri#_b16>,
+        <http://base.uri#_b18i>,
+        <http://base.uri#_b20s>,
+        <http://base.uri#_b27>,
+        <http://base.uri#_b29> ;
+    rr:subjectMap <http://base.uri#_b26> .
+
 <http://base.uri#Cd> a owl:NamedIndividual,
         rr:TriplesMap ;
     rml:logicalSource <http://base.uri#_b1> ;
@@ -480,9 +513,6 @@ rml:referenceFormulation a owl:ObjectProperty ;
 rml:source a owl:DatatypeProperty ;
     rdfs:label "source" .
 
-rr:child a owl:DatatypeProperty ;
-    rdfs:label "child" .
-
 rr:class a owl:ObjectProperty ;
     rdfs:label "class" .
 
@@ -500,9 +530,6 @@ rr:object a owl:ObjectProperty ;
 
 rr:objectMap a owl:ObjectProperty ;
     rdfs:label "object map" .
-
-rr:parent a owl:DatatypeProperty ;
-    rdfs:label "parent" .
 
 rr:parentTriplesMap a owl:ObjectProperty ;
     rdfs:label "parent triples map" .
@@ -525,8 +552,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#Cell> a owl:NamedIndividual,
         rr:TriplesMap ;
     rml:logicalSource <http://base.uri#_b1> ;
-    rr:predicateObjectMap <http://base.uri#_b3>,
-        <http://base.uri#_b9> ;
+    rr:predicateObjectMap <http://base.uri#_b9> ;
     rr:subjectMap <http://base.uri#_b2> .
 
 <http://base.uri#District> a owl:NamedIndividual,
@@ -534,12 +560,6 @@ rr:termType a owl:ObjectProperty ;
     rml:logicalSource <http://base.uri#_b1> ;
     rr:predicateObjectMap <http://base.uri#_b7d> ;
     rr:subjectMap <http://base.uri#_b6d> .
-
-<http://base.uri#Geometry> a owl:NamedIndividual,
-        rr:TriplesMap ;
-    rml:logicalSource <http://base.uri#_b1> ;
-    rr:predicateObjectMap <http://base.uri#_b7> ;
-    rr:subjectMap <http://base.uri#_b6> .
 
 <http://base.uri#Interval> a owl:NamedIndividual,
         rr:TriplesMap ;
@@ -914,6 +934,11 @@ rr:termType a owl:ObjectProperty ;
     rr:objectMap <http://base.uri#_b180> ;
     rr:predicate saref:hasValue .
 
+<http://base.uri#_b18> a owl:NamedIndividual ;
+    rr:class s4city:KeyPerformanceIndicatorAssessment ;
+    rr:graph usage-g:ZGZ-Residuos ;
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/ElectricGridEnergyConsumption/Waste/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
 <http://base.uri#_b180> a owl:NamedIndividual ;
     rml:reference "Ni" ;
     rr:datatype xsd:float .
@@ -955,6 +980,10 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b189> a owl:NamedIndividual ;
     rr:object usage-o:ZnScope1Emissions ;
     rr:predicate s4city:quantifiesKPI .
+
+<http://base.uri#_b19> a owl:NamedIndividual ;
+    rr:objectMap <http://base.uri#_b20> ;
+    rr:predicate saref:hasValue .
 
 <http://base.uri#_b190> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
@@ -1008,6 +1037,10 @@ rr:termType a owl:ObjectProperty ;
     rr:graph usage-g:ZGZ-Residuos ;
     rr:template "http://usage-project.eu/ld/resource/Cell/ZGZ-id-{ID_CELDA}" .
 
+<http://base.uri#_b20> a owl:NamedIndividual ;
+    rml:reference "C_ELECTRICIDAD_MIXNAC" ;
+    rr:datatype xsd:float .
+
 <http://base.uri#_b200> a owl:NamedIndividual ;
     rml:reference "BENZO_B" ;
     rr:datatype xsd:float .
@@ -1048,6 +1081,10 @@ rr:termType a owl:ObjectProperty ;
 
 <http://base.uri#_b209> a owl:NamedIndividual ;
     rr:object usage-o:PAHScope1Emissions ;
+    rr:predicate s4city:quantifiesKPI .
+
+<http://base.uri#_b21> a owl:NamedIndividual ;
+    rr:object usage-o:ElectricGridEnergyConsumption ;
     rr:predicate s4city:quantifiesKPI .
 
 <http://base.uri#_b210> a owl:NamedIndividual ;
@@ -1097,6 +1134,11 @@ rr:termType a owl:ObjectProperty ;
     rml:reference "Sector" ;
     rr:termType rr:IRI .
 
+<http://base.uri#_b22> a owl:NamedIndividual ;
+    rr:class s4city:KeyPerformanceIndicatorAssessment ;
+    rr:graph usage-g:ZGZ-Residuos ;
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/ElectricRenewableEnergyConsumption/Waste/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
 <http://base.uri#_b220> a owl:NamedIndividual ;
     rml:reference "TOTAL_POPs" ;
     rr:datatype xsd:float .
@@ -1122,18 +1164,34 @@ rr:termType a owl:ObjectProperty ;
     rr:object usage-o:TotalHeavyMetalsScope1Emissions ;
     rr:predicate s4city:quantifiesKPI .
 
-<http://base.uri#_b3> a owl:NamedIndividual ;
-    rr:objectMap <http://base.uri#_b4> ;
-    rr:predicate geo:hasGeometry .
+<http://base.uri#_b23> a owl:NamedIndividual ;
+    rr:objectMap <http://base.uri#_b24> ;
+    rr:predicate saref:hasValue .
 
-<http://base.uri#_b4> a owl:NamedIndividual ;
-    rr:joinCondition <http://base.uri#_b5> ;
-    rr:parentTriplesMap <http://base.uri#Geometry> .
+<http://base.uri#_b24> a owl:NamedIndividual ;
+    rml:reference "C_ELECTRICIDAD_GDO" ;
+    rr:datatype xsd:float .
 
-<http://base.uri#_b6> a owl:NamedIndividual ;
-    rr:class geo:Geometry ;
+<http://base.uri#_b25> a owl:NamedIndividual ;
+    rr:object usage-o:ElectricRenewableEnergyConsumption ;
+    rr:predicate s4city:quantifiesKPI .
+
+<http://base.uri#_b26> a owl:NamedIndividual ;
+    rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ-Residuos ;
-    rr:template "http://usage-project.eu/ld/resource/Geometry/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/OnSiteElectricRenewableEnergyConsumption/Waste/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+<http://base.uri#_b27> a owl:NamedIndividual ;
+    rr:objectMap <http://base.uri#_b28> ;
+    rr:predicate saref:hasValue .
+
+<http://base.uri#_b28> a owl:NamedIndividual ;
+    rml:reference "C_ELECTRICIDAD_RES_LOCAL" ;
+    rr:datatype xsd:float .
+
+<http://base.uri#_b29> a owl:NamedIndividual ;
+    rr:object usage-o:OnSiteElectricRenewableEnergyConsumption ;
+    rr:predicate s4city:quantifiesKPI .
 
 <http://base.uri#_b66> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
@@ -1166,10 +1224,6 @@ rr:termType a owl:ObjectProperty ;
     rr:class time:DateTimeDescription ;
     rr:graph usage-g:ZGZ-Residuos ;
     rr:template "http://usage-project.eu/ld/resource/Year/ZGZ-id-{AÑO}" .
-
-<http://base.uri#_b7> a owl:NamedIndividual ;
-    rr:objectMap <http://base.uri#_b8> ;
-    rr:predicate geo:asWKT .
 
 <http://base.uri#_b70> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
@@ -1225,10 +1279,6 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b7y> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b8y> ;
     rr:predicate time:year .
-
-<http://base.uri#_b8> a owl:NamedIndividual ;
-    rml:reference "asWKT" ;
-    rr:datatype geo:wktLiteral .
 
 <http://base.uri#_b80> a owl:NamedIndividual ;
     rml:reference "PFC_ALC1" ;
@@ -1371,6 +1421,10 @@ usage-o:CrScope1Emissions a owl:NamedIndividual .
 
 usage-o:CuScope1Emissions a owl:NamedIndividual .
 
+usage-o:ElectricGridEnergyConsumption a owl:NamedIndividual .
+
+usage-o:ElectricRenewableEnergyConsumption a owl:NamedIndividual .
+
 usage-o:HCBScope1Emissions a owl:NamedIndividual .
 
 usage-o:HFCScope1Emissions a owl:NamedIndividual .
@@ -1392,6 +1446,8 @@ usage-o:NMVOCScope1Emissions a owl:NamedIndividual .
 usage-o:NOxScope1Emissions a owl:NamedIndividual .
 
 usage-o:NiScope1Emissions a owl:NamedIndividual .
+
+usage-o:OnSiteElectricRenewableEnergyConsumption a owl:NamedIndividual .
 
 usage-o:PAHScope1Emissions a owl:NamedIndividual .
 
@@ -1425,15 +1481,7 @@ usage-o:ZnScope1Emissions a owl:NamedIndividual .
 
 usage-o:refersToSector a owl:NamedIndividual .
 
-geo:Geometry a owl:NamedIndividual .
-
-geo:asWKT a owl:NamedIndividual .
-
-geo:hasGeometry a owl:NamedIndividual .
-
 geo:sfWithin a owl:NamedIndividual .
-
-geo:wktLiteral a owl:NamedIndividual .
 
 rdfs:label a owl:NamedIndividual .
 
@@ -1459,9 +1507,7 @@ s4city:refersToFeature a owl:NamedIndividual .
 
 s4city:refersToTime a owl:NamedIndividual .
 
-<http://base.uri#_b5> a owl:NamedIndividual ;
-    rr:child "ID_CELDA" ;
-    rr:parent "ID_CELDA" .
+<http://base.uri#_b5> a owl:NamedIndividual .
 
 <http://base.uri#_b15> a owl:NamedIndividual ;
     rr:object unit:TONNE ;

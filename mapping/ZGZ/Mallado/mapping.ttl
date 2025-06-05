@@ -1,0 +1,138 @@
+@prefix : <http://base.uri#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix usage-city: <http://usage-project.eu/ld/resource/City/> .
+@prefix usage-g: <http://usage-project.eu/ld/graph/> .
+@prefix usage-o: <http://usage-project.eu/ld/ontology#> .
+
+: a owl:Ontology ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+<http://base.uri#Cell> a owl:NamedIndividual,
+        rr:TriplesMap ;
+    rml:logicalSource <http://base.uri#_b1> ;
+    rr:predicateObjectMap <http://base.uri#_b3>,
+        <http://base.uri#_b9> ;
+    rr:subjectMap <http://base.uri#_b2> .
+
+rml:logicalSource a owl:ObjectProperty ;
+    rdfs:label "logical source" .
+
+rml:reference a owl:DatatypeProperty ;
+    rdfs:label "reference" .
+
+rml:referenceFormulation a owl:ObjectProperty ;
+    rdfs:label "reference formulation" .
+
+rml:source a owl:DatatypeProperty ;
+    rdfs:label "source" .
+
+rr:child a owl:DatatypeProperty ;
+    rdfs:label "child" .
+
+rr:class a owl:ObjectProperty ;
+    rdfs:label "class" .
+
+rr:datatype a owl:ObjectProperty ;
+    rdfs:label "datatype" .
+
+rr:graph a owl:ObjectProperty ;
+    rdfs:label "graph" .
+
+rr:joinCondition a owl:ObjectProperty ;
+    rdfs:label "join condition" .
+
+rr:object a owl:ObjectProperty ;
+    rdfs:label "object" .
+
+rr:objectMap a owl:ObjectProperty ;
+    rdfs:label "object map" .
+
+rr:parent a owl:DatatypeProperty ;
+    rdfs:label "parent" .
+
+rr:parentTriplesMap a owl:ObjectProperty ;
+    rdfs:label "parent triples map" .
+
+rr:predicate a owl:ObjectProperty ;
+    rdfs:label "predicate" .
+
+rr:predicateObjectMap a owl:ObjectProperty ;
+    rdfs:label "predicate object map" .
+
+rr:subjectMap a owl:ObjectProperty ;
+    rdfs:label "subject map" .
+
+rr:template a owl:DatatypeProperty ;
+    rdfs:label "template" .
+
+<http://base.uri#Geometry> a owl:NamedIndividual,
+        rr:TriplesMap ;
+    rml:logicalSource <http://base.uri#_b1> ;
+    rr:predicateObjectMap <http://base.uri#_b7> ;
+    rr:subjectMap <http://base.uri#_b6> .
+
+<http://base.uri#_b2> a owl:NamedIndividual ;
+    rr:class usage-o:Cell ;
+    rr:graph usage-g:ZGZ-Mallado ;
+    rr:template "http://usage-project.eu/ld/resource/Cell/ZGZ-id-{fid}" .
+
+<http://base.uri#_b3> a owl:NamedIndividual ;
+    rr:objectMap <http://base.uri#_b4> ;
+    rr:predicate geo:hasGeometry .
+
+<http://base.uri#_b4> a owl:NamedIndividual ;
+    rr:joinCondition <http://base.uri#_b5> ;
+    rr:parentTriplesMap <http://base.uri#Geometry> .
+
+<http://base.uri#_b5> a owl:NamedIndividual ;
+    rr:child "fid" ;
+    rr:parent "fid" .
+
+<http://base.uri#_b6> a owl:NamedIndividual ;
+    rr:class geo:Geometry ;
+    rr:graph usage-g:ZGZ-Mallado ;
+    rr:template "http://usage-project.eu/ld/resource/Geometry/ZGZ-id-{fid}" .
+
+<http://base.uri#_b7> a owl:NamedIndividual ;
+    rr:objectMap <http://base.uri#_b8> ;
+    rr:predicate geo:asWKT .
+
+<http://base.uri#_b8> a owl:NamedIndividual ;
+    rml:reference "geometry" ;
+    rr:datatype geo:wktLiteral .
+
+<http://base.uri#_b9> a owl:NamedIndividual ;
+    rr:object usage-city:ZGZ-id-ZARAGOZA ;
+    rr:predicate geo:sfWithin .
+
+ql:CSV a owl:NamedIndividual .
+
+usage-o:Cell a owl:NamedIndividual .
+
+usage-city:ZGZ-id-ZARAGOZA a owl:NamedIndividual .
+
+geo:Geometry a owl:NamedIndividual .
+
+geo:asWKT a owl:NamedIndividual .
+
+geo:hasGeometry a owl:NamedIndividual .
+
+geo:sfWithin a owl:NamedIndividual .
+
+geo:wktLiteral a owl:NamedIndividual .
+
+<http://base.uri#_b1> a owl:NamedIndividual ;
+    rml:referenceFormulation ql:CSV ;
+    rml:source "./data/ZGZ/Mallado/refined/Mallado2024.csv" .
+
+usage-g:ZGZ-Mallado a owl:NamedIndividual .
+
+rr:TriplesMap a owl:Class ;
+    rdfs:label "Triples Map" .
+

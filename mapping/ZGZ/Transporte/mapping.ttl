@@ -601,9 +601,6 @@ rml:referenceFormulation a owl:ObjectProperty ;
 rml:source a owl:DatatypeProperty ;
     rdfs:label "source" .
 
-rr:child a owl:DatatypeProperty ;
-    rdfs:label "child" .
-
 rr:class a owl:ObjectProperty ;
     rdfs:label "class" .
 
@@ -621,9 +618,6 @@ rr:object a owl:ObjectProperty ;
 
 rr:objectMap a owl:ObjectProperty ;
     rdfs:label "object map" .
-
-rr:parent a owl:DatatypeProperty ;
-    rdfs:label "parent" .
 
 rr:parentTriplesMap a owl:ObjectProperty ;
     rdfs:label "parent triples map" .
@@ -646,8 +640,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#Cell> a owl:NamedIndividual,
         rr:TriplesMap ;
     rml:logicalSource <http://base.uri#_b1> ;
-    rr:predicateObjectMap <http://base.uri#_b3>,
-        <http://base.uri#_b9> ;
+    rr:predicateObjectMap <http://base.uri#_b9> ;
     rr:subjectMap <http://base.uri#_b2> .
 
 <http://base.uri#District> a owl:NamedIndividual,
@@ -655,12 +648,6 @@ rr:termType a owl:ObjectProperty ;
     rml:logicalSource <http://base.uri#_b1> ;
     rr:predicateObjectMap <http://base.uri#_b7d> ;
     rr:subjectMap <http://base.uri#_b6d> .
-
-<http://base.uri#Geometry> a owl:NamedIndividual,
-        rr:TriplesMap ;
-    rml:logicalSource <http://base.uri#_b1> ;
-    rr:predicateObjectMap <http://base.uri#_b7> ;
-    rr:subjectMap <http://base.uri#_b6> .
 
 <http://base.uri#Interval> a owl:NamedIndividual,
         rr:TriplesMap ;
@@ -1294,10 +1281,6 @@ rr:termType a owl:ObjectProperty ;
     rr:object usage-o:OnSiteElectricRenewableEnergyConsumption ;
     rr:predicate s4city:quantifiesKPI .
 
-<http://base.uri#_b3> a owl:NamedIndividual ;
-    rr:objectMap <http://base.uri#_b4> ;
-    rr:predicate geo:hasGeometry .
-
 <http://base.uri#_b30> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ-Transporte ;
@@ -1340,10 +1323,6 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b39> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b40> ;
     rr:predicate saref:hasValue .
-
-<http://base.uri#_b4> a owl:NamedIndividual ;
-    rr:joinCondition <http://base.uri#_b5> ;
-    rr:parentTriplesMap <http://base.uri#Geometry> .
 
 <http://base.uri#_b40> a owl:NamedIndividual ;
     rml:reference "C_GASOLEO_C" ;
@@ -1430,11 +1409,6 @@ rr:termType a owl:ObjectProperty ;
     rr:objectMap <http://base.uri#_b60> ;
     rr:predicate saref:hasValue .
 
-<http://base.uri#_b6> a owl:NamedIndividual ;
-    rr:class geo:Geometry ;
-    rr:graph usage-g:ZGZ-Transporte ;
-    rr:template "http://usage-project.eu/ld/resource/Geometry/ZGZ-id-{ID_CELDA}" .
-
 <http://base.uri#_b60> a owl:NamedIndividual ;
     rml:reference "C_OTROS_RES" ;
     rr:datatype xsd:float .
@@ -1474,10 +1448,6 @@ rr:termType a owl:ObjectProperty ;
     rr:class time:DateTimeDescription ;
     rr:graph usage-g:ZGZ-Transporte ;
     rr:template "http://usage-project.eu/ld/resource/Year/ZGZ-id-{AÑO}" .
-
-<http://base.uri#_b7> a owl:NamedIndividual ;
-    rr:objectMap <http://base.uri#_b8> ;
-    rr:predicate geo:asWKT .
 
 <http://base.uri#_b70> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
@@ -1533,10 +1503,6 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b7y> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b8y> ;
     rr:predicate time:year .
-
-<http://base.uri#_b8> a owl:NamedIndividual ;
-    rml:reference "asWKT" ;
-    rr:datatype geo:wktLiteral .
 
 <http://base.uri#_b80> a owl:NamedIndividual ;
     rml:reference "PFC_ALC1" ;
@@ -1755,15 +1721,7 @@ usage-o:ZnScope1Emissions a owl:NamedIndividual .
 
 usage-o:refersToSector a owl:NamedIndividual .
 
-geo:Geometry a owl:NamedIndividual .
-
-geo:asWKT a owl:NamedIndividual .
-
-geo:hasGeometry a owl:NamedIndividual .
-
 geo:sfWithin a owl:NamedIndividual .
-
-geo:wktLiteral a owl:NamedIndividual .
 
 rdfs:label a owl:NamedIndividual .
 
@@ -1789,9 +1747,7 @@ s4city:refersToFeature a owl:NamedIndividual .
 
 s4city:refersToTime a owl:NamedIndividual .
 
-<http://base.uri#_b5> a owl:NamedIndividual ;
-    rr:child "ID_CELDA" ;
-    rr:parent "ID_CELDA" .
+<http://base.uri#_b5> a owl:NamedIndividual .
 
 <http://base.uri#_b15> a owl:NamedIndividual ;
     rr:object unit:TONNE ;

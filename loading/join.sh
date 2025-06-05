@@ -1,5 +1,6 @@
 echo "" > "data/rdf-file.nq"
 cat "data/IDEZAR/Distritos/rdf/"*.nq >> "data/rdf-file.nq"
+cat "data/ZGZ/Mallado/rdf/"*.nq >> "data/rdf-file.nq"
 cat "data/ZGZ/Residencial/rdf/"*.nq >> "data/rdf-file.nq"
 cat "data/ZGZ/Industrial/rdf/"*.nq >> "data/rdf-file.nq"
 cat "data/ZGZ/IPPU_Gases_fluorados/rdf/"*.nq >> "data/rdf-file.nq"
