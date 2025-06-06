@@ -8,7 +8,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix unit: <http://qudt.org/vocab/unit/> .
-@prefix usage-o: <http://usage-project.eu/ld/ontology#> .
+@prefix usage-o: <http://w3id.org/def/usage#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -509,7 +509,7 @@ usage-o: a owl:Ontology ;
     dc:title "The Urban Data Space for Green Deal ontology"@en ;
     vann:preferredNamespacePrefix "usage-o" ;
     vann:preferredNamespaceUri usage-o: ;
-    owl:versionIRI <http://usage-project.eu/ld/ontology/1.0.0#> ;
+    owl:versionIRI <http://w3id.org/def/usage/1.0.0#> ;
     owl:versionInfo "1.0.0" ;
     mod:createdWith <https://chowlk.linkeddata.es/> .
 

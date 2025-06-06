@@ -6,7 +6,7 @@ PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
 PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX time: <http://www.w3.org/2006/time#>
-PREFIX usage-o: <http://usage-project.eu/ld/ontology#>
+PREFIX usage-o: <http://w3id.org/def/usage#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 SELECT ?cell ?sector ?year ?districtName ((?CO2Scope1Value + 25*?CH4Scope1Value + 298*?N2OScope1Value + ?CO2Scope2Value) as ?GHGValue) WHERE {
   {
@@ -55,7 +55,7 @@ SELECT ?cell ?sector ?year ?districtName ((?CO2Scope1Value + 25*?CH4Scope1Value 
   }
   {
     SELECT ?district ?districtName WHERE {
-      GRAPH <http://usage-project.eu/ld/graph/ZGZ-Transporte> {
+      GRAPH <http://w3id.org/def/usage/graph/ZGZ-Transporte> {
         ?district a s4city:District;
             rdfs:label ?districtName. # Warning: multiple names for the same district
       }

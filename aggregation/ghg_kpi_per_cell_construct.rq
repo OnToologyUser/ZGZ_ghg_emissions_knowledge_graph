@@ -7,7 +7,7 @@ PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
 PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX time: <http://www.w3.org/2006/time#>
-PREFIX usage-o: <http://usage-project.eu/ld/ontology#>
+PREFIX usage-o: <http://w3id.org/def/usage#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 CONSTRUCT{
     ?uri a s4city:KeyPerformanceIndicatorAssessment;
@@ -69,7 +69,7 @@ WHERE {
   }
   {
     SELECT ?district ?districtName WHERE {
-      GRAPH <http://usage-project.eu/ld/graph/ZGZ-Transporte> {
+      GRAPH <http://w3id.org/def/usage/graph/ZGZ-Transporte> {
         ?district a s4city:District;
 #                  rdfs:label ?districtName. # Warning: multiple names for the same district
       }
@@ -77,9 +77,9 @@ WHERE {
   }
   BIND ((?CO2Scope1Value + 25*?CH4Scope1Value + 298*?N2OScope1Value + ?CO2Scope2Value) as ?GHGValue) 
 #  SELECT ?cell ?sector ?year ?districtName ((?CO2Scope1Value + 25*?CH4Scope1Value + 298*?N2OScope1Value + ?CO2Scope2Value) as ?GHGValue) 
-  BIND (IRI(CONCAT("http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/GHGEmissions/",
-                STRAFTER(STR(?sector),"http://usage-project.eu/ld/ontology#"),
+  BIND (IRI(CONCAT("http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/GHGEmissions/",
+                STRAFTER(STR(?sector),"http://w3id.org/def/usage#"),
                 "/USAGE-zgz-cell-id-",
-                STRAFTER(STR(?cell),"http://usage-project.eu/ld/resource/Cell/ZGZ-id-"),
+                STRAFTER(STR(?cell),"http://w3id.org/def/usage/resource/Cell/ZGZ-id-"),
             	"-y-",STR(?year))) as ?uri)
 }

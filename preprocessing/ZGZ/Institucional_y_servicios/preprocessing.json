@@ -852,7 +852,7 @@
   },
   {
     "op": "core/column-addition",
-    "description": "Create column Sector at index 2 based on column ID_CELDA using expression grel:\"http://usage-project.eu/ld/ontology#InstitutionalAndServices\"",
+    "description": "Create column Sector at index 2 based on column ID_CELDA using expression grel:\"http://w3id.org/def/usage#InstitutionalAndServices\"",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
@@ -860,7 +860,7 @@
     "newColumnName": "Sector",
     "columnInsertIndex": 2,
     "baseColumnName": "ID_CELDA",
-    "expression": "grel:\"http://usage-project.eu/ld/ontology#InstitutionalAndServices\"",
+    "expression": "grel:\"http://w3id.org/def/usage#InstitutionalAndServices\"",
     "onError": "set-to-blank"
   },
   {

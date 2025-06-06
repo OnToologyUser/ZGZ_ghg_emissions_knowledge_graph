@@ -6,7 +6,7 @@ PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
 PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX time: <http://www.w3.org/2006/time#>
-PREFIX usage-o: <http://usage-project.eu/ld/ontology#>
+PREFIX usage-o: <http://w3id.org/def/usage#>
 CONSTRUCT{
     ?uri a s4city:KeyPerformanceIndicatorAssessment;
          saref:hasValue ?sumKpiaValue;
@@ -33,19 +33,19 @@ WHERE {
       ?district a s4city:District.
       {
         SELECT ?district ?districtName WHERE {
-          GRAPH <http://usage-project.eu/ld/graph/ZGZ-Transporte> {
+          GRAPH <http://w3id.org/def/usage/graph/ZGZ-Transporte> {
             ?district a s4city:District;
                 rdfs:label ?districtName. # Warning: multiple names for the same district
           }
         }
       }
-    #   VALUES (?district) {(<http://usage-project.eu/ld/resource/District/ZGZ-id-1>)}
-      BIND (IRI(CONCAT("http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/",
-                STRAFTER(STR(?kpi),"http://usage-project.eu/ld/ontology#"),"/",
-                STRAFTER(STR(?sector),"http://usage-project.eu/ld/ontology#"),
+    #   VALUES (?district) {(<http://w3id.org/def/usage/resource/District/ZGZ-id-1>)}
+      BIND (IRI(CONCAT("http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/",
+                STRAFTER(STR(?kpi),"http://w3id.org/def/usage#"),"/",
+                STRAFTER(STR(?sector),"http://w3id.org/def/usage#"),
                 "/USAGE-zgz-district-id-",
-                STRAFTER(STR(?district),"http://usage-project.eu/ld/resource/District/ZGZ-id-"),"-y-",
-		        STRAFTER(STRAFTER(STRAFTER(STR(?interval),"http://usage-project.eu/ld/resource/Interval/"),"-"),"-")
+                STRAFTER(STR(?district),"http://w3id.org/def/usage/resource/District/ZGZ-id-"),"-y-",
+		        STRAFTER(STRAFTER(STRAFTER(STR(?interval),"http://w3id.org/def/usage/resource/Interval/"),"-"),"-")
           			  )) as ?uri)
     } GROUP BY ?uri ?district ?interval ?kpi ?kpiaValueUnit ?sector 
 }

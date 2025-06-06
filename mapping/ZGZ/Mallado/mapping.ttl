@@ -6,9 +6,9 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rml: <http://semweb.mmlab.be/ns/rml#> .
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
-@prefix usage-city: <http://usage-project.eu/ld/resource/City/> .
-@prefix usage-g: <http://usage-project.eu/ld/graph/> .
-@prefix usage-o: <http://usage-project.eu/ld/ontology#> .
+@prefix usage-city: <http://w3id.org/def/usage/resource/City/> .
+@prefix usage-g: <http://w3id.org/def/usage/graph/> .
+@prefix usage-o: <http://w3id.org/def/usage#> .
 
 : a owl:Ontology ;
     mod:createdWith <https://chowlk.linkeddata.es/> .
@@ -80,7 +80,7 @@ rr:template a owl:DatatypeProperty ;
 <http://base.uri#_b2> a owl:NamedIndividual ;
     rr:class usage-o:Cell ;
     rr:graph usage-g:ZGZ-Mallado ;
-    rr:template "http://usage-project.eu/ld/resource/Cell/ZGZ-id-{fid}" .
+    rr:template "http://w3id.org/def/usage/resource/Cell/ZGZ-id-{fid}" .
 
 <http://base.uri#_b3> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b4> ;
@@ -97,7 +97,7 @@ rr:template a owl:DatatypeProperty ;
 <http://base.uri#_b6> a owl:NamedIndividual ;
     rr:class geo:Geometry ;
     rr:graph usage-g:ZGZ-Mallado ;
-    rr:template "http://usage-project.eu/ld/resource/Geometry/ZGZ-id-{fid}" .
+    rr:template "http://w3id.org/def/usage/resource/Geometry/ZGZ-id-{fid}" .
 
 <http://base.uri#_b7> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b8> ;

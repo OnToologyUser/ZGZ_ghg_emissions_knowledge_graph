@@ -792,7 +792,7 @@
   },
   {
     "op": "core/column-addition",
-    "description": "Create column Sector at index 20 based on column ID_CELDA using expression grel:\"http://usage-project.eu/ld/ontology#ResidentialBuildings\"",
+    "description": "Create column Sector at index 20 based on column ID_CELDA using expression grel:\"http://w3id.org/def/usage#ResidentialBuildings\"",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
@@ -800,7 +800,7 @@
     "newColumnName": "Sector",
     "columnInsertIndex": 0,
     "baseColumnName": "ID_CELDA",
-    "expression": "grel:\"http://usage-project.eu/ld/ontology#ResidentialBuildings\"",
+    "expression": "grel:\"http://w3id.org/def/usage#ResidentialBuildings\"",
     "onError": "set-to-blank"
   },
   {

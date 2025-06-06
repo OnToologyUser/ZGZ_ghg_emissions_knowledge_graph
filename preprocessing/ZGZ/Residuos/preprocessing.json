@@ -1697,7 +1697,7 @@
   },
   {
     "op": "core/column-addition",
-    "description": "Create column Sector at index 1 based on column ID_CELDA using expression grel:\"http://usage-project.eu/ld/ontology#Waste\"",
+    "description": "Create column Sector at index 1 based on column ID_CELDA using expression grel:\"http://w3id.org/def/usage#Waste\"",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
@@ -1705,7 +1705,7 @@
     "newColumnName": "Sector",
     "columnInsertIndex": 1,
     "baseColumnName": "ID_CELDA",
-    "expression": "grel:\"http://usage-project.eu/ld/ontology#Waste\"",
+    "expression": "grel:\"http://w3id.org/def/usage#Waste\"",
     "onError": "set-to-blank"
   },
   {

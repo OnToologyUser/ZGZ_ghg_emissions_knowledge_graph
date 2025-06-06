@@ -10,8 +10,8 @@
 @prefix saref: <https://saref.etsi.org/core/> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix unit: <http://qudt.org/vocab/unit/> .
-@prefix usage-g: <http://usage-project.eu/ld/graph/> .
-@prefix usage-o: <http://usage-project.eu/ld/ontology#> .
+@prefix usage-g: <http://w3id.org/def/usage/graph/> .
+@prefix usage-o: <http://w3id.org/def/usage#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 : a owl:Ontology ;
@@ -103,7 +103,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b11> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ-Arbolado ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CO2Scope1Emissions/UrbanWoodland/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+    rr:template "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CO2Scope1Emissions/UrbanWoodland/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b12> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b13> ;
@@ -140,7 +140,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b2> a owl:NamedIndividual ;
     rr:class usage-o:Cell ;
     rr:graph usage-g:ZGZ-Arbolado ;
-    rr:template "http://usage-project.eu/ld/resource/Cell/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://w3id.org/def/usage/resource/Cell/ZGZ-id-{ID_CELDA}" .
 
 <http://base.uri#_b20s> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b21s> ;
@@ -153,17 +153,17 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b6d> a owl:NamedIndividual ;
     rr:class s4city:District ;
     rr:graph usage-g:ZGZ-Arbolado ;
-    rr:template "http://usage-project.eu/ld/resource/District/ZGZ-id-{ID_PADRON}" .
+    rr:template "http://w3id.org/def/usage/resource/District/ZGZ-id-{ID_PADRON}" .
 
 <http://base.uri#_b6i> a owl:NamedIndividual ;
     rr:class time:DateTimeInterval ;
     rr:graph usage-g:ZGZ-Arbolado ;
-    rr:template "http://usage-project.eu/ld/resource/Interval/ZGZ-id-{AÑO}" .
+    rr:template "http://w3id.org/def/usage/resource/Interval/ZGZ-id-{AÑO}" .
 
 <http://base.uri#_b6y> a owl:NamedIndividual ;
     rr:class time:DateTimeDescription ;
     rr:graph usage-g:ZGZ-Arbolado ;
-    rr:template "http://usage-project.eu/ld/resource/Year/ZGZ-id-{AÑO}" .
+    rr:template "http://w3id.org/def/usage/resource/Year/ZGZ-id-{AÑO}" .
 
 <http://base.uri#_b7d> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b8d> ;

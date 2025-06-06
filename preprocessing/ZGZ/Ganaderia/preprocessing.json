@@ -400,7 +400,7 @@
   },
   {
     "op": "core/column-addition",
-    "description": "Create column Sector at index 1 based on column ID_CELDA using expression grel:\"http://usage-project.eu/ld/ontology#Livestock\"",
+    "description": "Create column Sector at index 1 based on column ID_CELDA using expression grel:\"http://w3id.org/def/usage#Livestock\"",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
@@ -408,7 +408,7 @@
     "newColumnName": "Sector",
     "columnInsertIndex": 1,
     "baseColumnName": "ID_CELDA",
-    "expression": "grel:\"http://usage-project.eu/ld/ontology#Livestock\"",
+    "expression": "grel:\"http://w3id.org/def/usage#Livestock\"",
     "onError": "set-to-blank"
   },
   {

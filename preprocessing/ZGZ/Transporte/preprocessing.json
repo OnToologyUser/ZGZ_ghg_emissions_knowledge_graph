@@ -831,7 +831,7 @@
   },
   {
     "op": "core/column-addition",
-    "description": "Create column Sector at index 2 based on column SectorByFile using expression grel:\"http://usage-project.eu/ld/ontology#\"+if(value==\"Privado\",\"OnRoadPrivateTransport\",if(value==\"Publico\",\"OnRoadPublicTransport\",if(value==\"FlotaMuni\",\"MunicipalFleet\",null)))",
+    "description": "Create column Sector at index 2 based on column SectorByFile using expression grel:\"http://w3id.org/def/usage#\"+if(value==\"Privado\",\"OnRoadPrivateTransport\",if(value==\"Publico\",\"OnRoadPublicTransport\",if(value==\"FlotaMuni\",\"MunicipalFleet\",null)))",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
@@ -839,7 +839,7 @@
     "newColumnName": "Sector",
     "columnInsertIndex": 2,
     "baseColumnName": "SectorByFile",
-    "expression": "grel:\"http://usage-project.eu/ld/ontology#\"+if(value.toLowercase()==\"privado\",\"OnRoadPrivateTransport\",if(value.toLowercase()==\"publico\",\"OnRoadPublicTransport\",null))",
+    "expression": "grel:\"http://w3id.org/def/usage#\"+if(value.toLowercase()==\"privado\",\"OnRoadPrivateTransport\",if(value.toLowercase()==\"publico\",\"OnRoadPublicTransport\",null))",
     "onError": "set-to-blank"
   },
   {

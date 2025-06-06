@@ -877,7 +877,7 @@
   },
   {
     "op": "core/column-addition",
-    "description": "Create column Sector at index 20 based on column SectorByFile using expression grel:\"http://usage-project.eu/ld/ontology#\"+if(value==\"TPrivado\",\"OnRoadPrivateTransport\",if(value==\"TPublico\",\"OnRoadPublicTransport\",if(value==\"FlotaMuni\",\"MunicipalFleet\",null)))",
+    "description": "Create column Sector at index 20 based on column SectorByFile using expression grel:\"http://w3id.org/def/usage#\"+if(value==\"TPrivado\",\"OnRoadPrivateTransport\",if(value==\"TPublico\",\"OnRoadPublicTransport\",if(value==\"FlotaMuni\",\"MunicipalFleet\",null)))",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
@@ -885,7 +885,7 @@
     "newColumnName": "Sector",
     "columnInsertIndex": 20,
     "baseColumnName": "SectorByFile",
-    "expression": "grel:\"http://usage-project.eu/ld/ontology#\"+if(value==\"TPrivado\",\"OnRoadPrivateTransport\",if(value==\"TPublico\",\"OnRoadPublicTransport\",if(value==\"FlotaMuni\",\"MunicipalFleet\",null)))",
+    "expression": "grel:\"http://w3id.org/def/usage#\"+if(value==\"TPrivado\",\"OnRoadPrivateTransport\",if(value==\"TPublico\",\"OnRoadPublicTransport\",if(value==\"FlotaMuni\",\"MunicipalFleet\",null)))",
     "onError": "set-to-blank"
   },
   {

@@ -1,4 +1,4 @@
-@prefix : <http://usage-project.eu/ld/ontology#> .
+@prefix : <http://w3id.org/def/usage#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix mod: <https://w3id.org/mod#> .
@@ -15,11 +15,11 @@
 @prefix saref: <https://saref.etsi.org/core/> .
 @prefix s4city: <https://saref.etsi.org/saref4city/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix usage-o: <http://usage-project.eu/ld/ontology#> .
-@base <http://usage-project.eu/ld/ontology#> .
+@prefix usage-o: <http://w3id.org/def/usage#> .
+@base <http://w3id.org/def/usage#> .
 
-<http://usage-project.eu/ld/ontology#> rdf:type owl:Ontology ;
-                                        owl:versionIRI <http://usage-project.eu/ld/ontology/1.0.0#> ;
+<http://w3id.org/def/usage#> rdf:type owl:Ontology ;
+                                        owl:versionIRI <http://w3id.org/def/usage/1.0.0#> ;
                                         dc:contributor <https://orcid.org/0000-0002-1685-4700> ;
                                         dc:created "2024-05-24"^^xsd:date ;
                                         dc:creator <https://orcid.org/0000-0002-1664-2281> ;
@@ -27,7 +27,7 @@
                                         dc:license <https://creativecommons.org/licenses/by/4.0/> ;
                                         dc:title "The Urban Data Space for Green Deal ontology"@en ;
                                         vann:preferredNamespacePrefix "usage-o" ;
-                                        vann:preferredNamespaceUri <http://usage-project.eu/ld/ontology#> ;
+                                        vann:preferredNamespaceUri <http://w3id.org/def/usage#> ;
                                         owl:versionInfo "1.0.0" ;
                                         mod:createdWith <https://chowlk.linkeddata.es/> .
 
@@ -197,7 +197,7 @@ xsd:gYear rdf:type rdfs:Datatype .
 #    Object Properties
 #################################################################
 
-###  http://usage-project.eu/ld/ontology#refersToSector
+###  http://w3id.org/def/usage#refersToSector
 usage-o:refersToSector rdf:type owl:ObjectProperty ;
                        rdfs:comment "Relation between a KPI assessment and the sector it refers to"@en ;
                        rdfs:label "refers to sector" .
@@ -444,14 +444,14 @@ s4city:hasLastUpdateDate rdf:type owl:DatatypeProperty .
 qudt:Unit rdf:type owl:Class .
 
 
-###  http://usage-project.eu/ld/ontology#Cell
+###  http://w3id.org/def/usage#Cell
 usage-o:Cell rdf:type owl:Class ;
              rdfs:subClassOf geo:Feature ;
              rdfs:comment "A spatial unit or the smallest portion of a gegraphical grid that could be linked to a numeric value representing the conditions for the area covered by the cell."@en ;
              rdfs:label "Cell" .
 
 
-###  http://usage-project.eu/ld/ontology#Sector
+###  http://w3id.org/def/usage#Sector
 usage-o:Sector rdf:type owl:Class ;
                rdfs:subClassOf skos:Concept ;
                rdfs:comment "A subdivision or segment especially of a society or an economy."@en ;
@@ -859,35 +859,35 @@ unit:TONNE rdf:type owl:NamedIndividual ,
            rdfs:label "Tonne"@en .
 
 
-###  http://usage-project.eu/ld/ontology#AFOLU
+###  http://w3id.org/def/usage#AFOLU
 usage-o:AFOLU rdf:type owl:NamedIndividual ,
                        usage-o:Sector ;
               rdfs:comment "Agriculture, forestry & other land uses sector."@en ;
               rdfs:label "AFOLU"@en .
 
 
-###  http://usage-project.eu/ld/ontology#Agriculture
+###  http://w3id.org/def/usage#Agriculture
 usage-o:Agriculture rdf:type owl:NamedIndividual ,
                              usage-o:Sector ;
                     rdfs:comment "Agriculture subsector."@en ;
                     rdfs:label "Agriculture"@en .
 
 
-###  http://usage-project.eu/ld/ontology#AsScope1Emissions
+###  http://w3id.org/def/usage#AsScope1Emissions
 usage-o:AsScope1Emissions rdf:type owl:NamedIndividual ,
                                    s4city:KeyPerformanceIndicator ;
                           rdfs:comment "Emisiones de arsénico (As) dentro del Alcance 1. Emisiones directas."@es ;
                           rdfs:label "As"@es .
 
 
-###  http://usage-project.eu/ld/ontology#AutomotiveDieselConsumption
+###  http://w3id.org/def/usage#AutomotiveDieselConsumption
 usage-o:AutomotiveDieselConsumption rdf:type owl:NamedIndividual ,
                                              s4city:KeyPerformanceIndicator ;
                                     rdfs:comment "Consumo final de gasóleo para automoción"@es ;
                                     rdfs:label "C_GASOLEO_A"@es .
 
 
-###  http://usage-project.eu/ld/ontology#Aviation
+###  http://w3id.org/def/usage#Aviation
 usage-o:Aviation rdf:type owl:NamedIndividual ,
                           usage-o:Sector ;
                  skos:broader usage-o:Transport ;
@@ -895,84 +895,84 @@ usage-o:Aviation rdf:type owl:NamedIndividual ,
                  rdfs:label "Aviation"@en .
 
 
-###  http://usage-project.eu/ld/ontology#BCScope1Emissions
+###  http://w3id.org/def/usage#BCScope1Emissions
 usage-o:BCScope1Emissions rdf:type owl:NamedIndividual ,
                                    s4city:KeyPerformanceIndicator ;
                           rdfs:comment "Emisiones de Carbón Negro (BC) dentro del Alcance 1. Emisiones directas."@es ;
                           rdfs:label "BC"@es .
 
 
-###  http://usage-project.eu/ld/ontology#BaPScope1Emissions
+###  http://w3id.org/def/usage#BaPScope1Emissions
 usage-o:BaPScope1Emissions rdf:type owl:NamedIndividual ,
                                     s4city:KeyPerformanceIndicator ;
                            rdfs:comment "Emisiones de Benzo(a)pireno dentro del Alcance 1. Emisiones directas."@es ;
                            rdfs:label "BENZO_A"@es .
 
 
-###  http://usage-project.eu/ld/ontology#BbFScope1Emissions
+###  http://w3id.org/def/usage#BbFScope1Emissions
 usage-o:BbFScope1Emissions rdf:type owl:NamedIndividual ,
                                     s4city:KeyPerformanceIndicator ;
                            rdfs:comment "Emisiones de BENZO(b)FLUORANTENO dentro del Alcance 1. Emisiones directas."@es ;
                            rdfs:label "BENZO_B"@es .
 
 
-###  http://usage-project.eu/ld/ontology#C6H6Scope1Emissions
+###  http://w3id.org/def/usage#C6H6Scope1Emissions
 usage-o:C6H6Scope1Emissions rdf:type owl:NamedIndividual ,
                                      s4city:KeyPerformanceIndicator ;
                             rdfs:comment "Emisiones de benceno (C6H6) dentro del Alcance 1. Emisiones directas."@es ;
                             rdfs:label "C6H6"@es .
 
 
-###  http://usage-project.eu/ld/ontology#CH4Scope1Emissions
+###  http://w3id.org/def/usage#CH4Scope1Emissions
 usage-o:CH4Scope1Emissions rdf:type owl:NamedIndividual ,
                                     s4city:KeyPerformanceIndicator ;
                            rdfs:comment "Emisiones de metano (CH4) dentro del Alcance 1. Emisiones directas."@es ;
                            rdfs:label "CH4_ALC1"@es .
 
 
-###  http://usage-project.eu/ld/ontology#CH4Scope2Emissions
+###  http://w3id.org/def/usage#CH4Scope2Emissions
 usage-o:CH4Scope2Emissions rdf:type owl:NamedIndividual ,
                                     s4city:KeyPerformanceIndicator ;
                            rdfs:comment "Emisiones de metano (CH4) dentro del Alcance 2. Emisiones indirectas por consumo de electricidad."@es ;
                            rdfs:label "CH4_ALC2"@es .
 
 
-###  http://usage-project.eu/ld/ontology#CH4Scope3Emissions
+###  http://w3id.org/def/usage#CH4Scope3Emissions
 usage-o:CH4Scope3Emissions rdf:type owl:NamedIndividual ,
                                     s4city:KeyPerformanceIndicator ;
                            rdfs:comment "Emisiones de metano (CH4) dentro del Alcance 3. Otras emisiones indirectas."@es ;
                            rdfs:label "CH4_ALC3"@es .
 
 
-###  http://usage-project.eu/ld/ontology#CO2Scope1Emissions
+###  http://w3id.org/def/usage#CO2Scope1Emissions
 usage-o:CO2Scope1Emissions rdf:type owl:NamedIndividual ,
                                     s4city:KeyPerformanceIndicator ;
                            rdfs:comment "Emisiones de dióxido de carbono (CO2) dentro del Alcance 1. Emisiones directas."@es ;
                            rdfs:label "CO2_ALC1"@es .
 
 
-###  http://usage-project.eu/ld/ontology#CO2Scope2Emissions
+###  http://w3id.org/def/usage#CO2Scope2Emissions
 usage-o:CO2Scope2Emissions rdf:type owl:NamedIndividual ,
                                     s4city:KeyPerformanceIndicator ;
                            rdfs:comment "Emisiones de dióxido de carbono (CO2) dentro del Alcance 2. Emisiones indirectas por consumo de electricidad."@es ;
                            rdfs:label "CO2_ALC2"@es .
 
 
-###  http://usage-project.eu/ld/ontology#CO2Scope3Emissions
+###  http://w3id.org/def/usage#CO2Scope3Emissions
 usage-o:CO2Scope3Emissions rdf:type owl:NamedIndividual ,
                                     s4city:KeyPerformanceIndicator ;
                            rdfs:comment "Emisiones de dióxido de carbono (CO2) dentro del Alcance 3. Otras emisiones indirectas."@es ;
                            rdfs:label "CO2_ALC3"@es .
 
 
-###  http://usage-project.eu/ld/ontology#COScope1Emissions
+###  http://w3id.org/def/usage#COScope1Emissions
 usage-o:COScope1Emissions rdf:type owl:NamedIndividual ,
                                    s4city:KeyPerformanceIndicator ;
                           rdfs:comment "Emisiones de monóxido de carbono (CO) dentro del Alcance 1. Emisiones directas."@es ;
                           rdfs:label "CO"@es .
 
 
-###  http://usage-project.eu/ld/ontology#Cattle
+###  http://w3id.org/def/usage#Cattle
 usage-o:Cattle rdf:type owl:NamedIndividual ,
                         usage-o:Sector ;
                skos:broader usage-o:Livestock ;
@@ -981,63 +981,63 @@ usage-o:Cattle rdf:type owl:NamedIndividual ,
                           "Cattle"@en .
 
 
-###  http://usage-project.eu/ld/ontology#CdScope1Emissions
+###  http://w3id.org/def/usage#CdScope1Emissions
 usage-o:CdScope1Emissions rdf:type owl:NamedIndividual ,
                                    s4city:KeyPerformanceIndicator ;
                           rdfs:comment "Emisiones de Cadmio (Cd) dentro del Alcance 1. Emisiones directas."@es ;
                           rdfs:label "Cd"@es .
 
 
-###  http://usage-project.eu/ld/ontology#CrScope1Emissions
+###  http://w3id.org/def/usage#CrScope1Emissions
 usage-o:CrScope1Emissions rdf:type owl:NamedIndividual ,
                                    s4city:KeyPerformanceIndicator ;
                           rdfs:comment "Emisiones de Cromo (Cr) dentro del Alcance 1. Emisiones directas."@es ;
                           rdfs:label "Cr"@es .
 
 
-###  http://usage-project.eu/ld/ontology#CuScope1Emissions
+###  http://w3id.org/def/usage#CuScope1Emissions
 usage-o:CuScope1Emissions rdf:type owl:NamedIndividual ,
                                    s4city:KeyPerformanceIndicator ;
                           rdfs:comment "Emisiones de Cobre (Cu) dentro del Alcance 1. Emisiones directas."@es ;
                           rdfs:label "Cu"@es .
 
 
-###  http://usage-project.eu/ld/ontology#ElectricGridEnergyConsumption
+###  http://w3id.org/def/usage#ElectricGridEnergyConsumption
 usage-o:ElectricGridEnergyConsumption rdf:type owl:NamedIndividual ,
                                                s4city:KeyPerformanceIndicator ;
                                       rdfs:comment "Consumo final de electricidad (mix eléctrico nacional)."@es ;
                                       rdfs:label "C_ELECTRICIDAD_MIXNAC"@es .
 
 
-###  http://usage-project.eu/ld/ontology#ElectricRenewableEnergyConsumption
+###  http://w3id.org/def/usage#ElectricRenewableEnergyConsumption
 usage-o:ElectricRenewableEnergyConsumption rdf:type owl:NamedIndividual ,
                                                     s4city:KeyPerformanceIndicator ;
                                            rdfs:comment "Consumo final de electricidad con Garantía de Origen (GdO) Renovable."@es ;
                                            rdfs:label "C_ELECTRICIDAD_GDO"@es .
 
 
-###  http://usage-project.eu/ld/ontology#GHGEmissions
+###  http://w3id.org/def/usage#GHGEmissions
 usage-o:GHGEmissions rdf:type owl:NamedIndividual ,
                               s4city:KeyPerformanceIndicator ;
                      rdfs:comment "Gases de efecto invernadero (GEI)."@es ;
                      rdfs:label "GEI"@es .
 
 
-###  http://usage-project.eu/ld/ontology#GHGEmissionsVariation
+###  http://w3id.org/def/usage#GHGEmissionsVariation
 usage-o:GHGEmissionsVariation rdf:type owl:NamedIndividual ,
                                        s4city:KeyPerformanceIndicator ;
                               rdfs:comment "Variación de los Gases de efecto invernadero (GEI)."@es ;
                               rdfs:label "VARIACION_GEI"@es .
 
 
-###  http://usage-project.eu/ld/ontology#GasolineConsumption
+###  http://w3id.org/def/usage#GasolineConsumption
 usage-o:GasolineConsumption rdf:type owl:NamedIndividual ,
                                      s4city:KeyPerformanceIndicator ;
                             rdfs:comment "Consumo final de gasolina"@es ;
                             rdfs:label "C_GASOLINA"@es .
 
 
-###  http://usage-project.eu/ld/ontology#Goats
+###  http://w3id.org/def/usage#Goats
 usage-o:Goats rdf:type owl:NamedIndividual ,
                        usage-o:Sector ;
               skos:broader usage-o:Livestock ;
@@ -1046,35 +1046,35 @@ usage-o:Goats rdf:type owl:NamedIndividual ,
                          "Goats"@en .
 
 
-###  http://usage-project.eu/ld/ontology#HCBScope1Emissions
+###  http://w3id.org/def/usage#HCBScope1Emissions
 usage-o:HCBScope1Emissions rdf:type owl:NamedIndividual ,
                                     s4city:KeyPerformanceIndicator ;
                            rdfs:comment "Emisiones de Hexaclorobenceno dentro del Alcance 1. Emisiones directas."@es ;
                            rdfs:label "HCB"@es .
 
 
-###  http://usage-project.eu/ld/ontology#HFCScope1Emissions
+###  http://w3id.org/def/usage#HFCScope1Emissions
 usage-o:HFCScope1Emissions rdf:type owl:NamedIndividual ,
                                     s4city:KeyPerformanceIndicator ;
                            rdfs:comment "Emisiones de hidrofluorocarbonos (HFC) dentro del Alcance 1. Emisiones directas."@es ;
                            rdfs:label "HFC_ALC1"@es .
 
 
-###  http://usage-project.eu/ld/ontology#HeatingOilConsumption
+###  http://w3id.org/def/usage#HeatingOilConsumption
 usage-o:HeatingOilConsumption rdf:type owl:NamedIndividual ,
                                        s4city:KeyPerformanceIndicator ;
                               rdfs:comment "Consumo final de gasóleo para calefacción"@es ;
                               rdfs:label "C_GASOLEO_C"@es .
 
 
-###  http://usage-project.eu/ld/ontology#HgScope1Emissions
+###  http://w3id.org/def/usage#HgScope1Emissions
 usage-o:HgScope1Emissions rdf:type owl:NamedIndividual ,
                                    s4city:KeyPerformanceIndicator ;
                           rdfs:comment "Emisiones de Mercurio (Hg) dentro del Alcance 1. Emisiones directas."@es ;
                           rdfs:label "Hg"@es .
 
 
-###  http://usage-project.eu/ld/ontology#Horses
+###  http://w3id.org/def/usage#Horses
 usage-o:Horses rdf:type owl:NamedIndividual ,
                         usage-o:Sector ;
                skos:broader usage-o:Livestock ;
@@ -1083,21 +1083,21 @@ usage-o:Horses rdf:type owl:NamedIndividual ,
                           "Équidos"@es .
 
 
-###  http://usage-project.eu/ld/ontology#IPPU
+###  http://w3id.org/def/usage#IPPU
 usage-o:IPPU rdf:type owl:NamedIndividual ,
                       usage-o:Sector ;
              rdfs:comment "Industrial processes & product use."@en ;
              rdfs:label "IPPU"@en .
 
 
-###  http://usage-project.eu/ld/ontology#IPScope1Emissions
+###  http://w3id.org/def/usage#IPScope1Emissions
 usage-o:IPScope1Emissions rdf:type owl:NamedIndividual ,
                                    s4city:KeyPerformanceIndicator ;
                           rdfs:comment "Emisiones de Indeno[1,2,3-cd]pyrene dentro del Alcance 1. Emisiones directas."@es ;
                           rdfs:label "INDENO_123"@es .
 
 
-###  http://usage-project.eu/ld/ontology#IndustrialBuildings
+###  http://w3id.org/def/usage#IndustrialBuildings
 usage-o:IndustrialBuildings rdf:type owl:NamedIndividual ,
                                      usage-o:Sector ;
                             skos:broader usage-o:Stationary ;
@@ -1105,7 +1105,7 @@ usage-o:IndustrialBuildings rdf:type owl:NamedIndividual ,
                             rdfs:label "Industrial buildings"@en .
 
 
-###  http://usage-project.eu/ld/ontology#InstitutionalAndServices
+###  http://w3id.org/def/usage#InstitutionalAndServices
 usage-o:InstitutionalAndServices rdf:type owl:NamedIndividual ,
                                           usage-o:Sector ;
                                  skos:broader usage-o:Stationary ;
@@ -1113,7 +1113,7 @@ usage-o:InstitutionalAndServices rdf:type owl:NamedIndividual ,
                                  rdfs:label "Institutional and services"@en .
 
 
-###  http://usage-project.eu/ld/ontology#IrrigatedAgriculture
+###  http://w3id.org/def/usage#IrrigatedAgriculture
 usage-o:IrrigatedAgriculture rdf:type owl:NamedIndividual ,
                                       usage-o:Sector ;
                              skos:broader usage-o:Agriculture ;
@@ -1121,14 +1121,14 @@ usage-o:IrrigatedAgriculture rdf:type owl:NamedIndividual ,
                              rdfs:label "Irrigated agriculture"@en .
 
 
-###  http://usage-project.eu/ld/ontology#LPGConsumption
+###  http://w3id.org/def/usage#LPGConsumption
 usage-o:LPGConsumption rdf:type owl:NamedIndividual ,
                                 s4city:KeyPerformanceIndicator ;
                        rdfs:comment "Consumo final de GLP"@es ;
                        rdfs:label "C_GLP"@es .
 
 
-###  http://usage-project.eu/ld/ontology#Livestock
+###  http://w3id.org/def/usage#Livestock
 usage-o:Livestock rdf:type owl:NamedIndividual ,
                            usage-o:Sector ;
                   skos:broader usage-o:AFOLU ;
@@ -1136,7 +1136,7 @@ usage-o:Livestock rdf:type owl:NamedIndividual ,
                   rdfs:label "Livestock"@en .
 
 
-###  http://usage-project.eu/ld/ontology#MunicipalFleet
+###  http://w3id.org/def/usage#MunicipalFleet
 usage-o:MunicipalFleet rdf:type owl:NamedIndividual ,
                                 usage-o:Sector ;
                        skos:broader usage-o:OnRoadTransport ;
@@ -1144,70 +1144,70 @@ usage-o:MunicipalFleet rdf:type owl:NamedIndividual ,
                        rdfs:label "Municipal fleet"@en .
 
 
-###  http://usage-project.eu/ld/ontology#N2OScope1Emissions
+###  http://w3id.org/def/usage#N2OScope1Emissions
 usage-o:N2OScope1Emissions rdf:type owl:NamedIndividual ,
                                     s4city:KeyPerformanceIndicator ;
                            rdfs:comment "Emisiones de óxido nitroso (N2O) dentro del Alcance 1. Emisiones directas."@es ;
                            rdfs:label "N2O_ALC1"@es .
 
 
-###  http://usage-project.eu/ld/ontology#N2OScope2Emissions
+###  http://w3id.org/def/usage#N2OScope2Emissions
 usage-o:N2OScope2Emissions rdf:type owl:NamedIndividual ,
                                     s4city:KeyPerformanceIndicator ;
                            rdfs:comment "Emisiones de óxido nitroso (N2O) dentro del Alcance 2. Emisiones indirectas por consumo de electricidad."@es ;
                            rdfs:label "N2O_ALC2"@es .
 
 
-###  http://usage-project.eu/ld/ontology#N2OScope3Emissions
+###  http://w3id.org/def/usage#N2OScope3Emissions
 usage-o:N2OScope3Emissions rdf:type owl:NamedIndividual ,
                                     s4city:KeyPerformanceIndicator ;
                            rdfs:comment "Emisiones de óxido nitroso (N2O) dentro del Alcance 3. Otras emisiones indirectas."@es ;
                            rdfs:label "N2O_ALC3"@es .
 
 
-###  http://usage-project.eu/ld/ontology#NH3Scope1Emissions
+###  http://w3id.org/def/usage#NH3Scope1Emissions
 usage-o:NH3Scope1Emissions rdf:type owl:NamedIndividual ,
                                     s4city:KeyPerformanceIndicator ;
                            rdfs:comment "Emisiones de amoníaco (NH3) dentro del Alcance 1. Emisiones directas."@es ;
                            rdfs:label "NH3"@es .
 
 
-###  http://usage-project.eu/ld/ontology#NMVOCScope1Emissions
+###  http://w3id.org/def/usage#NMVOCScope1Emissions
 usage-o:NMVOCScope1Emissions rdf:type owl:NamedIndividual ,
                                       s4city:KeyPerformanceIndicator ;
                              rdfs:comment "Emisiones de Compuestos Orgánicos Volátiles Sin Metano (COVNM) dentro del Alcance 1. Emisiones directas"@es ;
                              rdfs:label "COVNM"@es .
 
 
-###  http://usage-project.eu/ld/ontology#NOxScope1Emissions
+###  http://w3id.org/def/usage#NOxScope1Emissions
 usage-o:NOxScope1Emissions rdf:type owl:NamedIndividual ,
                                     s4city:KeyPerformanceIndicator ;
                            rdfs:comment "Emisiones de óxidos de nitrógeno (NOx) dentro del Alcance 1. Emisiones directas."@es ;
                            rdfs:label "NOx"@es .
 
 
-###  http://usage-project.eu/ld/ontology#NaturalGasConsumption
+###  http://w3id.org/def/usage#NaturalGasConsumption
 usage-o:NaturalGasConsumption rdf:type owl:NamedIndividual ,
                                        s4city:KeyPerformanceIndicator ;
                               rdfs:comment "Consumo final de Gas Natural"@es ;
                               rdfs:label "C_GASNATURAL"@es .
 
 
-###  http://usage-project.eu/ld/ontology#NiScope1Emissions
+###  http://w3id.org/def/usage#NiScope1Emissions
 usage-o:NiScope1Emissions rdf:type owl:NamedIndividual ,
                                    s4city:KeyPerformanceIndicator ;
                           rdfs:comment "Emisiones de Níquel (Ni) dentro del Alcance 1. Emisiones directas."@es ;
                           rdfs:label "Ni"@es .
 
 
-###  http://usage-project.eu/ld/ontology#NonRenewableBiomassConsumption
+###  http://w3id.org/def/usage#NonRenewableBiomassConsumption
 usage-o:NonRenewableBiomassConsumption rdf:type owl:NamedIndividual ,
                                                 s4city:KeyPerformanceIndicator ;
                                        rdfs:comment "Consumo final de biomasa de origen no renovable"@es ;
                                        rdfs:label "C_BIOMASA"@es .
 
 
-###  http://usage-project.eu/ld/ontology#OnRoadPrivateTransport
+###  http://w3id.org/def/usage#OnRoadPrivateTransport
 usage-o:OnRoadPrivateTransport rdf:type owl:NamedIndividual ,
                                         usage-o:Sector ;
                                skos:broader usage-o:OnRoadTransport ;
@@ -1215,7 +1215,7 @@ usage-o:OnRoadPrivateTransport rdf:type owl:NamedIndividual ,
                                rdfs:label "On-road private transport"@en .
 
 
-###  http://usage-project.eu/ld/ontology#OnRoadPublicTransport
+###  http://w3id.org/def/usage#OnRoadPublicTransport
 usage-o:OnRoadPublicTransport rdf:type owl:NamedIndividual ,
                                        usage-o:Sector ;
                               skos:broader usage-o:OnRoadTransport ;
@@ -1223,7 +1223,7 @@ usage-o:OnRoadPublicTransport rdf:type owl:NamedIndividual ,
                               rdfs:label "On-road public transport"@en .
 
 
-###  http://usage-project.eu/ld/ontology#OnRoadTransport
+###  http://w3id.org/def/usage#OnRoadTransport
 usage-o:OnRoadTransport rdf:type owl:NamedIndividual ,
                                  usage-o:Sector ;
                         skos:broader usage-o:Transport ;
@@ -1231,77 +1231,77 @@ usage-o:OnRoadTransport rdf:type owl:NamedIndividual ,
                         rdfs:label "On-road transport"@en .
 
 
-###  http://usage-project.eu/ld/ontology#OnSiteElectricRenewableEnergyConsumption
+###  http://w3id.org/def/usage#OnSiteElectricRenewableEnergyConsumption
 usage-o:OnSiteElectricRenewableEnergyConsumption rdf:type owl:NamedIndividual ,
                                                           s4city:KeyPerformanceIndicator ;
                                                  rdfs:comment "Consumo final de electricidad a partir de fuentes renovables generada localmente."@es ;
                                                  rdfs:label "C_ELECTRICIDAD_RES_LOCAL"@es .
 
 
-###  http://usage-project.eu/ld/ontology#OtherFossilFuelsConsumption
+###  http://w3id.org/def/usage#OtherFossilFuelsConsumption
 usage-o:OtherFossilFuelsConsumption rdf:type owl:NamedIndividual ,
                                              s4city:KeyPerformanceIndicator ;
                                     rdfs:comment "Consumo final de otros combustibles fósiles. Por ejemplo, queroseno para el subsector del transporte aéreo."@es ;
                                     rdfs:label "C_OTROS_FOSILES"@es .
 
 
-###  http://usage-project.eu/ld/ontology#OtherRenewableEnergyConsumption
+###  http://w3id.org/def/usage#OtherRenewableEnergyConsumption
 usage-o:OtherRenewableEnergyConsumption rdf:type owl:NamedIndividual ,
                                                  s4city:KeyPerformanceIndicator ;
                                         rdfs:comment "Consumo final de otra energía de origen renovable."@es ;
                                         rdfs:label "C_OTROS_RES"@es .
 
 
-###  http://usage-project.eu/ld/ontology#PAHScope1Emissions
+###  http://w3id.org/def/usage#PAHScope1Emissions
 usage-o:PAHScope1Emissions rdf:type owl:NamedIndividual ,
                                     s4city:KeyPerformanceIndicator ;
                            rdfs:comment "Emisiones totales de Hidrocarburos Aromáticos Policíclicos dentro del Alcance 1. Emisiones directas."@es ;
                            rdfs:label "PAH"@es .
 
 
-###  http://usage-project.eu/ld/ontology#PCBsScope1Emissions
+###  http://w3id.org/def/usage#PCBsScope1Emissions
 usage-o:PCBsScope1Emissions rdf:type owl:NamedIndividual ,
                                      s4city:KeyPerformanceIndicator ;
                             rdfs:comment "Emisiones de óxidos de Bifenilos policlorados dentro del Alcance 1. Emisiones directas."@es ;
                             rdfs:label "PCBs"@es .
 
 
-###  http://usage-project.eu/ld/ontology#PCDDandPCDFScope1Emissions
+###  http://w3id.org/def/usage#PCDDandPCDFScope1Emissions
 usage-o:PCDDandPCDFScope1Emissions rdf:type owl:NamedIndividual ,
                                             s4city:KeyPerformanceIndicator ;
                                    rdfs:comment "Emisiones de Dioxinas y Furanos (PCDD+PCDF) dentro del Alcance 1. Emisiones directas."@es ;
                                    rdfs:label "DIOX"@es .
 
 
-###  http://usage-project.eu/ld/ontology#PFCScope1Emissions
+###  http://w3id.org/def/usage#PFCScope1Emissions
 usage-o:PFCScope1Emissions rdf:type owl:NamedIndividual ,
                                     s4city:KeyPerformanceIndicator ;
                            rdfs:comment "Emisiones de perfluorocarbonos (PFC) dentro del Alcance 1. Emisiones directas."@es ;
                            rdfs:label "PFC_ALC1"@es .
 
 
-###  http://usage-project.eu/ld/ontology#PM10Scope1Emissions
+###  http://w3id.org/def/usage#PM10Scope1Emissions
 usage-o:PM10Scope1Emissions rdf:type owl:NamedIndividual ,
                                      s4city:KeyPerformanceIndicator ;
                             rdfs:comment "Emisiones de materia particulada de 10 micrómetros o menos (PM 10) dentro del Alcance 1. Emisiones directas."@es ;
                             rdfs:label "PM10"@es .
 
 
-###  http://usage-project.eu/ld/ontology#PM2.5Scope1Emissions
+###  http://w3id.org/def/usage#PM2.5Scope1Emissions
 usage-o:PM2.5Scope1Emissions rdf:type owl:NamedIndividual ,
                                       s4city:KeyPerformanceIndicator ;
                              rdfs:comment "Emisiones de materia particulada de 2,5 micrómetros o menos (PM2.5) dentro del Alcance 1. Emisiones directas."@es ;
                              rdfs:label "PM2.5"@es .
 
 
-###  http://usage-project.eu/ld/ontology#PbScope1Emissions
+###  http://w3id.org/def/usage#PbScope1Emissions
 usage-o:PbScope1Emissions rdf:type owl:NamedIndividual ,
                                    s4city:KeyPerformanceIndicator ;
                           rdfs:comment "Emisiones de Plomo (Pb) dentro del Alcance 1. Emisiones directas."@es ;
                           rdfs:label "Pb"@es .
 
 
-###  http://usage-project.eu/ld/ontology#Poultry
+###  http://w3id.org/def/usage#Poultry
 usage-o:Poultry rdf:type owl:NamedIndividual ,
                          usage-o:Sector ;
                 skos:broader usage-o:Livestock ;
@@ -1310,7 +1310,7 @@ usage-o:Poultry rdf:type owl:NamedIndividual ,
                            "Poultry"@en .
 
 
-###  http://usage-project.eu/ld/ontology#Rabbits
+###  http://w3id.org/def/usage#Rabbits
 usage-o:Rabbits rdf:type owl:NamedIndividual ,
                          usage-o:Sector ;
                 skos:broader usage-o:Livestock ;
@@ -1319,7 +1319,7 @@ usage-o:Rabbits rdf:type owl:NamedIndividual ,
                            "Rabbits"@en .
 
 
-###  http://usage-project.eu/ld/ontology#RainfedAgriculture
+###  http://w3id.org/def/usage#RainfedAgriculture
 usage-o:RainfedAgriculture rdf:type owl:NamedIndividual ,
                                     usage-o:Sector ;
                            skos:broader usage-o:Agriculture ;
@@ -1327,7 +1327,7 @@ usage-o:RainfedAgriculture rdf:type owl:NamedIndividual ,
                            rdfs:label "Rainfed agriculture"@en .
 
 
-###  http://usage-project.eu/ld/ontology#ResidentialBuildings
+###  http://w3id.org/def/usage#ResidentialBuildings
 usage-o:ResidentialBuildings rdf:type owl:NamedIndividual ,
                                       usage-o:Sector ;
                              skos:broader usage-o:Stationary ;
@@ -1335,28 +1335,28 @@ usage-o:ResidentialBuildings rdf:type owl:NamedIndividual ,
                              rdfs:label "Residential buildings"@es .
 
 
-###  http://usage-project.eu/ld/ontology#SF6Scope1Emissions
+###  http://w3id.org/def/usage#SF6Scope1Emissions
 usage-o:SF6Scope1Emissions rdf:type owl:NamedIndividual ,
                                     s4city:KeyPerformanceIndicator ;
                            rdfs:comment "Emisiones de hexafluoruro de azufre (SF6) dentro del Alcance 1. Emisiones directas."@es ;
                            rdfs:label "SF6_ALC1"@es .
 
 
-###  http://usage-project.eu/ld/ontology#SO2Scope1Emissions
+###  http://w3id.org/def/usage#SO2Scope1Emissions
 usage-o:SO2Scope1Emissions rdf:type owl:NamedIndividual ,
                                     s4city:KeyPerformanceIndicator ;
                            rdfs:comment "Emisiones de dióxidos de azufre (SO2) dentro del Alcance 1. Emisiones directas."@es ;
                            rdfs:label "SO2"@es .
 
 
-###  http://usage-project.eu/ld/ontology#SeScope1Emissions
+###  http://w3id.org/def/usage#SeScope1Emissions
 usage-o:SeScope1Emissions rdf:type owl:NamedIndividual ,
                                    s4city:KeyPerformanceIndicator ;
                           rdfs:comment "Emisiones de Selenio (Se) dentro del Alcance 1. Emisiones directas."@es ;
                           rdfs:label "Se"@es .
 
 
-###  http://usage-project.eu/ld/ontology#Sheep
+###  http://w3id.org/def/usage#Sheep
 usage-o:Sheep rdf:type owl:NamedIndividual ,
                        usage-o:Sector ;
               skos:broader usage-o:Livestock ;
@@ -1365,14 +1365,14 @@ usage-o:Sheep rdf:type owl:NamedIndividual ,
                          "Sheep"@en .
 
 
-###  http://usage-project.eu/ld/ontology#Stationary
+###  http://w3id.org/def/usage#Stationary
 usage-o:Stationary rdf:type owl:NamedIndividual ,
                             usage-o:Sector ;
                    rdfs:comment "Stationary sector."@en ;
                    rdfs:label "Stationary"@en .
 
 
-###  http://usage-project.eu/ld/ontology#Swine
+###  http://w3id.org/def/usage#Swine
 usage-o:Swine rdf:type owl:NamedIndividual ,
                        usage-o:Sector ;
               skos:broader usage-o:Livestock ;
@@ -1381,49 +1381,49 @@ usage-o:Swine rdf:type owl:NamedIndividual ,
                          "Swine"@en .
 
 
-###  http://usage-project.eu/ld/ontology#TSPScope1Emissions
+###  http://w3id.org/def/usage#TSPScope1Emissions
 usage-o:TSPScope1Emissions rdf:type owl:NamedIndividual ,
                                     s4city:KeyPerformanceIndicator ;
                            rdfs:comment "Emisiones de materia particulada total (PTSP) dentro del Alcance 1. Emisiones directas."@es ;
                            rdfs:label "TSP"@es .
 
 
-###  http://usage-project.eu/ld/ontology#TotalHeavyMetalsScope1Emissions
+###  http://w3id.org/def/usage#TotalHeavyMetalsScope1Emissions
 usage-o:TotalHeavyMetalsScope1Emissions rdf:type owl:NamedIndividual ,
                                                  s4city:KeyPerformanceIndicator ;
                                         rdfs:comment "Sumatoria de la emisión de metales pesados dentro del Alcance 1. Emisiones directas."@es ;
                                         rdfs:label "TOTAL_MPESADOS"@es .
 
 
-###  http://usage-project.eu/ld/ontology#TotalPOPsScope1Emissions
+###  http://w3id.org/def/usage#TotalPOPsScope1Emissions
 usage-o:TotalPOPsScope1Emissions rdf:type owl:NamedIndividual ,
                                           s4city:KeyPerformanceIndicator ;
                                  rdfs:comment "Emisiones totales de Compuestos Orgánicos Persistentes (POPs) dentro del Alcance 1. Emisiones directas."@es ;
                                  rdfs:label "TOTAL_POPs"@es .
 
 
-###  http://usage-project.eu/ld/ontology#Transport
+###  http://w3id.org/def/usage#Transport
 usage-o:Transport rdf:type owl:NamedIndividual ,
                            usage-o:Sector ;
                   rdfs:comment "Transport sector."@en ;
                   rdfs:label "Transport"@en .
 
 
-###  http://usage-project.eu/ld/ontology#UrbanWoodland
+###  http://w3id.org/def/usage#UrbanWoodland
 usage-o:UrbanWoodland rdf:type owl:NamedIndividual ,
                                usage-o:Sector ;
                       rdfs:comment "Urban woodland sector."@en ;
                       rdfs:label "Urban woodland"@en .
 
 
-###  http://usage-project.eu/ld/ontology#VOCScope1Emissions
+###  http://w3id.org/def/usage#VOCScope1Emissions
 usage-o:VOCScope1Emissions rdf:type owl:NamedIndividual ,
                                     s4city:KeyPerformanceIndicator ;
                            rdfs:comment "Emisiones de Compuestos Orgánicos Volátiles (COV) dentro del Alcance 1. Emisiones directas."@es ;
                            rdfs:label "COV"@es .
 
 
-###  http://usage-project.eu/ld/ontology#Waste
+###  http://w3id.org/def/usage#Waste
 usage-o:Waste rdf:type owl:NamedIndividual ,
                        usage-o:Sector ;
               skos:broader usage-o:Stationary ;
@@ -1431,7 +1431,7 @@ usage-o:Waste rdf:type owl:NamedIndividual ,
               rdfs:label "Waste"@en .
 
 
-###  http://usage-project.eu/ld/ontology#ZnScope1Emissions
+###  http://w3id.org/def/usage#ZnScope1Emissions
 usage-o:ZnScope1Emissions rdf:type owl:NamedIndividual ,
                                    s4city:KeyPerformanceIndicator ;
                           rdfs:comment "Emisiones de Zinc (Zn) dentro del Alcance 1. Emisiones directas."@es ;

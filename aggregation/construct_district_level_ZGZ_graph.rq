@@ -6,7 +6,7 @@ PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
 PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX time: <http://www.w3.org/2006/time#>
-PREFIX usage-o: <http://usage-project.eu/ld/ontology#>
+PREFIX usage-o: <http://w3id.org/def/usage#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
@@ -91,13 +91,13 @@ WHERE{
 
     {
         SELECT ?district ?districtName ?districtGeometry WHERE {
-          GRAPH <http://usage-project.eu/ld/graph/ZGZ-Transporte> {
+          GRAPH <http://w3id.org/def/usage/graph/ZGZ-Transporte> {
             ?district a s4city:District;
                 rdfs:label ?districtName. # Warning: multiple names for the same district
           }
         }
     }
-#    VALUES (?district) {(<http://usage-project.eu/ld/resource/District/ZGZ-id-1>) 
-#        (<http://usage-project.eu/ld/resource/District/ZGZ-id-NA>)
+#    VALUES (?district) {(<http://w3id.org/def/usage/resource/District/ZGZ-id-1>) 
+#        (<http://w3id.org/def/usage/resource/District/ZGZ-id-NA>)
 #    }
 }

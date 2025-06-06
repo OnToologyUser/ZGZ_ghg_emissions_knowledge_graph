@@ -10,8 +10,8 @@
 @prefix saref: <https://saref.etsi.org/core/> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix unit: <http://qudt.org/vocab/unit/> .
-@prefix usage-g: <http://usage-project.eu/ld/graph/> .
-@prefix usage-o: <http://usage-project.eu/ld/ontology#> .
+@prefix usage-g: <http://w3id.org/def/usage/graph/> .
+@prefix usage-o: <http://w3id.org/def/usage#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 : a owl:Ontology ;
@@ -227,12 +227,12 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b11> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ-Agricultura ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CO2Scope1Emissions/Agriculture/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+    rr:template "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CO2Scope1Emissions/Agriculture/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b110> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ-Agricultura ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NOxScope1Emissions/Agriculture/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+    rr:template "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/NOxScope1Emissions/Agriculture/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b111> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b112> ;
@@ -249,7 +249,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b114> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ-Agricultura ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/COScope1Emissions/Agriculture/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+    rr:template "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/COScope1Emissions/Agriculture/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b115> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b116> ;
@@ -266,7 +266,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b118> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ-Agricultura ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/SO2Scope1Emissions/Agriculture/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+    rr:template "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/SO2Scope1Emissions/Agriculture/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b119> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b120> ;
@@ -287,7 +287,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b122> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ-Agricultura ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/VOCScope1Emissions/Agriculture/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+    rr:template "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/VOCScope1Emissions/Agriculture/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b123> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b124> ;
@@ -304,7 +304,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b126> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ-Agricultura ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NMVOCScope1Emissions/Agriculture/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+    rr:template "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/NMVOCScope1Emissions/Agriculture/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b127> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b128> ;
@@ -325,7 +325,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b130> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ-Agricultura ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/NH3Scope1Emissions/Agriculture/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+    rr:template "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/NH3Scope1Emissions/Agriculture/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b131> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b132> ;
@@ -342,7 +342,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b134> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ-Agricultura ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PM2.5Scope1Emissions/Agriculture/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+    rr:template "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/PM2.5Scope1Emissions/Agriculture/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b135> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b136> ;
@@ -359,7 +359,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b138> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ-Agricultura ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/PM10Scope1Emissions/Agriculture/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+    rr:template "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/PM10Scope1Emissions/Agriculture/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b139> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b140> ;
@@ -380,7 +380,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b142> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ-Agricultura ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/TSPScope1Emissions/Agriculture/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+    rr:template "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/TSPScope1Emissions/Agriculture/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b143> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b144> ;
@@ -405,7 +405,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b2> a owl:NamedIndividual ;
     rr:class usage-o:Cell ;
     rr:graph usage-g:ZGZ-Agricultura ;
-    rr:template "http://usage-project.eu/ld/resource/Cell/ZGZ-id-{ID_CELDA}" .
+    rr:template "http://w3id.org/def/usage/resource/Cell/ZGZ-id-{ID_CELDA}" .
 
 <http://base.uri#_b21s> a owl:NamedIndividual ;
     rml:reference "Sector" ;
@@ -414,7 +414,7 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b66> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ-Agricultura ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/CH4Scope1Emissions/Agriculture/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+    rr:template "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CH4Scope1Emissions/Agriculture/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b67> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b68> ;
@@ -431,22 +431,22 @@ rr:termType a owl:ObjectProperty ;
 <http://base.uri#_b6d> a owl:NamedIndividual ;
     rr:class s4city:District ;
     rr:graph usage-g:ZGZ-Agricultura ;
-    rr:template "http://usage-project.eu/ld/resource/District/ZGZ-id-{ID_PADRON}" .
+    rr:template "http://w3id.org/def/usage/resource/District/ZGZ-id-{ID_PADRON}" .
 
 <http://base.uri#_b6i> a owl:NamedIndividual ;
     rr:class time:DateTimeInterval ;
     rr:graph usage-g:ZGZ-Agricultura ;
-    rr:template "http://usage-project.eu/ld/resource/Interval/ZGZ-id-{AÑO}" .
+    rr:template "http://w3id.org/def/usage/resource/Interval/ZGZ-id-{AÑO}" .
 
 <http://base.uri#_b6y> a owl:NamedIndividual ;
     rr:class time:DateTimeDescription ;
     rr:graph usage-g:ZGZ-Agricultura ;
-    rr:template "http://usage-project.eu/ld/resource/Year/ZGZ-id-{AÑO}" .
+    rr:template "http://w3id.org/def/usage/resource/Year/ZGZ-id-{AÑO}" .
 
 <http://base.uri#_b70> a owl:NamedIndividual ;
     rr:class s4city:KeyPerformanceIndicatorAssessment ;
     rr:graph usage-g:ZGZ-Agricultura ;
-    rr:template "http://usage-project.eu/ld/resource/KeyPerformanceIndicatorAssessment/N2OScope1Emissions/Agriculture/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+    rr:template "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/N2OScope1Emissions/Agriculture/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
 
 <http://base.uri#_b71> a owl:NamedIndividual ;
     rr:objectMap <http://base.uri#_b72> ;
