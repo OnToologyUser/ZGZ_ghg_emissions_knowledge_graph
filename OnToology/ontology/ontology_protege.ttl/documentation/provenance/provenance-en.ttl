@@ -1,0 +1,12 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<http://w3id.org/def/usage/1.0.0#> a prov:Entity;
+	 dc:title "The Urban Data Space for Green Deal ontology";
+	 prov:wasAttributedTo <https://orcid.org/0000-0002-1664-2281>;
+	 dc:creator <https://orcid.org/0000-0002-1664-2281>;
+	 prov:wasAttributedTo <https://orcid.org/0000-0002-1685-4700>;
+	 dc:contributor <https://orcid.org/0000-0002-1685-4700>;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+.

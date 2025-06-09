@@ -1,0 +1,2221 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://w3id.org/def/usage#"
+     xml:base="http://w3id.org/def/usage"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:mod="https://w3id.org/mod#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:qudt="http://qudt.org/schema/qudt/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://w3id.org/def/usage#">
+        <owl:versionIRI rdf:resource="http://w3id.org/def/usage/1.0.0#"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-1685-4700"/>
+        <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-05-24</dc:created>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-1664-2281"/>
+        <dc:description xml:lang="en">City-level environmental and climate ontology for Local Green Deal.</dc:description>
+        <dc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dc:title xml:lang="en">The Urban Data Space for Green Deal ontology</dc:title>
+        <vann:preferredNamespacePrefix>usage-o</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri rdf:resource="http://w3id.org/def/usage#"/>
+        <owl:versionInfo>1.0.0</owl:versionInfo>
+        <mod:createdWith rdf:resource="https://chowlk.linkeddata.es/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/created -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/created"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/license"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/applicableSystem -->
+
+
+    <owl:AnnotationProperty rdf:about="http://qudt.org/schema/qudt/applicableSystem"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/conversionMultiplier -->
+
+
+    <owl:AnnotationProperty rdf:about="http://qudt.org/schema/qudt/conversionMultiplier"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/conversionMultiplierSN -->
+
+
+    <owl:AnnotationProperty rdf:about="http://qudt.org/schema/qudt/conversionMultiplierSN"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/exactMatch -->
+
+
+    <owl:AnnotationProperty rdf:about="http://qudt.org/schema/qudt/exactMatch"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/hasDimensionVector -->
+
+
+    <owl:AnnotationProperty rdf:about="http://qudt.org/schema/qudt/hasDimensionVector"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/hasQuantityKind -->
+
+
+    <owl:AnnotationProperty rdf:about="http://qudt.org/schema/qudt/hasQuantityKind"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/plainTextDescription -->
+
+
+    <owl:AnnotationProperty rdf:about="http://qudt.org/schema/qudt/plainTextDescription"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/siExactMatch -->
+
+
+    <owl:AnnotationProperty rdf:about="http://qudt.org/schema/qudt/siExactMatch"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/symbol -->
+
+
+    <owl:AnnotationProperty rdf:about="http://qudt.org/schema/qudt/symbol"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/ucumCode -->
+
+
+    <owl:AnnotationProperty rdf:about="http://qudt.org/schema/qudt/ucumCode"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/udunitsCode -->
+
+
+    <owl:AnnotationProperty rdf:about="http://qudt.org/schema/qudt/udunitsCode"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/uneceCommonCode -->
+
+
+    <owl:AnnotationProperty rdf:about="http://qudt.org/schema/qudt/uneceCommonCode"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+        <rdfs:label>comment</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>label</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#versionIRI -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#versionIRI"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#versionInfo -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#example -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#example"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#note -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#note"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#scopeNote -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#scopeNote"/>
+    
+
+
+    <!-- https://w3id.org/mod#createdWith -->
+
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/mod#createdWith"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://qudt.org/schema/qudt/UCUMcs -->
+
+
+    <rdfs:Datatype rdf:about="http://qudt.org/schema/qudt/UCUMcs"/>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#wktLiteral -->
+
+
+    <rdfs:Datatype rdf:about="http://www.opengis.net/ont/geosparql#wktLiteral"/>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#gDay -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#gDay"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#gMonth -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#gMonth"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#gYear -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#gYear"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://w3id.org/def/usage#refersToSector -->
+
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/def/usage#refersToSector">
+        <rdfs:comment xml:lang="en">Relation between a KPI assessment and the sector it refers to</rdfs:comment>
+        <rdfs:label>refers to sector</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#hasGeometry -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.opengis.net/ont/geosparql#hasGeometry">
+        <rdfs:domain rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+        <rdfs:range rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+        <rdfs:comment xml:lang="en">A spatial representation for a given feature.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/ont/geosparql#"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/feature-properties"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties"/>
+        <rdfs:label xml:lang="en">has geometry</rdfs:label>
+        <skos:definition xml:lang="en">A spatial representation for a given Feature.</skos:definition>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.2"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.3"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.4"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.5"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.6"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.8"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.3.2"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.3.3"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.2.2"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.2.3"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.2.4"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.2"/>
+        <skos:prefLabel xml:lang="en">has geometry</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#sfContains -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.opengis.net/ont/geosparql#sfContains">
+        <rdfs:domain rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:range rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:comment xml:lang="en">Exists if the subject SpatialObject spatially contains the object SpatialObject. DE-9IM: T*****FF*</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/ont/geosparql"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/ont/geosparql#"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/spec/geosparql/1.0/req/topology-vocab-extension/rcc8-spatial-relations"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/spec/geosparql/1.1/req/topology-vocab-extension/rcc8-spatial-relations"/>
+        <rdfs:label xml:lang="en">contains</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/DE-9IM"/>
+        <skos:definition xml:lang="en">States that the subject SpatialObject spatially contains the object SpatialObject. DE-9IM: T*****FF*</skos:definition>
+        <skos:prefLabel xml:lang="en">contains</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#sfWithin -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.opengis.net/ont/geosparql#sfWithin">
+        <rdfs:domain rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:range rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:comment xml:lang="en">Exists if the subject SpatialObject is spatially within the object SpatialObject. DE-9IM: T*F**F***</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/ont/geosparql"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/ont/geosparql#"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/spec/geosparql/1.0/req/topology-vocab-extension/sf-spatial-relations"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/spec/geosparql/1.1/req/topology-vocab-extension/sf-spatial-relations"/>
+        <rdfs:label xml:lang="en">within</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/DE-9IM"/>
+        <skos:definition xml:lang="en">States that the subject SpatialObject is spatially within the object SpatialObject. DE-9IM: T*F**F***</skos:definition>
+        <skos:prefLabel xml:lang="en">within</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#broader -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#broader">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#broaderTransitive"/>
+        <owl:inverseOf rdf:resource="http://www.w3.org/2004/02/skos/core#narrower"/>
+        <rdfs:comment xml:lang="en">Broader concepts are typically rendered as parents in a concept hierarchy (tree).</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+        <rdfs:label xml:lang="en">has broader</rdfs:label>
+        <skos:definition xml:lang="en">Relates a concept to a concept that is more general in meaning.</skos:definition>
+        <skos:scopeNote xml:lang="en">By convention, skos:broader is only used to assert an immediate (i.e. direct) hierarchical link between two conceptual resources.</skos:scopeNote>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#broaderTransitive -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#broaderTransitive"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#narrower -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#narrower">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#narrowerTransitive"/>
+        <rdfs:comment xml:lang="en">Narrower concepts are typically rendered as children in a concept hierarchy (tree).</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+        <rdfs:label xml:lang="en">has narrower</rdfs:label>
+        <skos:definition xml:lang="en">Relates a concept to a concept that is more specific in meaning.</skos:definition>
+        <skos:scopeNote xml:lang="en">By convention, skos:broader is only used to assert an immediate (i.e. direct) hierarchical link between two conceptual resources.</skos:scopeNote>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#narrowerTransitive -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#narrowerTransitive"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#dayOfWeek -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#dayOfWeek"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasDateTimeDescription -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#hasDateTimeDescription">
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#DateTimeInterval"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#GeneralDateTimeDescription"/>
+        <rdfs:comment xml:lang="es">Valor de intervalo de fecha-hora expresado como un valor estructurado. El principio y el final del intervalo coincide con los límites del elemento más corto en la descripción.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Value of DateTimeInterval expressed as a structured value. The beginning and end of the interval coincide with the limits of the shortest element in the description.</rdfs:comment>
+        <rdfs:label xml:lang="en">has Date-Time description</rdfs:label>
+        <rdfs:label xml:lang="es">tiene descripción fecha-hora</rdfs:label>
+        <skos:definition xml:lang="es">Valor de intervalo de fecha-hora expresado como un valor estructurado. El principio y el final del intervalo coincide con los límites del elemento más corto en la descripción.</skos:definition>
+        <skos:definition xml:lang="en">Value of DateTimeInterval expressed as a structured value. The beginning and end of the interval coincide with the limits of the shortest element in the description.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasTRS -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#hasTRS"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#monthOfYear -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#monthOfYear"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#timeZone -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#timeZone"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#unitType -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#unitType"/>
+    
+
+
+    <!-- https://saref.etsi.org/core/isMeasuredIn -->
+
+
+    <owl:ObjectProperty rdf:about="https://saref.etsi.org/core/isMeasuredIn">
+        <rdfs:domain rdf:resource="https://saref.etsi.org/core/Measurement"/>
+        <rdfs:range rdf:resource="https://saref.etsi.org/core/UnitOfMeasure"/>
+        <rdfs:comment xml:lang="en">A relationship identifying the unit of measure used for a certain entity.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://saref.etsi.org/core/"/>
+        <rdfs:label xml:lang="en">is measured in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://saref.etsi.org/saref4city/assesses -->
+
+
+    <owl:ObjectProperty rdf:about="https://saref.etsi.org/saref4city/assesses"/>
+    
+
+
+    <!-- https://saref.etsi.org/saref4city/hasCalculationPeriod -->
+
+
+    <owl:ObjectProperty rdf:about="https://saref.etsi.org/saref4city/hasCalculationPeriod"/>
+    
+
+
+    <!-- https://saref.etsi.org/saref4city/isAssessedBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://saref.etsi.org/saref4city/isAssessedBy"/>
+    
+
+
+    <!-- https://saref.etsi.org/saref4city/isDerivedFrom -->
+
+
+    <owl:ObjectProperty rdf:about="https://saref.etsi.org/saref4city/isDerivedFrom"/>
+    
+
+
+    <!-- https://saref.etsi.org/saref4city/quantifiesKPI -->
+
+
+    <owl:ObjectProperty rdf:about="https://saref.etsi.org/saref4city/quantifiesKPI">
+        <rdfs:comment xml:lang="en">quantifies KPI</rdfs:comment>
+        <rdfs:label xml:lang="en">quantifies KPI</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://saref.etsi.org/saref4city/refersToFeature -->
+
+
+    <owl:ObjectProperty rdf:about="https://saref.etsi.org/saref4city/refersToFeature">
+        <rdfs:comment xml:lang="en">Relation between a KPI assessment and the geographical feature it refers to</rdfs:comment>
+        <rdfs:label xml:lang="en">refers to feature</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://saref.etsi.org/saref4city/refersToTime -->
+
+
+    <owl:ObjectProperty rdf:about="https://saref.etsi.org/saref4city/refersToTime">
+        <rdfs:comment xml:lang="en">refers to time</rdfs:comment>
+        <rdfs:label xml:lang="en">refers to time</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#asWKT -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.opengis.net/ont/geosparql#asWKT">
+        <rdfs:subPropertyOf rdf:resource="http://www.opengis.net/ont/geosparql#hasSerialization"/>
+        <rdfs:domain rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+        <rdfs:range rdf:resource="http://www.opengis.net/ont/geosparql#wktLiteral"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#hasSerialization -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.opengis.net/ont/geosparql#hasSerialization"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#day -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#day"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#dayOfYear -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#dayOfYear"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hour -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#hour"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#minute -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#minute"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#month -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#month"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#second -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#second"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#week -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#week"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#year -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#year">
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#GeneralDateTimeDescription"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+        <rdfs:comment xml:lang="es">Posición de año en un sistema calendario-reloj.
+
+l rango de esta propiedad no está especificado, por tanto, se puede reemplazar por cualquier representación específica de un año de calendario de un calendario cualquiera.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Year position in a calendar-clock system.
+
+The range of this property is not specified, so can be replaced by any specific representation of a calendar year from any calendar. </rdfs:comment>
+        <rdfs:label xml:lang="en">year</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://saref.etsi.org/core/hasValue -->
+
+
+    <owl:DatatypeProperty rdf:about="https://saref.etsi.org/core/hasValue">
+        <rdfs:comment xml:lang="en">A relationship defining the value of a certain property, e.g., energy or power. Note that, even if numeric values are expected to enable reasoning, measurement values could use other datatypes.</rdfs:comment>
+        <rdfs:label xml:lang="en">has value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://saref.etsi.org/saref4city/hasCreationDate -->
+
+
+    <owl:DatatypeProperty rdf:about="https://saref.etsi.org/saref4city/hasCreationDate"/>
+    
+
+
+    <!-- https://saref.etsi.org/saref4city/hasExpirationDate -->
+
+
+    <owl:DatatypeProperty rdf:about="https://saref.etsi.org/saref4city/hasExpirationDate"/>
+    
+
+
+    <!-- https://saref.etsi.org/saref4city/hasLastUpdateDate -->
+
+
+    <owl:DatatypeProperty rdf:about="https://saref.etsi.org/saref4city/hasLastUpdateDate"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://qudt.org/schema/qudt/Unit -->
+
+
+    <owl:Class rdf:about="http://qudt.org/schema/qudt/Unit"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#Cell -->
+
+
+    <owl:Class rdf:about="http://w3id.org/def/usage#Cell">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+        <rdfs:comment xml:lang="en">A spatial unit or the smallest portion of a gegraphical grid that could be linked to a numeric value representing the conditions for the area covered by the cell.</rdfs:comment>
+        <rdfs:label>Cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/def/usage#Sector -->
+
+
+    <owl:Class rdf:about="http://w3id.org/def/usage#Sector">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:comment xml:lang="en">A subdivision or segment especially of a society or an economy.</rdfs:comment>
+        <rdfs:label>Sector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#Feature -->
+
+
+    <owl:Class rdf:about="http://www.opengis.net/ont/geosparql#Feature">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <owl:disjointWith rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+        <rdfs:comment xml:lang="en">This class represents the top-level feature type. This class is equivalent to GFI_Feature defined in ISO 19156:2011, and it is superclass of all feature types.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/ont/geosparql"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/ont/geosparql#"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/spec/geosparql/1.0/req/core/feature-class"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/spec/geosparql/1.1/req/core/feature-class"/>
+        <rdfs:label xml:lang="en">Feature</rdfs:label>
+        <skos:definition xml:lang="en">A discrete spatial phenomenon in a universe of discourse.</skos:definition>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.1"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.2"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.3"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.4"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.5"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.6"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.7"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.8"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.9"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.3.2"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.3.3"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.2.2"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.2.3"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.2.4"/>
+        <skos:note xml:lang="en">A Feature represents a uniquely identifiable phenomenon, for example a river or an apple. While such phenomena (and therefore the Features used to represent them) are bounded, their boundaries may be crisp (e.g., the declared boundaries of a state), vague (e.g., the delineation of a valley versus its neighboring mountains), and change with time (e.g., a storm front). While discrete in nature, Features may be created from continuous observations, such as an isochrone that determines the region that can be reached by ambulance within 5 minutes.</skos:note>
+        <skos:prefLabel xml:lang="en">Feature</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#Geometry -->
+
+
+    <owl:Class rdf:about="http://www.opengis.net/ont/geosparql#Geometry">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+        <rdfs:comment xml:lang="en">The class represents the top-level geometry type. This class is equivalent to the UML class GM_Object defined in ISO 19107, and it is superclass of all geometry types.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/ont/geosparql"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/ont/geosparql#"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/spec/geosparql/1.0/req/geometry-extension/geometry-class"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/geometry-class"/>
+        <rdfs:label xml:lang="en">Geometry</rdfs:label>
+        <skos:definition xml:lang="en">A coherent set of direct positions in space. The positions are held within a Spatial Reference System (SRS).</skos:definition>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.2"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.3"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.4"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.5"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.6"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.2.8"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.3.1"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.3.2"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.3.3"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.2.2"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.2.3"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.2.4"/>
+        <skos:note xml:lang="en">Geometry can be used as a representation of the shape, extent or location of a Feature and may exist as a self-contained entity.</skos:note>
+        <skos:prefLabel xml:lang="en">Geometry</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#SpatialObject -->
+
+
+    <owl:Class rdf:about="http://www.opengis.net/ont/geosparql#SpatialObject">
+        <rdfs:comment xml:lang="en">The class spatial-object represents everything that can have a spatial representation. It is superclass of feature and geometry.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/ont/geosparql"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/ont/geosparql#"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/spec/geosparql/1.0/req/core/spatial-object-class"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/spec/geosparql/1.1/req/core/spatial-object-class"/>
+        <rdfs:label xml:lang="en">SpatialObject</rdfs:label>
+        <skos:definition xml:lang="en">Anything spatial (being or having a shape, position or an extent).</skos:definition>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.1.1"/>
+        <skos:example rdf:resource="http://www.opengis.net/spec/geosparql/1.1/specification.html#C.1.1.1.2"/>
+        <skos:note xml:lang="en">Subclasses of this class are expected to be used for instance data.</skos:note>
+        <skos:prefLabel xml:lang="en">Spatial Object</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#Point -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#Point">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+        <rdfs:comment> 
+Uniquely identified by lat/long/alt. i.e.
+
+spaciallyIntersects(P1, P2) :- lat(P1, LAT), long(P1, LONG), alt(P1, ALT),
+  lat(P2, LAT), long(P2, LONG), alt(P2, ALT).
+
+sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P2).
+  </rdfs:comment>
+        <rdfs:comment>A point, typically described using a coordinate system relative to Earth, such as WGS84.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#"/>
+        <rdfs:label xml:lang="en">Point</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Collection -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Collection">
+        <owl:disjointWith rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
+        <owl:disjointWith rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core#"/>
+        <rdfs:label xml:lang="en">Concept</rdfs:label>
+        <skos:definition xml:lang="en">An idea or notion; a unit of thought.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#ConceptScheme -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#DateTimeDescription -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#DateTimeDescription">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#GeneralDateTimeDescription"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2006/time#hasTRS"/>
+                <owl:hasValue rdf:resource="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2006/time#day"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#gDay"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2006/time#month"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#gMonth"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2006/time#year"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Descripción de fecha y tiempo estructurada con valores separados para los diferentes elementos de un sistema calendario-reloj. El sistema de referencia temporal está fijado al calendario gregoriano, y el rango de las propiedades año, mes, día restringidas a los correspondientes tipos del XML Schema xsd:gYear, xsd:gMonth y xsd:gDay respectivamente.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Description of date and time structured with separate values for the various elements of a calendar-clock system. The temporal reference system is fixed to Gregorian Calendar, and the range of year, month, day properties restricted to corresponding XML Schema types xsd:gYear, xsd:gMonth and xsd:gDay, respectively.</rdfs:comment>
+        <rdfs:label xml:lang="en">Date-Time description</rdfs:label>
+        <rdfs:label xml:lang="es">descripción de fecha-tiempo</rdfs:label>
+        <skos:definition xml:lang="es">Descripción de fecha y tiempo estructurada con valores separados para los diferentes elementos de un sistema calendario-reloj. El sistema de referencia temporal está fijado al calendario gregoriano, y el rango de las propiedades año, mes, día restringidas a los correspondientes tipos del XML Schema xsd:gYear, xsd:gMonth y xsd:gDay respectivamente.</skos:definition>
+        <skos:definition xml:lang="en">Description of date and time structured with separate values for the various elements of a calendar-clock system. The temporal reference system is fixed to Gregorian Calendar, and the range of year, month, day properties restricted to corresponding XML Schema types xsd:gYear, xsd:gMonth and xsd:gDay, respectively.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#DateTimeInterval -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#DateTimeInterval">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+        <rdfs:comment xml:lang="es">&apos;intervalo de fecha-hora&apos; es una subclase de &apos;intervalo propio&apos;, definida utilizando el multi-elemento &apos;descripción de fecha-hora&apos;.</rdfs:comment>
+        <rdfs:comment xml:lang="en">DateTimeInterval is a subclass of ProperInterval, defined using the multi-element DateTimeDescription.</rdfs:comment>
+        <rdfs:label xml:lang="en">Date-time interval</rdfs:label>
+        <rdfs:label xml:lang="es">intervalo de fecha-hora</rdfs:label>
+        <skos:definition xml:lang="es">&apos;intervalo de fecha-hora&apos; es una subclase de &apos;intervalo propio&apos;, definida utilizando el multi-elemento &apos;descripción de fecha-hora&apos;.</skos:definition>
+        <skos:definition xml:lang="en">DateTimeInterval is a subclass of ProperInterval, defined using the multi-element DateTimeDescription.</skos:definition>
+        <skos:note xml:lang="es">&apos;intervalo de fecha-hora&apos; se puede utilizar sólo para un intervalo cuyos límites coinciden con un elemento de fecha-hora alineados con el calendario y la zona horaria indicados. Por ejemplo, aunque ambos tienen una duración de un día, el intervalo de 24 horas que empieza en la media noche del comienzo del 8 mayo en Europa Central se puede expresar como un &apos;intervalo de fecha-hora&apos;, el intervalo de 24 horas que empieza a las 1:30pm no.</skos:note>
+        <skos:note xml:lang="en">:DateTimeInterval can only be used for an interval whose limits coincide with a date-time element aligned to the calendar and timezone indicated. For example, while both have a duration of one day, the 24-hour interval beginning at midnight at the beginning of 8 May in Central Europe can be expressed as a :DateTimeInterval, but the 24-hour interval starting at 1:30pm cannot.</skos:note>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#GeneralDateTimeDescription -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#GeneralDateTimeDescription">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#TemporalPosition"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2006/time#unitType"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2006/time#dayOfWeek"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2006/time#monthOfYear"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2006/time#timeZone"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2006/time#day"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2006/time#dayOfYear"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2006/time#hour"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2006/time#minute"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2006/time#month"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2006/time#second"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2006/time#week"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2006/time#year"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Descripción de fecha y hora estructurada con valores separados para los distintos elementos de un sistema calendario-reloj.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Description of date and time structured with separate values for the various elements of a calendar-clock system</rdfs:comment>
+        <rdfs:label xml:lang="en">Generalized date-time description</rdfs:label>
+        <rdfs:label xml:lang="es">descripción de fecha-hora generalizada</rdfs:label>
+        <skos:definition xml:lang="en">Description of date and time structured with separate values for the various elements of a calendar-clock system</skos:definition>
+        <skos:definition>Descripción de fecha y hora estructurada con valores separados para los distintos elementos de un sistema calendario-reloj.</skos:definition>
+        <skos:note xml:lang="es">Algunas combinaciones de propiedades son redundantes - por ejemplo, dentro de un &apos;año&apos; especificado si se proporciona &apos;día del año&apos; entonces &apos;día&apos; y &apos;mes&apos; se pueden computar, y viceversa. Los valores individuales deberían ser consistentes entre ellos y con el calendario, indicado a través del valor de la propiedad &apos;tiene TRS&apos;.</skos:note>
+        <skos:note>Some combinations of properties are redundant - for example, within a specified :year if :dayOfYear is provided then :day and :month can be computed, and vice versa. Individual values should be consistent with each other and the calendar, indicated through the value of the :hasTRS property.</skos:note>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Instant -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#Instant">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+        <owl:disjointWith rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+        <rdfs:comment xml:lang="en">A temporal entity with zero extent or duration</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una entidad temporal con una extensión o duración cero.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2006/time#"/>
+        <rdfs:label xml:lang="en">Time instant</rdfs:label>
+        <rdfs:label xml:lang="es">instante de tiempo.</rdfs:label>
+        <skos:definition xml:lang="en">A temporal entity with zero extent or duration</skos:definition>
+        <skos:definition xml:lang="es">Una entidad temporal con una extensión o duración cero.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Interval -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#Interval">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+        <rdfs:comment xml:lang="en">A temporal entity with an extent or duration</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una entidad temporal con una extensión o duración.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2006/time#"/>
+        <rdfs:label xml:lang="en">A temporal entity with an extent or duration</rdfs:label>
+        <rdfs:label xml:lang="en">Time interval</rdfs:label>
+        <rdfs:label xml:lang="es">intervalo de tiempo</rdfs:label>
+        <skos:definition xml:lang="en">A temporal entity with an extent or duration</skos:definition>
+        <skos:definition xml:lang="es">Una entidad temporal con una extensión o duración.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#ProperInterval -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#ProperInterval">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#Interval"/>
+        <rdfs:comment xml:lang="en">A temporal entity with non-zero extent or duration, i.e. for which the value of the beginning and end are different</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una entidad temporal con extensión o duración distinta de cero, es decir, para la cual los valores de principio y fin del intervalo son diferentes.</rdfs:comment>
+        <rdfs:label xml:lang="en">Proper interval</rdfs:label>
+        <rdfs:label xml:lang="es">intervalo propio</rdfs:label>
+        <skos:definition xml:lang="en">A temporal entity with non-zero extent or duration, i.e. for which the value of the beginning and end are different</skos:definition>
+        <skos:definition xml:lang="es">Una entidad temporal con extensión o duración distinta de cero, es decir, para la cual los valores de principio y fin del intervalo son diferentes.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#TemporalDuration -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#TemporalDuration"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#TemporalEntity -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#TemporalEntity">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2006/time#Instant"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2006/time#Interval"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">A temporal interval or instant.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Un intervalo temporal o un instante.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2006/time#"/>
+        <rdfs:label xml:lang="en">Temporal entity</rdfs:label>
+        <rdfs:label xml:lang="es">entidad temporal</rdfs:label>
+        <skos:definition xml:lang="en">A temporal interval or instant.</skos:definition>
+        <skos:definition xml:lang="es">Un intervalo temporal o un instante.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#TemporalPosition -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#TemporalPosition"/>
+    
+
+
+    <!-- https://saref.etsi.org/core/FeatureOfInterest -->
+
+
+    <owl:Class rdf:about="https://saref.etsi.org/core/FeatureOfInterest"/>
+    
+
+
+    <!-- https://saref.etsi.org/core/Measurement -->
+
+
+    <owl:Class rdf:about="https://saref.etsi.org/core/Measurement">
+        <owl:disjointWith rdf:resource="https://saref.etsi.org/core/UnitOfMeasure"/>
+    </owl:Class>
+    
+
+
+    <!-- https://saref.etsi.org/core/Property -->
+
+
+    <owl:Class rdf:about="https://saref.etsi.org/core/Property">
+        <owl:disjointWith rdf:resource="https://saref.etsi.org/core/UnitOfMeasure"/>
+    </owl:Class>
+    
+
+
+    <!-- https://saref.etsi.org/core/UnitOfMeasure -->
+
+
+    <owl:Class rdf:about="https://saref.etsi.org/core/UnitOfMeasure">
+        <rdfs:comment xml:lang="en">The unit of measure is a standard for measurement of a quantity, such as a Property. For example,  Power is a property and Watt is a unit of power that represents a definite predetermined power: when we say 10 Watt, we actually mean 10 times the definite predetermined power called &quot;watt&quot;. Our definition is based on the definition of unit of measure in the Ontology of units of Measure (OM). We propose here a list of some units of measure that are relevant for the purpose of SAREF, but this list can be extended, also using some other ontologies rather than the Ontology of units of Measure (OM).</rdfs:comment>
+        <rdfs:comment xml:lang="en">The unit of measure is a standard for measurement of a quantity, such as a Property. For example,  Power is a property and Watt is a unit of power that represents a definite predetermined power: when we say 10 Watt, we actually mean 10 times the definite predetermined power called &quot;watt&quot;. Our definition is based on the definition of unit of measure in the Ontology of units of Measure (OM). We propose here a list of some units of measure that are relevant for the purpose of the Smart Appliances ontology, but this list can be extended.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://saref.etsi.org/core/"/>
+        <rdfs:label xml:lang="en">Unit of measure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://saref.etsi.org/saref4city/AdministrativeArea -->
+
+
+    <owl:Class rdf:about="https://saref.etsi.org/saref4city/AdministrativeArea">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+        <rdfs:comment xml:lang="en">An administrative division, unit, entity, area or region, also referred to as a subnational entity, constituent unit, or country subdivision, is a portion of a country or other region delineated for the purpose of administration. (https://en.wikipedia.org/wiki/Administrative_division)</rdfs:comment>
+        <rdfs:label xml:lang="en">Administrative area</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://saref.etsi.org/saref4city/Agent -->
+
+
+    <owl:Class rdf:about="https://saref.etsi.org/saref4city/Agent"/>
+    
+
+
+    <!-- https://saref.etsi.org/saref4city/City -->
+
+
+    <owl:Class rdf:about="https://saref.etsi.org/saref4city/City">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/saref4city/AdministrativeArea"/>
+        <rdfs:comment xml:lang="en">A city is a large human settlement. A city is distinguished from other human settlements by its relatively great size, but also by its functions and its special symbolic status, which may be conferred by a central authority. (https://en.wikipedia.org/wiki/City)</rdfs:comment>
+        <rdfs:label xml:lang="en">City</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://saref.etsi.org/saref4city/District -->
+
+
+    <owl:Class rdf:about="https://saref.etsi.org/saref4city/District">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/saref4city/AdministrativeArea"/>
+        <rdfs:comment xml:lang="en">A district is a type of administrative division that, in some countries, is managed by local government. Across the world, areas known as &quot;districts&quot; vary greatly in size, spanning regions or counties, several municipalities, subdivisions of municipalities, school district, or political district. (https://en.wikipedia.org/wiki/District)</rdfs:comment>
+        <rdfs:label xml:lang="en">District</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://saref.etsi.org/saref4city/KeyPerformanceIndicator -->
+
+
+    <owl:Class rdf:about="https://saref.etsi.org/saref4city/KeyPerformanceIndicator">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://saref.etsi.org/saref4city/hasCalculationPeriod"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2006/time#TemporalDuration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A Key Performance Indicator (KPI) is a type of performance measurement. KPIs evaluate the success of an organization or of a particular activity in which it engages. (Definition taken from FIWARE)</rdfs:comment>
+        <rdfs:label xml:lang="en">Key Performance Indicator</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://fiware-datamodels.readthedocs.io/en/latest/KeyPerformanceIndicator/doc/spec/index.html"/>
+    </owl:Class>
+    
+
+
+    <!-- https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment -->
+
+
+    <owl:Class rdf:about="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://saref.etsi.org/core/isMeasuredIn"/>
+                <owl:allValuesFrom rdf:resource="https://saref.etsi.org/core/UnitOfMeasure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://saref.etsi.org/saref4city/assesses"/>
+                <owl:allValuesFrom rdf:resource="https://saref.etsi.org/core/FeatureOfInterest"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://saref.etsi.org/saref4city/isAssessedBy"/>
+                <owl:allValuesFrom rdf:resource="https://saref.etsi.org/saref4city/Agent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://saref.etsi.org/saref4city/isDerivedFrom"/>
+                <owl:allValuesFrom rdf:resource="https://saref.etsi.org/core/Measurement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+                <owl:allValuesFrom rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://saref.etsi.org/saref4city/refersToTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://saref.etsi.org/saref4city/hasCreationDate"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://saref.etsi.org/saref4city/hasExpirationDate"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://saref.etsi.org/saref4city/hasLastUpdateDate"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://saref.etsi.org/core/hasValue"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A Key Performance Indicator assessment represents the assessment of a KPI calculated by a given agent in a given time.</rdfs:comment>
+        <rdfs:label xml:lang="en">Key performance indicator assessment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://qudt.org/vocab/unit/TONNE -->
+
+
+    <owl:NamedIndividual rdf:about="http://qudt.org/vocab/unit/TONNE">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/Unit"/>
+        <rdf:type rdf:resource="https://saref.etsi.org/core/UnitOfMeasure"/>
+        <terms:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">1,000-fold of the SI base unit kilogram</terms:description>
+        <qudt:applicableSystem rdf:resource="http://qudt.org/vocab/sou/CGS"/>
+        <qudt:applicableSystem rdf:resource="http://qudt.org/vocab/sou/CGS-EMU"/>
+        <qudt:applicableSystem rdf:resource="http://qudt.org/vocab/sou/CGS-GAUSS"/>
+        <qudt:applicableSystem rdf:resource="http://qudt.org/vocab/sou/SI"/>
+        <qudt:conversionMultiplier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1000.0</qudt:conversionMultiplier>
+        <qudt:conversionMultiplierSN rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1000.0</qudt:conversionMultiplierSN>
+        <qudt:exactMatch rdf:resource="http://qudt.org/vocab/unit/TON_Metric"/>
+        <qudt:hasDimensionVector rdf:resource="http://qudt.org/vocab/dimensionvector/A0E0L0I0M1H0T0D0"/>
+        <qudt:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/CO2Equivalent"/>
+        <qudt:hasQuantityKind rdf:resource="http://qudt.org/vocab/quantitykind/Mass"/>
+        <qudt:plainTextDescription>1,000-fold of the SI base unit kilogram</qudt:plainTextDescription>
+        <qudt:siExactMatch rdf:resource="https://si-digital-framework.org/SI/units/tonne"/>
+        <qudt:symbol>t</qudt:symbol>
+        <qudt:ucumCode rdf:datatype="http://qudt.org/schema/qudt/UCUMcs">t</qudt:ucumCode>
+        <qudt:udunitsCode>t</qudt:udunitsCode>
+        <qudt:uneceCommonCode>TNE</qudt:uneceCommonCode>
+        <rdfs:isDefinedBy rdf:resource="http://qudt.org/vocab/unit"/>
+        <rdfs:label xml:lang="en">Tonne</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#AFOLU -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#AFOLU">
+        <rdf:type rdf:resource="http://w3id.org/def/usage#Sector"/>
+        <rdfs:comment xml:lang="en">Agriculture, forestry &amp; other land uses sector.</rdfs:comment>
+        <rdfs:label xml:lang="en">AFOLU</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#Agriculture -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#Agriculture">
+        <rdf:type rdf:resource="http://w3id.org/def/usage#Sector"/>
+        <rdfs:comment xml:lang="en">Agriculture subsector.</rdfs:comment>
+        <rdfs:label xml:lang="en">Agriculture</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#AsScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#AsScope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de arsénico (As) dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">As</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#AutomotiveDieselConsumption -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#AutomotiveDieselConsumption">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Consumo final de gasóleo para automoción</rdfs:comment>
+        <rdfs:label xml:lang="es">C_GASOLEO_A</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#Aviation -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#Aviation">
+        <rdf:type rdf:resource="http://w3id.org/def/usage#Sector"/>
+        <skos:broader rdf:resource="http://w3id.org/def/usage#Transport"/>
+        <rdfs:comment xml:lang="en">Aviation subsector.</rdfs:comment>
+        <rdfs:label xml:lang="en">Aviation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#BCScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#BCScope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de Carbón Negro (BC) dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">BC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#BaPScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#BaPScope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de Benzo(a)pireno dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">BENZO_A</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#BbFScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#BbFScope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de BENZO(b)FLUORANTENO dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">BENZO_B</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#C6H6Scope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#C6H6Scope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de benceno (C6H6) dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">C6H6</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#CH4Scope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#CH4Scope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de metano (CH4) dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">CH4_ALC1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#CH4Scope2Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#CH4Scope2Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de metano (CH4) dentro del Alcance 2. Emisiones indirectas por consumo de electricidad.</rdfs:comment>
+        <rdfs:label xml:lang="es">CH4_ALC2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#CH4Scope3Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#CH4Scope3Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de metano (CH4) dentro del Alcance 3. Otras emisiones indirectas.</rdfs:comment>
+        <rdfs:label xml:lang="es">CH4_ALC3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#CO2Scope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#CO2Scope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de dióxido de carbono (CO2) dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">CO2_ALC1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#CO2Scope2Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#CO2Scope2Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de dióxido de carbono (CO2) dentro del Alcance 2. Emisiones indirectas por consumo de electricidad.</rdfs:comment>
+        <rdfs:label xml:lang="es">CO2_ALC2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#CO2Scope3Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#CO2Scope3Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de dióxido de carbono (CO2) dentro del Alcance 3. Otras emisiones indirectas.</rdfs:comment>
+        <rdfs:label xml:lang="es">CO2_ALC3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#COScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#COScope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de monóxido de carbono (CO) dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">CO</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#Cattle -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#Cattle">
+        <rdf:type rdf:resource="http://w3id.org/def/usage#Sector"/>
+        <skos:broader rdf:resource="http://w3id.org/def/usage#Livestock"/>
+        <rdfs:comment xml:lang="en">Cattle subsector.</rdfs:comment>
+        <rdfs:label xml:lang="es">Bóvidos</rdfs:label>
+        <rdfs:label xml:lang="en">Cattle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#CdScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#CdScope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de Cadmio (Cd) dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">Cd</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#CrScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#CrScope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de Cromo (Cr) dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">Cr</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#CuScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#CuScope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de Cobre (Cu) dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">Cu</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#ElectricGridEnergyConsumption -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#ElectricGridEnergyConsumption">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Consumo final de electricidad (mix eléctrico nacional).</rdfs:comment>
+        <rdfs:label xml:lang="es">C_ELECTRICIDAD_MIXNAC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#ElectricRenewableEnergyConsumption -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#ElectricRenewableEnergyConsumption">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Consumo final de electricidad con Garantía de Origen (GdO) Renovable.</rdfs:comment>
+        <rdfs:label xml:lang="es">C_ELECTRICIDAD_GDO</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#GHGEmissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#GHGEmissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Gases de efecto invernadero (GEI).</rdfs:comment>
+        <rdfs:label xml:lang="es">GEI</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#GHGEmissionsVariation -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#GHGEmissionsVariation">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Variación de los Gases de efecto invernadero (GEI).</rdfs:comment>
+        <rdfs:label xml:lang="es">VARIACION_GEI</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#GasolineConsumption -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#GasolineConsumption">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Consumo final de gasolina</rdfs:comment>
+        <rdfs:label xml:lang="es">C_GASOLINA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#Goats -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#Goats">
+        <rdf:type rdf:resource="http://w3id.org/def/usage#Sector"/>
+        <skos:broader rdf:resource="http://w3id.org/def/usage#Livestock"/>
+        <rdfs:comment xml:lang="en">Goats subsector.</rdfs:comment>
+        <rdfs:label xml:lang="es">Caprino</rdfs:label>
+        <rdfs:label xml:lang="en">Goats</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#HCBScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#HCBScope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de Hexaclorobenceno dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">HCB</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#HFCScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#HFCScope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de hidrofluorocarbonos (HFC) dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">HFC_ALC1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#HeatingOilConsumption -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#HeatingOilConsumption">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Consumo final de gasóleo para calefacción</rdfs:comment>
+        <rdfs:label xml:lang="es">C_GASOLEO_C</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#HgScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#HgScope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de Mercurio (Hg) dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">Hg</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#Horses -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#Horses">
+        <rdf:type rdf:resource="http://w3id.org/def/usage#Sector"/>
+        <skos:broader rdf:resource="http://w3id.org/def/usage#Livestock"/>
+        <rdfs:comment xml:lang="en">Horses subsector.</rdfs:comment>
+        <rdfs:label xml:lang="en">Horses</rdfs:label>
+        <rdfs:label xml:lang="es">Équidos</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#IPPU -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#IPPU">
+        <rdf:type rdf:resource="http://w3id.org/def/usage#Sector"/>
+        <rdfs:comment xml:lang="en">Industrial processes &amp; product use.</rdfs:comment>
+        <rdfs:label xml:lang="en">IPPU</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#IPScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#IPScope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de Indeno[1,2,3-cd]pyrene dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">INDENO_123</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#IndustrialBuildings -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#IndustrialBuildings">
+        <rdf:type rdf:resource="http://w3id.org/def/usage#Sector"/>
+        <skos:broader rdf:resource="http://w3id.org/def/usage#Stationary"/>
+        <rdfs:comment xml:lang="en">Industrial buildings subsector.</rdfs:comment>
+        <rdfs:label xml:lang="en">Industrial buildings</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#InstitutionalAndServices -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#InstitutionalAndServices">
+        <rdf:type rdf:resource="http://w3id.org/def/usage#Sector"/>
+        <skos:broader rdf:resource="http://w3id.org/def/usage#Stationary"/>
+        <rdfs:comment xml:lang="en">Institutional and services subsector.</rdfs:comment>
+        <rdfs:label xml:lang="en">Institutional and services</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#IrrigatedAgriculture -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#IrrigatedAgriculture">
+        <rdf:type rdf:resource="http://w3id.org/def/usage#Sector"/>
+        <skos:broader rdf:resource="http://w3id.org/def/usage#Agriculture"/>
+        <rdfs:comment xml:lang="en">Irrigated agriculture subsector.</rdfs:comment>
+        <rdfs:label xml:lang="en">Irrigated agriculture</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#LPGConsumption -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#LPGConsumption">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Consumo final de GLP</rdfs:comment>
+        <rdfs:label xml:lang="es">C_GLP</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#Livestock -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#Livestock">
+        <rdf:type rdf:resource="http://w3id.org/def/usage#Sector"/>
+        <skos:broader rdf:resource="http://w3id.org/def/usage#AFOLU"/>
+        <rdfs:comment xml:lang="en">Livestock subsector.</rdfs:comment>
+        <rdfs:label xml:lang="en">Livestock</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#MunicipalFleet -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#MunicipalFleet">
+        <rdf:type rdf:resource="http://w3id.org/def/usage#Sector"/>
+        <skos:broader rdf:resource="http://w3id.org/def/usage#OnRoadTransport"/>
+        <rdfs:comment xml:lang="en">Municipal fleet subsector.</rdfs:comment>
+        <rdfs:label xml:lang="en">Municipal fleet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#N2OScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#N2OScope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de óxido nitroso (N2O) dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">N2O_ALC1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#N2OScope2Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#N2OScope2Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de óxido nitroso (N2O) dentro del Alcance 2. Emisiones indirectas por consumo de electricidad.</rdfs:comment>
+        <rdfs:label xml:lang="es">N2O_ALC2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#N2OScope3Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#N2OScope3Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de óxido nitroso (N2O) dentro del Alcance 3. Otras emisiones indirectas.</rdfs:comment>
+        <rdfs:label xml:lang="es">N2O_ALC3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#NH3Scope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#NH3Scope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de amoníaco (NH3) dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">NH3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#NMVOCScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#NMVOCScope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de Compuestos Orgánicos Volátiles Sin Metano (COVNM) dentro del Alcance 1. Emisiones directas</rdfs:comment>
+        <rdfs:label xml:lang="es">COVNM</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#NOxScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#NOxScope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de óxidos de nitrógeno (NOx) dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">NOx</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#NaturalGasConsumption -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#NaturalGasConsumption">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Consumo final de Gas Natural</rdfs:comment>
+        <rdfs:label xml:lang="es">C_GASNATURAL</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#NiScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#NiScope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de Níquel (Ni) dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">Ni</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#NonRenewableBiomassConsumption -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#NonRenewableBiomassConsumption">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Consumo final de biomasa de origen no renovable</rdfs:comment>
+        <rdfs:label xml:lang="es">C_BIOMASA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#OnRoadPrivateTransport -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#OnRoadPrivateTransport">
+        <rdf:type rdf:resource="http://w3id.org/def/usage#Sector"/>
+        <skos:broader rdf:resource="http://w3id.org/def/usage#OnRoadTransport"/>
+        <rdfs:comment xml:lang="en">On-road private transport subsector.</rdfs:comment>
+        <rdfs:label xml:lang="en">On-road private transport</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#OnRoadPublicTransport -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#OnRoadPublicTransport">
+        <rdf:type rdf:resource="http://w3id.org/def/usage#Sector"/>
+        <skos:broader rdf:resource="http://w3id.org/def/usage#OnRoadTransport"/>
+        <rdfs:comment xml:lang="en">On-road public transport subsector.</rdfs:comment>
+        <rdfs:label xml:lang="en">On-road public transport</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#OnRoadTransport -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#OnRoadTransport">
+        <rdf:type rdf:resource="http://w3id.org/def/usage#Sector"/>
+        <skos:broader rdf:resource="http://w3id.org/def/usage#Transport"/>
+        <rdfs:comment xml:lang="en">On-road transport subsector.</rdfs:comment>
+        <rdfs:label xml:lang="en">On-road transport</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#OnSiteElectricRenewableEnergyConsumption -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#OnSiteElectricRenewableEnergyConsumption">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Consumo final de electricidad a partir de fuentes renovables generada localmente.</rdfs:comment>
+        <rdfs:label xml:lang="es">C_ELECTRICIDAD_RES_LOCAL</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#OtherFossilFuelsConsumption -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#OtherFossilFuelsConsumption">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Consumo final de otros combustibles fósiles. Por ejemplo, queroseno para el subsector del transporte aéreo.</rdfs:comment>
+        <rdfs:label xml:lang="es">C_OTROS_FOSILES</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#OtherRenewableEnergyConsumption -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#OtherRenewableEnergyConsumption">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Consumo final de otra energía de origen renovable.</rdfs:comment>
+        <rdfs:label xml:lang="es">C_OTROS_RES</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#PAHScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#PAHScope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones totales de Hidrocarburos Aromáticos Policíclicos dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">PAH</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#PCBsScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#PCBsScope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de óxidos de Bifenilos policlorados dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">PCBs</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#PCDDandPCDFScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#PCDDandPCDFScope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de Dioxinas y Furanos (PCDD+PCDF) dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">DIOX</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#PFCScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#PFCScope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de perfluorocarbonos (PFC) dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">PFC_ALC1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#PM10Scope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#PM10Scope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de materia particulada de 10 micrómetros o menos (PM 10) dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">PM10</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#PM2.5Scope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#PM2.5Scope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de materia particulada de 2,5 micrómetros o menos (PM2.5) dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">PM2.5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#PbScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#PbScope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de Plomo (Pb) dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">Pb</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#Poultry -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#Poultry">
+        <rdf:type rdf:resource="http://w3id.org/def/usage#Sector"/>
+        <skos:broader rdf:resource="http://w3id.org/def/usage#Livestock"/>
+        <rdfs:comment xml:lang="en">Poultry subsector.</rdfs:comment>
+        <rdfs:label xml:lang="es">Aves de corral</rdfs:label>
+        <rdfs:label xml:lang="en">Poultry</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#Rabbits -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#Rabbits">
+        <rdf:type rdf:resource="http://w3id.org/def/usage#Sector"/>
+        <skos:broader rdf:resource="http://w3id.org/def/usage#Livestock"/>
+        <rdfs:comment xml:lang="en">Rabbits subsector.</rdfs:comment>
+        <rdfs:label xml:lang="es">Conejos</rdfs:label>
+        <rdfs:label xml:lang="en">Rabbits</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#RainfedAgriculture -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#RainfedAgriculture">
+        <rdf:type rdf:resource="http://w3id.org/def/usage#Sector"/>
+        <skos:broader rdf:resource="http://w3id.org/def/usage#Agriculture"/>
+        <rdfs:comment xml:lang="en">Rainfed agriculture subsector.</rdfs:comment>
+        <rdfs:label xml:lang="en">Rainfed agriculture</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#ResidentialBuildings -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#ResidentialBuildings">
+        <rdf:type rdf:resource="http://w3id.org/def/usage#Sector"/>
+        <skos:broader rdf:resource="http://w3id.org/def/usage#Stationary"/>
+        <rdfs:comment xml:lang="en">Residential buildings subsector.</rdfs:comment>
+        <rdfs:label xml:lang="es">Residential buildings</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#SF6Scope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#SF6Scope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de hexafluoruro de azufre (SF6) dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">SF6_ALC1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#SO2Scope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#SO2Scope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de dióxidos de azufre (SO2) dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">SO2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#SeScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#SeScope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de Selenio (Se) dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">Se</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#Sheep -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#Sheep">
+        <rdf:type rdf:resource="http://w3id.org/def/usage#Sector"/>
+        <skos:broader rdf:resource="http://w3id.org/def/usage#Livestock"/>
+        <rdfs:comment xml:lang="en">Sheep subsector.</rdfs:comment>
+        <rdfs:label xml:lang="es">Ovino</rdfs:label>
+        <rdfs:label xml:lang="en">Sheep</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#Stationary -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#Stationary">
+        <rdf:type rdf:resource="http://w3id.org/def/usage#Sector"/>
+        <rdfs:comment xml:lang="en">Stationary sector.</rdfs:comment>
+        <rdfs:label xml:lang="en">Stationary</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#Swine -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#Swine">
+        <rdf:type rdf:resource="http://w3id.org/def/usage#Sector"/>
+        <skos:broader rdf:resource="http://w3id.org/def/usage#Livestock"/>
+        <rdfs:comment xml:lang="en">Swine subsector.</rdfs:comment>
+        <rdfs:label xml:lang="es">Cerdos</rdfs:label>
+        <rdfs:label xml:lang="en">Swine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#TSPScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#TSPScope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de materia particulada total (PTSP) dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">TSP</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#TotalHeavyMetalsScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#TotalHeavyMetalsScope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Sumatoria de la emisión de metales pesados dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">TOTAL_MPESADOS</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#TotalPOPsScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#TotalPOPsScope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones totales de Compuestos Orgánicos Persistentes (POPs) dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">TOTAL_POPs</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#Transport -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#Transport">
+        <rdf:type rdf:resource="http://w3id.org/def/usage#Sector"/>
+        <rdfs:comment xml:lang="en">Transport sector.</rdfs:comment>
+        <rdfs:label xml:lang="en">Transport</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#UrbanWoodland -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#UrbanWoodland">
+        <rdf:type rdf:resource="http://w3id.org/def/usage#Sector"/>
+        <rdfs:comment xml:lang="en">Urban woodland sector.</rdfs:comment>
+        <rdfs:label xml:lang="en">Urban woodland</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#VOCScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#VOCScope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de Compuestos Orgánicos Volátiles (COV) dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">COV</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#Waste -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#Waste">
+        <rdf:type rdf:resource="http://w3id.org/def/usage#Sector"/>
+        <skos:broader rdf:resource="http://w3id.org/def/usage#Stationary"/>
+        <rdfs:comment xml:lang="en">Waste subsector.</rdfs:comment>
+        <rdfs:label xml:lang="en">Waste</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/def/usage#ZnScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#ZnScope1Emissions">
+        <rdf:type rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicator"/>
+        <rdfs:comment xml:lang="es">Emisiones de Zinc (Zn) dentro del Alcance 1. Emisiones directas.</rdfs:comment>
+        <rdfs:label xml:lang="es">Zn</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.opengis.net/def/uom/ISO-8601/0/Gregorian -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

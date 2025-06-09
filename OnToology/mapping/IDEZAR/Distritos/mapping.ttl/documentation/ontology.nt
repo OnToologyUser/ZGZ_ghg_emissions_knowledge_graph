@@ -1,0 +1,218 @@
+<http://base.uri#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://base.uri#> <https://w3id.org/mod#createdWith> <https://chowlk.linkeddata.es/> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/mod#createdWith
+<https://w3id.org/mod#createdWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://semweb.mmlab.be/ns/rml#logicalSource
+<http://semweb.mmlab.be/ns/rml#logicalSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://semweb.mmlab.be/ns/rml#logicalSource> <http://www.w3.org/2000/01/rdf-schema#label> "logical source" .
+# 
+# http://semweb.mmlab.be/ns/rml#referenceFormulation
+<http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://www.w3.org/2000/01/rdf-schema#label> "reference formulation" .
+# 
+# http://www.w3.org/ns/r2rml#class
+<http://www.w3.org/ns/r2rml#class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/r2rml#class> <http://www.w3.org/2000/01/rdf-schema#label> "class" .
+# 
+# http://www.w3.org/ns/r2rml#datatype
+<http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2000/01/rdf-schema#label> "datatype" .
+# 
+# http://www.w3.org/ns/r2rml#graph
+<http://www.w3.org/ns/r2rml#graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/r2rml#graph> <http://www.w3.org/2000/01/rdf-schema#label> "graph" .
+# 
+# http://www.w3.org/ns/r2rml#joinCondition
+<http://www.w3.org/ns/r2rml#joinCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/r2rml#joinCondition> <http://www.w3.org/2000/01/rdf-schema#label> "join condition" .
+# 
+# http://www.w3.org/ns/r2rml#objectMap
+<http://www.w3.org/ns/r2rml#objectMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/r2rml#objectMap> <http://www.w3.org/2000/01/rdf-schema#label> "object map" .
+# 
+# http://www.w3.org/ns/r2rml#parentTriplesMap
+<http://www.w3.org/ns/r2rml#parentTriplesMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/r2rml#parentTriplesMap> <http://www.w3.org/2000/01/rdf-schema#label> "parent triples map" .
+# 
+# http://www.w3.org/ns/r2rml#predicate
+<http://www.w3.org/ns/r2rml#predicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/r2rml#predicate> <http://www.w3.org/2000/01/rdf-schema#label> "predicate" .
+# 
+# http://www.w3.org/ns/r2rml#predicateObjectMap
+<http://www.w3.org/ns/r2rml#predicateObjectMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/r2rml#predicateObjectMap> <http://www.w3.org/2000/01/rdf-schema#label> "predicate object map" .
+# 
+# http://www.w3.org/ns/r2rml#subjectMap
+<http://www.w3.org/ns/r2rml#subjectMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/r2rml#subjectMap> <http://www.w3.org/2000/01/rdf-schema#label> "subject map" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://semweb.mmlab.be/ns/rml#reference
+<http://semweb.mmlab.be/ns/rml#reference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://semweb.mmlab.be/ns/rml#reference> <http://www.w3.org/2000/01/rdf-schema#label> "reference" .
+# 
+# http://semweb.mmlab.be/ns/rml#source
+<http://semweb.mmlab.be/ns/rml#source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://semweb.mmlab.be/ns/rml#source> <http://www.w3.org/2000/01/rdf-schema#label> "source" .
+# 
+# http://www.w3.org/ns/r2rml#child
+<http://www.w3.org/ns/r2rml#child> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/ns/r2rml#child> <http://www.w3.org/2000/01/rdf-schema#label> "child" .
+# 
+# http://www.w3.org/ns/r2rml#parent
+<http://www.w3.org/ns/r2rml#parent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/ns/r2rml#parent> <http://www.w3.org/2000/01/rdf-schema#label> "parent" .
+# 
+# http://www.w3.org/ns/r2rml#template
+<http://www.w3.org/ns/r2rml#template> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/ns/r2rml#template> <http://www.w3.org/2000/01/rdf-schema#label> "template" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/ns/r2rml#TriplesMap
+<http://www.w3.org/ns/r2rml#TriplesMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/r2rml#TriplesMap> <http://www.w3.org/2000/01/rdf-schema#label> "Triples Map" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://base.uri#District
+<http://base.uri#District> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://base.uri#District> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<http://base.uri#District> <http://semweb.mmlab.be/ns/rml#logicalSource> <http://base.uri#_b5> .
+<http://base.uri#District> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://base.uri#_b10> .
+<http://base.uri#District> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://base.uri#_b7> .
+<http://base.uri#District> <http://www.w3.org/ns/r2rml#subjectMap> <http://base.uri#_b6> .
+# 
+# http://base.uri#Geometry
+<http://base.uri#Geometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://base.uri#Geometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<http://base.uri#Geometry> <http://semweb.mmlab.be/ns/rml#logicalSource> <http://base.uri#_b1> .
+<http://base.uri#Geometry> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://base.uri#_b3> .
+<http://base.uri#Geometry> <http://www.w3.org/ns/r2rml#subjectMap> <http://base.uri#_b2> .
+# 
+# http://base.uri#_b1
+<http://base.uri#_b1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://base.uri#_b1> <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> .
+<http://base.uri#_b1> <http://semweb.mmlab.be/ns/rml#source> "./data/IDEZAR/WMS/refined/distritos.csv" .
+# 
+# http://base.uri#_b10
+<http://base.uri#_b10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://base.uri#_b10> <http://www.w3.org/ns/r2rml#objectMap> <http://base.uri#_b11> .
+<http://base.uri#_b10> <http://www.w3.org/ns/r2rml#predicate> <http://www.w3.org/2000/01/rdf-schema#label> .
+# 
+# http://base.uri#_b11
+<http://base.uri#_b11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://base.uri#_b11> <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<http://base.uri#_b11> <http://semweb.mmlab.be/ns/rml#reference> "DISTRITO" .
+# 
+# http://base.uri#_b2
+<http://base.uri#_b2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://base.uri#_b2> <http://www.w3.org/ns/r2rml#class> <http://www.opengis.net/ont/geosparql#Geometry> .
+<http://base.uri#_b2> <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/IDEZAR-Distritos> .
+<http://base.uri#_b2> <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/Geometry/District/IDEZAR-id-{OBJECTID}" .
+# 
+# http://base.uri#_b3
+<http://base.uri#_b3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://base.uri#_b3> <http://www.w3.org/ns/r2rml#objectMap> <http://base.uri#_b4> .
+<http://base.uri#_b3> <http://www.w3.org/ns/r2rml#predicate> <http://www.opengis.net/ont/geosparql#asWKT> .
+# 
+# http://base.uri#_b4
+<http://base.uri#_b4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://base.uri#_b4> <http://www.w3.org/ns/r2rml#datatype> <http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://base.uri#_b4> <http://semweb.mmlab.be/ns/rml#reference> "asWKT" .
+# 
+# http://base.uri#_b5
+<http://base.uri#_b5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://base.uri#_b5> <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> .
+<http://base.uri#_b5> <http://semweb.mmlab.be/ns/rml#source> "./data/IDEZAR/WMS/refined/distritos.csv" .
+# 
+# http://base.uri#_b6
+<http://base.uri#_b6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://base.uri#_b6> <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/District> .
+<http://base.uri#_b6> <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/IDEZAR-Distritos> .
+<http://base.uri#_b6> <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/District/IDEZAR-id-{OBJECTID}" .
+# 
+# http://base.uri#_b7
+<http://base.uri#_b7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://base.uri#_b7> <http://www.w3.org/ns/r2rml#objectMap> <http://base.uri#_b8> .
+<http://base.uri#_b7> <http://www.w3.org/ns/r2rml#predicate> <http://www.opengis.net/ont/geosparql#hasGeometry> .
+# 
+# http://base.uri#_b8
+<http://base.uri#_b8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://base.uri#_b8> <http://www.w3.org/ns/r2rml#joinCondition> <http://base.uri#_b9> .
+<http://base.uri#_b8> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://base.uri#Geometry> .
+# 
+# http://base.uri#_b9
+<http://base.uri#_b9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://base.uri#_b9> <http://www.w3.org/ns/r2rml#child> "OBJECTID" .
+<http://base.uri#_b9> <http://www.w3.org/ns/r2rml#parent> "OBJECTID" .
+# 
+# http://semweb.mmlab.be/ns/ql#CSV
+<http://semweb.mmlab.be/ns/ql#CSV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://w3id.org/def/usage/graph/IDEZAR-Distritos
+<http://w3id.org/def/usage/graph/IDEZAR-Distritos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.opengis.net/ont/geosparql#Geometry
+<http://www.opengis.net/ont/geosparql#Geometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.opengis.net/ont/geosparql#asWKT
+<http://www.opengis.net/ont/geosparql#asWKT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.opengis.net/ont/geosparql#hasGeometry
+<http://www.opengis.net/ont/geosparql#hasGeometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.opengis.net/ont/geosparql#wktLiteral
+<http://www.opengis.net/ont/geosparql#wktLiteral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#label
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3.org/2001/XMLSchema#string
+<http://www.w3.org/2001/XMLSchema#string> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://saref.etsi.org/saref4city/District
+<https://saref.etsi.org/saref4city/District> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

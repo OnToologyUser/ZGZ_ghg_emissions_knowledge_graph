@@ -1,0 +1,789 @@
+<http://w3id.org/def/usage#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://w3id.org/def/usage#> <http://www.w3.org/2002/07/owl#versionIRI> <http://w3id.org/def/usage/1.0.0#> .
+<http://w3id.org/def/usage#> <http://purl.org/dc/elements/1.1/contributor> <https://w3id.org/people#AContributorURI> .
+<http://w3id.org/def/usage#> <http://purl.org/dc/elements/1.1/created> "2024-05-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://w3id.org/def/usage#> <http://purl.org/dc/elements/1.1/creator> <https://www.linkedin.com/in/edgar-alexis-martinez-sarmiento/> .
+<http://w3id.org/def/usage#> <http://purl.org/dc/elements/1.1/description> "City-level environmental and climate ontology for Local Green Deal."@en .
+<http://w3id.org/def/usage#> <http://purl.org/dc/elements/1.1/license> <https://creativecommons.org/licenses/by/4.0/> .
+<http://w3id.org/def/usage#> <http://purl.org/dc/elements/1.1/title> "The Urban Data Space for Green Deal ontology"@en .
+<http://w3id.org/def/usage#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "usage-o" .
+<http://w3id.org/def/usage#> <http://purl.org/vocab/vann/preferredNamespaceUri> <http://w3id.org/def/usage#> .
+<http://w3id.org/def/usage#> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0" .
+<http://w3id.org/def/usage#> <https://w3id.org/mod#createdWith> <https://chowlk.linkeddata.es/> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/contributor
+<http://purl.org/dc/elements/1.1/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/created
+<http://purl.org/dc/elements/1.1/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/license
+<http://purl.org/dc/elements/1.1/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#comment
+<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/2000/01/rdf-schema#label> "comment" .
+# 
+# http://www.w3.org/2000/01/rdf-schema#label
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/2000/01/rdf-schema#label> "label" .
+# 
+# http://www.w3.org/2002/07/owl#versionIRI
+<http://www.w3.org/2002/07/owl#versionIRI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2002/07/owl#versionInfo
+<http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/mod#createdWith
+<https://w3id.org/mod#createdWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#date
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# http://www.w3.org/2001/XMLSchema#gYear
+<http://www.w3.org/2001/XMLSchema#gYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://w3id.org/def/usage#refersToSector
+<http://w3id.org/def/usage#refersToSector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/def/usage#refersToSector> <http://www.w3.org/2000/01/rdf-schema#label> "refers to sector" .
+# 
+# http://www.opengis.net/ont/geosparql#asWKT
+<http://www.opengis.net/ont/geosparql#asWKT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#asWKT> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#Geometry> .
+<http://www.opengis.net/ont/geosparql#asWKT> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://www.opengis.net/ont/geosparql#wktLiteral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.opengis.net/ont/geosparql#hasGeometry
+<http://www.opengis.net/ont/geosparql#hasGeometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#hasGeometry> <http://www.w3.org/2000/01/rdf-schema#label> "has geometry" .
+# 
+# http://www.opengis.net/ont/geosparql#sfContains
+<http://www.opengis.net/ont/geosparql#sfContains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#sfContains> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#sfContains> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#sfContains> <http://www.w3.org/2000/01/rdf-schema#label> "sf contains" .
+# 
+# http://www.opengis.net/ont/geosparql#sfWithin
+<http://www.opengis.net/ont/geosparql#sfWithin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.opengis.net/ont/geosparql#sfWithin> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#sfWithin> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#sfWithin> <http://www.w3.org/2000/01/rdf-schema#label> "sf within" .
+# 
+# http://www.w3.org/2004/02/skos/core#broader
+<http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2000/01/rdf-schema#label> "broader" .
+# 
+# http://www.w3.org/2006/time#hasDateTimeDescription
+<http://www.w3.org/2006/time#hasDateTimeDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2006/time#hasDateTimeDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2006/time#DateTimeInterval> .
+<http://www.w3.org/2006/time#hasDateTimeDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2006/time#GeneralDateTimeDescription> .
+<http://www.w3.org/2006/time#hasDateTimeDescription> <http://www.w3.org/2000/01/rdf-schema#label> "has date time description" .
+# 
+# https://saref.etsi.org/core/isMeasuredIn
+<https://saref.etsi.org/core/isMeasuredIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://saref.etsi.org/core/isMeasuredIn> <http://www.w3.org/2000/01/rdf-schema#label> "is measured in" .
+# 
+# https://saref.etsi.org/saref4city/quantifiesKPI
+<https://saref.etsi.org/saref4city/quantifiesKPI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://saref.etsi.org/saref4city/quantifiesKPI> <http://www.w3.org/2000/01/rdf-schema#label> "quantifies k p i" .
+# 
+# https://saref.etsi.org/saref4city/refersToFeature
+<https://saref.etsi.org/saref4city/refersToFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://saref.etsi.org/saref4city/refersToFeature> <http://www.w3.org/2000/01/rdf-schema#label> "refers to feature" .
+# 
+# https://saref.etsi.org/saref4city/refersToTime
+<https://saref.etsi.org/saref4city/refersToTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://saref.etsi.org/saref4city/refersToTime> <http://www.w3.org/2000/01/rdf-schema#label> "refers to time" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.opengis.net/ont/geosparql#asWKT
+<http://www.opengis.net/ont/geosparql#asWKT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.w3.org/2006/time#year
+<http://www.w3.org/2006/time#year> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2006/time#year> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://www.w3.org/2006/time#year> <http://www.w3.org/2000/01/rdf-schema#label> "year" .
+# 
+# https://saref.etsi.org/core/hasValue
+<https://saref.etsi.org/core/hasValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://saref.etsi.org/core/hasValue> <http://www.w3.org/2000/01/rdf-schema#label> "has value" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://w3id.org/def/usage#Cell
+<http://w3id.org/def/usage#Cell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/usage#Cell> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://w3id.org/def/usage#Cell> <http://www.w3.org/2000/01/rdf-schema#label> "Cell" .
+# 
+# http://w3id.org/def/usage#Sector
+<http://w3id.org/def/usage#Sector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/usage#Sector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://w3id.org/def/usage#Sector> <http://www.w3.org/2000/01/rdf-schema#label> "Sector" .
+# 
+# http://www.opengis.net/ont/geosparql#Feature
+<http://www.opengis.net/ont/geosparql#Feature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#Feature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#Feature> <http://www.w3.org/2000/01/rdf-schema#label> "Feature" .
+# 
+# http://www.opengis.net/ont/geosparql#Geometry
+<http://www.opengis.net/ont/geosparql#Geometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#Geometry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/geosparql#SpatialObject> .
+<http://www.opengis.net/ont/geosparql#Geometry> <http://www.w3.org/2000/01/rdf-schema#label> "Geometry" .
+# 
+# http://www.opengis.net/ont/geosparql#SpatialObject
+<http://www.opengis.net/ont/geosparql#SpatialObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.opengis.net/ont/geosparql#SpatialObject> <http://www.w3.org/2000/01/rdf-schema#label> "Spatial Object" .
+# 
+# http://www.opengis.net/ont/geosparql#wktLiteral
+# 
+# http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/2000/01/rdf-schema#label> "Concept" .
+# 
+# http://www.w3.org/2006/time#DateTimeDescription
+<http://www.w3.org/2006/time#DateTimeDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2006/time#DateTimeDescription> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2006/time#GeneralDateTimeDescription> .
+<http://www.w3.org/2006/time#DateTimeDescription> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#gYear> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2006/time#year> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.w3.org/2006/time#DateTimeDescription> <http://www.w3.org/2000/01/rdf-schema#label> "Date Time Description" .
+# 
+# http://www.w3.org/2006/time#DateTimeInterval
+<http://www.w3.org/2006/time#DateTimeInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2006/time#DateTimeInterval> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2006/time#ProperInterval> .
+<http://www.w3.org/2006/time#DateTimeInterval> <http://www.w3.org/2000/01/rdf-schema#label> "Date Time Interval" .
+# 
+# http://www.w3.org/2006/time#GeneralDateTimeDescription
+<http://www.w3.org/2006/time#GeneralDateTimeDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2006/time#GeneralDateTimeDescription> <http://www.w3.org/2000/01/rdf-schema#label> "General Date Time Description" .
+# 
+# http://www.w3.org/2006/time#Instant
+<http://www.w3.org/2006/time#Instant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2006/time#Instant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2006/time#TemporalEntity> .
+<http://www.w3.org/2006/time#Instant> <http://www.w3.org/2000/01/rdf-schema#label> "Instant" .
+# 
+# http://www.w3.org/2006/time#Interval
+<http://www.w3.org/2006/time#Interval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2006/time#Interval> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2006/time#TemporalEntity> .
+<http://www.w3.org/2006/time#Interval> <http://www.w3.org/2000/01/rdf-schema#label> "Interval" .
+# 
+# http://www.w3.org/2006/time#ProperInterval
+<http://www.w3.org/2006/time#ProperInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2006/time#ProperInterval> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2006/time#Interval> .
+<http://www.w3.org/2006/time#ProperInterval> <http://www.w3.org/2000/01/rdf-schema#label> "Proper Interval" .
+# 
+# http://www.w3.org/2006/time#TemporalEntity
+<http://www.w3.org/2006/time#TemporalEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2006/time#TemporalEntity> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Entity" .
+# 
+# https://saref.etsi.org/core/UnitOfMeasure
+<https://saref.etsi.org/core/UnitOfMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://saref.etsi.org/core/UnitOfMeasure> <http://www.w3.org/2000/01/rdf-schema#label> "Unit Of Measure" .
+# 
+# https://saref.etsi.org/saref4city/AdministrativeArea
+<https://saref.etsi.org/saref4city/AdministrativeArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://saref.etsi.org/saref4city/AdministrativeArea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/geosparql#Feature> .
+<https://saref.etsi.org/saref4city/AdministrativeArea> <http://www.w3.org/2000/01/rdf-schema#label> "Administrative Area" .
+# 
+# https://saref.etsi.org/saref4city/City
+<https://saref.etsi.org/saref4city/City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://saref.etsi.org/saref4city/City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://saref.etsi.org/saref4city/AdministrativeArea> .
+<https://saref.etsi.org/saref4city/City> <http://www.w3.org/2000/01/rdf-schema#label> "City" .
+# 
+# https://saref.etsi.org/saref4city/District
+<https://saref.etsi.org/saref4city/District> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://saref.etsi.org/saref4city/District> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://saref.etsi.org/saref4city/AdministrativeArea> .
+<https://saref.etsi.org/saref4city/District> <http://www.w3.org/2000/01/rdf-schema#label> "District" .
+# 
+# https://saref.etsi.org/saref4city/KeyPerformanceIndicator
+<https://saref.etsi.org/saref4city/KeyPerformanceIndicator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://saref.etsi.org/saref4city/KeyPerformanceIndicator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://saref.etsi.org/saref4city/KeyPerformanceIndicator> <http://www.w3.org/2000/01/rdf-schema#label> "Key Performance Indicator" .
+# 
+# https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment
+<https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> <http://www.w3.org/2000/01/rdf-schema#label> "Key Performance Indicator Assessment" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://qudt.org/vocab/unit/TONNE
+<http://qudt.org/vocab/unit/TONNE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://qudt.org/vocab/unit/TONNE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/core/UnitOfMeasure> .
+# 
+# http://w3id.org/def/usage#AFOLU
+<http://w3id.org/def/usage#AFOLU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#AFOLU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/def/usage#Sector> .
+<http://w3id.org/def/usage#AFOLU> <http://www.w3.org/2000/01/rdf-schema#comment> "Agriculture, forestry & other land uses sector."@en .
+<http://w3id.org/def/usage#AFOLU> <http://www.w3.org/2000/01/rdf-schema#label> "AFOLU"@en .
+# 
+# http://w3id.org/def/usage#Agriculture
+<http://w3id.org/def/usage#Agriculture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#Agriculture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/def/usage#Sector> .
+<http://w3id.org/def/usage#Agriculture> <http://www.w3.org/2004/02/skos/core#broader> <http://w3id.org/def/usage#AFOLU> .
+<http://w3id.org/def/usage#Agriculture> <http://www.w3.org/2000/01/rdf-schema#comment> "Agriculture subsector."@en .
+<http://w3id.org/def/usage#Agriculture> <http://www.w3.org/2000/01/rdf-schema#label> "Agriculture"@en .
+# 
+# http://w3id.org/def/usage#AsScope1Emissions
+<http://w3id.org/def/usage#AsScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#AsScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#AsScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de arsénico (As) dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#AsScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "As"@es .
+# 
+# http://w3id.org/def/usage#AutomotiveDieselConsumption
+<http://w3id.org/def/usage#AutomotiveDieselConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#AutomotiveDieselConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#AutomotiveDieselConsumption> <http://www.w3.org/2000/01/rdf-schema#comment> "Consumo final de gasóleo para automoción"@es .
+<http://w3id.org/def/usage#AutomotiveDieselConsumption> <http://www.w3.org/2000/01/rdf-schema#label> "C_GASOLEO_A"@es .
+# 
+# http://w3id.org/def/usage#Aviation
+<http://w3id.org/def/usage#Aviation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#Aviation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/def/usage#Sector> .
+<http://w3id.org/def/usage#Aviation> <http://www.w3.org/2004/02/skos/core#broader> <http://w3id.org/def/usage#Transport> .
+<http://w3id.org/def/usage#Aviation> <http://www.w3.org/2000/01/rdf-schema#comment> "Aviation subsector."@en .
+<http://w3id.org/def/usage#Aviation> <http://www.w3.org/2000/01/rdf-schema#label> "Aviation"@en .
+# 
+# http://w3id.org/def/usage#BCScope1Emissions
+<http://w3id.org/def/usage#BCScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#BCScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#BCScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de Carbón Negro (BC) dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#BCScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "BC"@es .
+# 
+# http://w3id.org/def/usage#BaPScope1Emissions
+<http://w3id.org/def/usage#BaPScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#BaPScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#BaPScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de Benzo(a)pireno dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#BaPScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "BENZO_A"@es .
+# 
+# http://w3id.org/def/usage#BbFScope1Emissions
+<http://w3id.org/def/usage#BbFScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#BbFScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#BbFScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de BENZO(b)FLUORANTENO dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#BbFScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "BENZO_B"@es .
+# 
+# http://w3id.org/def/usage#C6H6Scope1Emissions
+<http://w3id.org/def/usage#C6H6Scope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#C6H6Scope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#C6H6Scope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de benceno (C6H6) dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#C6H6Scope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "C6H6"@es .
+# 
+# http://w3id.org/def/usage#CH4Scope1Emissions
+<http://w3id.org/def/usage#CH4Scope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#CH4Scope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#CH4Scope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de metano (CH4) dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#CH4Scope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "CH4_ALC1"@es .
+# 
+# http://w3id.org/def/usage#CH4Scope2Emissions
+<http://w3id.org/def/usage#CH4Scope2Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#CH4Scope2Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#CH4Scope2Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de metano (CH4) dentro del Alcance 2. Emisiones indirectas por consumo de electricidad."@es .
+<http://w3id.org/def/usage#CH4Scope2Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "CH4_ALC2"@es .
+# 
+# http://w3id.org/def/usage#CH4Scope3Emissions
+<http://w3id.org/def/usage#CH4Scope3Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#CH4Scope3Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#CH4Scope3Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de metano (CH4) dentro del Alcance 3. Otras emisiones indirectas."@es .
+<http://w3id.org/def/usage#CH4Scope3Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "CH4_ALC3"@es .
+# 
+# http://w3id.org/def/usage#CO2Scope1Emissions
+<http://w3id.org/def/usage#CO2Scope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#CO2Scope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#CO2Scope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de dióxido de carbono (CO2) dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#CO2Scope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "CO2_ALC1"@es .
+# 
+# http://w3id.org/def/usage#CO2Scope2Emissions
+<http://w3id.org/def/usage#CO2Scope2Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#CO2Scope2Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#CO2Scope2Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de dióxido de carbono (CO2) dentro del Alcance 2. Emisiones indirectas por consumo de electricidad."@es .
+<http://w3id.org/def/usage#CO2Scope2Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "CO2_ALC2"@es .
+# 
+# http://w3id.org/def/usage#CO2Scope3Emissions
+<http://w3id.org/def/usage#CO2Scope3Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#CO2Scope3Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#CO2Scope3Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de dióxido de carbono (CO2) dentro del Alcance 3. Otras emisiones indirectas."@es .
+<http://w3id.org/def/usage#CO2Scope3Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "CO2_ALC3"@es .
+# 
+# http://w3id.org/def/usage#COScope1Emissions
+<http://w3id.org/def/usage#COScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#COScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#COScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de monóxido de carbono (CO) dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#COScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "CO"@es .
+# 
+# http://w3id.org/def/usage#Cattle
+<http://w3id.org/def/usage#Cattle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#Cattle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/def/usage#Sector> .
+<http://w3id.org/def/usage#Cattle> <http://www.w3.org/2004/02/skos/core#broader> <http://w3id.org/def/usage#Livestock> .
+<http://w3id.org/def/usage#Cattle> <http://www.w3.org/2000/01/rdf-schema#comment> "Cattle subsector."@en .
+<http://w3id.org/def/usage#Cattle> <http://www.w3.org/2000/01/rdf-schema#label> "Bóvidos"@es .
+<http://w3id.org/def/usage#Cattle> <http://www.w3.org/2000/01/rdf-schema#label> "Cattle"@en .
+# 
+# http://w3id.org/def/usage#CdScope1Emissions
+<http://w3id.org/def/usage#CdScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#CdScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#CdScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de Cadmio (Cd) dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#CdScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "Cd"@es .
+# 
+# http://w3id.org/def/usage#CrScope1Emissions
+<http://w3id.org/def/usage#CrScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#CrScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#CrScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de Cromo (Cr) dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#CrScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "Cr"@es .
+# 
+# http://w3id.org/def/usage#CuScope1Emissions
+<http://w3id.org/def/usage#CuScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#CuScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#CuScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de Cobre (Cu) dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#CuScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "Cu"@es .
+# 
+# http://w3id.org/def/usage#ElectricGridEnergyConsumption
+<http://w3id.org/def/usage#ElectricGridEnergyConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#ElectricGridEnergyConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#ElectricGridEnergyConsumption> <http://www.w3.org/2000/01/rdf-schema#comment> "Consumo final de electricidad (mix eléctrico nacional)."@es .
+<http://w3id.org/def/usage#ElectricGridEnergyConsumption> <http://www.w3.org/2000/01/rdf-schema#label> "C_ELECTRICIDAD_MIXNAC"@es .
+# 
+# http://w3id.org/def/usage#ElectricRenewableEnergyConsumption
+<http://w3id.org/def/usage#ElectricRenewableEnergyConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#ElectricRenewableEnergyConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#ElectricRenewableEnergyConsumption> <http://www.w3.org/2000/01/rdf-schema#comment> "Consumo final de electricidad con Garantía de Origen (GdO) Renovable."@es .
+<http://w3id.org/def/usage#ElectricRenewableEnergyConsumption> <http://www.w3.org/2000/01/rdf-schema#label> "C_ELECTRICIDAD_GDO"@es .
+# 
+# http://w3id.org/def/usage#GHGEmissions
+<http://w3id.org/def/usage#GHGEmissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#GHGEmissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#GHGEmissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Gases de efecto invernadero (GEI)."@es .
+<http://w3id.org/def/usage#GHGEmissions> <http://www.w3.org/2000/01/rdf-schema#label> "GEI"@es .
+# 
+# http://w3id.org/def/usage#GHGEmissionsVariation
+<http://w3id.org/def/usage#GHGEmissionsVariation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#GHGEmissionsVariation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#GHGEmissionsVariation> <http://www.w3.org/2000/01/rdf-schema#comment> "Variación de los Gases de efecto invernadero (GEI)."@es .
+<http://w3id.org/def/usage#GHGEmissionsVariation> <http://www.w3.org/2000/01/rdf-schema#label> "VARIACION_GEI"@es .
+# 
+# http://w3id.org/def/usage#GasolineConsumption
+<http://w3id.org/def/usage#GasolineConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#GasolineConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#GasolineConsumption> <http://www.w3.org/2000/01/rdf-schema#comment> "Consumo final de gasolina"@es .
+<http://w3id.org/def/usage#GasolineConsumption> <http://www.w3.org/2000/01/rdf-schema#label> "C_GASOLINA"@es .
+# 
+# http://w3id.org/def/usage#Goats
+<http://w3id.org/def/usage#Goats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#Goats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/def/usage#Sector> .
+<http://w3id.org/def/usage#Goats> <http://www.w3.org/2004/02/skos/core#broader> <http://w3id.org/def/usage#Livestock> .
+<http://w3id.org/def/usage#Goats> <http://www.w3.org/2000/01/rdf-schema#comment> "Goats subsector."@en .
+<http://w3id.org/def/usage#Goats> <http://www.w3.org/2000/01/rdf-schema#label> "Caprino"@es .
+<http://w3id.org/def/usage#Goats> <http://www.w3.org/2000/01/rdf-schema#label> "Goats"@en .
+# 
+# http://w3id.org/def/usage#HCBScope1Emissions
+<http://w3id.org/def/usage#HCBScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#HCBScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#HCBScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de Hexaclorobenceno dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#HCBScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "HCB"@es .
+# 
+# http://w3id.org/def/usage#HFCScope1Emissions
+<http://w3id.org/def/usage#HFCScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#HFCScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#HFCScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de hidrofluorocarbonos (HFC) dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#HFCScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "HFC_ALC1"@es .
+# 
+# http://w3id.org/def/usage#HeatingOilConsumption
+<http://w3id.org/def/usage#HeatingOilConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#HeatingOilConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#HeatingOilConsumption> <http://www.w3.org/2000/01/rdf-schema#comment> "Consumo final de gasóleo para calefacción"@es .
+<http://w3id.org/def/usage#HeatingOilConsumption> <http://www.w3.org/2000/01/rdf-schema#label> "C_GASOLEO_C"@es .
+# 
+# http://w3id.org/def/usage#HgScope1Emissions
+<http://w3id.org/def/usage#HgScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#HgScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#HgScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de Mercurio (Hg) dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#HgScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "Hg"@es .
+# 
+# http://w3id.org/def/usage#Horses
+<http://w3id.org/def/usage#Horses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#Horses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/def/usage#Sector> .
+<http://w3id.org/def/usage#Horses> <http://www.w3.org/2004/02/skos/core#broader> <http://w3id.org/def/usage#Livestock> .
+<http://w3id.org/def/usage#Horses> <http://www.w3.org/2000/01/rdf-schema#comment> "Horses subsector."@en .
+<http://w3id.org/def/usage#Horses> <http://www.w3.org/2000/01/rdf-schema#label> "Horses"@en .
+<http://w3id.org/def/usage#Horses> <http://www.w3.org/2000/01/rdf-schema#label> "Équidos"@es .
+# 
+# http://w3id.org/def/usage#IPPU
+<http://w3id.org/def/usage#IPPU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#IPPU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/def/usage#Sector> .
+<http://w3id.org/def/usage#IPPU> <http://www.w3.org/2000/01/rdf-schema#comment> "Industrial processes & product use."@en .
+<http://w3id.org/def/usage#IPPU> <http://www.w3.org/2000/01/rdf-schema#label> "IPPU"@en .
+# 
+# http://w3id.org/def/usage#IPScope1Emissions
+<http://w3id.org/def/usage#IPScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#IPScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#IPScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de Indeno[1,2,3-cd]pyrene dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#IPScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "INDENO_123"@es .
+# 
+# http://w3id.org/def/usage#IndustrialBuildings
+<http://w3id.org/def/usage#IndustrialBuildings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#IndustrialBuildings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/def/usage#Sector> .
+<http://w3id.org/def/usage#IndustrialBuildings> <http://www.w3.org/2004/02/skos/core#broader> <http://w3id.org/def/usage#Stationary> .
+<http://w3id.org/def/usage#IndustrialBuildings> <http://www.w3.org/2000/01/rdf-schema#comment> "Industrial buildings subsector."@en .
+<http://w3id.org/def/usage#IndustrialBuildings> <http://www.w3.org/2000/01/rdf-schema#label> "Industrial buildings"@en .
+# 
+# http://w3id.org/def/usage#InstitutionalAndServices
+<http://w3id.org/def/usage#InstitutionalAndServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#InstitutionalAndServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/def/usage#Sector> .
+<http://w3id.org/def/usage#InstitutionalAndServices> <http://www.w3.org/2004/02/skos/core#broader> <http://w3id.org/def/usage#Stationary> .
+<http://w3id.org/def/usage#InstitutionalAndServices> <http://www.w3.org/2000/01/rdf-schema#comment> "Institutional and services subsector."@en .
+<http://w3id.org/def/usage#InstitutionalAndServices> <http://www.w3.org/2000/01/rdf-schema#label> "Institutional and services"@en .
+# 
+# http://w3id.org/def/usage#IrrigatedAgriculture
+<http://w3id.org/def/usage#IrrigatedAgriculture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#IrrigatedAgriculture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/def/usage#Sector> .
+<http://w3id.org/def/usage#IrrigatedAgriculture> <http://www.w3.org/2004/02/skos/core#broader> <http://w3id.org/def/usage#Agriculture> .
+<http://w3id.org/def/usage#IrrigatedAgriculture> <http://www.w3.org/2000/01/rdf-schema#comment> "Irrigated agriculture subsector."@en .
+<http://w3id.org/def/usage#IrrigatedAgriculture> <http://www.w3.org/2000/01/rdf-schema#label> "Irrigated agriculture"@en .
+# 
+# http://w3id.org/def/usage#LPGConsumption
+<http://w3id.org/def/usage#LPGConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#LPGConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#LPGConsumption> <http://www.w3.org/2000/01/rdf-schema#comment> "Consumo final de GLP"@es .
+<http://w3id.org/def/usage#LPGConsumption> <http://www.w3.org/2000/01/rdf-schema#label> "C_GLP"@es .
+# 
+# http://w3id.org/def/usage#Livestock
+<http://w3id.org/def/usage#Livestock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#Livestock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/def/usage#Sector> .
+<http://w3id.org/def/usage#Livestock> <http://www.w3.org/2004/02/skos/core#broader> <http://w3id.org/def/usage#AFOLU> .
+<http://w3id.org/def/usage#Livestock> <http://www.w3.org/2000/01/rdf-schema#comment> "Livestock subsector."@en .
+<http://w3id.org/def/usage#Livestock> <http://www.w3.org/2000/01/rdf-schema#label> "Livestock"@en .
+# 
+# http://w3id.org/def/usage#MunicipalFleet
+<http://w3id.org/def/usage#MunicipalFleet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#MunicipalFleet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/def/usage#Sector> .
+<http://w3id.org/def/usage#MunicipalFleet> <http://www.w3.org/2004/02/skos/core#broader> <http://w3id.org/def/usage#OnRoadTransport> .
+<http://w3id.org/def/usage#MunicipalFleet> <http://www.w3.org/2000/01/rdf-schema#comment> "Municipal fleet subsector."@en .
+<http://w3id.org/def/usage#MunicipalFleet> <http://www.w3.org/2000/01/rdf-schema#label> "Municipal fleet"@en .
+# 
+# http://w3id.org/def/usage#N2OScope1Emissions
+<http://w3id.org/def/usage#N2OScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#N2OScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#N2OScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de óxido nitroso (N2O) dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#N2OScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "N2O_ALC1"@es .
+# 
+# http://w3id.org/def/usage#N2OScope2Emissions
+<http://w3id.org/def/usage#N2OScope2Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#N2OScope2Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#N2OScope2Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de óxido nitroso (N2O) dentro del Alcance 2. Emisiones indirectas por consumo de electricidad."@es .
+<http://w3id.org/def/usage#N2OScope2Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "N2O_ALC2"@es .
+# 
+# http://w3id.org/def/usage#N2OScope3Emissions
+<http://w3id.org/def/usage#N2OScope3Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#N2OScope3Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#N2OScope3Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de óxido nitroso (N2O) dentro del Alcance 3. Otras emisiones indirectas."@es .
+<http://w3id.org/def/usage#N2OScope3Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "N2O_ALC3"@es .
+# 
+# http://w3id.org/def/usage#NH3Scope1Emissions
+<http://w3id.org/def/usage#NH3Scope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#NH3Scope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#NH3Scope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de amoníaco (NH3) dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#NH3Scope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "NH3"@es .
+# 
+# http://w3id.org/def/usage#NMVOCScope1Emissions
+<http://w3id.org/def/usage#NMVOCScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#NMVOCScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#NMVOCScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de Compuestos Orgánicos Volátiles Sin Metano (COVNM) dentro del Alcance 1. Emisiones directas"@es .
+<http://w3id.org/def/usage#NMVOCScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "COVNM"@es .
+# 
+# http://w3id.org/def/usage#NOxScope1Emissions
+<http://w3id.org/def/usage#NOxScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#NOxScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#NOxScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de óxidos de nitrógeno (NOx) dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#NOxScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "NOx"@es .
+# 
+# http://w3id.org/def/usage#NaturalGasConsumption
+<http://w3id.org/def/usage#NaturalGasConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#NaturalGasConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#NaturalGasConsumption> <http://www.w3.org/2000/01/rdf-schema#comment> "Consumo final de Gas Natural"@es .
+<http://w3id.org/def/usage#NaturalGasConsumption> <http://www.w3.org/2000/01/rdf-schema#label> "C_GASNATURAL"@es .
+# 
+# http://w3id.org/def/usage#NiScope1Emissions
+<http://w3id.org/def/usage#NiScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#NiScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#NiScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de Níquel (Ni) dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#NiScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "Ni"@es .
+# 
+# http://w3id.org/def/usage#NonRenewableBiomassConsumption
+<http://w3id.org/def/usage#NonRenewableBiomassConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#NonRenewableBiomassConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#NonRenewableBiomassConsumption> <http://www.w3.org/2000/01/rdf-schema#comment> "Consumo final de biomasa de origen no renovable"@es .
+<http://w3id.org/def/usage#NonRenewableBiomassConsumption> <http://www.w3.org/2000/01/rdf-schema#label> "C_BIOMASA"@es .
+# 
+# http://w3id.org/def/usage#OnRoadPrivateTransport
+<http://w3id.org/def/usage#OnRoadPrivateTransport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#OnRoadPrivateTransport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/def/usage#Sector> .
+<http://w3id.org/def/usage#OnRoadPrivateTransport> <http://www.w3.org/2004/02/skos/core#broader> <http://w3id.org/def/usage#OnRoadTransport> .
+<http://w3id.org/def/usage#OnRoadPrivateTransport> <http://www.w3.org/2000/01/rdf-schema#comment> "On-road private transport subsector."@en .
+<http://w3id.org/def/usage#OnRoadPrivateTransport> <http://www.w3.org/2000/01/rdf-schema#label> "On-road private transport"@en .
+# 
+# http://w3id.org/def/usage#OnRoadPublicTransport
+<http://w3id.org/def/usage#OnRoadPublicTransport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#OnRoadPublicTransport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/def/usage#Sector> .
+<http://w3id.org/def/usage#OnRoadPublicTransport> <http://www.w3.org/2004/02/skos/core#broader> <http://w3id.org/def/usage#OnRoadTransport> .
+<http://w3id.org/def/usage#OnRoadPublicTransport> <http://www.w3.org/2000/01/rdf-schema#comment> "On-road public transport subsector."@en .
+<http://w3id.org/def/usage#OnRoadPublicTransport> <http://www.w3.org/2000/01/rdf-schema#label> "On-road public transport"@en .
+# 
+# http://w3id.org/def/usage#OnRoadTransport
+<http://w3id.org/def/usage#OnRoadTransport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#OnRoadTransport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/def/usage#Sector> .
+<http://w3id.org/def/usage#OnRoadTransport> <http://www.w3.org/2004/02/skos/core#broader> <http://w3id.org/def/usage#Transport> .
+<http://w3id.org/def/usage#OnRoadTransport> <http://www.w3.org/2000/01/rdf-schema#comment> "On-road transport subsector."@en .
+<http://w3id.org/def/usage#OnRoadTransport> <http://www.w3.org/2000/01/rdf-schema#label> "On-road transport"@en .
+# 
+# http://w3id.org/def/usage#OnSiteElectricRenewableEnergyConsumption
+<http://w3id.org/def/usage#OnSiteElectricRenewableEnergyConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#OnSiteElectricRenewableEnergyConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#OnSiteElectricRenewableEnergyConsumption> <http://www.w3.org/2000/01/rdf-schema#comment> "Consumo final de electricidad a partir de fuentes renovables generada localmente."@es .
+<http://w3id.org/def/usage#OnSiteElectricRenewableEnergyConsumption> <http://www.w3.org/2000/01/rdf-schema#label> "C_ELECTRICIDAD_RES_LOCAL"@es .
+# 
+# http://w3id.org/def/usage#OtherFossilFuelsConsumption
+<http://w3id.org/def/usage#OtherFossilFuelsConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#OtherFossilFuelsConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#OtherFossilFuelsConsumption> <http://www.w3.org/2000/01/rdf-schema#comment> "Consumo final de otros combustibles fósiles. Por ejemplo, queroseno para el subsector del transporte aéreo."@es .
+<http://w3id.org/def/usage#OtherFossilFuelsConsumption> <http://www.w3.org/2000/01/rdf-schema#label> "C_OTROS_FOSILES"@es .
+# 
+# http://w3id.org/def/usage#OtherRenewableEnergyConsumption
+<http://w3id.org/def/usage#OtherRenewableEnergyConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#OtherRenewableEnergyConsumption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#OtherRenewableEnergyConsumption> <http://www.w3.org/2000/01/rdf-schema#comment> "Consumo final de otra energía de origen renovable."@es .
+<http://w3id.org/def/usage#OtherRenewableEnergyConsumption> <http://www.w3.org/2000/01/rdf-schema#label> "C_OTROS_RES"@es .
+# 
+# http://w3id.org/def/usage#PAHScope1Emissions
+<http://w3id.org/def/usage#PAHScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#PAHScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#PAHScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones totales de Hidrocarburos Aromáticos Policíclicos dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#PAHScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "PAH"@es .
+# 
+# http://w3id.org/def/usage#PCBsScope1Emissions
+<http://w3id.org/def/usage#PCBsScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#PCBsScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#PCBsScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de óxidos de Bifenilos policlorados dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#PCBsScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "PCBs"@es .
+# 
+# http://w3id.org/def/usage#PCDDandPCDFScope1Emissions
+<http://w3id.org/def/usage#PCDDandPCDFScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#PCDDandPCDFScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#PCDDandPCDFScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de Dioxinas y Furanos (PCDD+PCDF) dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#PCDDandPCDFScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "DIOX"@es .
+# 
+# http://w3id.org/def/usage#PFCScope1Emissions
+<http://w3id.org/def/usage#PFCScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#PFCScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#PFCScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de perfluorocarbonos (PFC) dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#PFCScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "PFC_ALC1"@es .
+# 
+# http://w3id.org/def/usage#PM10Scope1Emissions
+<http://w3id.org/def/usage#PM10Scope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#PM10Scope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#PM10Scope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de materia particulada de 10 micrómetros o menos (PM 10) dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#PM10Scope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "PM10"@es .
+# 
+# http://w3id.org/def/usage#PM2.5Scope1Emissions
+<http://w3id.org/def/usage#PM2.5Scope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#PM2.5Scope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#PM2.5Scope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de materia particulada de 2,5 micrómetros o menos (PM2.5) dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#PM2.5Scope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "PM2.5"@es .
+# 
+# http://w3id.org/def/usage#PbScope1Emissions
+<http://w3id.org/def/usage#PbScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#PbScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#PbScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de Plomo (Pb) dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#PbScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "Pb"@es .
+# 
+# http://w3id.org/def/usage#Poultry
+<http://w3id.org/def/usage#Poultry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#Poultry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/def/usage#Sector> .
+<http://w3id.org/def/usage#Poultry> <http://www.w3.org/2004/02/skos/core#broader> <http://w3id.org/def/usage#Livestock> .
+<http://w3id.org/def/usage#Poultry> <http://www.w3.org/2000/01/rdf-schema#comment> "Poultry subsector."@en .
+<http://w3id.org/def/usage#Poultry> <http://www.w3.org/2000/01/rdf-schema#label> "Aves de corral"@es .
+<http://w3id.org/def/usage#Poultry> <http://www.w3.org/2000/01/rdf-schema#label> "Poultry"@en .
+# 
+# http://w3id.org/def/usage#Rabbits
+<http://w3id.org/def/usage#Rabbits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#Rabbits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/def/usage#Sector> .
+<http://w3id.org/def/usage#Rabbits> <http://www.w3.org/2004/02/skos/core#broader> <http://w3id.org/def/usage#Livestock> .
+<http://w3id.org/def/usage#Rabbits> <http://www.w3.org/2000/01/rdf-schema#comment> "Rabbits subsector."@en .
+<http://w3id.org/def/usage#Rabbits> <http://www.w3.org/2000/01/rdf-schema#label> "Conejos"@es .
+<http://w3id.org/def/usage#Rabbits> <http://www.w3.org/2000/01/rdf-schema#label> "Rabbits"@en .
+# 
+# http://w3id.org/def/usage#RainfedAgriculture
+<http://w3id.org/def/usage#RainfedAgriculture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#RainfedAgriculture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/def/usage#Sector> .
+<http://w3id.org/def/usage#RainfedAgriculture> <http://www.w3.org/2004/02/skos/core#broader> <http://w3id.org/def/usage#Agriculture> .
+<http://w3id.org/def/usage#RainfedAgriculture> <http://www.w3.org/2000/01/rdf-schema#comment> "Rainfed agriculture subsector."@en .
+<http://w3id.org/def/usage#RainfedAgriculture> <http://www.w3.org/2000/01/rdf-schema#label> "Rainfed agriculture"@en .
+# 
+# http://w3id.org/def/usage#ResidentialBuildings
+<http://w3id.org/def/usage#ResidentialBuildings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#ResidentialBuildings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/def/usage#Sector> .
+<http://w3id.org/def/usage#ResidentialBuildings> <http://www.w3.org/2004/02/skos/core#broader> <http://w3id.org/def/usage#Stationary> .
+<http://w3id.org/def/usage#ResidentialBuildings> <http://www.w3.org/2000/01/rdf-schema#comment> "Residential buildings subsector."@en .
+<http://w3id.org/def/usage#ResidentialBuildings> <http://www.w3.org/2000/01/rdf-schema#label> "Residential buildings"@en .
+# 
+# http://w3id.org/def/usage#SF6Scope1Emissions
+<http://w3id.org/def/usage#SF6Scope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#SF6Scope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#SF6Scope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de hexafluoruro de azufre (SF6) dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#SF6Scope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "SF6_ALC1"@es .
+# 
+# http://w3id.org/def/usage#SO2Scope1Emissions
+<http://w3id.org/def/usage#SO2Scope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#SO2Scope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#SO2Scope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de dióxidos de azufre (SO2) dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#SO2Scope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "SO2"@es .
+# 
+# http://w3id.org/def/usage#SeScope1Emissions
+<http://w3id.org/def/usage#SeScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#SeScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#SeScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de Selenio (Se) dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#SeScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "Se"@es .
+# 
+# http://w3id.org/def/usage#Sheep
+<http://w3id.org/def/usage#Sheep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#Sheep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/def/usage#Sector> .
+<http://w3id.org/def/usage#Sheep> <http://www.w3.org/2004/02/skos/core#broader> <http://w3id.org/def/usage#Livestock> .
+<http://w3id.org/def/usage#Sheep> <http://www.w3.org/2000/01/rdf-schema#comment> "Sheep subsector."@en .
+<http://w3id.org/def/usage#Sheep> <http://www.w3.org/2000/01/rdf-schema#label> "Ovino"@es .
+<http://w3id.org/def/usage#Sheep> <http://www.w3.org/2000/01/rdf-schema#label> "Sheep"@en .
+# 
+# http://w3id.org/def/usage#Stationary
+<http://w3id.org/def/usage#Stationary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#Stationary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/def/usage#Sector> .
+<http://w3id.org/def/usage#Stationary> <http://www.w3.org/2000/01/rdf-schema#comment> "Stationary sector."@en .
+<http://w3id.org/def/usage#Stationary> <http://www.w3.org/2000/01/rdf-schema#label> "Stationary"@en .
+# 
+# http://w3id.org/def/usage#Swine
+<http://w3id.org/def/usage#Swine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#Swine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/def/usage#Sector> .
+<http://w3id.org/def/usage#Swine> <http://www.w3.org/2004/02/skos/core#broader> <http://w3id.org/def/usage#Livestock> .
+<http://w3id.org/def/usage#Swine> <http://www.w3.org/2000/01/rdf-schema#comment> "Swine subsector."@en .
+<http://w3id.org/def/usage#Swine> <http://www.w3.org/2000/01/rdf-schema#label> "Cerdos"@es .
+<http://w3id.org/def/usage#Swine> <http://www.w3.org/2000/01/rdf-schema#label> "Swine"@en .
+# 
+# http://w3id.org/def/usage#TSPScope1Emissions
+<http://w3id.org/def/usage#TSPScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#TSPScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#TSPScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de materia particulada total (PTSP) dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#TSPScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "TSP"@es .
+# 
+# http://w3id.org/def/usage#TotalHeavyMetalsScope1Emissions
+<http://w3id.org/def/usage#TotalHeavyMetalsScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#TotalHeavyMetalsScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#TotalHeavyMetalsScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Sumatoria de la emisión de metales pesados dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#TotalHeavyMetalsScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "TOTAL_MPESADOS"@es .
+# 
+# http://w3id.org/def/usage#TotalPOPsScope1Emissions
+<http://w3id.org/def/usage#TotalPOPsScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#TotalPOPsScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#TotalPOPsScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones totales de Compuestos Orgánicos Persistentes (POPs) dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#TotalPOPsScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "TOTAL_POPs"@es .
+# 
+# http://w3id.org/def/usage#Transport
+<http://w3id.org/def/usage#Transport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#Transport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/def/usage#Sector> .
+<http://w3id.org/def/usage#Transport> <http://www.w3.org/2000/01/rdf-schema#comment> "Transport sector."@en .
+<http://w3id.org/def/usage#Transport> <http://www.w3.org/2000/01/rdf-schema#label> "Transport"@en .
+# 
+# http://w3id.org/def/usage#UrbanWoodland
+<http://w3id.org/def/usage#UrbanWoodland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#UrbanWoodland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/def/usage#Sector> .
+<http://w3id.org/def/usage#UrbanWoodland> <http://www.w3.org/2000/01/rdf-schema#comment> "Urban woodland sector."@en .
+<http://w3id.org/def/usage#UrbanWoodland> <http://www.w3.org/2000/01/rdf-schema#label> "Urban woodland"@en .
+# 
+# http://w3id.org/def/usage#VOCScope1Emissions
+<http://w3id.org/def/usage#VOCScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#VOCScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#VOCScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de Compuestos Orgánicos Volátiles (COV) dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#VOCScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "COV"@es .
+# 
+# http://w3id.org/def/usage#Waste
+<http://w3id.org/def/usage#Waste> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#Waste> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/def/usage#Sector> .
+<http://w3id.org/def/usage#Waste> <http://www.w3.org/2004/02/skos/core#broader> <http://w3id.org/def/usage#Stationary> .
+<http://w3id.org/def/usage#Waste> <http://www.w3.org/2000/01/rdf-schema#comment> "Waste subsector."@en .
+<http://w3id.org/def/usage#Waste> <http://www.w3.org/2000/01/rdf-schema#label> "Waste"@en .
+# 
+# http://w3id.org/def/usage#ZnScope1Emissions
+<http://w3id.org/def/usage#ZnScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/def/usage#ZnScope1Emissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> .
+<http://w3id.org/def/usage#ZnScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#comment> "Emisiones de Zinc (Zn) dentro del Alcance 1. Emisiones directas."@es .
+<http://w3id.org/def/usage#ZnScope1Emissions> <http://www.w3.org/2000/01/rdf-schema#label> "Zn"@es .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<http://www.opengis.net/ont/geosparql#asWKT> <http://www.w3.org/2000/01/rdf-schema#label> "as w k t" .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

@@ -1,0 +1,430 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://base.uri#"
+     xml:base="http://base.uri"
+     xmlns:mod="https://w3id.org/mod#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rml="http://semweb.mmlab.be/ns/rml#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:r2rml="http://www.w3.org/ns/r2rml#">
+    <owl:Ontology rdf:about="http://base.uri#">
+        <mod:createdWith rdf:resource="https://chowlk.linkeddata.es/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/mod#createdWith -->
+
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/mod#createdWith"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://semweb.mmlab.be/ns/rml#logicalSource -->
+
+
+    <owl:ObjectProperty rdf:about="http://semweb.mmlab.be/ns/rml#logicalSource">
+        <rdfs:label>logical source</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://semweb.mmlab.be/ns/rml#referenceFormulation -->
+
+
+    <owl:ObjectProperty rdf:about="http://semweb.mmlab.be/ns/rml#referenceFormulation">
+        <rdfs:label>reference formulation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#class -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/r2rml#class">
+        <rdfs:label>class</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#datatype -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/r2rml#datatype">
+        <rdfs:label>datatype</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#graph -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/r2rml#graph">
+        <rdfs:label>graph</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#joinCondition -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/r2rml#joinCondition">
+        <rdfs:label>join condition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#object -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/r2rml#object">
+        <rdfs:label>object</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#objectMap -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/r2rml#objectMap">
+        <rdfs:label>object map</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#parentTriplesMap -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/r2rml#parentTriplesMap">
+        <rdfs:label>parent triples map</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#predicate -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/r2rml#predicate">
+        <rdfs:label>predicate</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#predicateObjectMap -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/r2rml#predicateObjectMap">
+        <rdfs:label>predicate object map</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#subjectMap -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/r2rml#subjectMap">
+        <rdfs:label>subject map</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://semweb.mmlab.be/ns/rml#reference -->
+
+
+    <owl:DatatypeProperty rdf:about="http://semweb.mmlab.be/ns/rml#reference">
+        <rdfs:label>reference</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://semweb.mmlab.be/ns/rml#source -->
+
+
+    <owl:DatatypeProperty rdf:about="http://semweb.mmlab.be/ns/rml#source">
+        <rdfs:label>source</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#child -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/ns/r2rml#child">
+        <rdfs:label>child</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#parent -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/ns/r2rml#parent">
+        <rdfs:label>parent</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#template -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/ns/r2rml#template">
+        <rdfs:label>template</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#TriplesMap -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/r2rml#TriplesMap">
+        <rdfs:label>Triples Map</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://base.uri#Cell -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#Cell">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b3"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b9"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#Geometry -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#Geometry">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b7"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b1">
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>./data/ZGZ/Mallado/refined/Mallado2024.csv</rml:source>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b2">
+        <r2rml:class rdf:resource="http://w3id.org/def/usage#Cell"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Mallado"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/Cell/ZGZ-id-{fid}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b3">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b4"/>
+        <r2rml:predicate rdf:resource="http://www.opengis.net/ont/geosparql#hasGeometry"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b4">
+        <r2rml:joinCondition rdf:resource="http://base.uri#_b5"/>
+        <r2rml:parentTriplesMap rdf:resource="http://base.uri#Geometry"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b5 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b5">
+        <r2rml:child>fid</r2rml:child>
+        <r2rml:parent>fid</r2rml:parent>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b6 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b6">
+        <r2rml:class rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Mallado"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/Geometry/ZGZ-id-{fid}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b7 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b7">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b8"/>
+        <r2rml:predicate rdf:resource="http://www.opengis.net/ont/geosparql#asWKT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b8 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b8">
+        <r2rml:datatype rdf:resource="http://www.opengis.net/ont/geosparql#wktLiteral"/>
+        <rml:reference>geometry</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b9 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b9">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage/resource/City/ZGZ-id-ZARAGOZA"/>
+        <r2rml:predicate rdf:resource="http://www.opengis.net/ont/geosparql#sfWithin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://semweb.mmlab.be/ns/ql#CSV -->
+
+
+    <owl:NamedIndividual rdf:about="http://semweb.mmlab.be/ns/ql#CSV"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#Cell -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#Cell"/>
+    
+
+
+    <!-- http://w3id.org/def/usage/graph/ZGZ-Mallado -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage/graph/ZGZ-Mallado"/>
+    
+
+
+    <!-- http://w3id.org/def/usage/resource/City/ZGZ-id-ZARAGOZA -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage/resource/City/ZGZ-id-ZARAGOZA"/>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#Geometry -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.opengis.net/ont/geosparql#Geometry"/>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#asWKT -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.opengis.net/ont/geosparql#asWKT"/>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#hasGeometry -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.opengis.net/ont/geosparql#hasGeometry"/>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#sfWithin -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.opengis.net/ont/geosparql#sfWithin"/>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#wktLiteral -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.opengis.net/ont/geosparql#wktLiteral"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

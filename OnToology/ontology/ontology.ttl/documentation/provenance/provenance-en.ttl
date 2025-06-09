@@ -1,0 +1,12 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<http://w3id.org/def/usage/1.0.0#> a prov:Entity;
+	 dc:title "The Urban Data Space for Green Deal ontology";
+	 prov:wasAttributedTo <https://www.linkedin.com/in/edgar-alexis-martinez-sarmiento/>;
+	 dc:creator <https://www.linkedin.com/in/edgar-alexis-martinez-sarmiento/>;
+	 prov:wasAttributedTo <https://w3id.org/people#AContributorURI>;
+	 dc:contributor <https://w3id.org/people#AContributorURI>;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+.

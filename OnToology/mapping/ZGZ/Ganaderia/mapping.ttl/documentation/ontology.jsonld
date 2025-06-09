@@ -1,0 +1,1234 @@
+[ {
+  "@id" : "http://base.uri#",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "https://w3id.org/mod#createdWith" : [ {
+    "@id" : "https://chowlk.linkeddata.es/"
+  } ]
+}, {
+  "@id" : "http://base.uri#CH4_ALC1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  }, {
+    "@id" : "http://base.uri#_b67"
+  }, {
+    "@id" : "http://base.uri#_b69"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b66"
+  } ]
+}, {
+  "@id" : "http://base.uri#CO",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b115"
+  }, {
+    "@id" : "http://base.uri#_b117"
+  }, {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b114"
+  } ]
+}, {
+  "@id" : "http://base.uri#CO2_ALC1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b12"
+  }, {
+    "@id" : "http://base.uri#_b14"
+  }, {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b11"
+  } ]
+}, {
+  "@id" : "http://base.uri#COV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b123"
+  }, {
+    "@id" : "http://base.uri#_b125"
+  }, {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b122"
+  } ]
+}, {
+  "@id" : "http://base.uri#COVNM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b127"
+  }, {
+    "@id" : "http://base.uri#_b129"
+  }, {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b126"
+  } ]
+}, {
+  "@id" : "http://base.uri#Cell",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b9"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b2"
+  } ]
+}, {
+  "@id" : "http://base.uri#District",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b7d"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b6d"
+  } ]
+}, {
+  "@id" : "http://base.uri#Interval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b7i"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b6i"
+  } ]
+}, {
+  "@id" : "http://base.uri#N2O_ALC1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  }, {
+    "@id" : "http://base.uri#_b71"
+  }, {
+    "@id" : "http://base.uri#_b73"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b70"
+  } ]
+}, {
+  "@id" : "http://base.uri#NH3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b131"
+  }, {
+    "@id" : "http://base.uri#_b133"
+  }, {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b130"
+  } ]
+}, {
+  "@id" : "http://base.uri#NOx",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b111"
+  }, {
+    "@id" : "http://base.uri#_b113"
+  }, {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b110"
+  } ]
+}, {
+  "@id" : "http://base.uri#PM10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b139"
+  }, {
+    "@id" : "http://base.uri#_b141"
+  }, {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b138"
+  } ]
+}, {
+  "@id" : "http://base.uri#PM2.5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b135"
+  }, {
+    "@id" : "http://base.uri#_b137"
+  }, {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b134"
+  } ]
+}, {
+  "@id" : "http://base.uri#SO2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b119"
+  }, {
+    "@id" : "http://base.uri#_b121"
+  }, {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b118"
+  } ]
+}, {
+  "@id" : "http://base.uri#TSP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b143"
+  }, {
+    "@id" : "http://base.uri#_b145"
+  }, {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b142"
+  } ]
+}, {
+  "@id" : "http://base.uri#Year",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b6y"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#referenceFormulation" : [ {
+    "@id" : "http://semweb.mmlab.be/ns/ql#CSV"
+  } ],
+  "http://semweb.mmlab.be/ns/rml#source" : [ {
+    "@value" : "./data/ZGZ/Ganaderia/refined/BBDD_Ganaderia_2019.csv"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Ganaderia"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CO2Scope1Emissions/LiveStock/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b110",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Ganaderia"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/NOxScope1Emissions/LiveStock/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b111",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b112"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b112",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "NOx"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b113",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#NOxScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b114",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Ganaderia"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/COScope1Emissions/LiveStock/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b115",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b116"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b116",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "CO"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b117",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#COScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b118",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Ganaderia"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/SO2Scope1Emissions/LiveStock/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b119",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b120"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b13"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b120",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "SO2"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b121",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#SO2Scope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b122",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Ganaderia"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/VOCScope1Emissions/LiveStock/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b123",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b124"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b124",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "COV"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b125",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#VOCScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b126",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Ganaderia"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/NMVOCScope1Emissions/LiveStock/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b127",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b128"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b128",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "COVNM"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b129",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#NMVOCScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "CO2_ALC1"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b130",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Ganaderia"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/NH3Scope1Emissions/LiveStock/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b131",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b132"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b132",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "NH3"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b133",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#NH3Scope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b134",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Ganaderia"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/PM2.5Scope1Emissions/LiveStock/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b135",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b136"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b136",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "PM2.5"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b137",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#PM2.5Scope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b138",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Ganaderia"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/PM10Scope1Emissions/LiveStock/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b139",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b140"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#CO2Scope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b140",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "PM10"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b141",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#PM10Scope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b142",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Ganaderia"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/TSPScope1Emissions/LiveStock/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b143",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b144"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b144",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "TSP"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b145",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#TSPScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://qudt.org/vocab/unit/TONNE"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/isMeasuredIn"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b17"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/refersToFeature"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#joinCondition" : [ {
+    "@id" : "http://base.uri#_b5"
+  } ],
+  "http://www.w3.org/ns/r2rml#parentTriplesMap" : [ {
+    "@id" : "http://base.uri#Cell"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b18i",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b19i"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/refersToTime"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b19i",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#joinCondition" : [ {
+    "@id" : "http://base.uri#_b5"
+  } ],
+  "http://www.w3.org/ns/r2rml#parentTriplesMap" : [ {
+    "@id" : "http://base.uri#Interval"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "http://w3id.org/def/usage#Cell"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Ganaderia"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/Cell/ZGZ-id-{ID_CELDA}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b20s",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b21s"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "http://w3id.org/def/usage#refersToSector"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b21s",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "Sector"
+  } ],
+  "http://www.w3.org/ns/r2rml#termType" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#IRI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://base.uri#_b66",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Ganaderia"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CH4Scope1Emissions/LiveStock/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b67",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b68"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b68",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "CH4_ALC1"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b69",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#CH4Scope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b6d",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/District"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Ganaderia"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/District/ZGZ-id-{ID_PADRON}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b6i",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "http://www.w3.org/2006/time#DateTimeInterval"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Ganaderia"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/Interval/ZGZ-id-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b6y",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "http://www.w3.org/2006/time#DateTimeDescription"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Ganaderia"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/Year/ZGZ-id-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b70",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Ganaderia"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/N2OScope1Emissions/LiveStock/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b71",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b72"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b72",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "N2O_ALC1"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b73",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#N2OScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b7d",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b8d"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b7i",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b8i"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#hasDateTimeDescription"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b7y",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b8y"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#year"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b8d",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "NOM_DISTRITO"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b8i",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#joinCondition" : [ {
+    "@id" : "http://base.uri#_b5"
+  } ],
+  "http://www.w3.org/ns/r2rml#parentTriplesMap" : [ {
+    "@id" : "http://base.uri#Year"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b8y",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "AÑO"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#gYear"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#b10"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#sfWithin"
+  } ]
+}, {
+  "@id" : "http://base.uri#b10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#joinCondition" : [ {
+    "@id" : "http://base.uri#_b5"
+  } ],
+  "http://www.w3.org/ns/r2rml#parentTriplesMap" : [ {
+    "@id" : "http://base.uri#District"
+  } ]
+}, {
+  "@id" : "http://qudt.org/vocab/unit/TONNE",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://semweb.mmlab.be/ns/ql#CSV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://semweb.mmlab.be/ns/rml#logicalSource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "logical source"
+  } ]
+}, {
+  "@id" : "http://semweb.mmlab.be/ns/rml#reference",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "reference"
+  } ]
+}, {
+  "@id" : "http://semweb.mmlab.be/ns/rml#referenceFormulation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "reference formulation"
+  } ]
+}, {
+  "@id" : "http://semweb.mmlab.be/ns/rml#source",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "source"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/usage#CH4Scope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#CO2Scope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#COScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#Cell",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#N2OScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#NH3Scope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#NMVOCScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#NOxScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#PM10Scope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#PM2.5Scope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#SO2Scope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#TSPScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#VOCScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#refersToSector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage/graph/ZGZ-Ganaderia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.opengis.net/ont/geosparql#sfWithin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#float",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#gYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#string",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.w3.org/2006/time#DateTimeDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.w3.org/2006/time#DateTimeInterval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.w3.org/2006/time#hasDateTimeDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.w3.org/2006/time#year",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#IRI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#TriplesMap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Triples Map"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#class",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "class"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#datatype",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "datatype"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#graph",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "graph"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#joinCondition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "join condition"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#object",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "object"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#objectMap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "object map"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#parentTriplesMap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "parent triples map"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#predicate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "predicate"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#predicateObjectMap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "predicate object map"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#subjectMap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "subject map"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#template",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "template"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#termType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "term type"
+  } ]
+}, {
+  "@id" : "https://saref.etsi.org/core/hasValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://saref.etsi.org/core/isMeasuredIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://saref.etsi.org/saref4city/District",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://saref.etsi.org/saref4city/refersToFeature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://saref.etsi.org/saref4city/refersToTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://w3id.org/mod#createdWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

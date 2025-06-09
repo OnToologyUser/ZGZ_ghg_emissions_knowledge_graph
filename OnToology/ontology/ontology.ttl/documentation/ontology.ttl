@@ -1,0 +1,893 @@
+@prefix : <http://w3id.org/def/usage#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://w3id.org/def/usage#> .
+
+<http://w3id.org/def/usage#> rdf:type owl:Ontology ;
+                              owl:versionIRI <http://w3id.org/def/usage/1.0.0#> ;
+                              <http://purl.org/dc/elements/1.1/contributor> <https://w3id.org/people#AContributorURI> ;
+                              <http://purl.org/dc/elements/1.1/created> "2024-05-24"^^xsd:date ;
+                              <http://purl.org/dc/elements/1.1/creator> <https://www.linkedin.com/in/edgar-alexis-martinez-sarmiento/> ;
+                              <http://purl.org/dc/elements/1.1/description> "City-level environmental and climate ontology for Local Green Deal."@en ;
+                              <http://purl.org/dc/elements/1.1/license> <https://creativecommons.org/licenses/by/4.0/> ;
+                              <http://purl.org/dc/elements/1.1/title> "The Urban Data Space for Green Deal ontology"@en ;
+                              <http://purl.org/vocab/vann/preferredNamespacePrefix> "usage-o" ;
+                              <http://purl.org/vocab/vann/preferredNamespaceUri> <http://w3id.org/def/usage#> ;
+                              owl:versionInfo "1.0.0" ;
+                              <https://w3id.org/mod#createdWith> <https://chowlk.linkeddata.es/> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/contributor
+<http://purl.org/dc/elements/1.1/contributor> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/created
+<http://purl.org/dc/elements/1.1/created> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/license
+<http://purl.org/dc/elements/1.1/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#comment
+rdfs:comment rdf:type owl:AnnotationProperty ;
+             rdfs:label "comment" .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#label
+rdfs:label rdf:type owl:AnnotationProperty ;
+           rdfs:label "label" .
+
+
+###  http://www.w3.org/2002/07/owl#versionIRI
+owl:versionIRI rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2002/07/owl#versionInfo
+owl:versionInfo rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/mod#createdWith
+<https://w3id.org/mod#createdWith> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
+
+
+###  http://www.w3.org/2001/XMLSchema#gYear
+xsd:gYear rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://w3id.org/def/usage#refersToSector
+:refersToSector rdf:type owl:ObjectProperty ;
+                rdfs:label "refers to sector" .
+
+
+###  http://www.opengis.net/ont/geosparql#asWKT
+<http://www.opengis.net/ont/geosparql#asWKT> rdf:type owl:ObjectProperty ;
+                                             rdfs:domain <http://www.opengis.net/ont/geosparql#Geometry> ;
+                                             rdfs:range <http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+
+###  http://www.opengis.net/ont/geosparql#hasGeometry
+<http://www.opengis.net/ont/geosparql#hasGeometry> rdf:type owl:ObjectProperty ;
+                                                   rdfs:label "has geometry" .
+
+
+###  http://www.opengis.net/ont/geosparql#sfContains
+<http://www.opengis.net/ont/geosparql#sfContains> rdf:type owl:ObjectProperty ;
+                                                  rdfs:domain <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+                                                  rdfs:range <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+                                                  rdfs:label "sf contains" .
+
+
+###  http://www.opengis.net/ont/geosparql#sfWithin
+<http://www.opengis.net/ont/geosparql#sfWithin> rdf:type owl:ObjectProperty ;
+                                                rdfs:domain <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+                                                rdfs:range <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+                                                rdfs:label "sf within" .
+
+
+###  http://www.w3.org/2004/02/skos/core#broader
+<http://www.w3.org/2004/02/skos/core#broader> rdf:type owl:ObjectProperty ;
+                                              rdfs:label "broader" .
+
+
+###  http://www.w3.org/2006/time#hasDateTimeDescription
+<http://www.w3.org/2006/time#hasDateTimeDescription> rdf:type owl:ObjectProperty ;
+                                                     rdfs:domain <http://www.w3.org/2006/time#DateTimeInterval> ;
+                                                     rdfs:range <http://www.w3.org/2006/time#GeneralDateTimeDescription> ;
+                                                     rdfs:label "has date time description" .
+
+
+###  https://saref.etsi.org/core/isMeasuredIn
+<https://saref.etsi.org/core/isMeasuredIn> rdf:type owl:ObjectProperty ;
+                                           rdfs:label "is measured in" .
+
+
+###  https://saref.etsi.org/saref4city/quantifiesKPI
+<https://saref.etsi.org/saref4city/quantifiesKPI> rdf:type owl:ObjectProperty ;
+                                                  rdfs:label "quantifies k p i" .
+
+
+###  https://saref.etsi.org/saref4city/refersToFeature
+<https://saref.etsi.org/saref4city/refersToFeature> rdf:type owl:ObjectProperty ;
+                                                    rdfs:label "refers to feature" .
+
+
+###  https://saref.etsi.org/saref4city/refersToTime
+<https://saref.etsi.org/saref4city/refersToTime> rdf:type owl:ObjectProperty ;
+                                                 rdfs:label "refers to time" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.opengis.net/ont/geosparql#asWKT
+<http://www.opengis.net/ont/geosparql#asWKT> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.w3.org/2006/time#year
+<http://www.w3.org/2006/time#year> rdf:type owl:DatatypeProperty ;
+                                   rdfs:range xsd:gYear ;
+                                   rdfs:label "year" .
+
+
+###  https://saref.etsi.org/core/hasValue
+<https://saref.etsi.org/core/hasValue> rdf:type owl:DatatypeProperty ;
+                                       rdfs:label "has value" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://w3id.org/def/usage#Cell
+:Cell rdf:type owl:Class ;
+      rdfs:subClassOf <http://www.opengis.net/ont/geosparql#Feature> ;
+      rdfs:label "Cell" .
+
+
+###  http://w3id.org/def/usage#Sector
+:Sector rdf:type owl:Class ;
+        rdfs:subClassOf <http://www.w3.org/2004/02/skos/core#Concept> ;
+        rdfs:label "Sector" .
+
+
+###  http://www.opengis.net/ont/geosparql#Feature
+<http://www.opengis.net/ont/geosparql#Feature> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+                                               rdfs:label "Feature" .
+
+
+###  http://www.opengis.net/ont/geosparql#Geometry
+<http://www.opengis.net/ont/geosparql#Geometry> rdf:type owl:Class ;
+                                                rdfs:subClassOf <http://www.opengis.net/ont/geosparql#SpatialObject> ;
+                                                rdfs:label "Geometry" .
+
+
+###  http://www.opengis.net/ont/geosparql#SpatialObject
+<http://www.opengis.net/ont/geosparql#SpatialObject> rdf:type owl:Class ;
+                                                     rdfs:label "Spatial Object" .
+
+
+###  http://www.opengis.net/ont/geosparql#wktLiteral
+<http://www.opengis.net/ont/geosparql#wktLiteral> rdf:type owl:Class .
+
+
+###  http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> rdf:type owl:Class ;
+                                              rdfs:label "Concept" .
+
+
+###  http://www.w3.org/2006/time#DateTimeDescription
+<http://www.w3.org/2006/time#DateTimeDescription> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://www.w3.org/2006/time#GeneralDateTimeDescription> ,
+                                                                  [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty <http://www.w3.org/2006/time#year> ;
+                                                                    owl:allValuesFrom xsd:gYear
+                                                                  ] ;
+                                                  rdfs:label "Date Time Description" .
+
+
+###  http://www.w3.org/2006/time#DateTimeInterval
+<http://www.w3.org/2006/time#DateTimeInterval> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.w3.org/2006/time#ProperInterval> ;
+                                               rdfs:label "Date Time Interval" .
+
+
+###  http://www.w3.org/2006/time#GeneralDateTimeDescription
+<http://www.w3.org/2006/time#GeneralDateTimeDescription> rdf:type owl:Class ;
+                                                         rdfs:label "General Date Time Description" .
+
+
+###  http://www.w3.org/2006/time#Instant
+<http://www.w3.org/2006/time#Instant> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://www.w3.org/2006/time#TemporalEntity> ;
+                                      rdfs:label "Instant" .
+
+
+###  http://www.w3.org/2006/time#Interval
+<http://www.w3.org/2006/time#Interval> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://www.w3.org/2006/time#TemporalEntity> ;
+                                       rdfs:label "Interval" .
+
+
+###  http://www.w3.org/2006/time#ProperInterval
+<http://www.w3.org/2006/time#ProperInterval> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://www.w3.org/2006/time#Interval> ;
+                                             rdfs:label "Proper Interval" .
+
+
+###  http://www.w3.org/2006/time#TemporalEntity
+<http://www.w3.org/2006/time#TemporalEntity> rdf:type owl:Class ;
+                                             rdfs:label "Temporal Entity" .
+
+
+###  https://saref.etsi.org/core/UnitOfMeasure
+<https://saref.etsi.org/core/UnitOfMeasure> rdf:type owl:Class ;
+                                            rdfs:label "Unit Of Measure" .
+
+
+###  https://saref.etsi.org/saref4city/AdministrativeArea
+<https://saref.etsi.org/saref4city/AdministrativeArea> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                       rdfs:label "Administrative Area" .
+
+
+###  https://saref.etsi.org/saref4city/City
+<https://saref.etsi.org/saref4city/City> rdf:type owl:Class ;
+                                         rdfs:subClassOf <https://saref.etsi.org/saref4city/AdministrativeArea> ;
+                                         rdfs:label "City" .
+
+
+###  https://saref.etsi.org/saref4city/District
+<https://saref.etsi.org/saref4city/District> rdf:type owl:Class ;
+                                             rdfs:subClassOf <https://saref.etsi.org/saref4city/AdministrativeArea> ;
+                                             rdfs:label "District" .
+
+
+###  https://saref.etsi.org/saref4city/KeyPerformanceIndicator
+<https://saref.etsi.org/saref4city/KeyPerformanceIndicator> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                            rdfs:label "Key Performance Indicator" .
+
+
+###  https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment
+<https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> rdf:type owl:Class ;
+                                                                      rdfs:label "Key Performance Indicator Assessment" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://qudt.org/vocab/unit/TONNE
+<http://qudt.org/vocab/unit/TONNE> rdf:type owl:NamedIndividual ,
+                                            <https://saref.etsi.org/core/UnitOfMeasure> .
+
+
+###  http://w3id.org/def/usage#AFOLU
+:AFOLU rdf:type owl:NamedIndividual ,
+                :Sector ;
+       rdfs:comment "Agriculture, forestry & other land uses sector."@en ;
+       rdfs:label "AFOLU"@en .
+
+
+###  http://w3id.org/def/usage#Agriculture
+:Agriculture rdf:type owl:NamedIndividual ,
+                      :Sector ;
+             <http://www.w3.org/2004/02/skos/core#broader> :AFOLU ;
+             rdfs:comment "Agriculture subsector."@en ;
+             rdfs:label "Agriculture"@en .
+
+
+###  http://w3id.org/def/usage#AsScope1Emissions
+:AsScope1Emissions rdf:type owl:NamedIndividual ,
+                            <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                   rdfs:comment "Emisiones de arsénico (As) dentro del Alcance 1. Emisiones directas."@es ;
+                   rdfs:label "As"@es .
+
+
+###  http://w3id.org/def/usage#AutomotiveDieselConsumption
+:AutomotiveDieselConsumption rdf:type owl:NamedIndividual ,
+                                      <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                             rdfs:comment "Consumo final de gasóleo para automoción"@es ;
+                             rdfs:label "C_GASOLEO_A"@es .
+
+
+###  http://w3id.org/def/usage#Aviation
+:Aviation rdf:type owl:NamedIndividual ,
+                   :Sector ;
+          <http://www.w3.org/2004/02/skos/core#broader> :Transport ;
+          rdfs:comment "Aviation subsector."@en ;
+          rdfs:label "Aviation"@en .
+
+
+###  http://w3id.org/def/usage#BCScope1Emissions
+:BCScope1Emissions rdf:type owl:NamedIndividual ,
+                            <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                   rdfs:comment "Emisiones de Carbón Negro (BC) dentro del Alcance 1. Emisiones directas."@es ;
+                   rdfs:label "BC"@es .
+
+
+###  http://w3id.org/def/usage#BaPScope1Emissions
+:BaPScope1Emissions rdf:type owl:NamedIndividual ,
+                             <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                    rdfs:comment "Emisiones de Benzo(a)pireno dentro del Alcance 1. Emisiones directas."@es ;
+                    rdfs:label "BENZO_A"@es .
+
+
+###  http://w3id.org/def/usage#BbFScope1Emissions
+:BbFScope1Emissions rdf:type owl:NamedIndividual ,
+                             <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                    rdfs:comment "Emisiones de BENZO(b)FLUORANTENO dentro del Alcance 1. Emisiones directas."@es ;
+                    rdfs:label "BENZO_B"@es .
+
+
+###  http://w3id.org/def/usage#C6H6Scope1Emissions
+:C6H6Scope1Emissions rdf:type owl:NamedIndividual ,
+                              <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                     rdfs:comment "Emisiones de benceno (C6H6) dentro del Alcance 1. Emisiones directas."@es ;
+                     rdfs:label "C6H6"@es .
+
+
+###  http://w3id.org/def/usage#CH4Scope1Emissions
+:CH4Scope1Emissions rdf:type owl:NamedIndividual ,
+                             <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                    rdfs:comment "Emisiones de metano (CH4) dentro del Alcance 1. Emisiones directas."@es ;
+                    rdfs:label "CH4_ALC1"@es .
+
+
+###  http://w3id.org/def/usage#CH4Scope2Emissions
+:CH4Scope2Emissions rdf:type owl:NamedIndividual ,
+                             <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                    rdfs:comment "Emisiones de metano (CH4) dentro del Alcance 2. Emisiones indirectas por consumo de electricidad."@es ;
+                    rdfs:label "CH4_ALC2"@es .
+
+
+###  http://w3id.org/def/usage#CH4Scope3Emissions
+:CH4Scope3Emissions rdf:type owl:NamedIndividual ,
+                             <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                    rdfs:comment "Emisiones de metano (CH4) dentro del Alcance 3. Otras emisiones indirectas."@es ;
+                    rdfs:label "CH4_ALC3"@es .
+
+
+###  http://w3id.org/def/usage#CO2Scope1Emissions
+:CO2Scope1Emissions rdf:type owl:NamedIndividual ,
+                             <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                    rdfs:comment "Emisiones de dióxido de carbono (CO2) dentro del Alcance 1. Emisiones directas."@es ;
+                    rdfs:label "CO2_ALC1"@es .
+
+
+###  http://w3id.org/def/usage#CO2Scope2Emissions
+:CO2Scope2Emissions rdf:type owl:NamedIndividual ,
+                             <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                    rdfs:comment "Emisiones de dióxido de carbono (CO2) dentro del Alcance 2. Emisiones indirectas por consumo de electricidad."@es ;
+                    rdfs:label "CO2_ALC2"@es .
+
+
+###  http://w3id.org/def/usage#CO2Scope3Emissions
+:CO2Scope3Emissions rdf:type owl:NamedIndividual ,
+                             <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                    rdfs:comment "Emisiones de dióxido de carbono (CO2) dentro del Alcance 3. Otras emisiones indirectas."@es ;
+                    rdfs:label "CO2_ALC3"@es .
+
+
+###  http://w3id.org/def/usage#COScope1Emissions
+:COScope1Emissions rdf:type owl:NamedIndividual ,
+                            <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                   rdfs:comment "Emisiones de monóxido de carbono (CO) dentro del Alcance 1. Emisiones directas."@es ;
+                   rdfs:label "CO"@es .
+
+
+###  http://w3id.org/def/usage#Cattle
+:Cattle rdf:type owl:NamedIndividual ,
+                 :Sector ;
+        <http://www.w3.org/2004/02/skos/core#broader> :Livestock ;
+        rdfs:comment "Cattle subsector."@en ;
+        rdfs:label "Bóvidos"@es ,
+                   "Cattle"@en .
+
+
+###  http://w3id.org/def/usage#CdScope1Emissions
+:CdScope1Emissions rdf:type owl:NamedIndividual ,
+                            <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                   rdfs:comment "Emisiones de Cadmio (Cd) dentro del Alcance 1. Emisiones directas."@es ;
+                   rdfs:label "Cd"@es .
+
+
+###  http://w3id.org/def/usage#CrScope1Emissions
+:CrScope1Emissions rdf:type owl:NamedIndividual ,
+                            <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                   rdfs:comment "Emisiones de Cromo (Cr) dentro del Alcance 1. Emisiones directas."@es ;
+                   rdfs:label "Cr"@es .
+
+
+###  http://w3id.org/def/usage#CuScope1Emissions
+:CuScope1Emissions rdf:type owl:NamedIndividual ,
+                            <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                   rdfs:comment "Emisiones de Cobre (Cu) dentro del Alcance 1. Emisiones directas."@es ;
+                   rdfs:label "Cu"@es .
+
+
+###  http://w3id.org/def/usage#ElectricGridEnergyConsumption
+:ElectricGridEnergyConsumption rdf:type owl:NamedIndividual ,
+                                        <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                               rdfs:comment "Consumo final de electricidad (mix eléctrico nacional)."@es ;
+                               rdfs:label "C_ELECTRICIDAD_MIXNAC"@es .
+
+
+###  http://w3id.org/def/usage#ElectricRenewableEnergyConsumption
+:ElectricRenewableEnergyConsumption rdf:type owl:NamedIndividual ,
+                                             <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                                    rdfs:comment "Consumo final de electricidad con Garantía de Origen (GdO) Renovable."@es ;
+                                    rdfs:label "C_ELECTRICIDAD_GDO"@es .
+
+
+###  http://w3id.org/def/usage#GHGEmissions
+:GHGEmissions rdf:type owl:NamedIndividual ,
+                       <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+              rdfs:comment "Gases de efecto invernadero (GEI)."@es ;
+              rdfs:label "GEI"@es .
+
+
+###  http://w3id.org/def/usage#GHGEmissionsVariation
+:GHGEmissionsVariation rdf:type owl:NamedIndividual ,
+                                <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                       rdfs:comment "Variación de los Gases de efecto invernadero (GEI)."@es ;
+                       rdfs:label "VARIACION_GEI"@es .
+
+
+###  http://w3id.org/def/usage#GasolineConsumption
+:GasolineConsumption rdf:type owl:NamedIndividual ,
+                              <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                     rdfs:comment "Consumo final de gasolina"@es ;
+                     rdfs:label "C_GASOLINA"@es .
+
+
+###  http://w3id.org/def/usage#Goats
+:Goats rdf:type owl:NamedIndividual ,
+                :Sector ;
+       <http://www.w3.org/2004/02/skos/core#broader> :Livestock ;
+       rdfs:comment "Goats subsector."@en ;
+       rdfs:label "Caprino"@es ,
+                  "Goats"@en .
+
+
+###  http://w3id.org/def/usage#HCBScope1Emissions
+:HCBScope1Emissions rdf:type owl:NamedIndividual ,
+                             <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                    rdfs:comment "Emisiones de Hexaclorobenceno dentro del Alcance 1. Emisiones directas."@es ;
+                    rdfs:label "HCB"@es .
+
+
+###  http://w3id.org/def/usage#HFCScope1Emissions
+:HFCScope1Emissions rdf:type owl:NamedIndividual ,
+                             <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                    rdfs:comment "Emisiones de hidrofluorocarbonos (HFC) dentro del Alcance 1. Emisiones directas."@es ;
+                    rdfs:label "HFC_ALC1"@es .
+
+
+###  http://w3id.org/def/usage#HeatingOilConsumption
+:HeatingOilConsumption rdf:type owl:NamedIndividual ,
+                                <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                       rdfs:comment "Consumo final de gasóleo para calefacción"@es ;
+                       rdfs:label "C_GASOLEO_C"@es .
+
+
+###  http://w3id.org/def/usage#HgScope1Emissions
+:HgScope1Emissions rdf:type owl:NamedIndividual ,
+                            <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                   rdfs:comment "Emisiones de Mercurio (Hg) dentro del Alcance 1. Emisiones directas."@es ;
+                   rdfs:label "Hg"@es .
+
+
+###  http://w3id.org/def/usage#Horses
+:Horses rdf:type owl:NamedIndividual ,
+                 :Sector ;
+        <http://www.w3.org/2004/02/skos/core#broader> :Livestock ;
+        rdfs:comment "Horses subsector."@en ;
+        rdfs:label "Horses"@en ,
+                   "Équidos"@es .
+
+
+###  http://w3id.org/def/usage#IPPU
+:IPPU rdf:type owl:NamedIndividual ,
+               :Sector ;
+      rdfs:comment "Industrial processes & product use."@en ;
+      rdfs:label "IPPU"@en .
+
+
+###  http://w3id.org/def/usage#IPScope1Emissions
+:IPScope1Emissions rdf:type owl:NamedIndividual ,
+                            <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                   rdfs:comment "Emisiones de Indeno[1,2,3-cd]pyrene dentro del Alcance 1. Emisiones directas."@es ;
+                   rdfs:label "INDENO_123"@es .
+
+
+###  http://w3id.org/def/usage#IndustrialBuildings
+:IndustrialBuildings rdf:type owl:NamedIndividual ,
+                              :Sector ;
+                     <http://www.w3.org/2004/02/skos/core#broader> :Stationary ;
+                     rdfs:comment "Industrial buildings subsector."@en ;
+                     rdfs:label "Industrial buildings"@en .
+
+
+###  http://w3id.org/def/usage#InstitutionalAndServices
+:InstitutionalAndServices rdf:type owl:NamedIndividual ,
+                                   :Sector ;
+                          <http://www.w3.org/2004/02/skos/core#broader> :Stationary ;
+                          rdfs:comment "Institutional and services subsector."@en ;
+                          rdfs:label "Institutional and services"@en .
+
+
+###  http://w3id.org/def/usage#IrrigatedAgriculture
+:IrrigatedAgriculture rdf:type owl:NamedIndividual ,
+                               :Sector ;
+                      <http://www.w3.org/2004/02/skos/core#broader> :Agriculture ;
+                      rdfs:comment "Irrigated agriculture subsector."@en ;
+                      rdfs:label "Irrigated agriculture"@en .
+
+
+###  http://w3id.org/def/usage#LPGConsumption
+:LPGConsumption rdf:type owl:NamedIndividual ,
+                         <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                rdfs:comment "Consumo final de GLP"@es ;
+                rdfs:label "C_GLP"@es .
+
+
+###  http://w3id.org/def/usage#Livestock
+:Livestock rdf:type owl:NamedIndividual ,
+                    :Sector ;
+           <http://www.w3.org/2004/02/skos/core#broader> :AFOLU ;
+           rdfs:comment "Livestock subsector."@en ;
+           rdfs:label "Livestock"@en .
+
+
+###  http://w3id.org/def/usage#MunicipalFleet
+:MunicipalFleet rdf:type owl:NamedIndividual ,
+                         :Sector ;
+                <http://www.w3.org/2004/02/skos/core#broader> :OnRoadTransport ;
+                rdfs:comment "Municipal fleet subsector."@en ;
+                rdfs:label "Municipal fleet"@en .
+
+
+###  http://w3id.org/def/usage#N2OScope1Emissions
+:N2OScope1Emissions rdf:type owl:NamedIndividual ,
+                             <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                    rdfs:comment "Emisiones de óxido nitroso (N2O) dentro del Alcance 1. Emisiones directas."@es ;
+                    rdfs:label "N2O_ALC1"@es .
+
+
+###  http://w3id.org/def/usage#N2OScope2Emissions
+:N2OScope2Emissions rdf:type owl:NamedIndividual ,
+                             <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                    rdfs:comment "Emisiones de óxido nitroso (N2O) dentro del Alcance 2. Emisiones indirectas por consumo de electricidad."@es ;
+                    rdfs:label "N2O_ALC2"@es .
+
+
+###  http://w3id.org/def/usage#N2OScope3Emissions
+:N2OScope3Emissions rdf:type owl:NamedIndividual ,
+                             <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                    rdfs:comment "Emisiones de óxido nitroso (N2O) dentro del Alcance 3. Otras emisiones indirectas."@es ;
+                    rdfs:label "N2O_ALC3"@es .
+
+
+###  http://w3id.org/def/usage#NH3Scope1Emissions
+:NH3Scope1Emissions rdf:type owl:NamedIndividual ,
+                             <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                    rdfs:comment "Emisiones de amoníaco (NH3) dentro del Alcance 1. Emisiones directas."@es ;
+                    rdfs:label "NH3"@es .
+
+
+###  http://w3id.org/def/usage#NMVOCScope1Emissions
+:NMVOCScope1Emissions rdf:type owl:NamedIndividual ,
+                               <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                      rdfs:comment "Emisiones de Compuestos Orgánicos Volátiles Sin Metano (COVNM) dentro del Alcance 1. Emisiones directas"@es ;
+                      rdfs:label "COVNM"@es .
+
+
+###  http://w3id.org/def/usage#NOxScope1Emissions
+:NOxScope1Emissions rdf:type owl:NamedIndividual ,
+                             <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                    rdfs:comment "Emisiones de óxidos de nitrógeno (NOx) dentro del Alcance 1. Emisiones directas."@es ;
+                    rdfs:label "NOx"@es .
+
+
+###  http://w3id.org/def/usage#NaturalGasConsumption
+:NaturalGasConsumption rdf:type owl:NamedIndividual ,
+                                <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                       rdfs:comment "Consumo final de Gas Natural"@es ;
+                       rdfs:label "C_GASNATURAL"@es .
+
+
+###  http://w3id.org/def/usage#NiScope1Emissions
+:NiScope1Emissions rdf:type owl:NamedIndividual ,
+                            <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                   rdfs:comment "Emisiones de Níquel (Ni) dentro del Alcance 1. Emisiones directas."@es ;
+                   rdfs:label "Ni"@es .
+
+
+###  http://w3id.org/def/usage#NonRenewableBiomassConsumption
+:NonRenewableBiomassConsumption rdf:type owl:NamedIndividual ,
+                                         <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                                rdfs:comment "Consumo final de biomasa de origen no renovable"@es ;
+                                rdfs:label "C_BIOMASA"@es .
+
+
+###  http://w3id.org/def/usage#OnRoadPrivateTransport
+:OnRoadPrivateTransport rdf:type owl:NamedIndividual ,
+                                 :Sector ;
+                        <http://www.w3.org/2004/02/skos/core#broader> :OnRoadTransport ;
+                        rdfs:comment "On-road private transport subsector."@en ;
+                        rdfs:label "On-road private transport"@en .
+
+
+###  http://w3id.org/def/usage#OnRoadPublicTransport
+:OnRoadPublicTransport rdf:type owl:NamedIndividual ,
+                                :Sector ;
+                       <http://www.w3.org/2004/02/skos/core#broader> :OnRoadTransport ;
+                       rdfs:comment "On-road public transport subsector."@en ;
+                       rdfs:label "On-road public transport"@en .
+
+
+###  http://w3id.org/def/usage#OnRoadTransport
+:OnRoadTransport rdf:type owl:NamedIndividual ,
+                          :Sector ;
+                 <http://www.w3.org/2004/02/skos/core#broader> :Transport ;
+                 rdfs:comment "On-road transport subsector."@en ;
+                 rdfs:label "On-road transport"@en .
+
+
+###  http://w3id.org/def/usage#OnSiteElectricRenewableEnergyConsumption
+:OnSiteElectricRenewableEnergyConsumption rdf:type owl:NamedIndividual ,
+                                                   <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                                          rdfs:comment "Consumo final de electricidad a partir de fuentes renovables generada localmente."@es ;
+                                          rdfs:label "C_ELECTRICIDAD_RES_LOCAL"@es .
+
+
+###  http://w3id.org/def/usage#OtherFossilFuelsConsumption
+:OtherFossilFuelsConsumption rdf:type owl:NamedIndividual ,
+                                      <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                             rdfs:comment "Consumo final de otros combustibles fósiles. Por ejemplo, queroseno para el subsector del transporte aéreo."@es ;
+                             rdfs:label "C_OTROS_FOSILES"@es .
+
+
+###  http://w3id.org/def/usage#OtherRenewableEnergyConsumption
+:OtherRenewableEnergyConsumption rdf:type owl:NamedIndividual ,
+                                          <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                                 rdfs:comment "Consumo final de otra energía de origen renovable."@es ;
+                                 rdfs:label "C_OTROS_RES"@es .
+
+
+###  http://w3id.org/def/usage#PAHScope1Emissions
+:PAHScope1Emissions rdf:type owl:NamedIndividual ,
+                             <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                    rdfs:comment "Emisiones totales de Hidrocarburos Aromáticos Policíclicos dentro del Alcance 1. Emisiones directas."@es ;
+                    rdfs:label "PAH"@es .
+
+
+###  http://w3id.org/def/usage#PCBsScope1Emissions
+:PCBsScope1Emissions rdf:type owl:NamedIndividual ,
+                              <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                     rdfs:comment "Emisiones de óxidos de Bifenilos policlorados dentro del Alcance 1. Emisiones directas."@es ;
+                     rdfs:label "PCBs"@es .
+
+
+###  http://w3id.org/def/usage#PCDDandPCDFScope1Emissions
+:PCDDandPCDFScope1Emissions rdf:type owl:NamedIndividual ,
+                                     <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                            rdfs:comment "Emisiones de Dioxinas y Furanos (PCDD+PCDF) dentro del Alcance 1. Emisiones directas."@es ;
+                            rdfs:label "DIOX"@es .
+
+
+###  http://w3id.org/def/usage#PFCScope1Emissions
+:PFCScope1Emissions rdf:type owl:NamedIndividual ,
+                             <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                    rdfs:comment "Emisiones de perfluorocarbonos (PFC) dentro del Alcance 1. Emisiones directas."@es ;
+                    rdfs:label "PFC_ALC1"@es .
+
+
+###  http://w3id.org/def/usage#PM10Scope1Emissions
+:PM10Scope1Emissions rdf:type owl:NamedIndividual ,
+                              <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                     rdfs:comment "Emisiones de materia particulada de 10 micrómetros o menos (PM 10) dentro del Alcance 1. Emisiones directas."@es ;
+                     rdfs:label "PM10"@es .
+
+
+###  http://w3id.org/def/usage#PM2.5Scope1Emissions
+:PM2.5Scope1Emissions rdf:type owl:NamedIndividual ,
+                               <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                      rdfs:comment "Emisiones de materia particulada de 2,5 micrómetros o menos (PM2.5) dentro del Alcance 1. Emisiones directas."@es ;
+                      rdfs:label "PM2.5"@es .
+
+
+###  http://w3id.org/def/usage#PbScope1Emissions
+:PbScope1Emissions rdf:type owl:NamedIndividual ,
+                            <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                   rdfs:comment "Emisiones de Plomo (Pb) dentro del Alcance 1. Emisiones directas."@es ;
+                   rdfs:label "Pb"@es .
+
+
+###  http://w3id.org/def/usage#Poultry
+:Poultry rdf:type owl:NamedIndividual ,
+                  :Sector ;
+         <http://www.w3.org/2004/02/skos/core#broader> :Livestock ;
+         rdfs:comment "Poultry subsector."@en ;
+         rdfs:label "Aves de corral"@es ,
+                    "Poultry"@en .
+
+
+###  http://w3id.org/def/usage#Rabbits
+:Rabbits rdf:type owl:NamedIndividual ,
+                  :Sector ;
+         <http://www.w3.org/2004/02/skos/core#broader> :Livestock ;
+         rdfs:comment "Rabbits subsector."@en ;
+         rdfs:label "Conejos"@es ,
+                    "Rabbits"@en .
+
+
+###  http://w3id.org/def/usage#RainfedAgriculture
+:RainfedAgriculture rdf:type owl:NamedIndividual ,
+                             :Sector ;
+                    <http://www.w3.org/2004/02/skos/core#broader> :Agriculture ;
+                    rdfs:comment "Rainfed agriculture subsector."@en ;
+                    rdfs:label "Rainfed agriculture"@en .
+
+
+###  http://w3id.org/def/usage#ResidentialBuildings
+:ResidentialBuildings rdf:type owl:NamedIndividual ,
+                               :Sector ;
+                      <http://www.w3.org/2004/02/skos/core#broader> :Stationary ;
+                      rdfs:comment "Residential buildings subsector."@en ;
+                      rdfs:label "Residential buildings"@en .
+
+
+###  http://w3id.org/def/usage#SF6Scope1Emissions
+:SF6Scope1Emissions rdf:type owl:NamedIndividual ,
+                             <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                    rdfs:comment "Emisiones de hexafluoruro de azufre (SF6) dentro del Alcance 1. Emisiones directas."@es ;
+                    rdfs:label "SF6_ALC1"@es .
+
+
+###  http://w3id.org/def/usage#SO2Scope1Emissions
+:SO2Scope1Emissions rdf:type owl:NamedIndividual ,
+                             <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                    rdfs:comment "Emisiones de dióxidos de azufre (SO2) dentro del Alcance 1. Emisiones directas."@es ;
+                    rdfs:label "SO2"@es .
+
+
+###  http://w3id.org/def/usage#SeScope1Emissions
+:SeScope1Emissions rdf:type owl:NamedIndividual ,
+                            <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                   rdfs:comment "Emisiones de Selenio (Se) dentro del Alcance 1. Emisiones directas."@es ;
+                   rdfs:label "Se"@es .
+
+
+###  http://w3id.org/def/usage#Sheep
+:Sheep rdf:type owl:NamedIndividual ,
+                :Sector ;
+       <http://www.w3.org/2004/02/skos/core#broader> :Livestock ;
+       rdfs:comment "Sheep subsector."@en ;
+       rdfs:label "Ovino"@es ,
+                  "Sheep"@en .
+
+
+###  http://w3id.org/def/usage#Stationary
+:Stationary rdf:type owl:NamedIndividual ,
+                     :Sector ;
+            rdfs:comment "Stationary sector."@en ;
+            rdfs:label "Stationary"@en .
+
+
+###  http://w3id.org/def/usage#Swine
+:Swine rdf:type owl:NamedIndividual ,
+                :Sector ;
+       <http://www.w3.org/2004/02/skos/core#broader> :Livestock ;
+       rdfs:comment "Swine subsector."@en ;
+       rdfs:label "Cerdos"@es ,
+                  "Swine"@en .
+
+
+###  http://w3id.org/def/usage#TSPScope1Emissions
+:TSPScope1Emissions rdf:type owl:NamedIndividual ,
+                             <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                    rdfs:comment "Emisiones de materia particulada total (PTSP) dentro del Alcance 1. Emisiones directas."@es ;
+                    rdfs:label "TSP"@es .
+
+
+###  http://w3id.org/def/usage#TotalHeavyMetalsScope1Emissions
+:TotalHeavyMetalsScope1Emissions rdf:type owl:NamedIndividual ,
+                                          <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                                 rdfs:comment "Sumatoria de la emisión de metales pesados dentro del Alcance 1. Emisiones directas."@es ;
+                                 rdfs:label "TOTAL_MPESADOS"@es .
+
+
+###  http://w3id.org/def/usage#TotalPOPsScope1Emissions
+:TotalPOPsScope1Emissions rdf:type owl:NamedIndividual ,
+                                   <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                          rdfs:comment "Emisiones totales de Compuestos Orgánicos Persistentes (POPs) dentro del Alcance 1. Emisiones directas."@es ;
+                          rdfs:label "TOTAL_POPs"@es .
+
+
+###  http://w3id.org/def/usage#Transport
+:Transport rdf:type owl:NamedIndividual ,
+                    :Sector ;
+           rdfs:comment "Transport sector."@en ;
+           rdfs:label "Transport"@en .
+
+
+###  http://w3id.org/def/usage#UrbanWoodland
+:UrbanWoodland rdf:type owl:NamedIndividual ,
+                        :Sector ;
+               rdfs:comment "Urban woodland sector."@en ;
+               rdfs:label "Urban woodland"@en .
+
+
+###  http://w3id.org/def/usage#VOCScope1Emissions
+:VOCScope1Emissions rdf:type owl:NamedIndividual ,
+                             <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                    rdfs:comment "Emisiones de Compuestos Orgánicos Volátiles (COV) dentro del Alcance 1. Emisiones directas."@es ;
+                    rdfs:label "COV"@es .
+
+
+###  http://w3id.org/def/usage#Waste
+:Waste rdf:type owl:NamedIndividual ,
+                :Sector ;
+       <http://www.w3.org/2004/02/skos/core#broader> :Stationary ;
+       rdfs:comment "Waste subsector."@en ;
+       rdfs:label "Waste"@en .
+
+
+###  http://w3id.org/def/usage#ZnScope1Emissions
+:ZnScope1Emissions rdf:type owl:NamedIndividual ,
+                            <https://saref.etsi.org/saref4city/KeyPerformanceIndicator> ;
+                   rdfs:comment "Emisiones de Zinc (Zn) dentro del Alcance 1. Emisiones directas."@es ;
+                   rdfs:label "Zn"@es .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+<http://www.opengis.net/ont/geosparql#asWKT> rdfs:label "as w k t" .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

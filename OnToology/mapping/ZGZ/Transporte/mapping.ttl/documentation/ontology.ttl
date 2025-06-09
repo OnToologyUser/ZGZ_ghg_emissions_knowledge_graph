@@ -1,0 +1,2553 @@
+@prefix : <http://base.uri#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://base.uri#> .
+
+<http://base.uri#> rdf:type owl:Ontology ;
+                    <https://w3id.org/mod#createdWith> <https://chowlk.linkeddata.es/> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  https://w3id.org/mod#createdWith
+<https://w3id.org/mod#createdWith> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://semweb.mmlab.be/ns/rml#logicalSource
+<http://semweb.mmlab.be/ns/rml#logicalSource> rdf:type owl:ObjectProperty ;
+                                              rdfs:label "logical source" .
+
+
+###  http://semweb.mmlab.be/ns/rml#referenceFormulation
+<http://semweb.mmlab.be/ns/rml#referenceFormulation> rdf:type owl:ObjectProperty ;
+                                                     rdfs:label "reference formulation" .
+
+
+###  http://www.w3.org/ns/r2rml#class
+<http://www.w3.org/ns/r2rml#class> rdf:type owl:ObjectProperty ;
+                                   rdfs:label "class" .
+
+
+###  http://www.w3.org/ns/r2rml#datatype
+<http://www.w3.org/ns/r2rml#datatype> rdf:type owl:ObjectProperty ;
+                                      rdfs:label "datatype" .
+
+
+###  http://www.w3.org/ns/r2rml#graph
+<http://www.w3.org/ns/r2rml#graph> rdf:type owl:ObjectProperty ;
+                                   rdfs:label "graph" .
+
+
+###  http://www.w3.org/ns/r2rml#joinCondition
+<http://www.w3.org/ns/r2rml#joinCondition> rdf:type owl:ObjectProperty ;
+                                           rdfs:label "join condition" .
+
+
+###  http://www.w3.org/ns/r2rml#object
+<http://www.w3.org/ns/r2rml#object> rdf:type owl:ObjectProperty ;
+                                    rdfs:label "object" .
+
+
+###  http://www.w3.org/ns/r2rml#objectMap
+<http://www.w3.org/ns/r2rml#objectMap> rdf:type owl:ObjectProperty ;
+                                       rdfs:label "object map" .
+
+
+###  http://www.w3.org/ns/r2rml#parentTriplesMap
+<http://www.w3.org/ns/r2rml#parentTriplesMap> rdf:type owl:ObjectProperty ;
+                                              rdfs:label "parent triples map" .
+
+
+###  http://www.w3.org/ns/r2rml#predicate
+<http://www.w3.org/ns/r2rml#predicate> rdf:type owl:ObjectProperty ;
+                                       rdfs:label "predicate" .
+
+
+###  http://www.w3.org/ns/r2rml#predicateObjectMap
+<http://www.w3.org/ns/r2rml#predicateObjectMap> rdf:type owl:ObjectProperty ;
+                                                rdfs:label "predicate object map" .
+
+
+###  http://www.w3.org/ns/r2rml#subjectMap
+<http://www.w3.org/ns/r2rml#subjectMap> rdf:type owl:ObjectProperty ;
+                                        rdfs:label "subject map" .
+
+
+###  http://www.w3.org/ns/r2rml#termType
+<http://www.w3.org/ns/r2rml#termType> rdf:type owl:ObjectProperty ;
+                                      rdfs:label "term type" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://semweb.mmlab.be/ns/rml#reference
+<http://semweb.mmlab.be/ns/rml#reference> rdf:type owl:DatatypeProperty ;
+                                          rdfs:label "reference" .
+
+
+###  http://semweb.mmlab.be/ns/rml#source
+<http://semweb.mmlab.be/ns/rml#source> rdf:type owl:DatatypeProperty ;
+                                       rdfs:label "source" .
+
+
+###  http://www.w3.org/ns/r2rml#template
+<http://www.w3.org/ns/r2rml#template> rdf:type owl:DatatypeProperty ;
+                                      rdfs:label "template" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.w3.org/ns/r2rml#TriplesMap
+<http://www.w3.org/ns/r2rml#TriplesMap> rdf:type owl:Class ;
+                                        rdfs:label "Triples Map" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://base.uri#As
+:As rdf:type owl:NamedIndividual ,
+             <http://www.w3.org/ns/r2rml#TriplesMap> ;
+    <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+    <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                    :_b16 ,
+                                                    :_b167 ,
+                                                    :_b169 ,
+                                                    :_b18i ,
+                                                    :_b20s ;
+    <http://www.w3.org/ns/r2rml#subjectMap> :_b166 .
+
+
+###  http://base.uri#BC
+:BC rdf:type owl:NamedIndividual ,
+             <http://www.w3.org/ns/r2rml#TriplesMap> ;
+    <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+    <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b147 ,
+                                                    :_b149 ,
+                                                    :_b15 ,
+                                                    :_b16 ,
+                                                    :_b18i ,
+                                                    :_b20s ;
+    <http://www.w3.org/ns/r2rml#subjectMap> :_b146 .
+
+
+###  http://base.uri#BENZO_A
+:BENZO_A rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/ns/r2rml#TriplesMap> ;
+         <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+         <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                         :_b16 ,
+                                                         :_b18i ,
+                                                         :_b195 ,
+                                                         :_b197 ,
+                                                         :_b20s ;
+         <http://www.w3.org/ns/r2rml#subjectMap> :_b194 .
+
+
+###  http://base.uri#BENZO_B
+:BENZO_B rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/ns/r2rml#TriplesMap> ;
+         <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+         <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                         :_b16 ,
+                                                         :_b18i ,
+                                                         :_b199 ,
+                                                         :_b201 ,
+                                                         :_b20s ;
+         <http://www.w3.org/ns/r2rml#subjectMap> :_b198 .
+
+
+###  http://base.uri#C6H6
+:C6H6 rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/ns/r2rml#TriplesMap> ;
+      <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+      <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                      :_b151 ,
+                                                      :_b153 ,
+                                                      :_b16 ,
+                                                      :_b18i ,
+                                                      :_b20s ;
+      <http://www.w3.org/ns/r2rml#subjectMap> :_b150 .
+
+
+###  http://base.uri#CH4_ALC1
+:CH4_ALC1 rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/ns/r2rml#TriplesMap> ;
+          <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+          <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                          :_b16 ,
+                                                          :_b18i ,
+                                                          :_b20s ,
+                                                          :_b67 ,
+                                                          :_b69 ;
+          <http://www.w3.org/ns/r2rml#subjectMap> :_b66 .
+
+
+###  http://base.uri#CH4_ALC2
+:CH4_ALC2 rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/ns/r2rml#TriplesMap> ;
+          <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+          <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                          :_b16 ,
+                                                          :_b18i ,
+                                                          :_b20s ,
+                                                          :_b91 ,
+                                                          :_b93 ;
+          <http://www.w3.org/ns/r2rml#subjectMap> :_b90 .
+
+
+###  http://base.uri#CH4_ALC3
+:CH4_ALC3 rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/ns/r2rml#TriplesMap> ;
+          <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+          <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b103 ,
+                                                          :_b105 ,
+                                                          :_b15 ,
+                                                          :_b16 ,
+                                                          :_b18i ,
+                                                          :_b20s ;
+          <http://www.w3.org/ns/r2rml#subjectMap> :_b102 .
+
+
+###  http://base.uri#CO
+:CO rdf:type owl:NamedIndividual ,
+             <http://www.w3.org/ns/r2rml#TriplesMap> ;
+    <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+    <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b115 ,
+                                                    :_b117 ,
+                                                    :_b15 ,
+                                                    :_b16 ,
+                                                    :_b18i ,
+                                                    :_b20s ;
+    <http://www.w3.org/ns/r2rml#subjectMap> :_b114 .
+
+
+###  http://base.uri#CO2_ALC1
+:CO2_ALC1 rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/ns/r2rml#TriplesMap> ;
+          <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+          <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b12 ,
+                                                          :_b14 ,
+                                                          :_b15 ,
+                                                          :_b16 ,
+                                                          :_b18i ,
+                                                          :_b20s ;
+          <http://www.w3.org/ns/r2rml#subjectMap> :_b11 .
+
+
+###  http://base.uri#CO2_ALC2
+:CO2_ALC2 rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/ns/r2rml#TriplesMap> ;
+          <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+          <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                          :_b16 ,
+                                                          :_b18i ,
+                                                          :_b20s ,
+                                                          :_b87 ,
+                                                          :_b89 ;
+          <http://www.w3.org/ns/r2rml#subjectMap> :_b86 .
+
+
+###  http://base.uri#CO2_ALC3
+:CO2_ALC3 rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/ns/r2rml#TriplesMap> ;
+          <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+          <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b101 ,
+                                                          :_b15 ,
+                                                          :_b16 ,
+                                                          :_b18i ,
+                                                          :_b20s ,
+                                                          :_b99 ;
+          <http://www.w3.org/ns/r2rml#subjectMap> :_b98 .
+
+
+###  http://base.uri#COV
+:COV rdf:type owl:NamedIndividual ,
+              <http://www.w3.org/ns/r2rml#TriplesMap> ;
+     <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+     <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b123 ,
+                                                     :_b125 ,
+                                                     :_b15 ,
+                                                     :_b16 ,
+                                                     :_b18i ,
+                                                     :_b20s ;
+     <http://www.w3.org/ns/r2rml#subjectMap> :_b122 .
+
+
+###  http://base.uri#COVNM
+:COVNM rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/ns/r2rml#TriplesMap> ;
+       <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+       <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b127 ,
+                                                       :_b129 ,
+                                                       :_b15 ,
+                                                       :_b16 ,
+                                                       :_b18i ,
+                                                       :_b20s ;
+       <http://www.w3.org/ns/r2rml#subjectMap> :_b126 .
+
+
+###  http://base.uri#C_BIOMASA
+:C_BIOMASA rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/ns/r2rml#TriplesMap> ;
+           <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+           <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                           :_b16 ,
+                                                           :_b18i ,
+                                                           :_b20s ,
+                                                           :_b55 ,
+                                                           :_b57 ;
+           <http://www.w3.org/ns/r2rml#subjectMap> :_b54 .
+
+
+###  http://base.uri#C_ELECTRICIDAD_GDO
+:C_ELECTRICIDAD_GDO rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/ns/r2rml#TriplesMap> ;
+                    <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+                    <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                                    :_b16 ,
+                                                                    :_b18i ,
+                                                                    :_b20s ,
+                                                                    :_b23 ,
+                                                                    :_b25 ;
+                    <http://www.w3.org/ns/r2rml#subjectMap> :_b22 .
+
+
+###  http://base.uri#C_ELECTRICIDAD_MIXNAC
+:C_ELECTRICIDAD_MIXNAC rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/ns/r2rml#TriplesMap> ;
+                       <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+                       <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                                       :_b16 ,
+                                                                       :_b18i ,
+                                                                       :_b19 ,
+                                                                       :_b20s ,
+                                                                       :_b21 ;
+                       <http://www.w3.org/ns/r2rml#subjectMap> :_b18 .
+
+
+###  http://base.uri#C_ELECTRICIDAD_RES_LOCAL
+:C_ELECTRICIDAD_RES_LOCAL rdf:type owl:NamedIndividual ,
+                                   <http://www.w3.org/ns/r2rml#TriplesMap> ;
+                          <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+                          <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                                          :_b16 ,
+                                                                          :_b18i ,
+                                                                          :_b20s ,
+                                                                          :_b27 ,
+                                                                          :_b29 ;
+                          <http://www.w3.org/ns/r2rml#subjectMap> :_b26 .
+
+
+###  http://base.uri#C_GASNATURAL
+:C_GASNATURAL rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/ns/r2rml#TriplesMap> ;
+              <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+              <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                              :_b16 ,
+                                                              :_b18i ,
+                                                              :_b20s ,
+                                                              :_b31 ,
+                                                              :_b33 ;
+              <http://www.w3.org/ns/r2rml#subjectMap> :_b30 .
+
+
+###  http://base.uri#C_GASOLEO_A
+:C_GASOLEO_A rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/ns/r2rml#TriplesMap> ;
+             <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+             <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                             :_b16 ,
+                                                             :_b18i ,
+                                                             :_b20s ,
+                                                             :_b43 ,
+                                                             :_b45 ;
+             <http://www.w3.org/ns/r2rml#subjectMap> :_b42 .
+
+
+###  http://base.uri#C_GASOLEO_C
+:C_GASOLEO_C rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/ns/r2rml#TriplesMap> ;
+             <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+             <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                             :_b16 ,
+                                                             :_b18i ,
+                                                             :_b20s ,
+                                                             :_b39 ,
+                                                             :_b41 ;
+             <http://www.w3.org/ns/r2rml#subjectMap> :_b38 .
+
+
+###  http://base.uri#C_GASOLINA
+:C_GASOLINA rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/ns/r2rml#TriplesMap> ;
+            <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+            <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                            :_b16 ,
+                                                            :_b18i ,
+                                                            :_b20s ,
+                                                            :_b47 ,
+                                                            :_b49 ;
+            <http://www.w3.org/ns/r2rml#subjectMap> :_b46 .
+
+
+###  http://base.uri#C_GLP
+:C_GLP rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/ns/r2rml#TriplesMap> ;
+       <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+       <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                       :_b16 ,
+                                                       :_b18i ,
+                                                       :_b20s ,
+                                                       :_b35 ,
+                                                       :_b37 ;
+       <http://www.w3.org/ns/r2rml#subjectMap> :_b34 .
+
+
+###  http://base.uri#C_OTROS_FOSILES
+:C_OTROS_FOSILES rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/ns/r2rml#TriplesMap> ;
+                 <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+                 <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                                 :_b16 ,
+                                                                 :_b18i ,
+                                                                 :_b20s ,
+                                                                 :_b51 ,
+                                                                 :_b53 ;
+                 <http://www.w3.org/ns/r2rml#subjectMap> :_b50 .
+
+
+###  http://base.uri#C_OTROS_RES
+:C_OTROS_RES rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/ns/r2rml#TriplesMap> ;
+             <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+             <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                             :_b16 ,
+                                                             :_b18i ,
+                                                             :_b20s ,
+                                                             :_b59 ,
+                                                             :_b61 ;
+             <http://www.w3.org/ns/r2rml#subjectMap> :_b58 .
+
+
+###  http://base.uri#Cd
+:Cd rdf:type owl:NamedIndividual ,
+             <http://www.w3.org/ns/r2rml#TriplesMap> ;
+    <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+    <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                    :_b159 ,
+                                                    :_b16 ,
+                                                    :_b161 ,
+                                                    :_b18i ,
+                                                    :_b20s ;
+    <http://www.w3.org/ns/r2rml#subjectMap> :_b158 .
+
+
+###  http://base.uri#Cell
+:Cell rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/ns/r2rml#TriplesMap> ;
+      <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+      <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b9 ;
+      <http://www.w3.org/ns/r2rml#subjectMap> :_b2 .
+
+
+###  http://base.uri#Cr
+:Cr rdf:type owl:NamedIndividual ,
+             <http://www.w3.org/ns/r2rml#TriplesMap> ;
+    <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+    <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                    :_b16 ,
+                                                    :_b171 ,
+                                                    :_b173 ,
+                                                    :_b18i ,
+                                                    :_b20s ;
+    <http://www.w3.org/ns/r2rml#subjectMap> :_b170 .
+
+
+###  http://base.uri#Cu
+:Cu rdf:type owl:NamedIndividual ,
+             <http://www.w3.org/ns/r2rml#TriplesMap> ;
+    <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+    <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                    :_b16 ,
+                                                    :_b175 ,
+                                                    :_b177 ,
+                                                    :_b18i ,
+                                                    :_b20s ;
+    <http://www.w3.org/ns/r2rml#subjectMap> :_b174 .
+
+
+###  http://base.uri#DIOX
+:DIOX rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/ns/r2rml#TriplesMap> ;
+      <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+      <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                      :_b16 ,
+                                                      :_b18i ,
+                                                      :_b191 ,
+                                                      :_b193 ,
+                                                      :_b20s ;
+      <http://www.w3.org/ns/r2rml#subjectMap> :_b190 .
+
+
+###  http://base.uri#District
+:District rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/ns/r2rml#TriplesMap> ;
+          <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+          <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b7d ;
+          <http://www.w3.org/ns/r2rml#subjectMap> :_b6d .
+
+
+###  http://base.uri#HCB
+:HCB rdf:type owl:NamedIndividual ,
+              <http://www.w3.org/ns/r2rml#TriplesMap> ;
+     <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+     <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                     :_b16 ,
+                                                     :_b18i ,
+                                                     :_b20s ,
+                                                     :_b211 ,
+                                                     :_b213 ;
+     <http://www.w3.org/ns/r2rml#subjectMap> :_b210 .
+
+
+###  http://base.uri#HFC_ALC1
+:HFC_ALC1 rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/ns/r2rml#TriplesMap> ;
+          <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+          <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                          :_b16 ,
+                                                          :_b18i ,
+                                                          :_b20s ,
+                                                          :_b75 ,
+                                                          :_b77 ;
+          <http://www.w3.org/ns/r2rml#subjectMap> :_b74 .
+
+
+###  http://base.uri#Hg
+:Hg rdf:type owl:NamedIndividual ,
+             <http://www.w3.org/ns/r2rml#TriplesMap> ;
+    <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+    <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                    :_b16 ,
+                                                    :_b163 ,
+                                                    :_b165 ,
+                                                    :_b18i ,
+                                                    :_b20s ;
+    <http://www.w3.org/ns/r2rml#subjectMap> :_b162 .
+
+
+###  http://base.uri#INDENO_123
+:INDENO_123 rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/ns/r2rml#TriplesMap> ;
+            <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+            <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                            :_b16 ,
+                                                            :_b18i ,
+                                                            :_b203 ,
+                                                            :_b205 ,
+                                                            :_b20s ;
+            <http://www.w3.org/ns/r2rml#subjectMap> :_b202 .
+
+
+###  http://base.uri#Interval
+:Interval rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/ns/r2rml#TriplesMap> ;
+          <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+          <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b7i ;
+          <http://www.w3.org/ns/r2rml#subjectMap> :_b6i .
+
+
+###  http://base.uri#N2O_ALC1
+:N2O_ALC1 rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/ns/r2rml#TriplesMap> ;
+          <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+          <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                          :_b16 ,
+                                                          :_b18i ,
+                                                          :_b20s ,
+                                                          :_b71 ,
+                                                          :_b73 ;
+          <http://www.w3.org/ns/r2rml#subjectMap> :_b70 .
+
+
+###  http://base.uri#N2O_ALC2
+:N2O_ALC2 rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/ns/r2rml#TriplesMap> ;
+          <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+          <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                          :_b16 ,
+                                                          :_b18i ,
+                                                          :_b20s ,
+                                                          :_b95 ,
+                                                          :_b97 ;
+          <http://www.w3.org/ns/r2rml#subjectMap> :_b94 .
+
+
+###  http://base.uri#N2O_ALC3
+:N2O_ALC3 rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/ns/r2rml#TriplesMap> ;
+          <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+          <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b107 ,
+                                                          :_b109 ,
+                                                          :_b15 ,
+                                                          :_b16 ,
+                                                          :_b18i ,
+                                                          :_b20s ;
+          <http://www.w3.org/ns/r2rml#subjectMap> :_b106 .
+
+
+###  http://base.uri#NH3
+:NH3 rdf:type owl:NamedIndividual ,
+              <http://www.w3.org/ns/r2rml#TriplesMap> ;
+     <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+     <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b131 ,
+                                                     :_b133 ,
+                                                     :_b15 ,
+                                                     :_b16 ,
+                                                     :_b18i ,
+                                                     :_b20s ;
+     <http://www.w3.org/ns/r2rml#subjectMap> :_b130 .
+
+
+###  http://base.uri#NOx
+:NOx rdf:type owl:NamedIndividual ,
+              <http://www.w3.org/ns/r2rml#TriplesMap> ;
+     <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+     <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b111 ,
+                                                     :_b113 ,
+                                                     :_b15 ,
+                                                     :_b16 ,
+                                                     :_b18i ,
+                                                     :_b20s ;
+     <http://www.w3.org/ns/r2rml#subjectMap> :_b110 .
+
+
+###  http://base.uri#Ni
+:Ni rdf:type owl:NamedIndividual ,
+             <http://www.w3.org/ns/r2rml#TriplesMap> ;
+    <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+    <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                    :_b16 ,
+                                                    :_b179 ,
+                                                    :_b181 ,
+                                                    :_b18i ,
+                                                    :_b20s ;
+    <http://www.w3.org/ns/r2rml#subjectMap> :_b178 .
+
+
+###  http://base.uri#PAH
+:PAH rdf:type owl:NamedIndividual ,
+              <http://www.w3.org/ns/r2rml#TriplesMap> ;
+     <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+     <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                     :_b16 ,
+                                                     :_b18i ,
+                                                     :_b207 ,
+                                                     :_b209 ,
+                                                     :_b20s ;
+     <http://www.w3.org/ns/r2rml#subjectMap> :_b206 .
+
+
+###  http://base.uri#PCBs
+:PCBs rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/ns/r2rml#TriplesMap> ;
+      <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+      <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                      :_b16 ,
+                                                      :_b18i ,
+                                                      :_b20s ,
+                                                      :_b215 ,
+                                                      :_b217 ;
+      <http://www.w3.org/ns/r2rml#subjectMap> :_b214 .
+
+
+###  http://base.uri#PFC_ALC1
+:PFC_ALC1 rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/ns/r2rml#TriplesMap> ;
+          <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+          <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                          :_b16 ,
+                                                          :_b18i ,
+                                                          :_b20s ,
+                                                          :_b79 ,
+                                                          :_b81 ;
+          <http://www.w3.org/ns/r2rml#subjectMap> :_b78 .
+
+
+###  http://base.uri#PM10
+:PM10 rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/ns/r2rml#TriplesMap> ;
+      <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+      <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b139 ,
+                                                      :_b141 ,
+                                                      :_b15 ,
+                                                      :_b16 ,
+                                                      :_b18i ,
+                                                      :_b20s ;
+      <http://www.w3.org/ns/r2rml#subjectMap> :_b138 .
+
+
+###  http://base.uri#PM2.5
+:PM2.5 rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/ns/r2rml#TriplesMap> ;
+       <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+       <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b135 ,
+                                                       :_b137 ,
+                                                       :_b15 ,
+                                                       :_b16 ,
+                                                       :_b18i ,
+                                                       :_b20s ;
+       <http://www.w3.org/ns/r2rml#subjectMap> :_b134 .
+
+
+###  http://base.uri#Pb
+:Pb rdf:type owl:NamedIndividual ,
+             <http://www.w3.org/ns/r2rml#TriplesMap> ;
+    <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+    <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                    :_b155 ,
+                                                    :_b157 ,
+                                                    :_b16 ,
+                                                    :_b18i ,
+                                                    :_b20s ;
+    <http://www.w3.org/ns/r2rml#subjectMap> :_b154 .
+
+
+###  http://base.uri#SF6_ALC1
+:SF6_ALC1 rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/ns/r2rml#TriplesMap> ;
+          <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+          <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                          :_b16 ,
+                                                          :_b18i ,
+                                                          :_b20s ,
+                                                          :_b83 ,
+                                                          :_b85 ;
+          <http://www.w3.org/ns/r2rml#subjectMap> :_b82 .
+
+
+###  http://base.uri#SO2
+:SO2 rdf:type owl:NamedIndividual ,
+              <http://www.w3.org/ns/r2rml#TriplesMap> ;
+     <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+     <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b119 ,
+                                                     :_b121 ,
+                                                     :_b15 ,
+                                                     :_b16 ,
+                                                     :_b18i ,
+                                                     :_b20s ;
+     <http://www.w3.org/ns/r2rml#subjectMap> :_b118 .
+
+
+###  http://base.uri#Se
+:Se rdf:type owl:NamedIndividual ,
+             <http://www.w3.org/ns/r2rml#TriplesMap> ;
+    <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+    <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                    :_b16 ,
+                                                    :_b183 ,
+                                                    :_b185 ,
+                                                    :_b18i ,
+                                                    :_b20s ;
+    <http://www.w3.org/ns/r2rml#subjectMap> :_b182 .
+
+
+###  http://base.uri#TOTAL_MPESADOS
+:TOTAL_MPESADOS rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/ns/r2rml#TriplesMap> ;
+                <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+                <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                                :_b16 ,
+                                                                :_b18i ,
+                                                                :_b20s ,
+                                                                :_b223 ,
+                                                                :_b225 ;
+                <http://www.w3.org/ns/r2rml#subjectMap> :_b222 .
+
+
+###  http://base.uri#TOTAL_POPs
+:TOTAL_POPs rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/ns/r2rml#TriplesMap> ;
+            <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+            <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                            :_b16 ,
+                                                            :_b18i ,
+                                                            :_b20s ,
+                                                            :_b219 ,
+                                                            :_b221 ;
+            <http://www.w3.org/ns/r2rml#subjectMap> :_b218 .
+
+
+###  http://base.uri#TSP
+:TSP rdf:type owl:NamedIndividual ,
+              <http://www.w3.org/ns/r2rml#TriplesMap> ;
+     <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+     <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b143 ,
+                                                     :_b145 ,
+                                                     :_b15 ,
+                                                     :_b16 ,
+                                                     :_b18i ,
+                                                     :_b20s ;
+     <http://www.w3.org/ns/r2rml#subjectMap> :_b142 .
+
+
+###  http://base.uri#Year
+:Year rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/ns/r2rml#TriplesMap> ;
+      <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+      <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b7y ;
+      <http://www.w3.org/ns/r2rml#subjectMap> :_b6y .
+
+
+###  http://base.uri#Zn
+:Zn rdf:type owl:NamedIndividual ,
+             <http://www.w3.org/ns/r2rml#TriplesMap> ;
+    <http://semweb.mmlab.be/ns/rml#logicalSource> :_b1 ;
+    <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b15 ,
+                                                    :_b16 ,
+                                                    :_b187 ,
+                                                    :_b189 ,
+                                                    :_b18i ,
+                                                    :_b20s ;
+    <http://www.w3.org/ns/r2rml#subjectMap> :_b186 .
+
+
+###  http://base.uri#_b1
+:_b1 rdf:type owl:NamedIndividual ;
+     <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> ;
+     <http://semweb.mmlab.be/ns/rml#source> "./data/ZGZ/Transporte/refined/BBDD_Transp_Carretera_TPublico_2019_v001.csv" .
+
+
+###  http://base.uri#_b100
+:_b100 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "CO2_ALC3" .
+
+
+###  http://base.uri#_b101
+:_b101 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#CO2Scope3Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b102
+:_b102 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CH4Scope3Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b103
+:_b103 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b104 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b104
+:_b104 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "CH4_ALC3" .
+
+
+###  http://base.uri#_b105
+:_b105 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#CH4Scope3Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b106
+:_b106 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/N2OScope3Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b107
+:_b107 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b108 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b108
+:_b108 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "N2O_ALC3" .
+
+
+###  http://base.uri#_b109
+:_b109 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#N2OScope3Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b11
+:_b11 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+      <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+      <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CO2Scope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b110
+:_b110 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/NOxScope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b111
+:_b111 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b112 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b112
+:_b112 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "NOx" .
+
+
+###  http://base.uri#_b113
+:_b113 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#NOxScope1Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b114
+:_b114 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/COScope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b115
+:_b115 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b116 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b116
+:_b116 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "CO" .
+
+
+###  http://base.uri#_b117
+:_b117 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#COScope1Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b118
+:_b118 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/SO2Scope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b119
+:_b119 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b120 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b12
+:_b12 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#objectMap> :_b13 ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b120
+:_b120 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "SO2" .
+
+
+###  http://base.uri#_b121
+:_b121 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#SO2Scope1Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b122
+:_b122 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/VOCScope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b123
+:_b123 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b124 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b124
+:_b124 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "COV" .
+
+
+###  http://base.uri#_b125
+:_b125 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#VOCScope1Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b126
+:_b126 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/NMVOCScope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b127
+:_b127 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b128 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b128
+:_b128 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "COVNM" .
+
+
+###  http://base.uri#_b129
+:_b129 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#NMVOCScope1Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b13
+:_b13 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+      <http://semweb.mmlab.be/ns/rml#reference> "CO2_ALC1" .
+
+
+###  http://base.uri#_b130
+:_b130 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/NH3Scope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b131
+:_b131 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b132 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b132
+:_b132 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "NH3" .
+
+
+###  http://base.uri#_b133
+:_b133 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#NH3Scope1Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b134
+:_b134 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/PM2.5Scope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b135
+:_b135 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b136 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b136
+:_b136 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "PM2.5" .
+
+
+###  http://base.uri#_b137
+:_b137 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#PM2.5Scope1Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b138
+:_b138 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/PM10Scope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b139
+:_b139 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b140 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b14
+:_b14 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#CO2Scope1Emissions> ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b140
+:_b140 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "PM10" .
+
+
+###  http://base.uri#_b141
+:_b141 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#PM10Scope1Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b142
+:_b142 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/TSPScope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b143
+:_b143 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b144 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b144
+:_b144 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "TSP" .
+
+
+###  http://base.uri#_b145
+:_b145 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#TSPScope1Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b146
+:_b146 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/BCScope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b147
+:_b147 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b148 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b148
+:_b148 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "BC" .
+
+
+###  http://base.uri#_b149
+:_b149 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#BCScope1Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b15
+:_b15 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#object> <http://qudt.org/vocab/unit/TONNE> ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/isMeasuredIn> .
+
+
+###  http://base.uri#_b150
+:_b150 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/C6H6Scope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b151
+:_b151 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b152 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b152
+:_b152 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "C6H6" .
+
+
+###  http://base.uri#_b153
+:_b153 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#C6H6Scope1Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b154
+:_b154 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/PbScope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b155
+:_b155 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b156 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b156
+:_b156 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "Pb" .
+
+
+###  http://base.uri#_b157
+:_b157 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#PbScope1Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b158
+:_b158 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CdScope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b159
+:_b159 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b160 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b16
+:_b16 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#objectMap> :_b17 ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/refersToFeature> .
+
+
+###  http://base.uri#_b160
+:_b160 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "Cd" .
+
+
+###  http://base.uri#_b161
+:_b161 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#CdScope1Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b162
+:_b162 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/HgScope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b163
+:_b163 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b164 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b164
+:_b164 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "Hg" .
+
+
+###  http://base.uri#_b165
+:_b165 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#HgScope1Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b166
+:_b166 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/AsScope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b167
+:_b167 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b168 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b168
+:_b168 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "As" .
+
+
+###  http://base.uri#_b169
+:_b169 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#AsScope1Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b17
+:_b17 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#joinCondition> :_b5 ;
+      <http://www.w3.org/ns/r2rml#parentTriplesMap> :Cell .
+
+
+###  http://base.uri#_b170
+:_b170 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CrScope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b171
+:_b171 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b172 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b172
+:_b172 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "Cr" .
+
+
+###  http://base.uri#_b173
+:_b173 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#CrScope1Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b174
+:_b174 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CuScope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b175
+:_b175 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b176 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b176
+:_b176 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "Cu" .
+
+
+###  http://base.uri#_b177
+:_b177 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#CuScope1Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b178
+:_b178 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/NiScope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b179
+:_b179 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b180 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b18
+:_b18 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+      <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+      <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/ElectricGridEnergyConsumption/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b180
+:_b180 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "Ni" .
+
+
+###  http://base.uri#_b181
+:_b181 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#NiScope1Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b182
+:_b182 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/SeScope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b183
+:_b183 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b184 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b184
+:_b184 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "Se" .
+
+
+###  http://base.uri#_b185
+:_b185 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#SeScope1Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b186
+:_b186 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/ZnScope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b187
+:_b187 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b188 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b188
+:_b188 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "Zn" .
+
+
+###  http://base.uri#_b189
+:_b189 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#ZnScope1Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b18i
+:_b18i rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b19i ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/refersToTime> .
+
+
+###  http://base.uri#_b19
+:_b19 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#objectMap> :_b20 ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b190
+:_b190 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/PCDDandPCDFScope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b191
+:_b191 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b192 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b192
+:_b192 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "DIOX" .
+
+
+###  http://base.uri#_b193
+:_b193 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#PCDDandPCDFScope1Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b194
+:_b194 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/BaPScope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b195
+:_b195 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b196 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b196
+:_b196 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "BENZO_A" .
+
+
+###  http://base.uri#_b197
+:_b197 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#BaPScope1Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b198
+:_b198 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/BbFScope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b199
+:_b199 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b200 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b19i
+:_b19i rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#joinCondition> :_b5 ;
+       <http://www.w3.org/ns/r2rml#parentTriplesMap> :Interval .
+
+
+###  http://base.uri#_b2
+:_b2 rdf:type owl:NamedIndividual ;
+     <http://www.w3.org/ns/r2rml#class> <http://w3id.org/def/usage#Cell> ;
+     <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+     <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/Cell/ZGZ-id-{ID_CELDA}" .
+
+
+###  http://base.uri#_b20
+:_b20 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+      <http://semweb.mmlab.be/ns/rml#reference> "C_ELECTRICIDAD_MIXNAC" .
+
+
+###  http://base.uri#_b200
+:_b200 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "BENZO_B" .
+
+
+###  http://base.uri#_b201
+:_b201 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#BbFScope1Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b202
+:_b202 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/IPScope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b203
+:_b203 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b204 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b204
+:_b204 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "INDENO_123" .
+
+
+###  http://base.uri#_b205
+:_b205 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#IPScope1Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b206
+:_b206 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/PAHScope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b207
+:_b207 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b208 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b208
+:_b208 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "PAH" .
+
+
+###  http://base.uri#_b209
+:_b209 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#PAHScope1Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b20s
+:_b20s rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b21s ;
+       <http://www.w3.org/ns/r2rml#predicate> <http://w3id.org/def/usage#refersToSector> .
+
+
+###  http://base.uri#_b21
+:_b21 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#ElectricGridEnergyConsumption> ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b210
+:_b210 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/HCBScope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b211
+:_b211 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b212 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b212
+:_b212 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "HCB" .
+
+
+###  http://base.uri#_b213
+:_b213 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#HCBScope1Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b214
+:_b214 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/PCBsScope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b215
+:_b215 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b216 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b216
+:_b216 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "PCBs" .
+
+
+###  http://base.uri#_b217
+:_b217 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#PCBsScope1Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b218
+:_b218 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/TotalPOPsScope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b219
+:_b219 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b220 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b21s
+:_b21s rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#IRI> ;
+       <http://semweb.mmlab.be/ns/rml#reference> "Sector" .
+
+
+###  http://base.uri#_b22
+:_b22 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+      <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+      <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/ElectricRenewableEnergyConsumption/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b220
+:_b220 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "TOTAL_POPs" .
+
+
+###  http://base.uri#_b221
+:_b221 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#TotalPOPsScope1Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b222
+:_b222 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+       <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+       <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/TotalHeavyMetalsScope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b223
+:_b223 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#objectMap> :_b224 ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b224
+:_b224 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+       <http://semweb.mmlab.be/ns/rml#reference> "TOTAL_MPESADOS" .
+
+
+###  http://base.uri#_b225
+:_b225 rdf:type owl:NamedIndividual ;
+       <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#TotalHeavyMetalsScope1Emissions> ;
+       <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b23
+:_b23 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#objectMap> :_b24 ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b24
+:_b24 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+      <http://semweb.mmlab.be/ns/rml#reference> "C_ELECTRICIDAD_GDO" .
+
+
+###  http://base.uri#_b25
+:_b25 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#ElectricRenewableEnergyConsumption> ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b26
+:_b26 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+      <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+      <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/OnSiteElectricRenewableEnergyConsumption/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b27
+:_b27 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#objectMap> :_b28 ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b28
+:_b28 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+      <http://semweb.mmlab.be/ns/rml#reference> "C_ELECTRICIDAD_RES_LOCAL" .
+
+
+###  http://base.uri#_b29
+:_b29 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#OnSiteElectricRenewableEnergyConsumption> ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b30
+:_b30 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+      <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+      <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/NaturalGasConsumption/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b31
+:_b31 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#objectMap> :_b32 ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b32
+:_b32 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+      <http://semweb.mmlab.be/ns/rml#reference> "C_GASNATURAL" .
+
+
+###  http://base.uri#_b33
+:_b33 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#NaturalGasConsumption> ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b34
+:_b34 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+      <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+      <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/LPGConsumption/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b35
+:_b35 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#objectMap> :_b36 ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b36
+:_b36 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+      <http://semweb.mmlab.be/ns/rml#reference> "C_GLP" .
+
+
+###  http://base.uri#_b37
+:_b37 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#LPGConsumption> ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b38
+:_b38 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+      <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+      <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/HeatingOilConsumption/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b39
+:_b39 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#objectMap> :_b40 ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b40
+:_b40 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+      <http://semweb.mmlab.be/ns/rml#reference> "C_GASOLEO_C" .
+
+
+###  http://base.uri#_b41
+:_b41 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#HeatingOilConsumption> ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b42
+:_b42 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+      <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+      <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/AutomotiveDieselConsumption/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b43
+:_b43 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#objectMap> :_b44 ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b44
+:_b44 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+      <http://semweb.mmlab.be/ns/rml#reference> "C_GASOLEO_A" .
+
+
+###  http://base.uri#_b45
+:_b45 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#AutomotiveDieselConsumption> ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b46
+:_b46 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+      <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+      <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/GasolineConsumption/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b47
+:_b47 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#objectMap> :_b48 ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b48
+:_b48 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+      <http://semweb.mmlab.be/ns/rml#reference> "C_GASOLINA" .
+
+
+###  http://base.uri#_b49
+:_b49 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#GasolineConsumption> ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b5
+:_b5 rdf:type owl:NamedIndividual .
+
+
+###  http://base.uri#_b50
+:_b50 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+      <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+      <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/OtherFossilFuelsConsumption/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b51
+:_b51 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#objectMap> :_b52 ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b52
+:_b52 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+      <http://semweb.mmlab.be/ns/rml#reference> "C_OTROS_FOSILES" .
+
+
+###  http://base.uri#_b53
+:_b53 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#OtherFossilFuelsConsumption> ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b54
+:_b54 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+      <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+      <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/NonRenewableBiomassConsumption/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b55
+:_b55 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#objectMap> :_b56 ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b56
+:_b56 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+      <http://semweb.mmlab.be/ns/rml#reference> "C_BIOMASA" .
+
+
+###  http://base.uri#_b57
+:_b57 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#NonRenewableBiomassConsumption> ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b58
+:_b58 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+      <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+      <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/OtherRenewableEnergyConsumption/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b59
+:_b59 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#objectMap> :_b60 ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b60
+:_b60 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+      <http://semweb.mmlab.be/ns/rml#reference> "C_OTROS_RES" .
+
+
+###  http://base.uri#_b61
+:_b61 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#OtherRenewableEnergyConsumption> ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b66
+:_b66 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+      <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+      <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CH4Scope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b67
+:_b67 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#objectMap> :_b68 ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b68
+:_b68 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+      <http://semweb.mmlab.be/ns/rml#reference> "CH4_ALC1" .
+
+
+###  http://base.uri#_b69
+:_b69 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#CH4Scope1Emissions> ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b6d
+:_b6d rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/District> ;
+      <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+      <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/District/ZGZ-id-{ID_PADRON}" .
+
+
+###  http://base.uri#_b6i
+:_b6i rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#class> <http://www.w3.org/2006/time#DateTimeInterval> ;
+      <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+      <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/Interval/ZGZ-id-{AÑO}" .
+
+
+###  http://base.uri#_b6y
+:_b6y rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#class> <http://www.w3.org/2006/time#DateTimeDescription> ;
+      <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+      <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/Year/ZGZ-id-{AÑO}" .
+
+
+###  http://base.uri#_b70
+:_b70 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+      <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+      <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/N2OScope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b71
+:_b71 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#objectMap> :_b72 ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b72
+:_b72 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+      <http://semweb.mmlab.be/ns/rml#reference> "N2O_ALC1" .
+
+
+###  http://base.uri#_b73
+:_b73 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#N2OScope1Emissions> ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b74
+:_b74 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+      <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+      <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/HFCScope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b75
+:_b75 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#objectMap> :_b76 ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b76
+:_b76 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+      <http://semweb.mmlab.be/ns/rml#reference> "HFC_ALC1" .
+
+
+###  http://base.uri#_b77
+:_b77 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#HFCScope1Emissions> ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b78
+:_b78 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+      <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+      <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/PFCScope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b79
+:_b79 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#objectMap> :_b80 ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b7d
+:_b7d rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#objectMap> :_b8d ;
+      <http://www.w3.org/ns/r2rml#predicate> rdfs:label .
+
+
+###  http://base.uri#_b7i
+:_b7i rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#objectMap> :_b8i ;
+      <http://www.w3.org/ns/r2rml#predicate> <http://www.w3.org/2006/time#hasDateTimeDescription> .
+
+
+###  http://base.uri#_b7y
+:_b7y rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#objectMap> :_b8y ;
+      <http://www.w3.org/ns/r2rml#predicate> <http://www.w3.org/2006/time#year> .
+
+
+###  http://base.uri#_b80
+:_b80 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+      <http://semweb.mmlab.be/ns/rml#reference> "PFC_ALC1" .
+
+
+###  http://base.uri#_b81
+:_b81 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#PFCScope1Emissions> ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b82
+:_b82 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+      <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+      <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/SF6Scope1Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b83
+:_b83 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#objectMap> :_b84 ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b84
+:_b84 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+      <http://semweb.mmlab.be/ns/rml#reference> "SF6_ALC1" .
+
+
+###  http://base.uri#_b85
+:_b85 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#SF6Scope1Emissions> ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b86
+:_b86 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+      <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+      <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CO2Scope2Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b87
+:_b87 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#objectMap> :_b88 ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b88
+:_b88 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+      <http://semweb.mmlab.be/ns/rml#reference> "CO2_ALC2" .
+
+
+###  http://base.uri#_b89
+:_b89 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#CO2Scope2Emissions> ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b8d
+:_b8d rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#datatype> xsd:string ;
+      <http://semweb.mmlab.be/ns/rml#reference> "NOM_DISTRITO" .
+
+
+###  http://base.uri#_b8i
+:_b8i rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#joinCondition> :_b5 ;
+      <http://www.w3.org/ns/r2rml#parentTriplesMap> :Year .
+
+
+###  http://base.uri#_b8y
+:_b8y rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#datatype> xsd:gYear ;
+      <http://semweb.mmlab.be/ns/rml#reference> "AÑO" .
+
+
+###  http://base.uri#_b9
+:_b9 rdf:type owl:NamedIndividual ;
+     <http://www.w3.org/ns/r2rml#objectMap> :b10 ;
+     <http://www.w3.org/ns/r2rml#predicate> <http://www.opengis.net/ont/geosparql#sfWithin> .
+
+
+###  http://base.uri#_b90
+:_b90 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+      <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+      <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CH4Scope2Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b91
+:_b91 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#objectMap> :_b92 ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b92
+:_b92 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+      <http://semweb.mmlab.be/ns/rml#reference> "CH4_ALC2" .
+
+
+###  http://base.uri#_b93
+:_b93 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#CH4Scope2Emissions> ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b94
+:_b94 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+      <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+      <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/N2OScope2Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b95
+:_b95 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#objectMap> :_b96 ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#_b96
+:_b96 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#datatype> xsd:float ;
+      <http://semweb.mmlab.be/ns/rml#reference> "N2O_ALC2" .
+
+
+###  http://base.uri#_b97
+:_b97 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#object> <http://w3id.org/def/usage#N2OScope2Emissions> ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/saref4city/quantifiesKPI> .
+
+
+###  http://base.uri#_b98
+:_b98 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#class> <https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> ;
+      <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/ZGZ-Transporte> ;
+      <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CO2Scope3Emissions/{Subsector}/ZGZ-id-{ID_CELDA}-y-{AÑO}" .
+
+
+###  http://base.uri#_b99
+:_b99 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#objectMap> :_b100 ;
+      <http://www.w3.org/ns/r2rml#predicate> <https://saref.etsi.org/core/hasValue> .
+
+
+###  http://base.uri#b10
+:b10 rdf:type owl:NamedIndividual ;
+     <http://www.w3.org/ns/r2rml#joinCondition> :_b5 ;
+     <http://www.w3.org/ns/r2rml#parentTriplesMap> :District .
+
+
+###  http://qudt.org/vocab/unit/TONNE
+<http://qudt.org/vocab/unit/TONNE> rdf:type owl:NamedIndividual .
+
+
+###  http://semweb.mmlab.be/ns/ql#CSV
+<http://semweb.mmlab.be/ns/ql#CSV> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#AsScope1Emissions
+<http://w3id.org/def/usage#AsScope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#AutomotiveDieselConsumption
+<http://w3id.org/def/usage#AutomotiveDieselConsumption> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#BCScope1Emissions
+<http://w3id.org/def/usage#BCScope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#BaPScope1Emissions
+<http://w3id.org/def/usage#BaPScope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#BbFScope1Emissions
+<http://w3id.org/def/usage#BbFScope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#C6H6Scope1Emissions
+<http://w3id.org/def/usage#C6H6Scope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#CH4Scope1Emissions
+<http://w3id.org/def/usage#CH4Scope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#CH4Scope2Emissions
+<http://w3id.org/def/usage#CH4Scope2Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#CH4Scope3Emissions
+<http://w3id.org/def/usage#CH4Scope3Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#CO2Scope1Emissions
+<http://w3id.org/def/usage#CO2Scope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#CO2Scope2Emissions
+<http://w3id.org/def/usage#CO2Scope2Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#CO2Scope3Emissions
+<http://w3id.org/def/usage#CO2Scope3Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#COScope1Emissions
+<http://w3id.org/def/usage#COScope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#CdScope1Emissions
+<http://w3id.org/def/usage#CdScope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#Cell
+<http://w3id.org/def/usage#Cell> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#CrScope1Emissions
+<http://w3id.org/def/usage#CrScope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#CuScope1Emissions
+<http://w3id.org/def/usage#CuScope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#ElectricGridEnergyConsumption
+<http://w3id.org/def/usage#ElectricGridEnergyConsumption> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#ElectricRenewableEnergyConsumption
+<http://w3id.org/def/usage#ElectricRenewableEnergyConsumption> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#GasolineConsumption
+<http://w3id.org/def/usage#GasolineConsumption> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#HCBScope1Emissions
+<http://w3id.org/def/usage#HCBScope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#HFCScope1Emissions
+<http://w3id.org/def/usage#HFCScope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#HeatingOilConsumption
+<http://w3id.org/def/usage#HeatingOilConsumption> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#HgScope1Emissions
+<http://w3id.org/def/usage#HgScope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#IPScope1Emissions
+<http://w3id.org/def/usage#IPScope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#LPGConsumption
+<http://w3id.org/def/usage#LPGConsumption> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#N2OScope1Emissions
+<http://w3id.org/def/usage#N2OScope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#N2OScope2Emissions
+<http://w3id.org/def/usage#N2OScope2Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#N2OScope3Emissions
+<http://w3id.org/def/usage#N2OScope3Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#NH3Scope1Emissions
+<http://w3id.org/def/usage#NH3Scope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#NMVOCScope1Emissions
+<http://w3id.org/def/usage#NMVOCScope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#NOxScope1Emissions
+<http://w3id.org/def/usage#NOxScope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#NaturalGasConsumption
+<http://w3id.org/def/usage#NaturalGasConsumption> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#NiScope1Emissions
+<http://w3id.org/def/usage#NiScope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#NonRenewableBiomassConsumption
+<http://w3id.org/def/usage#NonRenewableBiomassConsumption> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#OnSiteElectricRenewableEnergyConsumption
+<http://w3id.org/def/usage#OnSiteElectricRenewableEnergyConsumption> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#OtherFossilFuelsConsumption
+<http://w3id.org/def/usage#OtherFossilFuelsConsumption> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#OtherRenewableEnergyConsumption
+<http://w3id.org/def/usage#OtherRenewableEnergyConsumption> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#PAHScope1Emissions
+<http://w3id.org/def/usage#PAHScope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#PCBsScope1Emissions
+<http://w3id.org/def/usage#PCBsScope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#PCDDandPCDFScope1Emissions
+<http://w3id.org/def/usage#PCDDandPCDFScope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#PFCScope1Emissions
+<http://w3id.org/def/usage#PFCScope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#PM10Scope1Emissions
+<http://w3id.org/def/usage#PM10Scope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#PM2.5Scope1Emissions
+<http://w3id.org/def/usage#PM2.5Scope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#PbScope1Emissions
+<http://w3id.org/def/usage#PbScope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#SF6Scope1Emissions
+<http://w3id.org/def/usage#SF6Scope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#SO2Scope1Emissions
+<http://w3id.org/def/usage#SO2Scope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#SeScope1Emissions
+<http://w3id.org/def/usage#SeScope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#TSPScope1Emissions
+<http://w3id.org/def/usage#TSPScope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#TotalHeavyMetalsScope1Emissions
+<http://w3id.org/def/usage#TotalHeavyMetalsScope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#TotalPOPsScope1Emissions
+<http://w3id.org/def/usage#TotalPOPsScope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#VOCScope1Emissions
+<http://w3id.org/def/usage#VOCScope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#ZnScope1Emissions
+<http://w3id.org/def/usage#ZnScope1Emissions> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage#refersToSector
+<http://w3id.org/def/usage#refersToSector> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage/graph/ZGZ-Transporte
+<http://w3id.org/def/usage/graph/ZGZ-Transporte> rdf:type owl:NamedIndividual .
+
+
+###  http://www.opengis.net/ont/geosparql#sfWithin
+<http://www.opengis.net/ont/geosparql#sfWithin> rdf:type owl:NamedIndividual .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#label
+rdfs:label rdf:type owl:NamedIndividual .
+
+
+###  http://www.w3.org/2001/XMLSchema#float
+xsd:float rdf:type owl:NamedIndividual .
+
+
+###  http://www.w3.org/2001/XMLSchema#gYear
+xsd:gYear rdf:type owl:NamedIndividual .
+
+
+###  http://www.w3.org/2001/XMLSchema#string
+xsd:string rdf:type owl:NamedIndividual .
+
+
+###  http://www.w3.org/2006/time#DateTimeDescription
+<http://www.w3.org/2006/time#DateTimeDescription> rdf:type owl:NamedIndividual .
+
+
+###  http://www.w3.org/2006/time#DateTimeInterval
+<http://www.w3.org/2006/time#DateTimeInterval> rdf:type owl:NamedIndividual .
+
+
+###  http://www.w3.org/2006/time#hasDateTimeDescription
+<http://www.w3.org/2006/time#hasDateTimeDescription> rdf:type owl:NamedIndividual .
+
+
+###  http://www.w3.org/2006/time#year
+<http://www.w3.org/2006/time#year> rdf:type owl:NamedIndividual .
+
+
+###  http://www.w3.org/ns/r2rml#IRI
+<http://www.w3.org/ns/r2rml#IRI> rdf:type owl:NamedIndividual .
+
+
+###  https://saref.etsi.org/core/hasValue
+<https://saref.etsi.org/core/hasValue> rdf:type owl:NamedIndividual .
+
+
+###  https://saref.etsi.org/core/isMeasuredIn
+<https://saref.etsi.org/core/isMeasuredIn> rdf:type owl:NamedIndividual .
+
+
+###  https://saref.etsi.org/saref4city/District
+<https://saref.etsi.org/saref4city/District> rdf:type owl:NamedIndividual .
+
+
+###  https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment
+<https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment> rdf:type owl:NamedIndividual .
+
+
+###  https://saref.etsi.org/saref4city/quantifiesKPI
+<https://saref.etsi.org/saref4city/quantifiesKPI> rdf:type owl:NamedIndividual .
+
+
+###  https://saref.etsi.org/saref4city/refersToFeature
+<https://saref.etsi.org/saref4city/refersToFeature> rdf:type owl:NamedIndividual .
+
+
+###  https://saref.etsi.org/saref4city/refersToTime
+<https://saref.etsi.org/saref4city/refersToTime> rdf:type owl:NamedIndividual .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

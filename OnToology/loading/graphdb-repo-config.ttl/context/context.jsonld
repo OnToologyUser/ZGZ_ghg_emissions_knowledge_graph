@@ -1,0 +1,16 @@
+{
+  "@context" : {
+    "sailImpl" : {
+      "@id" : "http://www.openrdf.org/config/repository/sail#sailImpl"
+    },
+    "repositoryImpl" : {
+      "@id" : "http://www.openrdf.org/config/repository#repositoryImpl"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Repository" : {
+      "@id" : "http://www.openrdf.org/config/repository#Repository"
+    }
+  }
+}

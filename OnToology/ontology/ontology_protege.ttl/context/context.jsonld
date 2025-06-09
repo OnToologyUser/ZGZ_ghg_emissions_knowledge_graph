@@ -1,0 +1,322 @@
+{
+  "@context" : {
+    "versionIRI" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionIRI"
+    },
+    "isDerivedFrom" : {
+      "@id" : "https://saref.etsi.org/saref4city/isDerivedFrom",
+      "@type" : "@id"
+    },
+    "UnitOfMeasure" : {
+      "@id" : "https://saref.etsi.org/core/UnitOfMeasure"
+    },
+    "hasDimensionVector" : {
+      "@id" : "http://qudt.org/schema/qudt/hasDimensionVector"
+    },
+    "scopeNote" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#scopeNote"
+    },
+    "DateTimeDescription" : {
+      "@id" : "http://www.w3.org/2006/time#DateTimeDescription"
+    },
+    "Unit" : {
+      "@id" : "http://qudt.org/schema/qudt/Unit"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "created" : {
+      "@id" : "http://purl.org/dc/elements/1.1/created"
+    },
+    "hasTRS" : {
+      "@id" : "http://www.w3.org/2006/time#hasTRS",
+      "@type" : "@id"
+    },
+    "example" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#example"
+    },
+    "KeyPerformanceIndicatorAssessment" : {
+      "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+    },
+    "quantifiesKPI" : {
+      "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI",
+      "@type" : "@id"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/elements/1.1/license"
+    },
+    "TemporalDuration" : {
+      "@id" : "http://www.w3.org/2006/time#TemporalDuration"
+    },
+    "dayOfWeek" : {
+      "@id" : "http://www.w3.org/2006/time#dayOfWeek",
+      "@type" : "@id"
+    },
+    "hasCalculationPeriod" : {
+      "@id" : "https://saref.etsi.org/saref4city/hasCalculationPeriod",
+      "@type" : "@id"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "GeneralDateTimeDescription" : {
+      "@id" : "http://www.w3.org/2006/time#GeneralDateTimeDescription"
+    },
+    "hasExpirationDate" : {
+      "@id" : "https://saref.etsi.org/saref4city/hasExpirationDate"
+    },
+    "asWKT" : {
+      "@id" : "http://www.opengis.net/ont/geosparql#asWKT",
+      "@type" : "http://www.opengis.net/ont/geosparql#wktLiteral"
+    },
+    "Sector" : {
+      "@id" : "http://w3id.org/def/usage#Sector"
+    },
+    "udunitsCode" : {
+      "@id" : "http://qudt.org/schema/qudt/udunitsCode"
+    },
+    "FeatureOfInterest" : {
+      "@id" : "https://saref.etsi.org/core/FeatureOfInterest"
+    },
+    "District" : {
+      "@id" : "https://saref.etsi.org/saref4city/District"
+    },
+    "Geometry" : {
+      "@id" : "http://www.opengis.net/ont/geosparql#Geometry"
+    },
+    "hasValue" : {
+      "@id" : "https://saref.etsi.org/core/hasValue"
+    },
+    "Instant" : {
+      "@id" : "http://www.w3.org/2006/time#Instant"
+    },
+    "sfWithin" : {
+      "@id" : "http://www.opengis.net/ont/geosparql#sfWithin",
+      "@type" : "@id"
+    },
+    "Feature" : {
+      "@id" : "http://www.opengis.net/ont/geosparql#Feature"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "narrower" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#narrower",
+      "@type" : "@id"
+    },
+    "Concept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "second" : {
+      "@id" : "http://www.w3.org/2006/time#second"
+    },
+    "Measurement" : {
+      "@id" : "https://saref.etsi.org/core/Measurement"
+    },
+    "timeZone" : {
+      "@id" : "http://www.w3.org/2006/time#timeZone",
+      "@type" : "@id"
+    },
+    "refersToFeature" : {
+      "@id" : "https://saref.etsi.org/saref4city/refersToFeature",
+      "@type" : "@id"
+    },
+    "exactMatch" : {
+      "@id" : "http://qudt.org/schema/qudt/exactMatch"
+    },
+    "hour" : {
+      "@id" : "http://www.w3.org/2006/time#hour"
+    },
+    "note" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#note"
+    },
+    "DateTimeInterval" : {
+      "@id" : "http://www.w3.org/2006/time#DateTimeInterval"
+    },
+    "Interval" : {
+      "@id" : "http://www.w3.org/2006/time#Interval"
+    },
+    "uneceCommonCode" : {
+      "@id" : "http://qudt.org/schema/qudt/uneceCommonCode"
+    },
+    "TemporalPosition" : {
+      "@id" : "http://www.w3.org/2006/time#TemporalPosition"
+    },
+    "Agent" : {
+      "@id" : "https://saref.etsi.org/saref4city/Agent"
+    },
+    "monthOfYear" : {
+      "@id" : "http://www.w3.org/2006/time#monthOfYear",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "hasSerialization" : {
+      "@id" : "http://www.opengis.net/ont/geosparql#hasSerialization"
+    },
+    "createdWith" : {
+      "@id" : "https://w3id.org/mod#createdWith"
+    },
+    "TemporalEntity" : {
+      "@id" : "http://www.w3.org/2006/time#TemporalEntity"
+    },
+    "ProperInterval" : {
+      "@id" : "http://www.w3.org/2006/time#ProperInterval"
+    },
+    "week" : {
+      "@id" : "http://www.w3.org/2006/time#week"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "symbol" : {
+      "@id" : "http://qudt.org/schema/qudt/symbol"
+    },
+    "hasDateTimeDescription" : {
+      "@id" : "http://www.w3.org/2006/time#hasDateTimeDescription",
+      "@type" : "@id"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "Point" : {
+      "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#Point"
+    },
+    "KeyPerformanceIndicator" : {
+      "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicator"
+    },
+    "definition" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "refersToSector" : {
+      "@id" : "http://w3id.org/def/usage#refersToSector",
+      "@type" : "@id"
+    },
+    "narrowerTransitive" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#narrowerTransitive",
+      "@type" : "@id"
+    },
+    "applicableSystem" : {
+      "@id" : "http://qudt.org/schema/qudt/applicableSystem"
+    },
+    "ConceptScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    },
+    "hasGeometry" : {
+      "@id" : "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "@type" : "@id"
+    },
+    "Property" : {
+      "@id" : "https://saref.etsi.org/core/Property"
+    },
+    "sfContains" : {
+      "@id" : "http://www.opengis.net/ont/geosparql#sfContains",
+      "@type" : "@id"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "year" : {
+      "@id" : "http://www.w3.org/2006/time#year",
+      "@type" : "http://www.w3.org/2001/XMLSchema#gYear"
+    },
+    "conversionMultiplier" : {
+      "@id" : "http://qudt.org/schema/qudt/conversionMultiplier"
+    },
+    "isMeasuredIn" : {
+      "@id" : "https://saref.etsi.org/core/isMeasuredIn",
+      "@type" : "@id"
+    },
+    "SpatialObject" : {
+      "@id" : "http://www.opengis.net/ont/geosparql#SpatialObject"
+    },
+    "siExactMatch" : {
+      "@id" : "http://qudt.org/schema/qudt/siExactMatch"
+    },
+    "hasLastUpdateDate" : {
+      "@id" : "https://saref.etsi.org/saref4city/hasLastUpdateDate"
+    },
+    "minute" : {
+      "@id" : "http://www.w3.org/2006/time#minute"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "isAssessedBy" : {
+      "@id" : "https://saref.etsi.org/saref4city/isAssessedBy",
+      "@type" : "@id"
+    },
+    "hasCreationDate" : {
+      "@id" : "https://saref.etsi.org/saref4city/hasCreationDate"
+    },
+    "broaderTransitive" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+      "@type" : "@id"
+    },
+    "Cell" : {
+      "@id" : "http://w3id.org/def/usage#Cell"
+    },
+    "City" : {
+      "@id" : "https://saref.etsi.org/saref4city/City"
+    },
+    "ucumCode" : {
+      "@id" : "http://qudt.org/schema/qudt/ucumCode"
+    },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "refersToTime" : {
+      "@id" : "https://saref.etsi.org/saref4city/refersToTime",
+      "@type" : "@id"
+    },
+    "month" : {
+      "@id" : "http://www.w3.org/2006/time#month"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "day" : {
+      "@id" : "http://www.w3.org/2006/time#day"
+    },
+    "conversionMultiplierSN" : {
+      "@id" : "http://qudt.org/schema/qudt/conversionMultiplierSN"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/elements/1.1/contributor"
+    },
+    "AdministrativeArea" : {
+      "@id" : "https://saref.etsi.org/saref4city/AdministrativeArea"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "plainTextDescription" : {
+      "@id" : "http://qudt.org/schema/qudt/plainTextDescription"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "assesses" : {
+      "@id" : "https://saref.etsi.org/saref4city/assesses",
+      "@type" : "@id"
+    },
+    "hasQuantityKind" : {
+      "@id" : "http://qudt.org/schema/qudt/hasQuantityKind"
+    },
+    "Collection" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Collection"
+    },
+    "unitType" : {
+      "@id" : "http://www.w3.org/2006/time#unitType",
+      "@type" : "@id"
+    },
+    "dayOfYear" : {
+      "@id" : "http://www.w3.org/2006/time#dayOfYear"
+    }
+  }
+}

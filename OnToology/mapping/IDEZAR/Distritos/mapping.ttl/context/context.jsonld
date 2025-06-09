@@ -1,0 +1,72 @@
+{
+  "@context" : {
+    "referenceFormulation" : {
+      "@id" : "http://semweb.mmlab.be/ns/rml#referenceFormulation",
+      "@type" : "@id"
+    },
+    "subjectMap" : {
+      "@id" : "http://www.w3.org/ns/r2rml#subjectMap",
+      "@type" : "@id"
+    },
+    "TriplesMap" : {
+      "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+    },
+    "objectMap" : {
+      "@id" : "http://www.w3.org/ns/r2rml#objectMap",
+      "@type" : "@id"
+    },
+    "predicateObjectMap" : {
+      "@id" : "http://www.w3.org/ns/r2rml#predicateObjectMap",
+      "@type" : "@id"
+    },
+    "graph" : {
+      "@id" : "http://www.w3.org/ns/r2rml#graph",
+      "@type" : "@id"
+    },
+    "class" : {
+      "@id" : "http://www.w3.org/ns/r2rml#class",
+      "@type" : "@id"
+    },
+    "child" : {
+      "@id" : "http://www.w3.org/ns/r2rml#child"
+    },
+    "joinCondition" : {
+      "@id" : "http://www.w3.org/ns/r2rml#joinCondition",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "parent" : {
+      "@id" : "http://www.w3.org/ns/r2rml#parent"
+    },
+    "createdWith" : {
+      "@id" : "https://w3id.org/mod#createdWith"
+    },
+    "reference" : {
+      "@id" : "http://semweb.mmlab.be/ns/rml#reference"
+    },
+    "source" : {
+      "@id" : "http://semweb.mmlab.be/ns/rml#source"
+    },
+    "template" : {
+      "@id" : "http://www.w3.org/ns/r2rml#template"
+    },
+    "predicate" : {
+      "@id" : "http://www.w3.org/ns/r2rml#predicate",
+      "@type" : "@id"
+    },
+    "datatype" : {
+      "@id" : "http://www.w3.org/ns/r2rml#datatype",
+      "@type" : "@id"
+    },
+    "logicalSource" : {
+      "@id" : "http://semweb.mmlab.be/ns/rml#logicalSource",
+      "@type" : "@id"
+    },
+    "parentTriplesMap" : {
+      "@id" : "http://www.w3.org/ns/r2rml#parentTriplesMap",
+      "@type" : "@id"
+    }
+  }
+}

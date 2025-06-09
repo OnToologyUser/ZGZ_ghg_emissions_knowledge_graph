@@ -1,0 +1,157 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "_:genid2",
+  "http://www.openrdf.org/config/repository#repositoryID" : [ {
+    "@value" : "USAGE-LD"
+  } ],
+  "http://www.openrdf.org/config/repository#repositoryImpl" : [ {
+    "@id" : "_:genid3"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.openrdf.org/config/repository#Repository"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Demo repository"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "http://www.openrdf.org/config/repository#repositoryType" : [ {
+    "@value" : "graphdb:SailRepository"
+  } ],
+  "http://www.openrdf.org/config/repository/sail#sailImpl" : [ {
+    "@id" : "_:genid4"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "http://www.ontotext.com/config/graphdb#base-URL" : [ {
+    "@value" : "http://example.org/owlim#"
+  } ],
+  "http://www.ontotext.com/config/graphdb#check-for-inconsistencies" : [ {
+    "@value" : "true"
+  } ],
+  "http://www.ontotext.com/config/graphdb#defaultNS" : [ {
+    "@value" : ""
+  } ],
+  "http://www.ontotext.com/config/graphdb#disable-sameAs" : [ {
+    "@value" : "false"
+  } ],
+  "http://www.ontotext.com/config/graphdb#enable-context-index" : [ {
+    "@value" : "false"
+  } ],
+  "http://www.ontotext.com/config/graphdb#enable-literal-index" : [ {
+    "@value" : "true"
+  } ],
+  "http://www.ontotext.com/config/graphdb#enablePredicateList" : [ {
+    "@value" : "true"
+  } ],
+  "http://www.ontotext.com/config/graphdb#entity-id-size" : [ {
+    "@value" : "32"
+  } ],
+  "http://www.ontotext.com/config/graphdb#entity-index-size" : [ {
+    "@value" : "10000000"
+  } ],
+  "http://www.ontotext.com/config/graphdb#imports" : [ {
+    "@value" : ""
+  } ],
+  "http://www.ontotext.com/config/graphdb#in-memory-literal-properties" : [ {
+    "@value" : "true"
+  } ],
+  "http://www.ontotext.com/config/graphdb#query-limit-results" : [ {
+    "@value" : "0"
+  } ],
+  "http://www.ontotext.com/config/graphdb#query-timeout" : [ {
+    "@value" : "0"
+  } ],
+  "http://www.ontotext.com/config/graphdb#read-only" : [ {
+    "@value" : "false"
+  } ],
+  "http://www.ontotext.com/config/graphdb#repository-type" : [ {
+    "@value" : "file-repository"
+  } ],
+  "http://www.ontotext.com/config/graphdb#ruleset" : [ {
+    "@value" : "owl2-rl-optimized"
+  } ],
+  "http://www.ontotext.com/config/graphdb#storage-folder" : [ {
+    "@value" : "storage"
+  } ],
+  "http://www.ontotext.com/config/graphdb#throw-QueryEvaluationException-on-timeout" : [ {
+    "@value" : "false"
+  } ],
+  "http://www.openrdf.org/config/sail#sailType" : [ {
+    "@value" : "graphdb:Sail"
+  } ]
+}, {
+  "@id" : "http://www.ontotext.com/config/graphdb#base-URL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.ontotext.com/config/graphdb#check-for-inconsistencies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.ontotext.com/config/graphdb#defaultNS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.ontotext.com/config/graphdb#disable-sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.ontotext.com/config/graphdb#enable-context-index",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.ontotext.com/config/graphdb#enable-literal-index",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.ontotext.com/config/graphdb#enablePredicateList",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.ontotext.com/config/graphdb#entity-id-size",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.ontotext.com/config/graphdb#entity-index-size",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.ontotext.com/config/graphdb#imports",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.ontotext.com/config/graphdb#in-memory-literal-properties",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.ontotext.com/config/graphdb#query-limit-results",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.ontotext.com/config/graphdb#query-timeout",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.ontotext.com/config/graphdb#read-only",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.ontotext.com/config/graphdb#repository-type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.ontotext.com/config/graphdb#ruleset",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.ontotext.com/config/graphdb#storage-folder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.ontotext.com/config/graphdb#throw-QueryEvaluationException-on-timeout",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.openrdf.org/config/repository#Repository",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.openrdf.org/config/repository#repositoryID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.openrdf.org/config/repository#repositoryImpl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.openrdf.org/config/repository#repositoryType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.openrdf.org/config/repository/sail#sailImpl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.openrdf.org/config/sail#sailType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

@@ -1,0 +1,276 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://base.uri#"
+     xml:base="http://base.uri"
+     xmlns:mod="https://w3id.org/mod#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rml="http://semweb.mmlab.be/ns/rml#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:r2rml="http://www.w3.org/ns/r2rml#">
+    <owl:Ontology rdf:about="http://base.uri#">
+        <mod:createdWith rdf:resource="https://chowlk.linkeddata.es/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/mod#createdWith -->
+
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/mod#createdWith"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://semweb.mmlab.be/ns/rml#logicalSource -->
+
+
+    <owl:ObjectProperty rdf:about="http://semweb.mmlab.be/ns/rml#logicalSource">
+        <rdfs:label>logical source</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://semweb.mmlab.be/ns/rml#referenceFormulation -->
+
+
+    <owl:ObjectProperty rdf:about="http://semweb.mmlab.be/ns/rml#referenceFormulation">
+        <rdfs:label>reference formulation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#graph -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/r2rml#graph">
+        <rdfs:label>graph</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#objectMap -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/r2rml#objectMap">
+        <rdfs:label>object map</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#predicate -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/r2rml#predicate">
+        <rdfs:label>predicate</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#predicateObjectMap -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/r2rml#predicateObjectMap">
+        <rdfs:label>predicate object map</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#subjectMap -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/r2rml#subjectMap">
+        <rdfs:label>subject map</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#termType -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/r2rml#termType">
+        <rdfs:label>term type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://semweb.mmlab.be/ns/rml#reference -->
+
+
+    <owl:DatatypeProperty rdf:about="http://semweb.mmlab.be/ns/rml#reference">
+        <rdfs:label>reference</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://semweb.mmlab.be/ns/rml#source -->
+
+
+    <owl:DatatypeProperty rdf:about="http://semweb.mmlab.be/ns/rml#source">
+        <rdfs:label>source</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#template -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/ns/r2rml#template">
+        <rdfs:label>template</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#TriplesMap -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/r2rml#TriplesMap">
+        <rdfs:label>Triples Map</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://base.uri#District -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#District">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b5"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b7"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b11 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b11">
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+        <rml:reference>wikidata</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b5 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b5">
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>./data/IDEZAR/Distritos/linked/distritos.csv</rml:source>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b6 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b6">
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/IDEZAR"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/District/IDEZAR-id-{OBJECTID}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b7 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b7">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b11"/>
+        <r2rml:predicate rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://semweb.mmlab.be/ns/ql#CSV -->
+
+
+    <owl:NamedIndividual rdf:about="http://semweb.mmlab.be/ns/ql#CSV"/>
+    
+
+
+    <!-- http://w3id.org/def/usage/graph/IDEZAR -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage/graph/IDEZAR"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#sameAs -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2002/07/owl#sameAs"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#IRI -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/ns/r2rml#IRI"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

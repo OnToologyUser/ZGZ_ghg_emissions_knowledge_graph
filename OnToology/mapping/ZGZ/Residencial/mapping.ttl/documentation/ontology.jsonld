@@ -1,0 +1,3917 @@
+[ {
+  "@id" : "http://base.uri#",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "https://w3id.org/mod#createdWith" : [ {
+    "@id" : "https://chowlk.linkeddata.es/"
+  } ]
+}, {
+  "@id" : "http://base.uri#As",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b167"
+  }, {
+    "@id" : "http://base.uri#_b169"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b166"
+  } ]
+}, {
+  "@id" : "http://base.uri#BC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b147"
+  }, {
+    "@id" : "http://base.uri#_b149"
+  }, {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b146"
+  } ]
+}, {
+  "@id" : "http://base.uri#BENZO_A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b195"
+  }, {
+    "@id" : "http://base.uri#_b197"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b194"
+  } ]
+}, {
+  "@id" : "http://base.uri#BENZO_B",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b199"
+  }, {
+    "@id" : "http://base.uri#_b201"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b198"
+  } ]
+}, {
+  "@id" : "http://base.uri#C6H6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b151"
+  }, {
+    "@id" : "http://base.uri#_b153"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b150"
+  } ]
+}, {
+  "@id" : "http://base.uri#CH4_ALC1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  }, {
+    "@id" : "http://base.uri#_b67"
+  }, {
+    "@id" : "http://base.uri#_b69"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b66"
+  } ]
+}, {
+  "@id" : "http://base.uri#CH4_ALC2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  }, {
+    "@id" : "http://base.uri#_b91"
+  }, {
+    "@id" : "http://base.uri#_b93"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b90"
+  } ]
+}, {
+  "@id" : "http://base.uri#CH4_ALC3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b103"
+  }, {
+    "@id" : "http://base.uri#_b105"
+  }, {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b102"
+  } ]
+}, {
+  "@id" : "http://base.uri#CO",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b115"
+  }, {
+    "@id" : "http://base.uri#_b117"
+  }, {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b114"
+  } ]
+}, {
+  "@id" : "http://base.uri#CO2_ALC1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b12"
+  }, {
+    "@id" : "http://base.uri#_b14"
+  }, {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b11"
+  } ]
+}, {
+  "@id" : "http://base.uri#CO2_ALC2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  }, {
+    "@id" : "http://base.uri#_b87"
+  }, {
+    "@id" : "http://base.uri#_b89"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b86"
+  } ]
+}, {
+  "@id" : "http://base.uri#CO2_ALC3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b101"
+  }, {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  }, {
+    "@id" : "http://base.uri#_b99"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b98"
+  } ]
+}, {
+  "@id" : "http://base.uri#COV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b123"
+  }, {
+    "@id" : "http://base.uri#_b125"
+  }, {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b122"
+  } ]
+}, {
+  "@id" : "http://base.uri#COVNM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b127"
+  }, {
+    "@id" : "http://base.uri#_b129"
+  }, {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b126"
+  } ]
+}, {
+  "@id" : "http://base.uri#C_BIOMASA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  }, {
+    "@id" : "http://base.uri#_b55"
+  }, {
+    "@id" : "http://base.uri#_b57"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b54"
+  } ]
+}, {
+  "@id" : "http://base.uri#C_ELECTRICIDAD_GDO",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  }, {
+    "@id" : "http://base.uri#_b23"
+  }, {
+    "@id" : "http://base.uri#_b25"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b22"
+  } ]
+}, {
+  "@id" : "http://base.uri#C_ELECTRICIDAD_MIXNAC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b19"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  }, {
+    "@id" : "http://base.uri#_b21"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b18"
+  } ]
+}, {
+  "@id" : "http://base.uri#C_ELECTRICIDAD_RES_LOCAL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  }, {
+    "@id" : "http://base.uri#_b27"
+  }, {
+    "@id" : "http://base.uri#_b29"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b26"
+  } ]
+}, {
+  "@id" : "http://base.uri#C_GASNATURAL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  }, {
+    "@id" : "http://base.uri#_b31"
+  }, {
+    "@id" : "http://base.uri#_b33"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b30"
+  } ]
+}, {
+  "@id" : "http://base.uri#C_GASOLEO_A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  }, {
+    "@id" : "http://base.uri#_b43"
+  }, {
+    "@id" : "http://base.uri#_b45"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b42"
+  } ]
+}, {
+  "@id" : "http://base.uri#C_GASOLEO_C",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  }, {
+    "@id" : "http://base.uri#_b39"
+  }, {
+    "@id" : "http://base.uri#_b41"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b38"
+  } ]
+}, {
+  "@id" : "http://base.uri#C_GASOLINA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  }, {
+    "@id" : "http://base.uri#_b47"
+  }, {
+    "@id" : "http://base.uri#_b49"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b46"
+  } ]
+}, {
+  "@id" : "http://base.uri#C_GLP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  }, {
+    "@id" : "http://base.uri#_b35"
+  }, {
+    "@id" : "http://base.uri#_b37"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b34"
+  } ]
+}, {
+  "@id" : "http://base.uri#C_OTROS_FOSILES",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  }, {
+    "@id" : "http://base.uri#_b51"
+  }, {
+    "@id" : "http://base.uri#_b53"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b50"
+  } ]
+}, {
+  "@id" : "http://base.uri#C_OTROS_RES",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  }, {
+    "@id" : "http://base.uri#_b59"
+  }, {
+    "@id" : "http://base.uri#_b61"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b58"
+  } ]
+}, {
+  "@id" : "http://base.uri#Cd",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b159"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b161"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b158"
+  } ]
+}, {
+  "@id" : "http://base.uri#Cell",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b9"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b2"
+  } ]
+}, {
+  "@id" : "http://base.uri#Cr",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b171"
+  }, {
+    "@id" : "http://base.uri#_b173"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b170"
+  } ]
+}, {
+  "@id" : "http://base.uri#Cu",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b175"
+  }, {
+    "@id" : "http://base.uri#_b177"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b174"
+  } ]
+}, {
+  "@id" : "http://base.uri#DIOX",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b191"
+  }, {
+    "@id" : "http://base.uri#_b193"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b190"
+  } ]
+}, {
+  "@id" : "http://base.uri#District",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b7d"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b6d"
+  } ]
+}, {
+  "@id" : "http://base.uri#HCB",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  }, {
+    "@id" : "http://base.uri#_b211"
+  }, {
+    "@id" : "http://base.uri#_b213"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b210"
+  } ]
+}, {
+  "@id" : "http://base.uri#HFC_ALC1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  }, {
+    "@id" : "http://base.uri#_b75"
+  }, {
+    "@id" : "http://base.uri#_b77"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b74"
+  } ]
+}, {
+  "@id" : "http://base.uri#Hg",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b163"
+  }, {
+    "@id" : "http://base.uri#_b165"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b162"
+  } ]
+}, {
+  "@id" : "http://base.uri#INDENO_123",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b203"
+  }, {
+    "@id" : "http://base.uri#_b205"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b202"
+  } ]
+}, {
+  "@id" : "http://base.uri#Interval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b7i"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b6i"
+  } ]
+}, {
+  "@id" : "http://base.uri#N2O_ALC1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  }, {
+    "@id" : "http://base.uri#_b71"
+  }, {
+    "@id" : "http://base.uri#_b73"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b70"
+  } ]
+}, {
+  "@id" : "http://base.uri#N2O_ALC2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  }, {
+    "@id" : "http://base.uri#_b95"
+  }, {
+    "@id" : "http://base.uri#_b97"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b94"
+  } ]
+}, {
+  "@id" : "http://base.uri#N2O_ALC3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b107"
+  }, {
+    "@id" : "http://base.uri#_b109"
+  }, {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b106"
+  } ]
+}, {
+  "@id" : "http://base.uri#NH3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b131"
+  }, {
+    "@id" : "http://base.uri#_b133"
+  }, {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b130"
+  } ]
+}, {
+  "@id" : "http://base.uri#NOx",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b111"
+  }, {
+    "@id" : "http://base.uri#_b113"
+  }, {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b110"
+  } ]
+}, {
+  "@id" : "http://base.uri#Ni",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b179"
+  }, {
+    "@id" : "http://base.uri#_b181"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b178"
+  } ]
+}, {
+  "@id" : "http://base.uri#PAH",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b207"
+  }, {
+    "@id" : "http://base.uri#_b209"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b206"
+  } ]
+}, {
+  "@id" : "http://base.uri#PCBs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  }, {
+    "@id" : "http://base.uri#_b215"
+  }, {
+    "@id" : "http://base.uri#_b217"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b214"
+  } ]
+}, {
+  "@id" : "http://base.uri#PFC_ALC1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  }, {
+    "@id" : "http://base.uri#_b79"
+  }, {
+    "@id" : "http://base.uri#_b81"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b78"
+  } ]
+}, {
+  "@id" : "http://base.uri#PM10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b139"
+  }, {
+    "@id" : "http://base.uri#_b141"
+  }, {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b138"
+  } ]
+}, {
+  "@id" : "http://base.uri#PM2.5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b135"
+  }, {
+    "@id" : "http://base.uri#_b137"
+  }, {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b134"
+  } ]
+}, {
+  "@id" : "http://base.uri#Pb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b155"
+  }, {
+    "@id" : "http://base.uri#_b157"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b154"
+  } ]
+}, {
+  "@id" : "http://base.uri#SF6_ALC1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  }, {
+    "@id" : "http://base.uri#_b83"
+  }, {
+    "@id" : "http://base.uri#_b85"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b82"
+  } ]
+}, {
+  "@id" : "http://base.uri#SO2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b119"
+  }, {
+    "@id" : "http://base.uri#_b121"
+  }, {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b118"
+  } ]
+}, {
+  "@id" : "http://base.uri#Se",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b183"
+  }, {
+    "@id" : "http://base.uri#_b185"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b182"
+  } ]
+}, {
+  "@id" : "http://base.uri#TOTAL_MPESADOS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  }, {
+    "@id" : "http://base.uri#_b223"
+  }, {
+    "@id" : "http://base.uri#_b225"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b222"
+  } ]
+}, {
+  "@id" : "http://base.uri#TOTAL_POPs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  }, {
+    "@id" : "http://base.uri#_b219"
+  }, {
+    "@id" : "http://base.uri#_b221"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b218"
+  } ]
+}, {
+  "@id" : "http://base.uri#TSP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b143"
+  }, {
+    "@id" : "http://base.uri#_b145"
+  }, {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b142"
+  } ]
+}, {
+  "@id" : "http://base.uri#Year",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b7y"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b6y"
+  } ]
+}, {
+  "@id" : "http://base.uri#Zn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#logicalSource" : [ {
+    "@id" : "http://base.uri#_b1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#TriplesMap"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicateObjectMap" : [ {
+    "@id" : "http://base.uri#_b15"
+  }, {
+    "@id" : "http://base.uri#_b16"
+  }, {
+    "@id" : "http://base.uri#_b187"
+  }, {
+    "@id" : "http://base.uri#_b189"
+  }, {
+    "@id" : "http://base.uri#_b18i"
+  }, {
+    "@id" : "http://base.uri#_b20s"
+  } ],
+  "http://www.w3.org/ns/r2rml#subjectMap" : [ {
+    "@id" : "http://base.uri#_b186"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#referenceFormulation" : [ {
+    "@id" : "http://semweb.mmlab.be/ns/ql#CSV"
+  } ],
+  "http://semweb.mmlab.be/ns/rml#source" : [ {
+    "@value" : "./data/ZGZ/Residencial/refined/01-BBDD-EnerEst-EResidenciales-2021-v001-refined.csv"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b100",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "CO2_ALC3"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#CO2Scope3Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b102",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CH4Scope3Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b103",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b104"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b104",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "CH4_ALC3"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b105",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#CH4Scope3Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b106",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/N2OScope3Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b107",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b108"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b108",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "N2O_ALC3"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b109",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#N2OScope3Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CO2Scope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b110",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/NOxScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b111",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b112"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b112",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "NOx"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b113",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#NOxScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b114",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/COScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b115",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b116"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b116",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "CO"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b117",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#COScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b118",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/SO2Scope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b119",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b120"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b13"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b120",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "SO2"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b121",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#SO2Scope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b122",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/VOCScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b123",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b124"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b124",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "COV"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b125",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#VOCScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b126",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/NMVOCScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b127",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b128"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b128",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "COVNM"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b129",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#NMVOCScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "CO2_ALC1"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b130",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/NH3Scope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b131",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b132"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b132",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "NH3"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b133",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#NH3Scope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b134",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/PM2.5Scope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b135",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b136"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b136",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "PM2.5"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b137",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#PM2.5Scope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b138",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/PM10Scope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b139",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b140"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#CO2Scope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b140",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "PM10"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b141",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#PM10Scope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b142",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/TSPScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b143",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b144"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b144",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "TSP"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b145",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#TSPScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b146",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/BCScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b147",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b148"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b148",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "BC"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b149",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#BCScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://qudt.org/vocab/unit/TONNE"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/isMeasuredIn"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b150",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/C6H6Scope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b151",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b152"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b152",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "C6H6"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b153",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#C6H6Scope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b154",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/PbScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b155",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b156"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b156",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "Pb"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b157",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#PbScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b158",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CdScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b159",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b160"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b17"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/refersToFeature"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b160",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "Cd"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b161",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#CdScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b162",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/HgScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b163",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b164"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b164",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "Hg"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b165",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#HgScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b166",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/AsScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b167",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b168"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b168",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "As"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b169",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#AsScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#joinCondition" : [ {
+    "@id" : "http://base.uri#_b5"
+  } ],
+  "http://www.w3.org/ns/r2rml#parentTriplesMap" : [ {
+    "@id" : "http://base.uri#Cell"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b170",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CrScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b171",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b172"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b172",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "Cr"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b173",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#CrScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b174",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CuScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b175",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b176"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b176",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "Cu"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b177",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#CuScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b178",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/NiScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b179",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b180"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/ElectricGridEnergyConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b180",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "Ni"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b181",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#NiScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b182",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/SeScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b183",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b184"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b184",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "Se"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b185",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#SeScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b186",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/ZnScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b187",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b188"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b188",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "Zn"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b189",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#ZnScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b18i",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b19i"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/refersToTime"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b20"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b190",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/PCDDandPCDFScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b191",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b192"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b192",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "DIOX"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b193",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#PCDDandPCDFScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b194",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/BaPScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b195",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b196"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b196",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "BENZO_A"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b197",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#BaPScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b198",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/BbFScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b199",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b200"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b19i",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#joinCondition" : [ {
+    "@id" : "http://base.uri#_b5"
+  } ],
+  "http://www.w3.org/ns/r2rml#parentTriplesMap" : [ {
+    "@id" : "http://base.uri#Interval"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "http://w3id.org/def/usage#Cell"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/Cell/ZGZ-id-{ID_CELDA}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "C_ELECTRICIDAD_MIXNAC"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b200",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "BENZO_B"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b201",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#BbFScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b202",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/IPScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b203",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b204"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b204",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "INDENO_123"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b205",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#IPScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b206",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/PAHScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b207",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b208"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b208",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "PAH"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b209",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#PAHScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b20s",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b21s"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "http://w3id.org/def/usage#refersToSector"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#ElectricGridEnergyConsumption"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b210",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/HCBScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b211",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b212"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b212",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "HCB"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b213",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#HCBScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b214",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/PCBsScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b215",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b216"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b216",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "PCBs"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b217",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#PCBsScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b218",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/TotalPOPsScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b219",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b220"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b21s",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "Sector"
+  } ],
+  "http://www.w3.org/ns/r2rml#termType" : [ {
+    "@id" : "http://www.w3.org/ns/r2rml#IRI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/ElectricRenewableEnergyConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b220",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "TOTAL_POPs"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b221",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#TotalPOPsScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b222",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/TotalHeavyMetalsScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b223",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b224"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b224",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "TOTAL_MPESADOS"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b225",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#TotalHeavyMetalsScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b24"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "C_ELECTRICIDAD_GDO"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#ElectricRenewableEnergyConsumption"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/OnSiteElectricRenewableEnergyConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b28"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "C_ELECTRICIDAD_RES_LOCAL"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#OnSiteElectricRenewableEnergyConsumption"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/NaturalGasConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b32"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "C_GASNATURAL"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#NaturalGasConsumption"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/LPGConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b36"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b36",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "C_GLP"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#LPGConsumption"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b38",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/HeatingOilConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b40"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "C_GASOLEO_C"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b41",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#HeatingOilConsumption"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b42",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/AutomotiveDieselConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b44"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b44",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "C_GASOLEO_A"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b45",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#AutomotiveDieselConsumption"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b46",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/GasolineConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b48"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b48",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "C_GASOLINA"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b49",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#GasolineConsumption"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://base.uri#_b50",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/OtherFossilFuelsConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b51",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b52"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b52",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "C_OTROS_FOSILES"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b53",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#OtherFossilFuelsConsumption"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b54",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/NonRenewableBiomassConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b55",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b56"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b56",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "C_BIOMASA"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b57",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#NonRenewableBiomassConsumption"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b58",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/OtherRenewableEnergyConsumption/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b59",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b60"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b60",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "C_OTROS_RES"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b61",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#OtherRenewableEnergyConsumption"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b66",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CH4Scope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b67",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b68"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b68",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "CH4_ALC1"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b69",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#CH4Scope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b6d",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/District"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/District/ZGZ-id-{ID_PADRON}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b6i",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "http://www.w3.org/2006/time#DateTimeInterval"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/Interval/ZGZ-id-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b6y",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "http://www.w3.org/2006/time#DateTimeDescription"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/Year/ZGZ-id-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b70",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/N2OScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b71",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b72"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b72",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "N2O_ALC1"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b73",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#N2OScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b74",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/HFCScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b75",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b76"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b76",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "HFC_ALC1"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b77",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#HFCScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b78",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/PFCScope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b79",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b80"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b7d",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b8d"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b7i",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b8i"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#hasDateTimeDescription"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b7y",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b8y"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "http://www.w3.org/2006/time#year"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b80",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "PFC_ALC1"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b81",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#PFCScope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b82",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/SF6Scope1Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b83",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b84"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b84",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "SF6_ALC1"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b85",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#SF6Scope1Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b86",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CO2Scope2Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b87",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b88"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b88",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "CO2_ALC2"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b89",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#CO2Scope2Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b8d",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "NOM_DISTRITO"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b8i",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#joinCondition" : [ {
+    "@id" : "http://base.uri#_b5"
+  } ],
+  "http://www.w3.org/ns/r2rml#parentTriplesMap" : [ {
+    "@id" : "http://base.uri#Year"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b8y",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "AÑO"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#gYear"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#b10"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "http://www.opengis.net/ont/geosparql#sfWithin"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b90",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CH4Scope2Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b91",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b92"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b92",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "CH4_ALC2"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b93",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#CH4Scope2Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b94",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/N2OScope2Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b95",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b96"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b96",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://semweb.mmlab.be/ns/rml#reference" : [ {
+    "@value" : "N2O_ALC2"
+  } ],
+  "http://www.w3.org/ns/r2rml#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b97",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#object" : [ {
+    "@id" : "http://w3id.org/def/usage#N2OScope2Emissions"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b98",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#class" : [ {
+    "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"
+  } ],
+  "http://www.w3.org/ns/r2rml#graph" : [ {
+    "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial"
+  } ],
+  "http://www.w3.org/ns/r2rml#template" : [ {
+    "@value" : "http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CO2Scope3Emissions/ResidentialBuildings/ZGZ-id-{ID_CELDA}-y-{AÑO}"
+  } ]
+}, {
+  "@id" : "http://base.uri#_b99",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#objectMap" : [ {
+    "@id" : "http://base.uri#_b100"
+  } ],
+  "http://www.w3.org/ns/r2rml#predicate" : [ {
+    "@id" : "https://saref.etsi.org/core/hasValue"
+  } ]
+}, {
+  "@id" : "http://base.uri#b10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/ns/r2rml#joinCondition" : [ {
+    "@id" : "http://base.uri#_b5"
+  } ],
+  "http://www.w3.org/ns/r2rml#parentTriplesMap" : [ {
+    "@id" : "http://base.uri#District"
+  } ]
+}, {
+  "@id" : "http://qudt.org/vocab/unit/TONNE",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://semweb.mmlab.be/ns/ql#CSV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://semweb.mmlab.be/ns/rml#logicalSource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "logical source"
+  } ]
+}, {
+  "@id" : "http://semweb.mmlab.be/ns/rml#reference",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "reference"
+  } ]
+}, {
+  "@id" : "http://semweb.mmlab.be/ns/rml#referenceFormulation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "reference formulation"
+  } ]
+}, {
+  "@id" : "http://semweb.mmlab.be/ns/rml#source",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "source"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/usage#AsScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#AutomotiveDieselConsumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#BCScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#BaPScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#BbFScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#C6H6Scope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#CH4Scope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#CH4Scope2Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#CH4Scope3Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#CO2Scope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#CO2Scope2Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#CO2Scope3Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#COScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#CdScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#Cell",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#CrScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#CuScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#ElectricGridEnergyConsumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#ElectricRenewableEnergyConsumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#GasolineConsumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#HCBScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#HFCScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#HeatingOilConsumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#HgScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#IPScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#LPGConsumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#N2OScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#N2OScope2Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#N2OScope3Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#NH3Scope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#NMVOCScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#NOxScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#NaturalGasConsumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#NiScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#NonRenewableBiomassConsumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#OnSiteElectricRenewableEnergyConsumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#OtherFossilFuelsConsumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#OtherRenewableEnergyConsumption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#PAHScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#PCBsScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#PCDDandPCDFScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#PFCScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#PM10Scope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#PM2.5Scope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#PbScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#SF6Scope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#SO2Scope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#SeScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#TSPScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#TotalHeavyMetalsScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#TotalPOPsScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#VOCScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#ZnScope1Emissions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage#refersToSector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://w3id.org/def/usage/graph/ZGZ-Residencial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.opengis.net/ont/geosparql#sfWithin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#float",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#gYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#string",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.w3.org/2006/time#DateTimeDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.w3.org/2006/time#DateTimeInterval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.w3.org/2006/time#hasDateTimeDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.w3.org/2006/time#year",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#IRI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#TriplesMap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Triples Map"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#class",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "class"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#datatype",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "datatype"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#graph",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "graph"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#joinCondition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "join condition"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#object",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "object"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#objectMap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "object map"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#parentTriplesMap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "parent triples map"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#predicate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "predicate"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#predicateObjectMap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "predicate object map"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#subjectMap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "subject map"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#template",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "template"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/r2rml#termType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "term type"
+  } ]
+}, {
+  "@id" : "https://saref.etsi.org/core/hasValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://saref.etsi.org/core/isMeasuredIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://saref.etsi.org/saref4city/District",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://saref.etsi.org/saref4city/quantifiesKPI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://saref.etsi.org/saref4city/refersToFeature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://saref.etsi.org/saref4city/refersToTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://w3id.org/mod#createdWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

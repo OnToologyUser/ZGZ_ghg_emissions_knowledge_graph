@@ -1,0 +1,144 @@
+@prefix : <http://base.uri#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://base.uri#> .
+
+<http://base.uri#> rdf:type owl:Ontology ;
+                    <https://w3id.org/mod#createdWith> <https://chowlk.linkeddata.es/> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  https://w3id.org/mod#createdWith
+<https://w3id.org/mod#createdWith> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://semweb.mmlab.be/ns/rml#logicalSource
+<http://semweb.mmlab.be/ns/rml#logicalSource> rdf:type owl:ObjectProperty ;
+                                              rdfs:label "logical source" .
+
+
+###  http://semweb.mmlab.be/ns/rml#referenceFormulation
+<http://semweb.mmlab.be/ns/rml#referenceFormulation> rdf:type owl:ObjectProperty ;
+                                                     rdfs:label "reference formulation" .
+
+
+###  http://www.w3.org/ns/r2rml#graph
+<http://www.w3.org/ns/r2rml#graph> rdf:type owl:ObjectProperty ;
+                                   rdfs:label "graph" .
+
+
+###  http://www.w3.org/ns/r2rml#objectMap
+<http://www.w3.org/ns/r2rml#objectMap> rdf:type owl:ObjectProperty ;
+                                       rdfs:label "object map" .
+
+
+###  http://www.w3.org/ns/r2rml#predicate
+<http://www.w3.org/ns/r2rml#predicate> rdf:type owl:ObjectProperty ;
+                                       rdfs:label "predicate" .
+
+
+###  http://www.w3.org/ns/r2rml#predicateObjectMap
+<http://www.w3.org/ns/r2rml#predicateObjectMap> rdf:type owl:ObjectProperty ;
+                                                rdfs:label "predicate object map" .
+
+
+###  http://www.w3.org/ns/r2rml#subjectMap
+<http://www.w3.org/ns/r2rml#subjectMap> rdf:type owl:ObjectProperty ;
+                                        rdfs:label "subject map" .
+
+
+###  http://www.w3.org/ns/r2rml#termType
+<http://www.w3.org/ns/r2rml#termType> rdf:type owl:ObjectProperty ;
+                                      rdfs:label "term type" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://semweb.mmlab.be/ns/rml#reference
+<http://semweb.mmlab.be/ns/rml#reference> rdf:type owl:DatatypeProperty ;
+                                          rdfs:label "reference" .
+
+
+###  http://semweb.mmlab.be/ns/rml#source
+<http://semweb.mmlab.be/ns/rml#source> rdf:type owl:DatatypeProperty ;
+                                       rdfs:label "source" .
+
+
+###  http://www.w3.org/ns/r2rml#template
+<http://www.w3.org/ns/r2rml#template> rdf:type owl:DatatypeProperty ;
+                                      rdfs:label "template" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.w3.org/ns/r2rml#TriplesMap
+<http://www.w3.org/ns/r2rml#TriplesMap> rdf:type owl:Class ;
+                                        rdfs:label "Triples Map" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://base.uri#District
+:District rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/ns/r2rml#TriplesMap> ;
+          <http://semweb.mmlab.be/ns/rml#logicalSource> :_b5 ;
+          <http://www.w3.org/ns/r2rml#predicateObjectMap> :_b7 ;
+          <http://www.w3.org/ns/r2rml#subjectMap> :_b6 .
+
+
+###  http://base.uri#_b11
+:_b11 rdf:type owl:NamedIndividual ;
+      <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#IRI> ;
+      <http://semweb.mmlab.be/ns/rml#reference> "wikidata" .
+
+
+###  http://base.uri#_b5
+:_b5 rdf:type owl:NamedIndividual ;
+     <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> ;
+     <http://semweb.mmlab.be/ns/rml#source> "./data/IDEZAR/Distritos/linked/distritos.csv" .
+
+
+###  http://base.uri#_b6
+:_b6 rdf:type owl:NamedIndividual ;
+     <http://www.w3.org/ns/r2rml#graph> <http://w3id.org/def/usage/graph/IDEZAR> ;
+     <http://www.w3.org/ns/r2rml#template> "http://w3id.org/def/usage/resource/District/IDEZAR-id-{OBJECTID}" .
+
+
+###  http://base.uri#_b7
+:_b7 rdf:type owl:NamedIndividual ;
+     <http://www.w3.org/ns/r2rml#objectMap> :_b11 ;
+     <http://www.w3.org/ns/r2rml#predicate> owl:sameAs .
+
+
+###  http://semweb.mmlab.be/ns/ql#CSV
+<http://semweb.mmlab.be/ns/ql#CSV> rdf:type owl:NamedIndividual .
+
+
+###  http://w3id.org/def/usage/graph/IDEZAR
+<http://w3id.org/def/usage/graph/IDEZAR> rdf:type owl:NamedIndividual .
+
+
+###  http://www.w3.org/2002/07/owl#sameAs
+owl:sameAs rdf:type owl:NamedIndividual .
+
+
+###  http://www.w3.org/ns/r2rml#IRI
+<http://www.w3.org/ns/r2rml#IRI> rdf:type owl:NamedIndividual .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

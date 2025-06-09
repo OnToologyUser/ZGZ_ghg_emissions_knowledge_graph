@@ -1,0 +1,4034 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://base.uri#"
+     xml:base="http://base.uri"
+     xmlns:mod="https://w3id.org/mod#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rml="http://semweb.mmlab.be/ns/rml#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:r2rml="http://www.w3.org/ns/r2rml#">
+    <owl:Ontology rdf:about="http://base.uri#">
+        <mod:createdWith rdf:resource="https://chowlk.linkeddata.es/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/mod#createdWith -->
+
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/mod#createdWith"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://semweb.mmlab.be/ns/rml#logicalSource -->
+
+
+    <owl:ObjectProperty rdf:about="http://semweb.mmlab.be/ns/rml#logicalSource">
+        <rdfs:label>logical source</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://semweb.mmlab.be/ns/rml#referenceFormulation -->
+
+
+    <owl:ObjectProperty rdf:about="http://semweb.mmlab.be/ns/rml#referenceFormulation">
+        <rdfs:label>reference formulation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#class -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/r2rml#class">
+        <rdfs:label>class</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#datatype -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/r2rml#datatype">
+        <rdfs:label>datatype</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#graph -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/r2rml#graph">
+        <rdfs:label>graph</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#joinCondition -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/r2rml#joinCondition">
+        <rdfs:label>join condition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#object -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/r2rml#object">
+        <rdfs:label>object</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#objectMap -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/r2rml#objectMap">
+        <rdfs:label>object map</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#parentTriplesMap -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/r2rml#parentTriplesMap">
+        <rdfs:label>parent triples map</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#predicate -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/r2rml#predicate">
+        <rdfs:label>predicate</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#predicateObjectMap -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/r2rml#predicateObjectMap">
+        <rdfs:label>predicate object map</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#subjectMap -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/r2rml#subjectMap">
+        <rdfs:label>subject map</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#termType -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/r2rml#termType">
+        <rdfs:label>term type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://semweb.mmlab.be/ns/rml#reference -->
+
+
+    <owl:DatatypeProperty rdf:about="http://semweb.mmlab.be/ns/rml#reference">
+        <rdfs:label>reference</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://semweb.mmlab.be/ns/rml#source -->
+
+
+    <owl:DatatypeProperty rdf:about="http://semweb.mmlab.be/ns/rml#source">
+        <rdfs:label>source</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#template -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/ns/r2rml#template">
+        <rdfs:label>template</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#TriplesMap -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/r2rml#TriplesMap">
+        <rdfs:label>Triples Map</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://base.uri#As -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#As">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b167"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b169"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b166"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#BC -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#BC">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b147"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b149"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b146"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#BENZO_A -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#BENZO_A">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b195"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b197"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b194"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#BENZO_B -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#BENZO_B">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b199"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b201"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b198"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#C6H6 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#C6H6">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b151"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b153"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b150"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#CH4_ALC1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#CH4_ALC1">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b67"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b69"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b66"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#CH4_ALC2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#CH4_ALC2">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b91"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b93"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b90"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#CH4_ALC3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#CH4_ALC3">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b103"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b105"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b102"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#CO -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#CO">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b115"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b117"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b114"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#CO2_ALC1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#CO2_ALC1">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b12"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b14"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b11"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#CO2_ALC2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#CO2_ALC2">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b87"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b89"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b86"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#CO2_ALC3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#CO2_ALC3">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b101"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b99"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b98"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#COV -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#COV">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b123"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b125"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b122"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#COVNM -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#COVNM">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b127"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b129"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b126"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#C_BIOMASA -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#C_BIOMASA">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b55"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b57"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b54"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#C_ELECTRICIDAD_GDO -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#C_ELECTRICIDAD_GDO">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b23"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b25"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b22"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#C_ELECTRICIDAD_MIXNAC -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#C_ELECTRICIDAD_MIXNAC">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b19"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b21"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b18"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#C_ELECTRICIDAD_RES_LOCAL -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#C_ELECTRICIDAD_RES_LOCAL">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b27"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b29"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b26"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#C_GASNATURAL -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#C_GASNATURAL">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b31"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b33"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b30"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#C_GASOLEO_A -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#C_GASOLEO_A">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b43"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b45"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b42"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#C_GASOLEO_C -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#C_GASOLEO_C">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b39"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b41"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b38"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#C_GASOLINA -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#C_GASOLINA">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b47"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b49"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b46"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#C_GLP -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#C_GLP">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b35"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b37"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b34"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#C_OTROS_FOSILES -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#C_OTROS_FOSILES">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b51"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b53"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b50"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#C_OTROS_RES -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#C_OTROS_RES">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b59"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b61"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b58"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#Cd -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#Cd">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b159"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b161"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b158"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#Cell -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#Cell">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b9"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#Cr -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#Cr">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b171"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b173"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b170"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#Cu -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#Cu">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b175"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b177"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b174"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#DIOX -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#DIOX">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b191"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b193"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b190"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#District -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#District">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b7d"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b6d"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#HCB -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#HCB">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b211"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b213"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b210"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#HFC_ALC1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#HFC_ALC1">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b75"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b77"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b74"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#Hg -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#Hg">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b163"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b165"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b162"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#INDENO_123 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#INDENO_123">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b203"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b205"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b202"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#Interval -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#Interval">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b7i"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b6i"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#N2O_ALC1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#N2O_ALC1">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b71"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b73"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b70"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#N2O_ALC2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#N2O_ALC2">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b95"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b97"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b94"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#N2O_ALC3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#N2O_ALC3">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b107"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b109"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b106"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#NH3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#NH3">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b131"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b133"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b130"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#NOx -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#NOx">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b111"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b113"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b110"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#Ni -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#Ni">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b179"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b181"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b178"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#PAH -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#PAH">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b207"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b209"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b206"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#PCBs -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#PCBs">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b215"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b217"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b214"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#PFC_ALC1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#PFC_ALC1">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b79"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b81"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b78"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#PM10 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#PM10">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b139"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b141"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b138"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#PM2.5 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#PM2.5">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b135"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b137"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b134"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#Pb -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#Pb">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b155"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b157"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b154"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#SF6_ALC1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#SF6_ALC1">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b83"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b85"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b82"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#SO2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#SO2">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b119"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b121"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b118"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#Se -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#Se">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b183"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b185"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b182"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#TOTAL_MPESADOS -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#TOTAL_MPESADOS">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b223"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b225"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b222"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#TOTAL_POPs -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#TOTAL_POPs">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b219"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b221"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b218"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#TSP -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#TSP">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b143"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b145"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b142"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#Year -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#Year">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b7y"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b6y"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#Zn -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#Zn">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://base.uri#_b1"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b15"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b16"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b187"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b189"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b18i"/>
+        <r2rml:predicateObjectMap rdf:resource="http://base.uri#_b20s"/>
+        <r2rml:subjectMap rdf:resource="http://base.uri#_b186"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b1">
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>./data/ZGZ/Institucional_y_servicios/refined/BBDD_INS&amp;SERV_2019.csv</rml:source>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b100 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b100">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>CO2_ALC3</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b101 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b101">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#CO2Scope3Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b102 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b102">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CH4Scope3Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b103 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b103">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b104"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b104 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b104">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>CH4_ALC3</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b105 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b105">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#CH4Scope3Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b106 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b106">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/N2OScope3Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b107 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b107">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b108"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b108 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b108">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>N2O_ALC3</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b109 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b109">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#N2OScope3Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b11 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b11">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CO2Scope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b110 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b110">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/NOxScope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b111 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b111">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b112"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b112 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b112">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>NOx</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b113 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b113">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#NOxScope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b114 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b114">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/COScope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b115 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b115">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b116"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b116 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b116">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>CO</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b117 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b117">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#COScope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b118 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b118">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/SO2Scope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b119 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b119">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b120"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b12 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b12">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b13"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b120 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b120">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>SO2</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b121 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b121">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#SO2Scope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b122 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b122">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/VOCScope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b123 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b123">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b124"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b124 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b124">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>COV</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b125 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b125">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#VOCScope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b126 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b126">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/NMVOCScope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b127 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b127">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b128"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b128 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b128">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>COVNM</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b129 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b129">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#NMVOCScope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b13 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b13">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>CO2_ALC1</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b130 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b130">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/NH3Scope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b131 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b131">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b132"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b132 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b132">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>NH3</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b133 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b133">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#NH3Scope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b134 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b134">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/PM2.5Scope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b135 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b135">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b136"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b136 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b136">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>PM2.5</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b137 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b137">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#PM2.5Scope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b138 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b138">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/PM10Scope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b139 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b139">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b140"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b14 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b14">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#CO2Scope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b140 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b140">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>PM10</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b141 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b141">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#PM10Scope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b142 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b142">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/TSPScope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b143 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b143">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b144"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b144 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b144">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>TSP</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b145 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b145">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#TSPScope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b146 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b146">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/BCScope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b147 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b147">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b148"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b148 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b148">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>BC</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b149 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b149">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#BCScope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b15 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b15">
+        <r2rml:object rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/tonneOfCarbonDioxideEquivalent"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/isMeasuredIn"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b150 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b150">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/C6H6Scope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b151 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b151">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b152"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b152 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b152">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>C6H6</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b153 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b153">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#C6H6Scope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b154 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b154">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/PbScope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b155 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b155">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b156"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b156 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b156">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>Pb</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b157 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b157">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#PbScope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b158 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b158">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CdScope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b159 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b159">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b160"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b16 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b16">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b17"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/refersToFeature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b160 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b160">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>Cd</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b161 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b161">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#CdScope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b162 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b162">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/HgScope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b163 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b163">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b164"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b164 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b164">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>Hg</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b165 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b165">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#HgScope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b166 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b166">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/AsScope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b167 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b167">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b168"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b168 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b168">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>As</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b169 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b169">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#AsScope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b17 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b17">
+        <r2rml:joinCondition rdf:resource="http://base.uri#_b5"/>
+        <r2rml:parentTriplesMap rdf:resource="http://base.uri#Cell"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b170 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b170">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CrScope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b171 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b171">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b172"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b172 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b172">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>Cr</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b173 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b173">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#CrScope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b174 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b174">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CuScope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b175 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b175">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b176"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b176 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b176">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>Cu</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b177 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b177">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#CuScope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b178 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b178">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/NiScope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b179 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b179">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b180"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b18 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b18">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/ElectricGridEnergyConsumption/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b180 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b180">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>Ni</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b181 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b181">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#NiScope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b182 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b182">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/SeScope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b183 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b183">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b184"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b184 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b184">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>Se</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b185 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b185">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#SeScope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b186 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b186">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/ZnScope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b187 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b187">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b188"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b188 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b188">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>Zn</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b189 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b189">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#ZnScope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b18i -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b18i">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b19i"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/refersToTime"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b19 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b19">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b20"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b190 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b190">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/PCDDandPCDFScope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b191 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b191">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b192"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b192 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b192">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>DIOX</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b193 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b193">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#PCDDandPCDFScope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b194 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b194">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/BaPScope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b195 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b195">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b196"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b196 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b196">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>BENZO_A</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b197 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b197">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#BaPScope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b198 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b198">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/BbFScope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b199 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b199">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b200"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b19i -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b19i">
+        <r2rml:joinCondition rdf:resource="http://base.uri#_b5"/>
+        <r2rml:parentTriplesMap rdf:resource="http://base.uri#Interval"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b2">
+        <r2rml:class rdf:resource="http://w3id.org/def/usage#Cell"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/Cell/ZGZ-id-{ID_CELDA}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b20 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b20">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>C_ELECTRICIDAD_MIXNAC</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b200 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b200">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>BENZO_B</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b201 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b201">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#BbFScope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b202 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b202">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/IPScope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b203 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b203">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b204"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b204 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b204">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>INDENO_123</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b205 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b205">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#IPScope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b206 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b206">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/PAHScope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b207 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b207">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b208"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b208 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b208">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>PAH</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b209 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b209">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#PAHScope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b20s -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b20s">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b21s"/>
+        <r2rml:predicate rdf:resource="http://w3id.org/def/usage#refersToSector"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b21 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b21">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#ElectricGridEnergyConsumption"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b210 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b210">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/HCBScope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b211 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b211">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b212"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b212 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b212">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>HCB</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b213 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b213">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#HCBScope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b214 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b214">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/PCBsScope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b215 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b215">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b216"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b216 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b216">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>PCBs</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b217 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b217">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#PCBsScope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b218 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b218">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/TotalPOPsScope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b219 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b219">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b220"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b21s -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b21s">
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+        <rml:reference>Sector</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b22 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b22">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/ElectricRenewableEnergyConsumption/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b220 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b220">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>TOTAL_POPs</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b221 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b221">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#TotalPOPsScope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b222 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b222">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/TotalHeavyMetalsScope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b223 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b223">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b224"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b224 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b224">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>TOTAL_MPESADOS</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b225 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b225">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#TotalHeavyMetalsScope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b23 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b23">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b24"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b24 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b24">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>C_ELECTRICIDAD_GDO</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b25 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b25">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#ElectricRenewableEnergyConsumption"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b26 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b26">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/OnSiteElectricRenewableEnergyConsumption/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b27 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b27">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b28"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b28 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b28">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>C_ELECTRICIDAD_RES_LOCAL</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b29 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b29">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#OnSiteElectricRenewableEnergyConsumption"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b30 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b30">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/NaturalGasConsumption/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b31 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b31">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b32"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b32 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b32">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>C_GASNATURAL</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b33 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b33">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#NaturalGasConsumption"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b34 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b34">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/LPGConsumption/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b35 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b35">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b36"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b36 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b36">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>C_GLP</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b37 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b37">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#LPGConsumption"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b38 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b38">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/HeatingOilConsumption/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b39 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b39">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b40"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b40 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b40">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>C_GASOLEO_C</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b41 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b41">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#HeatingOilConsumption"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b42 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b42">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/AutomotiveDieselConsumption/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b43 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b43">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b44"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b44 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b44">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>C_GASOLEO_A</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b45 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b45">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#AutomotiveDieselConsumption"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b46 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b46">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/GasolineConsumption/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b47 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b47">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b48"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b48 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b48">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>C_GASOLINA</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b49 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b49">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#GasolineConsumption"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b5 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b5"/>
+    
+
+
+    <!-- http://base.uri#_b50 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b50">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/OtherFossilFuelsConsumption/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b51 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b51">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b52"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b52 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b52">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>C_OTROS_FOSILES</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b53 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b53">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#OtherFossilFuelsConsumption"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b54 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b54">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/NonRenewableBiomassConsumption/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b55 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b55">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b56"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b56 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b56">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>C_BIOMASA</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b57 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b57">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#NonRenewableBiomassConsumption"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b58 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b58">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/OtherRenewableEnergyConsumption/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b59 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b59">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b60"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b60 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b60">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>C_OTROS_RES</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b61 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b61">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#OtherRenewableEnergyConsumption"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b66 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b66">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CH4Scope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b67 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b67">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b68"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b68 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b68">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>CH4_ALC1</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b69 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b69">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#CH4Scope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b6d -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b6d">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/District"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/District/ZGZ-id-{ID_PADRON}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b6i -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b6i">
+        <r2rml:class rdf:resource="http://www.w3.org/2006/time#DateTimeInterval"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/Interval/ZGZ-id-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b6y -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b6y">
+        <r2rml:class rdf:resource="http://www.w3.org/2006/time#DateTimeDescription"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/Year/ZGZ-id-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b70 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b70">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/N2OScope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b71 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b71">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b72"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b72 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b72">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>N2O_ALC1</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b73 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b73">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#N2OScope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b74 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b74">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/HFCScope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b75 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b75">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b76"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b76 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b76">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>HFC_ALC1</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b77 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b77">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#HFCScope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b78 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b78">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/PFCScope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b79 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b79">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b80"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b7d -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b7d">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b8d"/>
+        <r2rml:predicate rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b7i -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b7i">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b8i"/>
+        <r2rml:predicate rdf:resource="http://www.w3.org/2006/time#hasDateTimeDescription"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b7y -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b7y">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b8y"/>
+        <r2rml:predicate rdf:resource="http://www.w3.org/2006/time#year"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b80 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b80">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>PFC_ALC1</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b81 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b81">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#PFCScope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b82 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b82">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/SF6Scope1Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b83 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b83">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b84"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b84 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b84">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>SF6_ALC1</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b85 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b85">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#SF6Scope1Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b86 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b86">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CO2Scope2Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b87 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b87">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b88"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b88 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b88">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>CO2_ALC2</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b89 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b89">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#CO2Scope2Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b8d -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b8d">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rml:reference>NOM_DISTRITO</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b8i -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b8i">
+        <r2rml:joinCondition rdf:resource="http://base.uri#_b5"/>
+        <r2rml:parentTriplesMap rdf:resource="http://base.uri#Year"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b8y -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b8y">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+        <rml:reference>AÑO</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b9 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b9">
+        <r2rml:objectMap rdf:resource="http://base.uri#b10"/>
+        <r2rml:predicate rdf:resource="http://www.opengis.net/ont/geosparql#sfWithin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b90 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b90">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CH4Scope2Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b91 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b91">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b92"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b92 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b92">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>CH4_ALC2</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b93 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b93">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#CH4Scope2Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b94 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b94">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/N2OScope2Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b95 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b95">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b96"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b96 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b96">
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rml:reference>N2O_ALC2</rml:reference>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b97 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b97">
+        <r2rml:object rdf:resource="http://w3id.org/def/usage#N2OScope2Emissions"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b98 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b98">
+        <r2rml:class rdf:resource="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+        <r2rml:graph rdf:resource="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+        <r2rml:template>http://w3id.org/def/usage/resource/KeyPerformanceIndicatorAssessment/CO2Scope3Emissions/InstitutionalAndServices/ZGZ-id-{ID_CELDA}-y-{AÑO}</r2rml:template>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#_b99 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#_b99">
+        <r2rml:objectMap rdf:resource="http://base.uri#_b100"/>
+        <r2rml:predicate rdf:resource="https://saref.etsi.org/core/hasValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://base.uri#b10 -->
+
+
+    <owl:NamedIndividual rdf:about="http://base.uri#b10">
+        <r2rml:joinCondition rdf:resource="http://base.uri#_b5"/>
+        <r2rml:parentTriplesMap rdf:resource="http://base.uri#District"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://semweb.mmlab.be/ns/ql#CSV -->
+
+
+    <owl:NamedIndividual rdf:about="http://semweb.mmlab.be/ns/ql#CSV"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#AsScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#AsScope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#AutomotiveDieselConsumption -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#AutomotiveDieselConsumption"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#BCScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#BCScope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#BaPScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#BaPScope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#BbFScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#BbFScope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#C6H6Scope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#C6H6Scope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#CH4Scope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#CH4Scope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#CH4Scope2Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#CH4Scope2Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#CH4Scope3Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#CH4Scope3Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#CO2Scope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#CO2Scope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#CO2Scope2Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#CO2Scope2Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#CO2Scope3Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#CO2Scope3Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#COScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#COScope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#CdScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#CdScope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#Cell -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#Cell"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#CrScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#CrScope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#CuScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#CuScope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#ElectricGridEnergyConsumption -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#ElectricGridEnergyConsumption"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#ElectricRenewableEnergyConsumption -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#ElectricRenewableEnergyConsumption"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#GasolineConsumption -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#GasolineConsumption"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#HCBScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#HCBScope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#HFCScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#HFCScope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#HeatingOilConsumption -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#HeatingOilConsumption"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#HgScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#HgScope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#IPScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#IPScope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#LPGConsumption -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#LPGConsumption"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#N2OScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#N2OScope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#N2OScope2Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#N2OScope2Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#N2OScope3Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#N2OScope3Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#NH3Scope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#NH3Scope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#NMVOCScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#NMVOCScope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#NOxScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#NOxScope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#NaturalGasConsumption -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#NaturalGasConsumption"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#NiScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#NiScope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#NonRenewableBiomassConsumption -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#NonRenewableBiomassConsumption"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#OnSiteElectricRenewableEnergyConsumption -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#OnSiteElectricRenewableEnergyConsumption"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#OtherFossilFuelsConsumption -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#OtherFossilFuelsConsumption"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#OtherRenewableEnergyConsumption -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#OtherRenewableEnergyConsumption"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#PAHScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#PAHScope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#PCBsScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#PCBsScope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#PCDDandPCDFScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#PCDDandPCDFScope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#PFCScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#PFCScope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#PM10Scope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#PM10Scope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#PM2.5Scope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#PM2.5Scope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#PbScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#PbScope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#SF6Scope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#SF6Scope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#SO2Scope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#SO2Scope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#SeScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#SeScope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#TSPScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#TSPScope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#TotalHeavyMetalsScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#TotalHeavyMetalsScope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#TotalPOPsScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#TotalPOPsScope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#VOCScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#VOCScope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#ZnScope1Emissions -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#ZnScope1Emissions"/>
+    
+
+
+    <!-- http://w3id.org/def/usage#refersToSector -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage#refersToSector"/>
+    
+
+
+    <!-- http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios -->
+
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/def/usage/graph/ZGZ-Institucional-y-Servicios"/>
+    
+
+
+    <!-- http://www.ontology-of-units-of-measure.org/resource/om-2/tonneOfCarbonDioxideEquivalent -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/tonneOfCarbonDioxideEquivalent"/>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#sfWithin -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.opengis.net/ont/geosparql#sfWithin"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#float -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#gYear -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2001/XMLSchema#gYear"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#string -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#DateTimeDescription -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/time#DateTimeDescription"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#DateTimeInterval -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/time#DateTimeInterval"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasDateTimeDescription -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/time#hasDateTimeDescription"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#year -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/time#year"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#IRI -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/ns/r2rml#IRI"/>
+    
+
+
+    <!-- https://saref.etsi.org/core/hasValue -->
+
+
+    <owl:NamedIndividual rdf:about="https://saref.etsi.org/core/hasValue"/>
+    
+
+
+    <!-- https://saref.etsi.org/core/isMeasuredIn -->
+
+
+    <owl:NamedIndividual rdf:about="https://saref.etsi.org/core/isMeasuredIn"/>
+    
+
+
+    <!-- https://saref.etsi.org/saref4city/District -->
+
+
+    <owl:NamedIndividual rdf:about="https://saref.etsi.org/saref4city/District"/>
+    
+
+
+    <!-- https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment -->
+
+
+    <owl:NamedIndividual rdf:about="https://saref.etsi.org/saref4city/KeyPerformanceIndicatorAssessment"/>
+    
+
+
+    <!-- https://saref.etsi.org/saref4city/quantifiesKPI -->
+
+
+    <owl:NamedIndividual rdf:about="https://saref.etsi.org/saref4city/quantifiesKPI"/>
+    
+
+
+    <!-- https://saref.etsi.org/saref4city/refersToFeature -->
+
+
+    <owl:NamedIndividual rdf:about="https://saref.etsi.org/saref4city/refersToFeature"/>
+    
+
+
+    <!-- https://saref.etsi.org/saref4city/refersToTime -->
+
+
+    <owl:NamedIndividual rdf:about="https://saref.etsi.org/saref4city/refersToTime"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
